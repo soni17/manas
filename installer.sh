@@ -10,3 +10,6 @@ sudo apt install -y git adb wget curl flatpak gnome-screenshot gnome-software gn
 
 #configue flatpak
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+flatpak install flathub org.gnome.SimpleScan -y
+flatpak install flathub io.podman_desktop.PodmanDesktop -y
+flatpak install flathub com.jgraph.drawio.desktop -y
