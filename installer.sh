@@ -18,3 +18,6 @@ flatpak install flathub org.gnome.SimpleScan -y
 flatpak install flathub io.podman_desktop.PodmanDesktop -y
 flatpak install flathub com.jgraph.drawio.desktop -y
 
+# install packages from files
+sudo apt install ./packages/pinta_1.6-2.1_all.deb
+sudo apt install ./packages/dbgate-latest.deb
