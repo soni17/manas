@@ -21,3 +21,11 @@ flatpak install flathub com.jgraph.drawio.desktop -y
 # install packages from files
 sudo apt install ./packages/pinta_1.6-2.1_all.deb -y
 sudo apt install ./packages/dbgate-latest.deb -y
+
+# copy wallpapers
+cp settings/beach-rocks.jpg ~/Pictures
+cp settings/os-x-yosemite.jpg ~/Pictures
+cp settings/sunset.jpg ~/Pictures
+cp settings/mountains.jpg ~/Pictures
+cp settings/dessert.jpg ~/Pictures
+cp settings/retro80s.jpg ~/Pictures
