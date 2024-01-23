@@ -29,3 +29,6 @@ cp settings/sunset.jpg ~/Pictures
 cp settings/mountains.jpg ~/Pictures
 cp settings/dessert.jpg ~/Pictures
 cp settings/retro80s.jpg ~/Pictures
+
+# settings
+sudo ufw enable
