@@ -30,7 +30,9 @@ cp wallpapers/mountains.jpg ~/Pictures
 cp wallpapers/dessert.jpg ~/Pictures
 cp wallpapers/retro80s.jpg ~/Pictures
 
-# settings
+# -----settings-------
+
+# enable firewall
 sudo ufw enable
 
 # reduce timeout to 3 seconds during boot
