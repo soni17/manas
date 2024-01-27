@@ -21,6 +21,10 @@ flatpak install flathub com.jgraph.drawio.desktop -y
 # install packages from files
 sudo apt install ./packages/pinta_1.6-2.1_all.deb -y
 sudo apt install ./packages/dbgate-latest.deb -y
+sudo apt install ./packages/humanity-icon-theme_0.6.10_all.deb -y 
+sudo apt install ./packages/ubuntu-mate-icon-themes_16.04.6_all.deb -y
+sudo apt install ./packages/ubuntu-mate-themes_16.04.6_all.deb -y
+sudo apt install ./packages/ubuntu-mono_14.04+16.04.20160415-0ubuntu1_all.deb -y
 
 # copy wallpapers
 cp wallpapers/beach-rocks.jpg ~/Pictures
@@ -57,3 +61,19 @@ dconf write /org/mate/terminal/profiles/default/allow-bold false
 dconf write /org/mate/terminal/profiles/default/scrollback-unlimited true
 dconf write /org/mate/terminal/profiles/default/use-system-font true
 
+# add theme packages and settings
+dconf write /org/mate/desktop/interface/gtk-theme "'TraditionalOk'"
+dconf write /org/mate/marco/general/theme "'TraditionalOk'"
+dconf write /org/mate/desktop/interface/icon-theme "'ubuntu-mono-light'"
+hme=~
+dconf write /org/mate/desktop/background/picture-filename "'$hme/Pictures/beach-rocks.jpg'"
+
+dconf write /org/mate/marco/general/compositing-manager true
+dconf write /org/mate/caja/preferences/always-use-location-entry true
+dconf write /org/mate/pluma/display-right-margin false
+
+dconf write /org/mate/screensaver/mode "'blank-only'"
+dconf write /org/mate/screensaver/themes "@as []"
+
+dconf write /org/mate/notification-daemon/theme "'slider'"
+dconf write /org/mate/notification-daemon/popup-location "'bottom_right'"
