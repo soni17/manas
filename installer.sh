@@ -43,3 +43,17 @@ sudo update-grub
 
 # fix for network-monitor applet not showing in panel
 sudo sed -i "s/Exec=nm-applet/Exec=nm-applet --indicator/" /etc/xdg/autostart/nm-applet.desktop
+
+# add terminal settings
+dconf write /org/mate/terminal/profiles/default/background-color "'#000000000000'"
+dconf write /org/mate/terminal/profiles/default/foreground-color "'#FFFFFFFFFFFF'"
+dconf write /org/mate/terminal/profiles/default/background-type "'transparent'"
+dconf write /org/mate/terminal/profiles/default/background-darkness 0.86
+dconf write /org/mate/terminal/profiles/default/cursor-shape "'underline'"
+dconf write /org/mate/terminal/profiles/default/cursor-blink-mode "'off'"
+dconf write /org/mate/terminal/profiles/default/palette  "'#000000000000:#CCCC00000000:#4E4D9A9A0605:#C4C3A0A00000:#34346564A4A3:#7575504F7B7B:#060598979A9A:#D3D3D7D6CFCF:#555457565352:#EFEF29282928:#8A89E2E23434:#FCFBE9E84F4F:#72729F9ECFCF:#ADAC7F7EA8A8:#3434E2E2E2E2:#EEEDEEEDECEB'"
+dconf write /org/mate/terminal/profiles/default/use-theme-colors false
+dconf write /org/mate/terminal/profiles/default/allow-bold false
+dconf write /org/mate/terminal/profiles/default/scrollback-unlimited true
+dconf write /org/mate/terminal/profiles/default/use-system-font true
+
