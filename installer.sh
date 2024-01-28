@@ -25,6 +25,7 @@ sudo apt install ./packages/humanity-icon-theme_0.6.10_all.deb -y
 sudo apt install ./packages/ubuntu-mate-icon-themes_16.04.6_all.deb -y
 sudo apt install ./packages/ubuntu-mate-themes_16.04.6_all.deb -y
 sudo apt install ./packages/ubuntu-mono_14.04+16.04.20160415-0ubuntu1_all.deb -y
+sudo apt install ./packages/ttf-ubuntu-font-family_0.80-0ubuntu6_all.deb -y
 
 # copy wallpapers
 cp wallpapers/beach-rocks.jpg ~/Pictures
@@ -77,3 +78,11 @@ dconf write /org/mate/screensaver/themes "@as []"
 
 dconf write /org/mate/notification-daemon/theme "'slider'"
 dconf write /org/mate/notification-daemon/popup-location "'bottom_right'"
+
+# set font settings
+dconf write /org/mate/desktop/interface/document-font-name "'Ubuntu 11'"
+dconf write /org/mate/desktop/interface/font-name "'Ubuntu 11'"
+dconf write /org/mate/caja/desktop/font "'Ubuntu 11'"
+dconf write /org/mate/marco/general/titlebar-font "'Ubuntu Medium 11'"
+dconf write /org/mate/desktop/interface/monospace-font-name "'Ubuntu Mono 13'"
+
