@@ -81,6 +81,8 @@ dconf write /org/mate/screensaver/themes "@as []"
 dconf write /org/mate/notification-daemon/theme "'slider'"
 dconf write /org/mate/notification-daemon/popup-location "'bottom_right'"
 
+dconf load /org/mate/panel/ < settings/dconf-panel
+
 # set font settings
 dconf write /org/mate/desktop/interface/document-font-name "'Ubuntu 11'"
 dconf write /org/mate/desktop/interface/font-name "'Ubuntu 11'"
