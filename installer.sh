@@ -14,9 +14,13 @@ sudo apt install git adb wget curl flatpak gnome-screenshot gnome-software gnome
 
 # install flatpak apps
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+flatpak install flathub com.usebottles.bottles -y
+flatpak install flathub io.freetubeapp.FreeTube -y
 flatpak install flathub org.gnome.SimpleScan -y
 flatpak install flathub io.podman_desktop.PodmanDesktop -y
 flatpak install flathub com.jgraph.drawio.desktop -y
+flatpak install flathub org.localsend.localsend_app -y
+flatpak install flathub io.github.aandrew_me.ytdn -y
 
 # install packages from files
 sudo apt install ./packages/pinta_1.6-2.1_all.deb -y
