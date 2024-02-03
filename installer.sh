@@ -31,6 +31,11 @@ sudo apt install -y ./packages/ubuntu-mate-themes_16.04.6_all.deb
 sudo apt install -y ./packages/ubuntu-mono_14.04+16.04.20160415-0ubuntu1_all.deb
 sudo apt install -y ./packages/ttf-ubuntu-font-family_0.80-0ubuntu6_all.deb
 
+# install microsoft fonts
+sudo apt install -y ttf-mscorefonts-installer
+sudo bash settings/ttf-vista-fonts-installer.sh
+sudo bash settings/ttf-ms-tahoma-installer.sh
+
 
 # ----------------------settings-------------------------------
 
@@ -88,9 +93,4 @@ dconf write /org/mate/desktop/interface/font-name "'Ubuntu 11'"
 dconf write /org/mate/caja/desktop/font "'Ubuntu 11'"
 dconf write /org/mate/marco/general/titlebar-font "'Ubuntu Medium 11'"
 dconf write /org/mate/desktop/interface/monospace-font-name "'Ubuntu Mono 13'"
-
-# install microsoft fonts
-sudo apt install -y ttf-mscorefonts-installer
-sudo bash settings/ttf-vista-fonts-installer.sh
-sudo bash settings/ttf-ms-tahoma-installer.sh
 
