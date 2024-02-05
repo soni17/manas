@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Exec=redshift -O 3700
+Hidden=false
+Name[en_US]=color-temp
+Name=color-temp
+Comment[en_US]=
+Comment=
+X-MATE-Autostart-Delay=0

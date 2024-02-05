@@ -98,3 +98,7 @@ dconf write /org/mate/caja/desktop/font "'Ubuntu 11'"
 dconf write /org/mate/marco/general/titlebar-font "'Ubuntu Medium 11'"
 dconf write /org/mate/desktop/interface/monospace-font-name "'Ubuntu Mono 13'"
 
+# set screen temperature
+mkdir ~/.config/autostart
+cp settings/redshift.desktop ~/.config/autostart
+
