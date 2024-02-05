@@ -43,6 +43,9 @@ sudo bash settings/ttf-ms-tahoma-installer.sh
 # enable firewall
 sudo ufw enable
 
+# open port for localsend app
+sudo ufw allow 53317
+
 # reduce timeout to 3 seconds during boot
 # minimize splash screen at boot to show fewer logs
 sudo sed -i "s/GRUB_TIMEOUT=5/GRUB_TIMEOUT=3/" /etc/default/grub
