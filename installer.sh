@@ -37,10 +37,17 @@ sudo apt install -y ttf-mscorefonts-installer
 sudo bash settings/ttf-vista-fonts-installer.sh
 sudo bash settings/ttf-ms-tahoma-installer.sh
 
-# install rbenv
+# install rbenv and ruby
 git clone https://github.com/rbenv/rbenv.git ~/.rbenv
 git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
 echo 'eval "$(~/.rbenv/bin/rbenv init - bash)"' >> ~/.bashrc
+eval "$(~/.rbenv/bin/rbenv init - bash)"
+rbenv install 3.2.2
+rbenv install 3.1.2
+rbenv global 3.2.2
+gem install rails
+gem install rubocop
+gem install rufo
 
 # ----------------------settings-------------------------------
 
