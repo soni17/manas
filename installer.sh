@@ -49,6 +49,18 @@ gem install rails
 gem install rubocop
 gem install rufo
 
+# install nodenv and node
+git clone https://github.com/nodenv/nodenv.git ~/.nodenv
+git clone https://github.com/nodenv/node-build.git ~/.nodenv/plugins/node-build
+echo 'export PATH="$HOME/.nodenv/bin:$PATH"' >> ~/.bashrc
+echo 'eval "$(nodenv init - bash)"' >> ~/.bashrc
+export PATH="$HOME/.nodenv/bin:$PATH"
+eval "$(nodenv init - bash)"
+nodenv install 21.2.0
+nodenv install 20.8.1
+nodenv global 21.2.0
+
+
 # ----------------------settings-------------------------------
 
 # enable firewall
