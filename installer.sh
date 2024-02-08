@@ -12,6 +12,10 @@ dpkg -l | grep '^rc' | awk '{print $2}' | xargs sudo apt-get purge -y
 # install packages from Debian repo
 sudo apt install -y git adb wget curl flatpak gnome-screenshot gnome-software gnome-software-plugin-flatpak cmatrix gtkhash vlc gnome-clocks rhythmbox shotcut chromium webcamoid timeshift gnome-disk-utility gnome-package-updater package-update-indicator caja-admin caja-image-converter caja-open-terminal caja-rename gdebi mozo gufw redshift blueman htop btop ncdu gucharmap dconf-cli ayatana-indicator-application ayatana-indicator-common ayatana-indicator-messages ayatana-indicator-notifications ayatana-indicator-power ayatana-indicator-printers ayatana-indicator-sound mate-indicator-applet mate-indicator-applet-common libreoffice-writer libreoffice-gtk3 lsb-release mate-dock-applet neofetch lshw tldr bat transmission fontforge cabextract fonts-crosextra-caladea fonts-crosextra-carlito autoconf patch build-essential rustc libssl-dev libyaml-dev libreadline6-dev zlib1g-dev libgmp-dev apt-transport-https libncurses5-dev libffi-dev libgdbm6 libgdbm-dev libdb-dev uuid-dev
 
+# uninstall additional pakcages
+sudo apt purge -y libreoffice-math fontforge
+sudo apt autoremove -y
+
 # install flatpak apps
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 flatpak install -y flathub com.usebottles.bottles
