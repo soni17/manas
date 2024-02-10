@@ -147,3 +147,11 @@ dconf write /org/mate/desktop/interface/monospace-font-name "'Ubuntu Mono 13'"
 mkdir ~/.config/autostart
 cp settings/redshift.desktop ~/.config/autostart
 
+# update and cleanup
+sudo apt update -y
+sudo apt full-upgrade -y
+sudo apt dist-upgrade -y
+sudo apt autoremove -y
+
+# purge residual-config files
+dpkg -l | grep '^rc' | awk '{print $2}' | xargs sudo apt-get purge -y
