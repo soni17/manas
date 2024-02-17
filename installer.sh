@@ -108,6 +108,18 @@ wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.g
 echo 'deb [ signed-by=/usr/share/keyrings/vscodium-archive-keyring.gpg ] https://download.vscodium.com/debs vscodium main' | sudo tee /etc/apt/sources.list.d/vscodium.list
 sudo apt update
 sudo apt install -y codium
+codium --install-extension akamud.vscode-theme-onedark
+codium --install-extension eamodio.gitlens
+codium --install-extension esbenp.prettier-vscode
+codium --install-extension file-icons.file-icons
+codium --install-extension formulahendry.auto-rename-tag
+codium --install-extension janicweber.soft-grey-theme
+codium --install-extension jeanp413.open-remote-ssh
+codium --install-extension mbessey.vscode-rufo
+codium --install-extension ms-azuretools.vscode-docker
+codium --install-extension ritwickdey.liveserver
+codium --install-extension vortizhe.simple-ruby-erb
+cp settings/settings.json ~/.config/VSCodium/User/
 
 
 # ----------------------settings-------------------------------
