@@ -36,6 +36,9 @@ sudo apt install -y ./packages/ubuntu-mate-themes_16.04.6_all.deb
 sudo apt install -y ./packages/ubuntu-mono_14.04+16.04.20160415-0ubuntu1_all.deb
 sudo apt install -y ./packages/ttf-ubuntu-font-family_0.80-0ubuntu6_all.deb
 
+# install unpackaged apps
+cp -r packages/myapps ~
+
 # install microsoft fonts
 sudo apt install -y ttf-mscorefonts-installer
 sudo bash settings/ttf-vista-fonts-installer.sh
