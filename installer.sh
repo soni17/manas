@@ -181,6 +181,9 @@ cp wallpapers/mountains.jpg ~/Pictures
 cp wallpapers/dessert.jpg ~/Pictures
 cp wallpapers/retro80s.jpg ~/Pictures
 
+# add desktop icons
+cp desktop/* ~/Desktop
+
 # set theme settings
 dconf write /org/mate/desktop/interface/gtk-theme "'TraditionalOk'"
 dconf write /org/mate/marco/general/theme "'TraditionalOk'"

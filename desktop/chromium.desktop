@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Name[en_US]=chromium.desktop
+Exec=chromium --disable-features=CustomizeChromeSidePanel
+Icon=chromium
+Icon[en_US]=chromium
+Name=Chromium Web Browser
