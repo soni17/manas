@@ -174,12 +174,7 @@ dconf write /org/mate/terminal/profiles/default/scrollback-unlimited true
 dconf write /org/mate/terminal/profiles/default/use-system-font true
 
 # copy wallpapers
-cp wallpapers/beach-rocks.jpg ~/Pictures
-cp wallpapers/os-x-yosemite.jpg ~/Pictures
-cp wallpapers/sunset.jpg ~/Pictures
-cp wallpapers/mountains.jpg ~/Pictures
-cp wallpapers/dessert.jpg ~/Pictures
-cp wallpapers/retro80s.jpg ~/Pictures
+cp wallpapers/* ~/Pictures
 
 # add desktop icons
 cp desktop/* ~/Desktop
