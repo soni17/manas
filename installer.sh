@@ -35,29 +35,6 @@ sudo apt install -y ttf-mscorefonts-installer
 sudo bash settings/ttf-vista-fonts-installer.sh
 sudo bash settings/ttf-ms-tahoma-installer.sh
 
-# install nodenv and node
-git clone https://github.com/nodenv/nodenv.git ~/.nodenv
-git clone https://github.com/nodenv/node-build.git ~/.nodenv/plugins/node-build
-echo 'export PATH="$HOME/.nodenv/bin:$PATH"' >> ~/.bashrc
-echo 'eval "$(nodenv init - bash)"' >> ~/.bashrc
-export PATH="$HOME/.nodenv/bin:$PATH"
-eval "$(nodenv init - bash)"
-nodenv install 21.2.0
-nodenv install 20.8.1
-nodenv global 21.2.0
-
-# install docker and repo
-sudo install -m 0755 -d /etc/apt/keyrings
-curl -fsSL https://download.docker.com/linux/debian/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
-sudo chmod a+r /etc/apt/keyrings/docker.gpg
-echo \
-  "deb [arch="$(dpkg --print-architecture)" signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/debian \
-  "$(. /etc/os-release && echo "$VERSION_CODENAME")" stable" | \
-  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
-sudo apt update
-sudo apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
-sudo usermod -aG docker une
-
 # install ngrok
 curl -s https://ngrok-agent.s3.amazonaws.com/ngrok.asc | sudo tee /etc/apt/trusted.gpg.d/ngrok.asc >/dev/null
 echo "deb https://ngrok-agent.s3.amazonaws.com buster main" | sudo tee /etc/apt/sources.list.d/ngrok.list
