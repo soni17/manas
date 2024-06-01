@@ -56,24 +56,6 @@ echo "deb [signed-by=/usr/share/keyrings/beekeeper.gpg] https://deb.beekeeperstu
 sudo apt update
 sudo apt install beekeeper-studio -y
 
-# install Bruno and repo
-sudo mkdir -p /etc/apt/keyrings
-sudo gpg -k  
-sudo gpg --no-default-keyring --keyring /etc/apt/keyrings/bruno.gpg --keyserver keyserver.ubuntu.com --recv-keys 9FA6017ECABE0266 
-echo "deb [signed-by=/etc/apt/keyrings/bruno.gpg] http://debian.usebruno.com/ bruno stable" | sudo tee /etc/apt/sources.list.d/bruno.list 
-sudo apt update 
-sudo apt install -y bruno
-
-# install onlyoffice and repo
-mkdir -p -m 700 ~/.gnupg
-gpg --no-default-keyring --keyring gnupg-ring:/tmp/onlyoffice.gpg --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys CB2DE8E5
-chmod 644 /tmp/onlyoffice.gpg
-sudo chown root:root /tmp/onlyoffice.gpg
-sudo mv /tmp/onlyoffice.gpg /usr/share/keyrings/onlyoffice.gpg
-echo 'deb [signed-by=/usr/share/keyrings/onlyoffice.gpg] https://download.onlyoffice.com/repo/debian squeeze main' | sudo tee -a /etc/apt/sources.list.d/onlyoffice.list
-sudo apt update
-sudo apt install -y onlyoffice-desktopeditors
-
 
 # ----------------------settings-------------------------------
 
