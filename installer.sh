@@ -35,12 +35,6 @@ sudo apt install -y ttf-mscorefonts-installer
 sudo bash settings/ttf-vista-fonts-installer.sh
 sudo bash settings/ttf-ms-tahoma-installer.sh
 
-# install ngrok
-curl -s https://ngrok-agent.s3.amazonaws.com/ngrok.asc | sudo tee /etc/apt/trusted.gpg.d/ngrok.asc >/dev/null
-echo "deb https://ngrok-agent.s3.amazonaws.com buster main" | sudo tee /etc/apt/sources.list.d/ngrok.list
-sudo apt update
-sudo apt install -y ngrok
-
 # install librewolf and repo
 distro=$(if echo " una bookworm vanessa focal jammy bullseye vera uma " | grep -q " $(lsb_release -sc) "; then lsb_release -sc; else echo focal; fi)
 wget -O- https://deb.librewolf.net/keyring.gpg | sudo gpg --dearmor -o /usr/share/keyrings/librewolf.gpg
