@@ -23,7 +23,6 @@ sudo apt install -y adb gnome-screenshot cmatrix gtkhash vlc gnome-clocks rhythm
 # install packages from files
 sudo apt install -y ./packages/pinta_1.6-2.1_all.deb
 sudo apt install -y ./packages/dbgate-latest.deb
-sudo apt install -y ./packages/fsearch_0.2.3-1+3.5_amd64.deb
 sudo apt install -y ./packages/humanity-icon-theme_0.6.10_all.deb
 sudo apt install -y ./packages/ubuntu-mate-icon-themes_16.04.6_all.deb
 sudo apt install -y ./packages/ubuntu-mate-themes_16.04.6_all.deb
