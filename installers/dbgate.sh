@@ -1,0 +1,7 @@
+wget https://github.com/dbgate/dbgate/releases/latest/download/dbgate-latest.deb
+sudo apt install -y ./dbgate-latest.deb
+sudo rm ./dbgate-latest.deb
+
+# copy configs file
+mkdir -p ~/.dbgate
+cp configs/dbgate.json ~/.dbgate/settings.json
