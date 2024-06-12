@@ -21,7 +21,6 @@ for script in ./installers/*.sh; do source $script; done
 sudo apt install -y adb gnome-screenshot cmatrix gtkhash vlc gnome-clocks rhythmbox shotcut webcamoid timeshift gnome-disk-utility gnome-package-updater package-update-indicator caja-admin caja-image-converter caja-open-terminal caja-rename gdebi mozo redshift blueman htop btop ncdu gucharmap ayatana-indicator-application ayatana-indicator-common ayatana-indicator-messages ayatana-indicator-notifications ayatana-indicator-power ayatana-indicator-printers ayatana-indicator-sound mate-indicator-applet mate-indicator-applet-common lsb-release mate-dock-applet neofetch lshw tldr bat transmission fontforge cabextract fonts-crosextra-caladea fonts-crosextra-carlito
 
 # install packages from files
-sudo apt install -y ./packages/pinta_1.6-2.1_all.deb
 sudo apt install -y ./packages/humanity-icon-theme_0.6.10_all.deb
 sudo apt install -y ./packages/ubuntu-mate-icon-themes_16.04.6_all.deb
 sudo apt install -y ./packages/ubuntu-mate-themes_16.04.6_all.deb
