@@ -1,6 +1,11 @@
 # stop script execution if there's an error
 set -e
 
+# enable all repos
+sudo apt update
+sudo apt install -y software-properties-gtk
+sudo add-apt-repository -y -s main contrib non-free non-free-firmware
+
 # update and upgrade
 sudo apt update -y
 sudo apt full-upgrade -y  
