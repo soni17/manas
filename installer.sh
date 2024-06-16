@@ -1,3 +1,6 @@
+# stop script execution if there's an error
+set -e
+
 # update and upgrade
 sudo apt update -y
 sudo apt full-upgrade -y  
