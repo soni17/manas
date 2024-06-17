@@ -33,11 +33,14 @@ mv ~/.bashrc ~/.bashrc-old
 cp configs/bashrc ~/.bashrc
 cp configs/bash-aliases ~/.bash_aliases
 
-# update and cleanup
+# cleanup
 sudo apt update -y
 sudo apt full-upgrade -y
 sudo apt dist-upgrade -y
 sudo apt autoremove -y
 
-# purge residual-config files
+# more cleanup - delete residual configs
 dpkg -l | grep '^rc' | awk '{print $2}' | xargs sudo apt-get purge -y
+
+# reboot
+sudo reboot
