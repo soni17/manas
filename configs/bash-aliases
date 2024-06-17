@@ -1,0 +1,9 @@
+alias ll='ls -lha'
+
+alias la='ls -A'
+
+alias l='ls -CF'
+
+alias c='clear'
+
+alias updates='sudo apt update && sudo apt full-upgrade -y && sudo apt dist-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt clean -y && sudo apt purge -y && flatpak uninstall --unused -y && flatpak uninstall --delete-data -y && flatpak update -y && cd ~/.rbenv && git pull && cd ~/.rbenv/plugins/ruby-build && git pull && cd ~/.nodenv && git pull && cd ~/.nodenv/plugins/node-build && git pull && cd ~'

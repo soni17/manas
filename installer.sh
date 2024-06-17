@@ -1,12 +1,15 @@
 # stop script execution if there's an error
 set -e
 
+# save initial bashrc file
+cp ~/.bashrc ~/.bashrc-initial
+
 # enable all repos
 sudo apt update
 sudo apt install -y software-properties-gtk
 sudo add-apt-repository -y -s main contrib non-free non-free-firmware
 
-# update and upgrade
+# upgrade
 sudo apt update -y
 sudo apt full-upgrade -y  
 sudo apt dist-upgrade -y
@@ -24,6 +27,11 @@ sudo apt install -y \
 
 # run installers
 for script in ./installers/*.sh; do source $script; done
+
+# update bashrc file
+mv ~/.bashrc ~/.bashrc-old
+cp configs/bashrc ~/.bashrc
+cp configs/bash-aliases ~/.bash_aliases
 
 # update and cleanup
 sudo apt update -y
