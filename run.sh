@@ -11,7 +11,7 @@ sudo add-apt-repository -y -s main contrib non-free non-free-firmware
 
 # upgrade
 sudo apt update -y
-sudo apt full-upgrade -y  
+sudo apt full-upgrade -y
 sudo apt dist-upgrade -y
 sudo apt autoremove -y
 
