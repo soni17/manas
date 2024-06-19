@@ -1,0 +1,185 @@
+<?xml version="1.0" ?>
+<!DOCTYPE Menu
+  PUBLIC '-//freedesktop//DTD Menu 1.0//EN'
+  'http://standards.freedesktop.org/menu-spec/menu-1.0.dtd'>
+<Menu>
+	<Name>Applications</Name>
+	<MergeFile type="parent">/etc/xdg/menus/mate-applications.menu</MergeFile>
+	<Menu>
+		<Name>Graphics</Name>
+		<Layout>
+			<Merge type="menus"/>
+			<Filename>eom.desktop</Filename>
+			<Filename>pinta.desktop</Filename>
+			<Filename>com.jgraph.drawio.desktop.desktop</Filename>
+			<Filename>org.gnome.SimpleScan.desktop</Filename>
+			<Filename>mate-color-select.desktop</Filename>
+			<Filename>display-im6.q16.desktop</Filename>
+			<Merge type="files"/>
+		</Layout>
+		<Exclude>
+			<Filename>display-im6.q16.desktop</Filename>
+		</Exclude>
+		<AppDir>/home/une/.local/share/applications</AppDir>
+	</Menu>
+	<Menu>
+		<Name>Internet</Name>
+		<Exclude>
+			<Filename>io.freetubeapp.FreeTube.desktop</Filename>
+		</Exclude>
+		<AppDir>/home/une/.local/share/applications</AppDir>
+		<Layout>
+			<Merge type="menus"/>
+			<Filename>chromium.desktop</Filename>
+			<Filename>google-chrome.desktop</Filename>
+			<Filename>librewolf.desktop</Filename>
+			<Filename>transmission-gtk.desktop</Filename>
+			<Filename>io.freetubeapp.FreeTube.desktop</Filename>
+			<Merge type="files"/>
+		</Layout>
+	</Menu>
+	<Menu>
+		<Name>Office</Name>
+		<Layout>
+			<Merge type="menus"/>
+			<Filename>onlyoffice-desktopeditors.desktop</Filename>
+			<Filename>libreoffice-startcenter.desktop</Filename>
+			<Filename>libreoffice-writer.desktop</Filename>
+			<Filename>atril.desktop</Filename>
+			<Filename>br.eng.silas.qpdftools.desktop</Filename>
+			<Merge type="files"/>
+		</Layout>
+	</Menu>
+	<Menu>
+		<Name>Development</Name>
+		<Layout>
+			<Merge type="menus"/>
+			<Filename>codium.desktop</Filename>
+			<Filename>bruno.desktop</Filename>
+			<Filename>beekeeper-studio.desktop</Filename>
+			<Filename>dbgate.desktop</Filename>
+			<Filename>io.podman_desktop.PodmanDesktop.desktop</Filename>
+			<Filename>Android Debloater ng.desktop</Filename>
+			<Filename>python3.11.desktop</Filename>
+			<Filename>codium-url-handler.desktop</Filename>
+			<Merge type="files"/>
+		</Layout>
+	</Menu>
+	<Menu>
+		<Name>Multimedia</Name>
+		<Include>
+			<Filename>io.github.aandrew_me.ytdn-1.desktop</Filename>
+		</Include>
+		<Layout>
+			<Merge type="menus"/>
+			<Filename>vlc.desktop</Filename>
+			<Filename>org.gnome.Rhythmbox3.desktop</Filename>
+			<Filename>webcamoid.desktop</Filename>
+			<Filename>org.shotcut.Shotcut.desktop</Filename>
+			<Filename>io.freetubeapp.FreeTube.desktop</Filename>
+			<Filename>io.github.aandrew_me.ytdn-1.desktop</Filename>
+			<Filename>mate-volume-control.desktop</Filename>
+			<Filename>org.gnome.Rhythmbox3.device.desktop</Filename>
+			<Merge type="files"/>
+		</Layout>
+		<Exclude>
+			<Filename>mate-volume-control.desktop</Filename>
+		</Exclude>
+		<AppDir>/home/une/.local/share/applications</AppDir>
+	</Menu>
+	<Menu>
+		<Name>System</Name>
+		<Include>
+			<Filename>engrampa-1.desktop</Filename>
+		</Include>
+		<Include>
+			<Filename>org.gnome.DiskUtility-1.desktop</Filename>
+		</Include>
+		<Include>
+			<Filename>com.usebottles.bottles-1.desktop</Filename>
+		</Include>
+		<Exclude>
+			<Filename>caja-browser.desktop</Filename>
+		</Exclude>
+		<AppDir>/home/une/.local/share/applications</AppDir>
+		<Layout>
+			<Merge type="menus"/>
+			<Filename>gdebi.desktop</Filename>
+			<Filename>engrampa-1.desktop</Filename>
+			<Filename>org.gnome.DiskUtility-1.desktop</Filename>
+			<Filename>usbimager.desktop</Filename>
+			<Filename>timeshift-gtk.desktop</Filename>
+			<Filename>org.gnome.PackageUpdater.desktop</Filename>
+			<Filename>com.usebottles.bottles-1.desktop</Filename>
+			<Filename>mate-system-monitor.desktop</Filename>
+			<Filename>mate-power-statistics.desktop</Filename>
+			<Filename>btop.desktop</Filename>
+			<Filename>caja-browser.desktop</Filename>
+			<Filename>caja-computer.desktop</Filename>
+			<Filename>caja-home.desktop</Filename>
+			<Filename>mate-network-scheme.desktop</Filename>
+			<Filename>mate-panel.desktop</Filename>
+			<Filename>gnome-software-local-file-snap.desktop</Filename>
+			<Filename>gnome-software-local-file-flatpak.desktop</Filename>
+			<Filename>gnome-software-local-file-packagekit.desktop</Filename>
+			<Filename>gnome-software-local-file-fwupd.desktop</Filename>
+			<Merge type="files"/>
+		</Layout>
+	</Menu>
+	<Include>
+		<Filename>mate-terminal-1.desktop</Filename>
+	</Include>
+	<Include>
+		<Filename>org.gnome.Software-1.desktop</Filename>
+	</Include>
+	<Include>
+		<Filename>io.github.cboxdoerfer.FSearch-1.desktop</Filename>
+	</Include>
+	<Layout>
+		<Merge type="menus"/>
+		<Menuname>Accessories</Menuname>
+		<Menuname>Collection</Menuname>
+		<Menuname>Education</Menuname>
+		<Menuname>Games</Menuname>
+		<Menuname>Graphics</Menuname>
+		<Menuname>Internet</Menuname>
+		<Menuname>Office</Menuname>
+		<Menuname>Other</Menuname>
+		<Menuname>Development</Menuname>
+		<Menuname>Multimedia</Menuname>
+		<Menuname>System</Menuname>
+		<Menuname>Universal Access</Menuname>
+		<Filename>org.gnome.Software-1.desktop</Filename>
+		<Filename>io.github.cboxdoerfer.FSearch-1.desktop</Filename>
+		<Filename>mate-terminal-1.desktop</Filename>
+		<Merge type="files"/>
+	</Layout>
+	<Menu>
+		<Name>Accessories</Name>
+		<Exclude>
+			<Filename>io.freetubeapp.FreeTube.desktop</Filename>
+		</Exclude>
+		<AppDir>/home/une/.local/share/applications</AppDir>
+		<Layout>
+			<Merge type="menus"/>
+			<Filename>pluma.desktop</Filename>
+			<Filename>org.gnome.Screenshot.desktop</Filename>
+			<Filename>org.localsend.localsend_app.desktop</Filename>
+			<Filename>ulauncher.desktop</Filename>
+			<Filename>org.gnome.clocks.desktop</Filename>
+			<Filename>mate-calc.desktop</Filename>
+			<Filename>gucharmap.desktop</Filename>
+			<Filename>mate-font-viewer.desktop</Filename>
+			<Filename>org.gtkhash.gtkhash.desktop</Filename>
+			<Filename>cmatrix.desktop</Filename>
+			<Filename>io.freetubeapp.FreeTube.desktop</Filename>
+			<Filename>mate-about.desktop</Filename>
+			<Filename>redshift.desktop</Filename>
+			<Filename>codium-url-handler.desktop</Filename>
+			<Merge type="files"/>
+		</Layout>
+		<Exclude>
+			<Filename>br.eng.silas.qpdftools.desktop</Filename>
+		</Exclude>
+	</Menu>
+</Menu>

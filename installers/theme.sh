@@ -1,56 +1,52 @@
-# install packages from files
-sudo apt install -y ./packages/humanity-icon-theme_0.6.10_all.deb
-sudo apt install -y ./packages/ubuntu-mate-icon-themes_16.04.6_all.deb
-sudo apt install -y ./packages/ubuntu-mate-themes_16.04.6_all.deb
-sudo apt install -y ./packages/ubuntu-mono_14.04+16.04.20160415-0ubuntu1_all.deb
+# install icon-themes
+sudo apt install -y ./packages/humanity-icon-theme_0.6.16_all.deb
+sudo apt install -y ./packages/ubuntu-mono_14.04_all.deb
+
+# install fonts
+sudo apt install -y \
+  fonts-crosextra-caladea \
+  fonts-crosextra-carlito \
+  fontforge \
+  cabextract \
+  ttf-mscorefonts-installer
 sudo apt install -y ./packages/ttf-ubuntu-font-family_0.80-0ubuntu6_all.deb
+sudo bash packages/ttf-vista-fonts-installer.sh
+sudo bash packages/ttf-ms-tahoma-installer.sh
+sudo apt purge -y fontforge
 
-# install microsoft fonts
-sudo apt install -y ttf-mscorefonts-installer fontforge cabextract fonts-crosextra-caladea fonts-crosextra-carlito
-sudo bash settings/ttf-vista-fonts-installer.sh
-sudo bash settings/ttf-ms-tahoma-installer.sh
+# load settings
+dconf load / < configs/theme-settings
 
-# add terminal settings
-dconf write /org/mate/terminal/profiles/default/background-color "'#000000000000'"
-dconf write /org/mate/terminal/profiles/default/foreground-color "'#FFFFFFFFFFFF'"
-dconf write /org/mate/terminal/profiles/default/background-type "'transparent'"
-dconf write /org/mate/terminal/profiles/default/background-darkness 0.86
-dconf write /org/mate/terminal/profiles/default/cursor-shape "'underline'"
-dconf write /org/mate/terminal/profiles/default/cursor-blink-mode "'off'"
-dconf write /org/mate/terminal/profiles/default/palette  "'#000000000000:#CCCC00000000:#4E4D9A9A0605:#C4C3A0A00000:#34346564A4A3:#7575504F7B7B:#060598979A9A:#D3D3D7D6CFCF:#555457565352:#EFEF29282928:#8A89E2E23434:#FCFBE9E84F4F:#72729F9ECFCF:#ADAC7F7EA8A8:#3434E2E2E2E2:#EEEDEEEDECEB'"
-dconf write /org/mate/terminal/profiles/default/use-theme-colors false
-dconf write /org/mate/terminal/profiles/default/allow-bold false
-dconf write /org/mate/terminal/profiles/default/scrollback-unlimited true
-dconf write /org/mate/terminal/profiles/default/use-system-font true
-
-# copy wallpapers
-cp wallpapers/* ~/Pictures
-
-# add desktop icons
-cp desktop/* ~/Desktop
-
-# set theme settings
-dconf write /org/mate/desktop/interface/gtk-theme "'TraditionalOk'"
-dconf write /org/mate/marco/general/theme "'TraditionalOk'"
-dconf write /org/mate/desktop/interface/icon-theme "'ubuntu-mono-light'"
+# wallpaper
+cp configs/wallpapers/* ~/Pictures
 hme=~
 dconf write /org/mate/desktop/background/picture-filename "'$hme/Pictures/beach-rocks.jpg'"
-dconf write /org/mate/marco/general/compositing-manager true
-dconf write /org/mate/caja/preferences/always-use-location-entry true
-dconf write /org/mate/pluma/display-right-margin false
-dconf write /org/mate/screensaver/mode "'blank-only'"
-dconf write /org/mate/screensaver/themes "@as []"
-dconf write /org/mate/notification-daemon/theme "'slider'"
-dconf write /org/mate/notification-daemon/popup-location "'bottom_right'"
-dconf load /org/mate/panel/ < settings/dconf-panel
 
-# set system font settings
-dconf write /org/mate/desktop/interface/document-font-name "'Ubuntu 11'"
-dconf write /org/mate/desktop/interface/font-name "'Ubuntu 11'"
-dconf write /org/mate/caja/desktop/font "'Ubuntu 11'"
-dconf write /org/mate/marco/general/titlebar-font "'Ubuntu Medium 11'"
-dconf write /org/mate/desktop/interface/monospace-font-name "'Ubuntu Mono 13'"
+# desktop icons
+cp configs/desktop-icons/* ~/Desktop
+
+# theme file
+mkdir -p ~/.themes/classic
+cp configs/index.theme ~/.themes/classic/index.theme
+
+# modify panel menus
+if [ -d ~/.config/menus ]; then
+  rm -r ~/.config/menus
+fi
+mkdir -p ~/.config/menus
+cp -r configs/panel-menus/* ~/.config/menus
+
+# modify panel apps
+if [ -d ~/.local/share/applications ]; then
+  rm -r ~/.local/share/applications
+fi
+mkdir -p ~/.local/share/applications
+cp -r configs/panel-apps/* ~/.local/share/applications
+
+# other settings
+xdg-mime default gnome-disk-image-mounter.desktop application/x-cd-image
 
 # set screen temperature
-mkdir ~/.config/autostart
-cp settings/redshift.desktop ~/.config/autostart
+sudo apt install -y redshift
+mkdir -p ~/.config/autostart
+cp configs/redshift.desktop ~/.config/autostart
