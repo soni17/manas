@@ -2,14 +2,17 @@
 sudo apt install -y ./packages/humanity-icon-theme_0.6.16_all.deb
 sudo apt install -y ./packages/ubuntu-mono_14.04_all.deb
 
-# install fonts
+# install crosextra fonts
 sudo apt install -y \
   fonts-crosextra-caladea \
-  fonts-crosextra-carlito \
-  fontforge \
-  cabextract \
-  ttf-mscorefonts-installer
+  fonts-crosextra-carlito
+
+# install ubuntu fonts
 sudo apt install -y ./packages/ttf-ubuntu-font-family_0.80-0ubuntu6_all.deb
+
+# install microsoft fonts
+sudo apt install -y fontforge cabextract # dependencies
+sudo apt install -y ttf-mscorefonts-installer
 sudo bash packages/ttf-vista-fonts-installer.sh
 sudo bash packages/ttf-ms-tahoma-installer.sh
 sudo apt purge -y fontforge
