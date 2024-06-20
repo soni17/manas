@@ -1,3 +1,4 @@
+# install apps from debian repository
 sudo apt install -y \
   btop \
   ncdu \
