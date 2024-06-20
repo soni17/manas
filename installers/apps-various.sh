@@ -9,7 +9,6 @@ sudo apt install -y \
   lsb-release \
   gnome-disk-utility \
   gnome-package-updater \
-  package-update-indicator \
   caja-admin \
   caja-image-converter \
   caja-open-terminal \
