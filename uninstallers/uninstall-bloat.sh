@@ -253,7 +253,9 @@ sudo apt purge -y \
 
 sudo apt autoremove -y
 
-# uninstall residual-configs
+sudo apt autoclean -y
+
+# delete residual config files
 dpkg -l | grep '^rc' | awk '{print $2}' | xargs sudo apt-get purge -y
 
 

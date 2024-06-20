@@ -1,11 +1,11 @@
 # stop script execution if there's an error
 set -e
 
-# save initial bashrc file
+# save copy of initial bashrc file
 cp ~/.bashrc ~/.bashrc-initial
 
-# enable all repos
-sudo apt update
+# enable all debian repositories
+sudo apt update -y
 sudo apt install -y software-properties-gtk
 sudo add-apt-repository -y -s main contrib non-free non-free-firmware
 
@@ -33,13 +33,14 @@ mv ~/.bashrc ~/.bashrc-old
 cp configs/bashrc ~/.bashrc
 cp configs/bash-aliases ~/.bash_aliases
 
-# cleanup
+# upgrade
 sudo apt update -y
 sudo apt full-upgrade -y
 sudo apt dist-upgrade -y
 sudo apt autoremove -y
+sudo apt autoclean -y
 
-# more cleanup - delete residual configs
+# delete residual config files
 dpkg -l | grep '^rc' | awk '{print $2}' | xargs sudo apt-get purge -y
 
 # reboot

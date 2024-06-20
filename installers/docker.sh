@@ -16,5 +16,5 @@ sudo apt install -y \
   docker-buildx-plugin \
   docker-compose-plugin
 
-# rund docker command without sudo
+# run docker command without sudo
 sudo usermod -aG docker ${USER}
