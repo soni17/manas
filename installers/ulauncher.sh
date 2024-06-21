@@ -1,6 +1,11 @@
-sudo apt install -y ./packages/ulauncher_5.15.7_all.deb
+# TO DO: download latest version
 
-# configs
+# download and install
+wget https://github.com/Ulauncher/Ulauncher/releases/download/5.15.7/ulauncher_5.15.7_all.deb
+sudo apt install -y ./ulauncher_5.15.7_all.deb
+rm ulauncher_5.15.7_all.deb
+
+# config file
 mkdir -p ~/.config/ulauncher
 cp configs/ulauncher.json ~/.config/ulauncher/settings.json
 
