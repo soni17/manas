@@ -1,3 +1,5 @@
+# https://flathub.org/setup/Debian
+
 # install flatpak
 sudo apt install -y flatpak
 

@@ -1,3 +1,5 @@
+# https://docs.beekeeperstudio.io/installation/linux/#apt-deb
+
 # add repository
 curl -fsSL https://deb.beekeeperstudio.io/beekeeper.key | sudo gpg --dearmor --output /usr/share/keyrings/beekeeper.gpg
 sudo chmod go+r /usr/share/keyrings/beekeeper.gpg
