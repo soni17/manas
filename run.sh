@@ -1,5 +1,16 @@
-# stop script execution if there's an error
+# stop execution if there's an error
 set -e
+
+# stop execution if OS is not Debian Mate
+. /etc/os-release
+distro=$ID
+desktop=$DESKTOP_SESSION
+
+if [ "$distro" != "debian" ] || [ "$desktop" != "mate" ]; then
+  echo "$(tput setaf 1)You are not running Debian with Mate desktop environment."
+  echo "$(tput setaf 1)Installation stopped."
+  exit 1
+fi
 
 # save copy of initial bashrc file
 cp ~/.bashrc ~/.bashrc-initial
