@@ -14,7 +14,11 @@ alias bat='batcat'
 
 alias g='git'
 
-alias delete-last-commit='git reset HEAD~1'
+# stage all and commit
+alias gca='git commit -A -m'
+
+# delete last commit, keep changes and unstage
+alias gdl='git reset HEAD~1'
 
 # apt updates - flatpak updates - update rbenv & ruby-build - update nodenv & node-build
 alias updates='sudo apt update && \
