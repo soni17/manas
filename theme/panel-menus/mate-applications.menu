@@ -46,6 +46,7 @@
 			<Filename>libreoffice-startcenter.desktop</Filename>
 			<Filename>libreoffice-writer.desktop</Filename>
 			<Filename>atril.desktop</Filename>
+			<Filename>io.typora.Typora.desktop</Filename>
 			<Filename>br.eng.silas.qpdftools.desktop</Filename>
 			<Merge type="files"/>
 		</Layout>

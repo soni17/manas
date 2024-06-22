@@ -1,7 +1,7 @@
 # install flatpak
 sudo apt install -y flatpak
 
-# add flatpak repository
+# add flathub repository
 sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
 # install flatpak apps
@@ -13,9 +13,11 @@ flatpak install flathub --assumeyes --system org.localsend.localsend_app
 flatpak install flathub --assumeyes --system io.github.aandrew_me.ytdn
 flatpak install flathub --assumeyes --system io.freetubeapp.FreeTube
 flatpak install flathub --assumeyes --system com.usebottles.bottles
+flatpak install flathub --assumeyes --system io.typora.Typora
 
 # allow bottles to create desktop entries
 flatpak override com.usebottles.bottles --user --filesystem=xdg-data/applications
 
-# fix slow startup for FreeTube
+# fix slow startup
 sudo sed -i "s/StartupNotify=true//" /var/lib/flatpak/exports/share/applications/io.freetubeapp.FreeTube.desktop
+sudo sed -i "s/StartupNotify=true//" /var/lib/flatpak/exports/share/applications/io.typora.Typora.desktop
