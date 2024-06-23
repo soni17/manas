@@ -1,3 +1,5 @@
+# https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/
+
 # install android debug bridge
 sudo apt install -y adb
 

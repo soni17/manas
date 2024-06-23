@@ -1,3 +1,5 @@
+# https://github.com/nodenv/nodenv
+
 # install nodenv and node-build if not installed
 if [ ! -d ~/.nodenv ]; then
   git clone https://github.com/nodenv/nodenv.git ~/.nodenv
