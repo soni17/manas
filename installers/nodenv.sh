@@ -1,10 +1,11 @@
 # https://github.com/nodenv/nodenv
 
-# install nodenv and node-build if not installed
-if [ ! -d ~/.nodenv ]; then
-  git clone https://github.com/nodenv/nodenv.git ~/.nodenv
-  git clone https://github.com/nodenv/node-build.git ~/.nodenv/plugins/node-build
-fi
+# remove current installation if it already exists
+rm -rf ~/.nodenv
+
+# install nodenv and node-build
+git clone https://github.com/nodenv/nodenv.git ~/.nodenv
+git clone https://github.com/nodenv/node-build.git ~/.nodenv/plugins/node-build
 
 # modify bashrc file
 echo '' >> ~/.bashrc

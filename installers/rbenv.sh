@@ -18,11 +18,12 @@ sudo apt install -y \
   libdb-dev \
   uuid-dev
 
+# remove current installation if it already exists
+rm -rf ~/.rbenv
+
 # install rbenv and ruby-build
-if [ ! -d ~/.rbenv ]; then
-  git clone https://github.com/rbenv/rbenv.git ~/.rbenv
-  git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
-fi
+git clone https://github.com/rbenv/rbenv.git ~/.rbenv
+git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
 
 # modify bashrc file 
 echo '# setup rbenv (ruby version manager)' >> ~/.bashrc
