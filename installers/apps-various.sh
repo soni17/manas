@@ -3,12 +3,16 @@ sudo apt install -y \
   btop \
   ncdu \
   neofetch \
+  cpufetch \
   lshw \
   tldr \
   bat \
+  speedtest-cli \
+  lsd \
+  fzf \
+  tmux \
+  podman \
   lsb-release \
-  gnome-disk-utility \
-  gnome-package-updater \
   caja-admin \
   caja-image-converter \
   caja-open-terminal \
@@ -24,6 +28,10 @@ sudo apt install -y \
   webcamoid \
   gtkhash \
   timeshift \
+  gnome-disk-utility \
+  gnome-package-updater \
   gnome-clocks \
   gnome-screenshot \
+  gnome-software \
+  gnome-software-plugin-flatpak \
   cmatrix 
