@@ -33,16 +33,12 @@ mkdir -p ~/.themes/classic
 cp theme/index.theme ~/.themes/classic/index.theme
 
 # modify panel menus
-if [ -d ~/.config/menus ]; then
-  rm -r ~/.config/menus
-fi
+rm -r ~/.config/menus
 mkdir -p ~/.config/menus
 cp -r theme/panel-menus/* ~/.config/menus
 
 # modify panel apps
-if [ -d ~/.local/share/applications ]; then
-  rm -r ~/.local/share/applications
-fi
+rm -r ~/.local/share/applications
 mkdir -p ~/.local/share/applications
 cp -r theme/panel-apps/* ~/.local/share/applications
 
