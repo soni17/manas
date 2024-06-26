@@ -22,4 +22,5 @@ codium --install-extension ritwickdey.liveserver
 codium --install-extension vortizhe.simple-ruby-erb
 
 # config file
+mkdir -p ~/.config/VSCodium/User
 cp configs/vscodium.json ~/.config/VSCodium/User/settings.json
