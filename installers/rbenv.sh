@@ -25,16 +25,17 @@ rm -rf ~/.rbenv
 git clone https://github.com/rbenv/rbenv.git ~/.rbenv
 git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
 
-# modify bashrc file 
+# add to bashrc file 
+echo ' ' >> ~/.bashrc
 echo '# setup rbenv (ruby version manager)' >> ~/.bashrc
 echo 'eval "$(~/.rbenv/bin/rbenv init - bash)"' >> ~/.bashrc
-echo '' >> ~/.bashrc
 
-# install ruby
-eval "$(~/.rbenv/bin/rbenv init - bash)"
-rbenv install 3.2.2
-rbenv install 3.1.2
-rbenv global 3.2.2
+# get latest version of ruby
+LATEST=$(~/.rbenv/bin/rbenv install -l | grep -v - | tail -1)
+
+# install ruby and set it globally
+~/.rbenv/bin/rbenv install $LATEST
+~/.rbenv/bin/rbenv global $LATEST
 
 # install ruby gems
 gem install rails

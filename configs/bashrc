@@ -127,4 +127,3 @@ eval "$(nodenv init - bash)"
 
 # setup rbenv (ruby version manager)
 eval "$(~/.rbenv/bin/rbenv init - bash)"
-
