@@ -1,10 +1,11 @@
 # https://ulauncher.io/#Download
-# TO DO: download latest version
+
+LATEST_VERSION=$(curl -s "https://api.github.com/repos/Ulauncher/Ulauncher/releases/latest" | grep -Po '"tag_name": "\K[^"]*')
 
 # download and install
-wget https://github.com/Ulauncher/Ulauncher/releases/download/5.15.7/ulauncher_5.15.7_all.deb
-sudo apt install -y ./ulauncher_5.15.7_all.deb
-rm ulauncher_5.15.7_all.deb
+wget https://github.com/Ulauncher/Ulauncher/releases/download/${LATEST_VERSION}/ulauncher_${LATEST_VERSION}_all.deb
+sudo apt install -y ./ulauncher*
+rm ulauncher*
 
 # config file
 mkdir -p ~/.config/ulauncher
