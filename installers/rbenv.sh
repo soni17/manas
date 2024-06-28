@@ -30,12 +30,15 @@ echo ' ' >> ~/.bashrc
 echo '# setup rbenv (ruby version manager)' >> ~/.bashrc
 echo 'eval "$(~/.rbenv/bin/rbenv init - bash)"' >> ~/.bashrc
 
+# activate rbenv command for this script
+eval "$(~/.rbenv/bin/rbenv init - bash)"
+
 # get latest version of ruby
-LATEST=$(~/.rbenv/bin/rbenv install -l | grep -v - | tail -1)
+LATEST=$(rbenv install -l | grep -v - | tail -1)
 
 # install ruby and set it globally
-~/.rbenv/bin/rbenv install $LATEST
-~/.rbenv/bin/rbenv global $LATEST
+rbenv install $LATEST
+rbenv global $LATEST
 
 # install ruby gems
 gem install rails

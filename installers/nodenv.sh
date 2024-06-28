@@ -13,9 +13,13 @@ echo '# setup nodenv (node version manager)' >> ~/.bashrc
 echo 'export PATH="$HOME/.nodenv/bin:$PATH"' >> ~/.bashrc
 echo 'eval "$(nodenv init - bash)"' >> ~/.bashrc
 
+# activate nodenv command for this script
+export PATH="$HOME/.nodenv/bin:$PATH"
+eval "$(nodenv init - bash)"
+
 # get latest version of node
-LATEST=$(~/.nodenv/bin/nodenv install -l | grep -v - | tail -1)
+LATEST=$(nodenv install -l | grep -v - | tail -1)
 
 # install node and set it globally
-~/.nodenv/bin/nodenv install $LATEST
-~/.nodenv/bin/nodenv global $LATEST
+nodenv install $LATEST
+nodenv global $LATEST
