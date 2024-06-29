@@ -23,6 +23,6 @@ eval "$(goenv init -)"
 # get latest version of go
 LATEST=$(goenv install -l | grep -v [a-z] | tail -1)
 
-# install ruby and set it globally
+# install go and set it globally
 goenv install $LATEST
 goenv global $LATEST
