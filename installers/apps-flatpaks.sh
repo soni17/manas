@@ -20,6 +20,3 @@ flatpak install flathub --assumeyes --system io.typora.Typora
 # allow bottles to create desktop entries
 flatpak override com.usebottles.bottles --user --filesystem=xdg-data/applications
 
-# fix slow startup
-sudo sed -i "s/StartupNotify=true//" /var/lib/flatpak/exports/share/applications/io.freetubeapp.FreeTube.desktop
-sudo sed -i "s/StartupNotify=true//" /var/lib/flatpak/exports/share/applications/io.typora.Typora.desktop
