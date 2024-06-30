@@ -23,3 +23,7 @@ EOF
 # install
 sudo apt update
 sudo apt install -y librewolf
+
+# config file
+mkdir -p ~/.librewolf
+cp configs/librewolf.overrides.cfg ~/.librewolf
