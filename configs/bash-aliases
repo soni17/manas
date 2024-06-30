@@ -15,7 +15,7 @@ alias bat='batcat'
 alias g='git'
 
 # stage all and commit
-alias gca='git commit -A -m'
+alias gca='git add -A && git commit -m'
 
 # delete last commit, keep changes and unstage
 alias gdl='git reset HEAD~1'
