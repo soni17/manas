@@ -209,3 +209,6 @@ scrollback-unlimited=true
 use-system-font=true
 use-theme-colors=false
 visible-name='Default'
+default-show-menubar=false
+default-size-columns=90
+default-size-rows=28
