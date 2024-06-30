@@ -2,8 +2,9 @@
 set -e
 
 # stop execution if OS is not Debian Mate
+. /etc/os-release
 distro=$ID
-desktop=$(. /etc/os-release && echo $DESKTOP_SESSION)
+desktop=$DESKTOP_SESSION
 
 if [ "$distro" != "debian" ] || [ "$desktop" != "mate" ]; then
   echo "$(tput setaf 1)You are not running Debian with Mate desktop environment."
