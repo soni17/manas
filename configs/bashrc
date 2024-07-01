@@ -123,3 +123,6 @@ fi
 
 # setup asdf version manager
 . "$HOME/.asdf/asdf.sh"
+
+# config variable for Go
+export ASDF_GOLANG_MOD_VERSION_ENABLED=false

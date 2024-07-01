@@ -98,7 +98,7 @@ use-menu-path=false
 applet-iid='ClockAppletFactory::ClockApplet'
 locked=true
 object-type='applet'
-position=113
+position=57
 relative-to-edge='end'
 toplevel-id='bottom'
 
@@ -112,7 +112,7 @@ show-weather=false
 applet-iid='IndicatorAppletFactory::IndicatorApplet'
 locked=true
 object-type='applet'
-position=190
+position=134
 relative-to-edge='end'
 toplevel-id='bottom'
 
