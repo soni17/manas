@@ -29,18 +29,22 @@ sudo apt autoremove -y
 # run uninstaller
 bash uninstallers/uninstall-bloat.sh
 
-# dependencies for installers
+# install dependencies for installers
 sudo apt install -y \
   git \
   wget \
   curl \
   dconf-cli
 
+# install asdf-version-manager (also a dependency)
+git clone https://github.com/asdf-vm/asdf.git ~/.asdf
+cp configs/asdfrc ~/.asdfrc
+. "$HOME/.asdf/asdf.sh"
+
 # run installers
 for script in ./installers/*.sh; do source $script; done
 
 # update bashrc file
-mv ~/.bashrc ~/.bashrc-old
 cp configs/bashrc ~/.bashrc
 cp configs/bash-aliases ~/.bash_aliases
 

@@ -28,10 +28,4 @@ alias updates='sudo apt update && \
                sudo apt autoclean -y && \
                flatpak uninstall --unused --delete-data -y && \
                flatpak update -y && \
-               cd ~/.rbenv && git pull && \
-               cd ~/.rbenv/plugins/ruby-build && git pull && \
-               cd ~/.nodenv && git pull && \
-               cd ~/.nodenv/plugins/node-build && git pull && \
-               cd ~/.pyenv && git pull && \
-               cd ~/.goenv && git pull && \
-               cd ~'
+               asdf update
