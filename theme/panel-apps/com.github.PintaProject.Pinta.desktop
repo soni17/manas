@@ -1,0 +1,19 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Name=Pinta
+Comment=Easily create and edit images
+GenericName=Image Editor
+X-GNOME-FullName=Pinta Image Editor
+Exec=/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=pinta --file-forwarding com.github.PintaProject.Pinta @@ %F @@
+Icon=com.github.PintaProject.Pinta
+StartupNotify=false
+StartupWMClass=Pinta
+Terminal=false
+Type=Application
+Categories=Graphics;2DGraphics;RasterGraphics;GTK;
+Keywords=draw;drawing;paint;painting;graphics;raster;2d;
+MimeType=image/bmp;image/gif;image/jpeg;image/jpg;image/pjpeg;image/png;image/svg+xml;image/tiff;image/x-bmp;image/x-gray;image/x-icb;image/x-ico;image/x-png;image/x-portable-anymap;image/x-portable-bitmap;image/x-portable-graymap;image/x-portable-pixmap;image/x-xbitmap;image/x-xpixmap;image/x-pcx;image/x-targa;image/x-tga;image/openraster;
+X-Flatpak-RenamedFrom=pinta.desktop;
+X-Flatpak=com.github.PintaProject.Pinta
+Name[en_US]=Pinta Image Editor

@@ -7,20 +7,20 @@
 	<MergeFile type="parent">/etc/xdg/menus/mate-applications.menu</MergeFile>
 	<Menu>
 		<Name>Graphics</Name>
+		<Exclude>
+			<Filename>display-im6.q16.desktop</Filename>
+		</Exclude>
+		<AppDir>/home/une/.local/share/applications</AppDir>
 		<Layout>
 			<Merge type="menus"/>
 			<Filename>eom.desktop</Filename>
-			<Filename>pinta.desktop</Filename>
+			<Filename>com.github.PintaProject.Pinta.desktop</Filename>
 			<Filename>com.jgraph.drawio.desktop.desktop</Filename>
 			<Filename>org.gnome.SimpleScan.desktop</Filename>
 			<Filename>mate-color-select.desktop</Filename>
 			<Filename>display-im6.q16.desktop</Filename>
 			<Merge type="files"/>
 		</Layout>
-		<Exclude>
-			<Filename>display-im6.q16.desktop</Filename>
-		</Exclude>
-		<AppDir>/home/une/.local/share/applications</AppDir>
 	</Menu>
 	<Menu>
 		<Name>Internet</Name>

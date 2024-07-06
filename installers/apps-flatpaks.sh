@@ -16,6 +16,7 @@ flatpak install flathub --assumeyes --system io.github.aandrew_me.ytdn
 flatpak install flathub --assumeyes --system io.freetubeapp.FreeTube
 flatpak install flathub --assumeyes --system com.usebottles.bottles
 flatpak install flathub --assumeyes --system io.typora.Typora
+flatpak install flathub --assumeyes --system com.github.PintaProject.Pinta
 
 # allow bottles to create desktop entries
 flatpak override com.usebottles.bottles --user --filesystem=xdg-data/applications
