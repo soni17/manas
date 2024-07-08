@@ -46,7 +46,7 @@
 			<Filename>libreoffice-startcenter.desktop</Filename>
 			<Filename>libreoffice-writer.desktop</Filename>
 			<Filename>atril.desktop</Filename>
-			<Filename>io.typora.Typora.desktop</Filename>
+			<Filename>com.github.marktext.marktext.desktop</Filename>
 			<Filename>br.eng.silas.qpdftools.desktop</Filename>
 			<Merge type="files"/>
 		</Layout>
@@ -181,6 +181,9 @@
 		</Layout>
 		<Exclude>
 			<Filename>br.eng.silas.qpdftools.desktop</Filename>
+		</Exclude>
+		<Exclude>
+			<Filename>com.github.marktext.marktext.desktop</Filename>
 		</Exclude>
 	</Menu>
 </Menu>
