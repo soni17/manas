@@ -21,3 +21,6 @@ flatpak install flathub --assumeyes --system com.github.PintaProject.Pinta
 # allow bottles to create desktop entries
 flatpak override com.usebottles.bottles --user --filesystem=xdg-data/applications
 
+# podman desktop config file
+mkdir -p ~/.local/share/containers/podman-desktop/configuration
+cp configs/podman-desktop.json ~/.local/share/containers/podman-desktop/configuration/settings.json
