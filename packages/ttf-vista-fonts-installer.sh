@@ -11,7 +11,7 @@
 
 # install dependencies
 sudo apt install -y \
-    wget \
+	wget \
 	cabextract \
 	fontforge
 
@@ -26,60 +26,60 @@ err=0
 echo -e "\n:: Downloading PowerPoint Viewer...\n"
 wget -O "$file" https://web.archive.org/web/20171225132744/http://download.microsoft.com/download/E/6/7/E675FFFC-2A6D-4AB0-B3EB-27C9F8C8F696/PowerPointViewer.exe
 if [ $? -ne 0 ]; then
-    rm -f "$file"
-    echo -e "\nError: Download failed!?\n"
-    err=1
+	rm -f "$file"
+	echo -e "\nError: Download failed!?\n"
+	err=1
 else
-    echo -e "Done!\n"
+	echo -e "Done!\n"
 fi
 
 if [ $err -ne 1 ]; then
-    echo -n ":: Extracting... "
-    cabextract -t "$file" &> /dev/null
-    if [ $? -ne 0 ]; then
-        echo "Error: Can't extract. Corrupted download!?"
-        err=1
-    else
-        cabextract -F ppviewer.cab "$file" &> /dev/null
-        cabextract -L -F '*.tt?' ppviewer.cab &> /dev/null
-        if [ $? -ne 0 ]; then
-            echo "Error: Can't extract 'ppviewer.cab' from 'PowerPointViewer.exe'. Corrupted download!?"
-            err=1
-        else
-            echo "Done!"
-        fi
-    fi
+	echo -n ":: Extracting... "
+	cabextract -t "$file" &> /dev/null
+	if [ $? -ne 0 ]; then
+		echo "Error: Can't extract. Corrupted download!?"
+		err=1
+	else
+		cabextract -F ppviewer.cab "$file" &> /dev/null
+		cabextract -L -F '*.tt?' ppviewer.cab &> /dev/null
+		if [ $? -ne 0 ]; then
+			echo "Error: Can't extract 'ppviewer.cab' from 'PowerPointViewer.exe'. Corrupted download!?"
+			err=1
+		else
+			echo "Done!"
+		fi
+	fi
 fi
 
 if [ $err -ne 1 ]; then
 # If you need the Cambria and Cambria Math (regular) font, you'll need to convert it to TTF because the font is available
 # as a TrueType Collection (TTC) and unless you convert it, you won't be able to use it in LibreOffice for instance. 
-    echo -n ":: Converting 'Cambria Regular' and 'Cambria Math Regular' (TTC - TrueType Collection) to TrueType (TTF)... "
-    fontforge -lang=ff -c 'Open("cambria.ttc(Cambria)"); Generate("cambria.ttf"); Close(); Open("cambria.ttc(Cambria Math)"); Generate("cambriamath.ttf"); Close();' &> /dev/null
-    if [ $? -ne 0 ]; then
-        echo "Error: Can't convert file 'combria.ttc'."
-        err=1
-    else
-        echo "Done!"
-    fi
+	echo -n ":: Converting 'Cambria Regular' and 'Cambria Math Regular' (TTC - TrueType Collection) to TrueType (TTF)... "
+	fontforge -lang=ff -c 'Open("cambria.ttc(Cambria)"); Generate("cambria.ttf"); Close(); Open("cambria.ttc(Cambria Math)"); Generate("cambriamath.ttf"); Close();' &> /dev/null
+	if [ $? -ne 0 ]; then
+		echo "Error: Can't convert file 'combria.ttc'."
+		err=1
+	else
+		echo "Done!"
+	fi
 fi
 
 if [ $err -ne 1 ]; then
-    echo -n ":: Installing... "
-    mkdir -p "$output_dir"
-    cp -f "$tmp_dir"/*.ttf "$output_dir"  &> /dev/null
-    if [ $? -ne 0 ]; then
-        echo "Error: Can't copy files to output directory."
-        err=1
-    else
-        echo "Done!"
-    fi
+	echo -n ":: Installing... "
+	mkdir -p "$output_dir"
+	cp -f "$tmp_dir"/*.ttf "$output_dir"  &> /dev/null
+	if [ $? -ne 0 ]; then
+		echo "Error: Can't copy files to output directory."
+		err=1
+	else
+		echo "Done!"
+	fi
 fi
 
 if [ $err -ne 1 ]; then
-    echo -n ":: Clean the font cache... "
-    fc-cache -f "$output_dir" &> /dev/null
-    echo "Done!"
+	echo -n ":: Clean the font cache... "
+	fc-cache -f "$output_dir" &> /dev/null
+	echo "Done!"
 fi
 
 echo -n ":: Cleanup... "
@@ -88,9 +88,9 @@ rm -rf "$tmp_dir" &> /dev/null
 echo "Done!"
 
 if [ $err -ne 1 ]; then
-    echo -e "\nCongratulations! Installation successful!!\n"
+	echo -e "\nCongratulations! Installation successful!!\n"
 else
-    echo -e "\nSome error occurred! Please try again!!\n"
+	echo -e "\nSome error occurred! Please try again!!\n"
 fi
 
 # not needed anymore

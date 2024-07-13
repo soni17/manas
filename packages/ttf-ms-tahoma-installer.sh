@@ -7,7 +7,7 @@
 
 # install dependencies
 sudo apt install -y \
-    wget \
+	wget \
 	cabextract 
 
 output_dir="/usr/share/fonts/truetype/msttcorefonts/"
@@ -21,46 +21,46 @@ err=0
 echo -e "\n:: Downloading IELPKTH.CAB...\n"
 wget -O "$file" https://sourceforge.net/projects/corefonts/files/OldFiles/IELPKTH.CAB
 if [ $? -ne 0 ]; then
-    rm -f "$file"
-    echo -e "\nError: Download failed!?\n"
-    err=1
+	rm -f "$file"
+	echo -e "\nError: Download failed!?\n"
+	err=1
 else
-    echo -e "Done!\n"
+	echo -e "Done!\n"
 fi
 
 if [ $err -ne 1 ]; then
-    echo -n ":: Extracting... "
-    cabextract -t "$file" &> /dev/null
-    if [ $? -ne 0 ]; then
-        echo "Error: Can't extract. Corrupted download!?"
-        err=1
-    else
-        cabextract -F 'tahoma*ttf' "$file" &> /dev/null
-        if [ $? -ne 0 ]; then
-            echo "Error: Can't extract 'tahoma.ttf' and 'tahomabd.ttf' from 'IELPKTH.CAB'. Corrupted download!?"
-            err=1
-        else
-            echo "Done!"
-        fi
-    fi
+	echo -n ":: Extracting... "
+	cabextract -t "$file" &> /dev/null
+	if [ $? -ne 0 ]; then
+		echo "Error: Can't extract. Corrupted download!?"
+		err=1
+	else
+		cabextract -F 'tahoma*ttf' "$file" &> /dev/null
+		if [ $? -ne 0 ]; then
+			echo "Error: Can't extract 'tahoma.ttf' and 'tahomabd.ttf' from 'IELPKTH.CAB'. Corrupted download!?"
+			err=1
+		else
+			echo "Done!"
+		fi
+	fi
 fi
 
 if [ $err -ne 1 ]; then
-    echo -n ":: Installing... "
-    mkdir -p "$output_dir"
-    cp -f "$tmp_dir"/*.ttf "$output_dir"  &> /dev/null
-    if [ $? -ne 0 ]; then
-        echo "Error: Can't copy files to output directory."
-        err=1
-    else
-        echo "Done!"
-    fi
+	echo -n ":: Installing... "
+	mkdir -p "$output_dir"
+	cp -f "$tmp_dir"/*.ttf "$output_dir"  &> /dev/null
+	if [ $? -ne 0 ]; then
+		echo "Error: Can't copy files to output directory."
+		err=1
+	else
+		echo "Done!"
+	fi
 fi
 
 if [ $err -ne 1 ]; then
-    echo -n ":: Clean the font cache... "
-    fc-cache -f "$output_dir" &> /dev/null
-    echo "Done!"
+	echo -n ":: Clean the font cache... "
+	fc-cache -f "$output_dir" &> /dev/null
+	echo "Done!"
 fi
 
 echo -n ":: Cleanup... "
@@ -69,9 +69,9 @@ rm -rf "$tmp_dir" &> /dev/null
 echo "Done!"
 
 if [ $err -ne 1 ]; then
-    echo -e "\nCongratulations! Installation of ttf-ms-tahoma-installer is successful!!\n"
+	echo -e "\nCongratulations! Installation of ttf-ms-tahoma-installer is successful!!\n"
 else
-    echo -e "\nSome error occurred! Please try again!!\n"
+	echo -e "\nSome error occurred! Please try again!!\n"
 fi
 
 # not needed anymore
