@@ -40,6 +40,11 @@ rm -r ~/.local/share/applications
 mkdir -p ~/.local/share/applications
 cp -r theme/panel-apps/* ~/.local/share/applications
 
+# minimize splash screen at boot
+sudo sed -i "s/GRUB_TIMEOUT=5/GRUB_TIMEOUT=3/" /etc/default/grub
+sudo sed -i "s/splash/unsplash loglevel=3/" /etc/default/grub
+sudo update-grub
+
 # other settings
 xdg-mime default gnome-disk-image-mounter.desktop application/x-cd-image
 
