@@ -48,14 +48,11 @@ for script in ./installers/*.sh; do source $script; done
 cp configs/bashrc ~/.bashrc
 cp configs/bash-aliases ~/.bash_aliases
 
-# upgrade
-sudo apt update -y
-sudo apt full-upgrade -y
-sudo apt dist-upgrade -y
+# cleanup
 sudo apt autoremove -y
 sudo apt autoclean -y
 
-# delete residual config files
+# more cleanup: delete residual config files
 dpkg -l | grep '^rc' | awk '{print $2}' | xargs sudo apt-get purge -y
 
 # reboot
