@@ -9,34 +9,14 @@
 # Note: Microsoft no longer provides the PowerPoint Viewer 2007 (v12.0.4518.1014) or any version anymore for download
 # Tested: Ubuntu Saucy/Trusty/Xenial/Bionic
 
+# install dependencies
+sudo apt install -y \
+    wget \
+	cabextract \
+	fontforge
+
 output_dir="/usr/share/fonts/truetype/vista"
 tmp_dir="/tmp/fonts-vista"
-
-if [[ $EUID -ne 0 ]]; then
-    echo -e "You must be a root user!\nTry: sudo ./ttf-vista-fonts-installer.sh" 2>&1
-    exit 1
-fi
-
-if ! which wget >/dev/null; then
-    echo "Error: wget is required to download the file"
-    echo "Run the following command to install it:"
-    echo "sudo apt-get install wget"
-    exit 1
-fi
-
-if ! which cabextract >/dev/null; then
-    echo "Error: cabextract is required to unpack the files"
-    echo "Run the following command to install it:"
-    echo "sudo apt-get install cabextract"
-    exit 1
-fi
-
-if ! which fontforge >/dev/null; then
-    echo "Error: fontforge is required to convert TTC files into TTF"
-    echo "Run the following command to install it:"
-    echo "sudo apt-get install fontforge"
-    exit 1
-fi
 
 file="$tmp_dir/PowerPointViewer.exe"
 mkdir -p "$tmp_dir"
@@ -112,3 +92,6 @@ if [ $err -ne 1 ]; then
 else
     echo -e "\nSome error occurred! Please try again!!\n"
 fi
+
+# not needed anymore
+sudo apt purge -y fontforge

@@ -11,11 +11,9 @@ sudo apt install -y \
 sudo apt install -y ./packages/ttf-ubuntu-font-family_0.80-0ubuntu6_all.deb
 
 # install microsoft fonts
-sudo apt install -y fontforge cabextract # dependencies
 sudo apt install -y ttf-mscorefonts-installer
 sudo bash packages/ttf-vista-fonts-installer.sh
 sudo bash packages/ttf-ms-tahoma-installer.sh
-sudo apt purge -y fontforge
 
 # load settings
 dconf load / < theme/theme-settings

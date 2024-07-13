@@ -5,27 +5,13 @@
 # Dependencies: wget and cabextract
 # Tested: Ubuntu Saucy/Trusty/Xenial
 
+# install dependencies
+sudo apt install -y \
+    wget \
+	cabextract 
+
 output_dir="/usr/share/fonts/truetype/msttcorefonts/"
 tmp_dir="/tmp/ttf-ms-tahoma-installer"
-
-if [[ $EUID -ne 0 ]]; then
-    echo -e "You must be a root user!\nTry: sudo ./ttf-ms-tahoma-installer.sh" 2>&1
-    exit 1
-fi
-
-if ! which wget >/dev/null; then
-    echo "Error: wget is required to download the file"
-    echo "Run the following command to install it:"
-    echo "sudo apt-get install wget"
-    exit 1
-fi
-
-if ! which cabextract >/dev/null; then
-    echo "Error: cabextract is required to unpack the files"
-    echo "Run the following command to install it:"
-    echo "sudo apt-get install cabextract"
-    exit 1
-fi
 
 file="$tmp_dir/IELPKTH.CAB"
 mkdir -p "$tmp_dir"
@@ -87,3 +73,6 @@ if [ $err -ne 1 ]; then
 else
     echo -e "\nSome error occurred! Please try again!!\n"
 fi
+
+# not needed anymore
+sudo apt purge -y fontforge
