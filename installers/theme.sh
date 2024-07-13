@@ -35,7 +35,7 @@ cp theme/index.theme ~/.themes/classic/index.theme
 # modify panel menus
 rm -r ~/.config/menus
 mkdir -p ~/.config/menus
-cp -r theme/panel-menus/* ~/.config/menus
+cp theme/mate-applications.menu ~/.config/menus
 
 # modify panel apps
 rm -r ~/.local/share/applications
