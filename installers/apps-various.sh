@@ -1,22 +1,5 @@
 # install apps from debian repository
 sudo apt install -y \
-  btop \
-  ncdu \
-  neofetch \
-  cpufetch \
-  lshw \
-  tldr \
-  bat \
-  speedtest-cli \
-  lsd \
-  fzf \
-  tmux \
-  podman \
-  lsb-release \
-  caja-admin \
-  caja-image-converter \
-  caja-open-terminal \
-  caja-rename \
   gdebi \
   mozo \
   blueman \
@@ -28,10 +11,14 @@ sudo apt install -y \
   webcamoid \
   gtkhash \
   timeshift \
+  cmatrix \
+  caja-admin \
+  caja-image-converter \
+  caja-open-terminal \
+  caja-rename \
   gnome-disk-utility \
   gnome-package-updater \
   gnome-clocks \
   gnome-screenshot \
   gnome-software \
-  gnome-software-plugin-flatpak \
-  cmatrix 
+  gnome-software-plugin-flatpak
