@@ -20,8 +20,7 @@ dconf load / < theme/theme-settings
 
 # wallpaper
 cp theme/wallpapers/* ~/Pictures
-hme=~
-dconf write /org/mate/desktop/background/picture-filename "'$hme/Pictures/beach-rocks.jpg'"
+dconf write /org/mate/desktop/background/picture-filename "'$HOME/Pictures/beach-rocks.jpg'"
 
 # desktop icons
 cp theme/desktop-icons/* ~/Desktop
