@@ -12,9 +12,6 @@ if [ "$distro" != "debian" ] || [ "$desktop" != "mate" ]; then
   exit 1
 fi
 
-# save copy of initial bashrc file
-cp ~/.bashrc ~/.bashrc-initial
-
 # enable all debian repositories
 sudo apt update -y
 sudo apt install -y software-properties-gtk
