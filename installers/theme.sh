@@ -40,6 +40,22 @@ rm -r ~/.local/share/applications
 mkdir -p ~/.local/share/applications
 cp -r theme/panel-apps/* ~/.local/share/applications
 
+# install panel applets
+sudo apt install -y \
+  ayatana-indicator-application \
+  ayatana-indicator-common \
+  ayatana-indicator-messages \
+  ayatana-indicator-notifications \
+  ayatana-indicator-power \
+  ayatana-indicator-printers \
+  ayatana-indicator-sound \
+  mate-indicator-applet \
+  mate-indicator-applet-common \
+  mate-dock-applet
+
+# fix for network monitor applet
+sudo sed -i "s/Exec=nm-applet/Exec=nm-applet --indicator/" /etc/xdg/autostart/nm-applet.desktop
+
 # minimize splash screen at boot
 sudo sed -i "s/GRUB_TIMEOUT=5/GRUB_TIMEOUT=3/" /etc/default/grub
 sudo sed -i "s/splash/unsplash loglevel=3/" /etc/default/grub
