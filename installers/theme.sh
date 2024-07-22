@@ -29,8 +29,8 @@ dconf write /org/mate/desktop/background/picture-filename "'/usr/share/backgroun
 cp theme/desktop-icons/* ~/Desktop
 
 # theme file
-mkdir -p ~/.themes/classic
-cp theme/index.theme ~/.themes/classic/index.theme
+sudo mkdir -p /usr/share/themes/Manas
+sudo cp theme/index.theme /usr/share/themes/Manas
 
 # modify panel menus
 rm -r ~/.config/menus
