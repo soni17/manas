@@ -11,5 +11,4 @@ sudo apt install -y \
   lsb-release \
   neofetch \
   cpufetch \
-  podman \
   lshw
