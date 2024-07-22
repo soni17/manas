@@ -17,7 +17,6 @@ sudo apt install -y \
   caja-open-terminal \
   caja-rename \
   gnome-disk-utility \
-  gnome-package-updater \
   gnome-clocks \
   gnome-screenshot \
   gnome-software \
