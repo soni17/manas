@@ -1,6 +1,6 @@
 # install icon-themes
-sudo apt install -y ./packages/humanity-icon-theme_0.6.16_all.deb
-sudo apt install -y ./packages/ubuntu-mono_14.04_all.deb
+sudo apt install -y ./theme/icon-themes/humanity-icon-theme_0.6.16_all.deb
+sudo apt install -y ./theme/icon-themes/ubuntu-mono_14.04_all.deb
 
 # install crosextra fonts
 sudo apt install -y \
@@ -8,17 +8,14 @@ sudo apt install -y \
   fonts-crosextra-carlito
 
 # install ubuntu fonts
-sudo apt install -y ./packages/ttf-ubuntu-font-family_0.80-0ubuntu6_all.deb
+sudo apt install -y ./theme/fonts/ttf-ubuntu-font-family_0.80-0ubuntu6_all.deb
 
 # install microsoft fonts
 sudo apt install -y ttf-mscorefonts-installer
-sudo bash packages/ttf-vista-fonts-installer.sh
-sudo bash packages/ttf-ms-tahoma-installer.sh
+sudo bash theme/fonts/ttf-vista-fonts-installer.sh
+sudo bash theme/fonts/ttf-ms-tahoma-installer.sh
 
-# load settings
-dconf load / < theme/theme-settings
-
-# wallpaper
+# wallpapers
 sudo rm -r /usr/share/backgrounds/*
 sudo cp theme/wallpapers/* /usr/share/backgrounds
 sudo rm -r /usr/share/mate-background-properties/*
@@ -27,10 +24,6 @@ dconf write /org/mate/desktop/background/picture-filename "'/usr/share/backgroun
 
 # desktop icons
 cp theme/desktop-icons/* ~/Desktop
-
-# theme file
-sudo mkdir -p /usr/share/themes/Manas
-sudo cp theme/index.theme /usr/share/themes/Manas
 
 # modify panel menus
 rm -r ~/.config/menus
@@ -58,6 +51,18 @@ sudo apt install -y \
 # fix for network monitor applet
 sudo sed -i "s/Exec=nm-applet/Exec=nm-applet --indicator/" /etc/xdg/autostart/nm-applet.desktop
 
+# load theme settings
+dconf load / < theme/theme-settings
+
+# theme file
+sudo mkdir -p /usr/share/themes/Manas
+sudo cp theme/index.theme /usr/share/themes/Manas
+
+# set screen temperature
+sudo apt install -y redshift
+mkdir -p ~/.config/autostart
+cp theme/redshift.desktop ~/.config/autostart
+
 # minimize splash screen at boot
 sudo sed -i "s/GRUB_TIMEOUT=5/GRUB_TIMEOUT=3/" /etc/default/grub
 sudo sed -i "s/splash/unsplash loglevel=3/" /etc/default/grub
@@ -65,8 +70,3 @@ sudo update-grub
 
 # other settings
 xdg-mime default gnome-disk-image-mounter.desktop application/x-cd-image
-
-# set screen temperature
-sudo apt install -y redshift
-mkdir -p ~/.config/autostart
-cp theme/redshift.desktop ~/.config/autostart
