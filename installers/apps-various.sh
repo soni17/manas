@@ -11,7 +11,6 @@ sudo apt install -y \
   webcamoid \
   gtkhash \
   timeshift \
-  cmatrix \
   gnome-disk-utility \
   gnome-clocks \
   gnome-screenshot \

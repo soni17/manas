@@ -11,4 +11,5 @@ sudo apt install -y \
   lsb-release \
   neofetch \
   cpufetch \
-  lshw
+  lshw \
+  cmatrix
