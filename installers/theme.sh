@@ -19,8 +19,11 @@ sudo bash packages/ttf-ms-tahoma-installer.sh
 dconf load / < theme/theme-settings
 
 # wallpaper
-cp theme/wallpapers/* ~/Pictures
-dconf write /org/mate/desktop/background/picture-filename "'$HOME/Pictures/beach-rocks.jpg'"
+sudo rm -r /usr/share/backgrounds/*
+sudo cp theme/wallpapers/* /usr/share/backgrounds
+sudo rm -r /usr/share/mate-background-properties/*
+sudo cp theme/backgrounds.xml /usr/share/mate-background-properties
+dconf write /org/mate/desktop/background/picture-filename "'/usr/share/backgrounds/beach-rocks.jpg'"
 
 # desktop icons
 cp theme/desktop-icons/* ~/Desktop
