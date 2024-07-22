@@ -63,6 +63,13 @@ sudo apt install -y redshift
 mkdir -p ~/.config/autostart
 cp theme/redshift.desktop ~/.config/autostart
 
+# install caja extensions
+sudo apt install -y \
+  caja-admin \
+  caja-image-converter \
+  caja-open-terminal \
+  caja-rename
+
 # minimize splash screen at boot
 sudo sed -i "s/GRUB_TIMEOUT=5/GRUB_TIMEOUT=3/" /etc/default/grub
 sudo sed -i "s/splash/unsplash loglevel=3/" /etc/default/grub

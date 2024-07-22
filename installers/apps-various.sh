@@ -12,10 +12,6 @@ sudo apt install -y \
   gtkhash \
   timeshift \
   cmatrix \
-  caja-admin \
-  caja-image-converter \
-  caja-open-terminal \
-  caja-rename \
   gnome-disk-utility \
   gnome-clocks \
   gnome-screenshot \
