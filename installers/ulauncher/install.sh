@@ -9,8 +9,8 @@ rm ulauncher*
 
 # config file
 mkdir -p ~/.config/ulauncher
-cp configs/ulauncher.json ~/.config/ulauncher/settings.json
+cp installers/ulauncher/settings.json ~/.config/ulauncher
 
 # autostart
 mkdir -p ~/.config/autostart/
-cp configs/ulauncher.desktop ~/.config/autostart
+cp installers/ulauncher/ulauncher.desktop ~/.config/autostart
