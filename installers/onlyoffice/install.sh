@@ -14,4 +14,4 @@ sudo apt install -y onlyoffice-desktopeditors
 
 # config file
 mkdir -p ~/.config/onlyoffice
-cp configs/onlyoffice.conf ~/.config/onlyoffice/DesktopEditors.conf
+cp installers/onlyoffice/DesktopEditors.conf ~/.config/onlyoffice
