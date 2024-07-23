@@ -17,8 +17,7 @@ bash run-commands/uninstall-bloat.sh
 bash run-commands/dependencies.sh
 
 # run installers
-for script in ./installers/*.sh; do source $script; done
-for script in ./installers/*/*.sh; do source $script; done
+bash run-commands/run-installers.sh
 
 # update bashrc file
 bash run-commands/update-bashrc.sh
