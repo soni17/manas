@@ -26,4 +26,4 @@ sudo apt install -y librewolf
 
 # config file
 mkdir -p ~/.librewolf
-cp configs/librewolf.overrides.cfg ~/.librewolf
+cp installers/librewolf/librewolf.overrides.cfg ~/.librewolf
