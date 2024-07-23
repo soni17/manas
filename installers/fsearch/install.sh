@@ -10,4 +10,4 @@ sudo apt install -y fsearch
 
 # config file
 mkdir -p ~/.config/fsearch
-cp configs/fsearch.conf ~/.config/fsearch
+cp installers/fsearch/fsearch.conf ~/.config/fsearch
