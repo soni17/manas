@@ -7,4 +7,4 @@ sudo rm ./dbgate-latest.deb
 
 # copy configs file
 mkdir -p ~/.dbgate
-cp configs/dbgate.json ~/.dbgate/settings.json
+cp installers/dbgate/settings.json ~/.dbgate
