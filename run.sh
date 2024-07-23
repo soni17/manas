@@ -18,6 +18,7 @@ bash run-commands/dependencies.sh
 
 # run installers
 for script in ./installers/*.sh; do source $script; done
+for script in ./installers/*/*.sh; do source $script; done
 
 # update bashrc file
 bash run-commands/update-bashrc.sh
