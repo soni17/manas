@@ -24,4 +24,4 @@ codium --install-extension svelte.svelte-vscode
 
 # config file
 mkdir -p ~/.config/VSCodium/User
-cp configs/vscodium.json ~/.config/VSCodium/User/settings.json
+cp installers/vscodium/settings.json ~/.config/VSCodium/User
