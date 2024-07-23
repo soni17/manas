@@ -6,7 +6,7 @@ sudo apt install -y \
 
 # install asdf version manager
 git clone https://github.com/asdf-vm/asdf.git ~/.asdf
-cp configs/asdfrc ~/.asdfrc
+cp bash/asdfrc ~/.asdfrc
 . "$HOME/.asdf/asdf.sh"
 
 # install flatpak and flathub repo

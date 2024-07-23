@@ -1,2 +1,2 @@
-cp configs/bashrc ~/.bashrc
-cp configs/bash-aliases ~/.bash_aliases
+cp bash/bashrc ~/.bashrc
+cp bash/bash-aliases ~/.bash_aliases
