@@ -14,13 +14,13 @@ codium --install-extension janicweber.soft-grey-theme
 codium --install-extension file-icons.file-icons
 codium --install-extension esbenp.prettier-vscode
 codium --install-extension formulahendry.auto-rename-tag
-codium --install-extension jeanp413.open-remote-ssh
-codium --install-extension arturock.gitstash
-codium --install-extension mbessey.vscode-rufo
-codium --install-extension ritwickdey.liveserver
 codium --install-extension vortizhe.simple-ruby-erb
-codium --install-extension zaaack.markdown-editor
+codium --install-extension mbessey.vscode-rufo
 codium --install-extension svelte.svelte-vscode
+codium --install-extension zaaack.markdown-editor
+codium --install-extension jeanp413.open-remote-ssh
+codium --install-extension ritwickdey.liveserver
+codium --install-extension arturock.gitstash
 
 # config file
 mkdir -p ~/.config/VSCodium/User
