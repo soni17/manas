@@ -16,7 +16,6 @@ codium --install-extension esbenp.prettier-vscode
 codium --install-extension formulahendry.auto-rename-tag
 codium --install-extension jeanp413.open-remote-ssh
 codium --install-extension mbessey.vscode-rufo
-codium --install-extension ms-azuretools.vscode-docker
 codium --install-extension ritwickdey.liveserver
 codium --install-extension vortizhe.simple-ruby-erb
 codium --install-extension zaaack.markdown-editor
