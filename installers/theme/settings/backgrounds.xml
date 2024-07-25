@@ -11,17 +11,8 @@
     <artist>(none)</artist>
   </wallpaper>
   <wallpaper deleted="false">
-    <name>os-x-yosemite.jpg</name>
-    <filename>/usr/share/backgrounds/os-x-yosemite.jpg</filename>
-    <options>zoom</options>
-    <shade_type>vertical-gradient</shade_type>
-    <pcolor>rgb(88,145,188)</pcolor>
-    <scolor>rgb(60,143,37)</scolor>
-    <artist>(none)</artist>
-  </wallpaper>
-  <wallpaper deleted="false">
-    <name>artwork-blue.jpg</name>
-    <filename>/usr/share/backgrounds/artwork-blue.jpg</filename>
+    <name>mount-fuji.png</name>
+    <filename>/usr/share/backgrounds/mount-fuji.png</filename>
     <options>zoom</options>
     <shade_type>vertical-gradient</shade_type>
     <pcolor>rgb(88,145,188)</pcolor>
@@ -38,6 +29,15 @@
     <artist>(none)</artist>
   </wallpaper>
   <wallpaper deleted="false">
+    <name>os-x-yosemite.jpg</name>
+    <filename>/usr/share/backgrounds/os-x-yosemite.jpg</filename>
+    <options>zoom</options>
+    <shade_type>vertical-gradient</shade_type>
+    <pcolor>rgb(88,145,188)</pcolor>
+    <scolor>rgb(60,143,37)</scolor>
+    <artist>(none)</artist>
+  </wallpaper>
+  <wallpaper deleted="false">
     <name>desert.jpg</name>
     <filename>/usr/share/backgrounds/desert.jpg</filename>
     <options>zoom</options>
@@ -47,8 +47,8 @@
     <artist>(none)</artist>
   </wallpaper>
   <wallpaper deleted="false">
-    <name>sunset.jpg</name>
-    <filename>/usr/share/backgrounds/sunset.jpg</filename>
+    <name>artwork-blue.jpg</name>
+    <filename>/usr/share/backgrounds/artwork-blue.jpg</filename>
     <options>zoom</options>
     <shade_type>vertical-gradient</shade_type>
     <pcolor>rgb(88,145,188)</pcolor>
@@ -85,15 +85,15 @@
   <wallpaper deleted="false">
     <name>No Desktop Background</name>
     <filename>(none)</filename>
-    <options>wallpaper</options>
+    <options>zoom</options>
     <shade_type>vertical-gradient</shade_type>
-    <pcolor>rgb(39,88,126)</pcolor>
-    <scolor>rgb(98,127,90)</scolor>
+    <pcolor>rgb(88,145,188)</pcolor>
+    <scolor>rgb(60,143,37)</scolor>
     <artist>(none)</artist>
   </wallpaper>
   <wallpaper deleted="false">
-    <name>mountains.jpg</name>
-    <filename>/usr/share/backgrounds/mountains.jpg</filename>
+    <name>artwork-purple.jpg</name>
+    <filename>/usr/share/backgrounds/artwork-purple.jpg</filename>
     <options>zoom</options>
     <shade_type>vertical-gradient</shade_type>
     <pcolor>rgb(88,145,188)</pcolor>
@@ -110,8 +110,17 @@
     <artist>(none)</artist>
   </wallpaper>
   <wallpaper deleted="false">
-    <name>artwork-purple.jpg</name>
-    <filename>/usr/share/backgrounds/artwork-purple.jpg</filename>
+    <name>mountains.jpg</name>
+    <filename>/usr/share/backgrounds/mountains.jpg</filename>
+    <options>zoom</options>
+    <shade_type>vertical-gradient</shade_type>
+    <pcolor>rgb(88,145,188)</pcolor>
+    <scolor>rgb(60,143,37)</scolor>
+    <artist>(none)</artist>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>sunset.jpg</name>
+    <filename>/usr/share/backgrounds/sunset.jpg</filename>
     <options>zoom</options>
     <shade_type>vertical-gradient</shade_type>
     <pcolor>rgb(88,145,188)</pcolor>
