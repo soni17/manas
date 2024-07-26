@@ -10,7 +10,6 @@
 		<Exclude>
 			<Filename>display-im6.q16.desktop</Filename>
 		</Exclude>
-		<AppDir>/home/une/.local/share/applications</AppDir>
 		<Layout>
 			<Merge type="menus"/>
 			<Filename>eom.desktop</Filename>
@@ -27,7 +26,6 @@
 		<Exclude>
 			<Filename>io.freetubeapp.FreeTube.desktop</Filename>
 		</Exclude>
-		<AppDir>/home/une/.local/share/applications</AppDir>
 		<Layout>
 			<Merge type="menus"/>
 			<Filename>chromium.desktop</Filename>
@@ -87,7 +85,6 @@
 		<Exclude>
 			<Filename>mate-volume-control.desktop</Filename>
 		</Exclude>
-		<AppDir>/home/une/.local/share/applications</AppDir>
 	</Menu>
 	<Menu>
 		<Name>System</Name>
@@ -103,7 +100,6 @@
 		<Exclude>
 			<Filename>caja-browser.desktop</Filename>
 		</Exclude>
-		<AppDir>/home/une/.local/share/applications</AppDir>
 		<Layout>
 			<Merge type="menus"/>
 			<Filename>gdebi.desktop</Filename>
@@ -161,7 +157,6 @@
 		<Exclude>
 			<Filename>io.freetubeapp.FreeTube.desktop</Filename>
 		</Exclude>
-		<AppDir>/home/une/.local/share/applications</AppDir>
 		<Layout>
 			<Merge type="menus"/>
 			<Filename>pluma.desktop</Filename>
