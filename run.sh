@@ -13,9 +13,6 @@ bash run-commands/upgrade-os.sh
 # uninstall bloat
 bash run-commands/uninstall-bloat.sh
 
-# update bashrc file
-bash run-commands/update-bashrc.sh
-
 # install dependencies for installers
 bash run-commands/dependencies.sh
 
