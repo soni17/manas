@@ -14,8 +14,6 @@ sudo apt install -y \
   gnome-disk-utility \
   gnome-clocks \
   gnome-screenshot \
-  gnome-software \
-  gnome-software-plugin-flatpak
 
 # install apps from flathub repository
 flatpak install flathub --assumeyes --system org.gnome.SimpleScan
