@@ -20,4 +20,3 @@ flatpak install flathub --assumeyes --system org.gnome.SimpleScan
 flatpak install flathub --assumeyes --system br.eng.silas.qpdftools
 flatpak install flathub --assumeyes --system com.jgraph.drawio.desktop
 flatpak install flathub --assumeyes --system org.localsend.localsend_app
-flatpak install flathub --assumeyes --system io.github.shiftey.Desktop
