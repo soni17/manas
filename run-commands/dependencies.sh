@@ -1,4 +1,5 @@
 sudo apt install -y \
+  git \
   wget \
   curl \
   dconf-cli

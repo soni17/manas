@@ -7,7 +7,6 @@ sudo apt install -y \
   ncdu \
   fzf \
   tmux \
-  git \
   speedtest-cli \
   lsb-release \
   neofetch \
