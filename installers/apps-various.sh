@@ -13,10 +13,4 @@ sudo apt install -y \
   timeshift \
   gnome-disk-utility \
   gnome-clocks \
-  gnome-screenshot \
-
-# install apps from flathub repository
-flatpak install flathub --assumeyes --system org.gnome.SimpleScan
-flatpak install flathub --assumeyes --system br.eng.silas.qpdftools
-flatpak install flathub --assumeyes --system com.jgraph.drawio.desktop
-flatpak install flathub --assumeyes --system org.localsend.localsend_app
+  gnome-screenshot
