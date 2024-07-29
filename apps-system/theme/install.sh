@@ -35,22 +35,6 @@ rm -r ~/.local/share/applications
 mkdir -p ~/.local/share/applications
 cp -r apps-system/theme/panel-apps/* ~/.local/share/applications
 
-# install panel applets
-sudo apt install -y \
-  ayatana-indicator-application \
-  ayatana-indicator-common \
-  ayatana-indicator-messages \
-  ayatana-indicator-notifications \
-  ayatana-indicator-power \
-  ayatana-indicator-printers \
-  ayatana-indicator-sound \
-  mate-indicator-applet \
-  mate-indicator-applet-common \
-  mate-dock-applet
-
-# fix for network monitor applet
-sudo sed -i "s/Exec=nm-applet/Exec=nm-applet --indicator/" /etc/xdg/autostart/nm-applet.desktop
-
 # load theme settings
 dconf load / < apps-system/theme/settings/theme-settings
 
