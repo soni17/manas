@@ -14,7 +14,7 @@ bash run-commands/upgrade-os.sh
 bash run-commands/uninstall-bloat.sh
 
 # install dependencies for installers
-bash run-commands/dependencies.sh
+bash run-commands/install-dependencies.sh
 
 # run installers
 bash run-commands/run-installers.sh
