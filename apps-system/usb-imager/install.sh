@@ -7,4 +7,4 @@ sudo apt install -y ./usbimager_1.0.10-amd64.deb
 rm usbimager_1.0.10-amd64.deb
 
 # panel icon
-cp installers/usb-imager/usbimager.desktop ~/.local/share/applications
+cp apps-system/usb-imager/usbimager.desktop ~/.local/share/applications

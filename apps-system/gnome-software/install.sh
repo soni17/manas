@@ -3,4 +3,4 @@ sudo apt install -y \
   gnome-software-plugin-flatpak
 
 # panel icon
-cp installers/gnome-software/org.gnome.Software* ~/.local/share/applications
+cp apps-system/gnome-software/org.gnome.Software* ~/.local/share/applications

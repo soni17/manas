@@ -5,4 +5,4 @@ flatpak install flathub --assumeyes --system com.usebottles.bottles
 flatpak override com.usebottles.bottles --user --filesystem=xdg-data/applications
 
 # panel icon
-cp installers/bottles/com.usebottles.bottles* ~/.local/share/applications
+cp apps-system/bottles/com.usebottles.bottles* ~/.local/share/applications

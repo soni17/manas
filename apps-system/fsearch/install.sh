@@ -10,7 +10,7 @@ sudo apt install -y fsearch
 
 # config file
 mkdir -p ~/.config/fsearch
-cp installers/fsearch/fsearch.conf ~/.config/fsearch
+cp apps-system/fsearch/fsearch.conf ~/.config/fsearch
 
 # panel icon
-cp installers/fsearch/io.github.cboxdoerfer.FSearch* ~/.local/share/applications
+cp apps-system/fsearch/io.github.cboxdoerfer.FSearch* ~/.local/share/applications

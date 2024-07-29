@@ -24,4 +24,4 @@ codium --install-extension arturock.gitstash
 
 # config file
 mkdir -p ~/.config/VSCodium/User
-cp installers/vscodium/settings.json ~/.config/VSCodium/User
+cp apps-development/vscodium/settings.json ~/.config/VSCodium/User

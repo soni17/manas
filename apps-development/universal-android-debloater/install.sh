@@ -4,4 +4,4 @@
 sudo apt install -y adb
 
 # install universal android debloater ng
-sudo apt install -y ./installers/universal-android-debloater/universal-android-debloater-ng-amd64-1.0.3.deb
+sudo apt install -y ./apps-development/universal-android-debloater/universal-android-debloater-ng-amd64-1.0.3.deb
