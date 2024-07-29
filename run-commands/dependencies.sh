@@ -1,8 +1,6 @@
 sudo apt install -y \
   git \
-  wget \
-  curl \
-  dconf-cli
+  wget
 
 # install asdf version manager
 git clone https://github.com/asdf-vm/asdf.git ~/.asdf
