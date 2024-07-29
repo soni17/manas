@@ -47,13 +47,6 @@ sudo apt install -y redshift
 mkdir -p ~/.config/autostart
 cp apps-system/theme/settings/redshift.desktop ~/.config/autostart
 
-# install caja extensions
-sudo apt install -y \
-  caja-admin \
-  caja-image-converter \
-  caja-open-terminal \
-  caja-rename
-
 # disable recent documents in menu
 rm ~/.local/share/recently-used*
 mkdir -p ~/.local/share/recently-used.xbel
