@@ -1,18 +1,11 @@
-[desktop/ibus/general]
-preload-engines=['xkb:us::eng']
-version='1.5.27'
-
-[org/ayatana/indicator/notifications]
-filter-list-hints=['', 'ulauncher']
-
-[org/ayatana/indicator/sound]
-interested-media-players=['vlc.desktop']
-
 [org/blueman/general]
 window-properties=[578, 393, 3028, 502]
 
 [org/blueman/plugins/powermanager]
 auto-power-on=@mb false
+
+[org/gtk/settings/file-chooser]
+show-hidden=true
 
 [org/mate/caja/desktop]
 font='Ubuntu 11'
@@ -28,37 +21,9 @@ start-with-sidebar=true
 start-with-status-bar=true
 start-with-toolbar=true
 
-[org/mate/calc]
-button-mode='basic'
-show-history=false
-source-units='degree'
-target-units='radian'
-
-[org/mate/desktop/accessibility/keyboard]
-bouncekeys-beep-reject=true
-bouncekeys-delay=300
-bouncekeys-enable=false
-enable=false
-feature-state-change-beep=false
-mousekeys-accel-time=1200
-mousekeys-enable=false
-mousekeys-init-delay=160
-mousekeys-max-speed=750
-slowkeys-beep-accept=true
-slowkeys-beep-press=true
-slowkeys-beep-reject=false
-slowkeys-delay=300
-slowkeys-enable=false
-stickykeys-enable=false
-stickykeys-latch-to-lock=true
-stickykeys-modifier-beep=true
-stickykeys-two-key-off=true
-timeout=120
-timeout-enable=false
-togglekeys-enable=false
-
 [org/mate/desktop/background]
 color-shading-type='vertical-gradient'
+picture-filename='/usr/share/backgrounds/beach-rocks.jpg'
 picture-options='zoom'
 primary-color='rgb(88,145,188)'
 secondary-color='rgb(60,143,37)'
@@ -69,9 +34,6 @@ font-name='Ubuntu 11'
 gtk-theme='TraditionalOk'
 icon-theme='ubuntu-mono-light'
 monospace-font-name='Ubuntu Mono 13'
-
-[org/mate/desktop/session]
-session-start=1718436428
 
 [org/mate/marco/general]
 compositing-manager=true

@@ -15,14 +15,13 @@ sudo apt install -y ttf-mscorefonts-installer
 sudo bash apps-system/theme/fonts/ttf-vista-fonts-installer.sh
 sudo bash apps-system/theme/fonts/ttf-ms-tahoma-installer.sh
 
-# wallpapers
+# copy wallpapers
 sudo rm -r /usr/share/backgrounds/*
 sudo cp apps-system/theme/wallpapers/* /usr/share/backgrounds
 sudo rm -r /usr/share/mate-background-properties/*
 sudo cp apps-system/theme/settings/backgrounds.xml /usr/share/mate-background-properties
-dconf write /org/mate/desktop/background/picture-filename "'/usr/share/backgrounds/beach-rocks.jpg'"
 
-# desktop icons
+# copy desktop icons
 cp apps-system/theme/desktop-icons/* ~/Desktop
 
 # modify panel menus
@@ -38,7 +37,7 @@ cp -r apps-system/theme/panel-apps/* ~/.local/share/applications
 # load theme settings
 dconf load / < apps-system/theme/settings/theme-settings
 
-# theme file
+# add theme file
 sudo mkdir -p /usr/share/themes/Manas
 sudo cp apps-system/theme/settings/index.theme /usr/share/themes/Manas
 
