@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <!DOCTYPE Menu
   PUBLIC '-//freedesktop//DTD Menu 1.0//EN'
-  'http://standards.freedesktop.org/menu-spec/menu-1.0.dtd'>
+  'http://standards.freedesktop.org/menu-spec/menu.0.dtd'>
 <Menu>
 	<Name>Applications</Name>
 	<MergeFile type="parent">/etc/xdg/menus/mate-applications.menu</MergeFile>
@@ -68,7 +68,7 @@
 	<Menu>
 		<Name>Multimedia</Name>
 		<Include>
-			<Filename>io.github.aandrew_me.ytdn-1.desktop</Filename>
+			<Filename>io.github.aandrew_me.ytdn.desktop</Filename>
 		</Include>
 		<Layout>
 			<Merge type="menus"/>
@@ -77,7 +77,7 @@
 			<Filename>webcamoid.desktop</Filename>
 			<Filename>org.shotcut.Shotcut.desktop</Filename>
 			<Filename>io.freetubeapp.FreeTube.desktop</Filename>
-			<Filename>io.github.aandrew_me.ytdn-1.desktop</Filename>
+			<Filename>io.github.aandrew_me.ytdn.desktop</Filename>
 			<Filename>mate-volume-control.desktop</Filename>
 			<Filename>org.gnome.Rhythmbox3.device.desktop</Filename>
 			<Merge type="files"/>
@@ -89,13 +89,13 @@
 	<Menu>
 		<Name>System</Name>
 		<Include>
-			<Filename>engrampa-1.desktop</Filename>
+			<Filename>engrampa.desktop</Filename>
 		</Include>
 		<Include>
-			<Filename>org.gnome.DiskUtility-1.desktop</Filename>
+			<Filename>org.gnome.DiskUtility.desktop</Filename>
 		</Include>
 		<Include>
-			<Filename>com.usebottles.bottles-1.desktop</Filename>
+			<Filename>com.usebottles.bottles.desktop</Filename>
 		</Include>
 		<Exclude>
 			<Filename>caja-browser.desktop</Filename>
@@ -103,12 +103,12 @@
 		<Layout>
 			<Merge type="menus"/>
 			<Filename>gdebi.desktop</Filename>
-			<Filename>engrampa-1.desktop</Filename>
-			<Filename>org.gnome.DiskUtility-1.desktop</Filename>
+			<Filename>engrampa.desktop</Filename>
+			<Filename>org.gnome.DiskUtility.desktop</Filename>
 			<Filename>usbimager.desktop</Filename>
 			<Filename>timeshift-gtk.desktop</Filename>
 			<Filename>org.gnome.PackageUpdater.desktop</Filename>
-			<Filename>com.usebottles.bottles-1.desktop</Filename>
+			<Filename>com.usebottles.bottles.desktop</Filename>
 			<Filename>mate-system-monitor.desktop</Filename>
 			<Filename>mate-power-statistics.desktop</Filename>
 			<Filename>btop.desktop</Filename>
@@ -125,13 +125,13 @@
 		</Layout>
 	</Menu>
 	<Include>
-		<Filename>mate-terminal-1.desktop</Filename>
+		<Filename>mate-terminal.desktop</Filename>
 	</Include>
 	<Include>
-		<Filename>org.gnome.Software-1.desktop</Filename>
+		<Filename>org.gnome.Software.desktop</Filename>
 	</Include>
 	<Include>
-		<Filename>io.github.cboxdoerfer.FSearch-1.desktop</Filename>
+		<Filename>io.github.cboxdoerfer.FSearch.desktop</Filename>
 	</Include>
 	<Layout>
 		<Merge type="menus"/>
@@ -147,9 +147,9 @@
 		<Menuname>Multimedia</Menuname>
 		<Menuname>System</Menuname>
 		<Menuname>Universal Access</Menuname>
-		<Filename>org.gnome.Software-1.desktop</Filename>
-		<Filename>io.github.cboxdoerfer.FSearch-1.desktop</Filename>
-		<Filename>mate-terminal-1.desktop</Filename>
+		<Filename>org.gnome.Software.desktop</Filename>
+		<Filename>io.github.cboxdoerfer.FSearch.desktop</Filename>
+		<Filename>mate-terminal.desktop</Filename>
 		<Merge type="files"/>
 	</Layout>
 	<Menu>

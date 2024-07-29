@@ -30,9 +30,9 @@ mkdir -p ~/.config/menus
 cp apps-system/theme/settings/mate-applications.menu ~/.config/menus
 
 # modify panel apps
-rm -r ~/.local/share/applications
 mkdir -p ~/.local/share/applications
-cp -r apps-system/theme/panel-apps/* ~/.local/share/applications
+cp -r apps-system/theme/settings/engrampa.desktop ~/.local/share/applications
+cp -r apps-system/theme/settings/mate-terminal.desktop ~/.local/share/applications
 
 # load theme settings
 dconf load / < apps-system/theme/settings/theme-settings
