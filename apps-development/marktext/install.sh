@@ -1,6 +1,6 @@
 # https://github.com/marktext/marktext
 
-flatpak install flathub --assumeyes --system com.github.marktext.marktext
+flatpak install flathub -y --system com.github.marktext.marktext
 
 # settings
 mkdir -p ~/.var/app/com.github.marktext.marktext/config/marktext

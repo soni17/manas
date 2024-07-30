@@ -1,3 +1,3 @@
 # https://github.com/shiftkey/desktop
 
-flatpak install flathub --assumeyes --system io.github.shiftey.Desktop
+flatpak install flathub -y --system io.github.shiftey.Desktop

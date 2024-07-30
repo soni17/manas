@@ -4,7 +4,7 @@
 sudo apt install -y podman
 
 # install podman desktop
-flatpak install flathub --assumeyes --system io.podman_desktop.PodmanDesktop
+flatpak install flathub -y --system io.podman_desktop.PodmanDesktop
 
 # config file
 mkdir -p ~/.local/share/containers/podman-desktop/configuration
