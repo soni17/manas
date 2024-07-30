@@ -1,10 +1,5 @@
 # https://docs.docker.com/engine/install/debian/
 
-# install dependencies
-sudo apt install -y \
-  ca-certificates \
-  curl
-
 # add Docker's official GPG key
 sudo install -m 0755 -d /etc/apt/keyrings
 sudo curl -fsSL https://download.docker.com/linux/debian/gpg -o /etc/apt/keyrings/docker.asc
@@ -25,5 +20,5 @@ sudo apt install -y \
   docker-buildx-plugin \
   docker-compose-plugin
 
-# run docker command without sudo
-sudo usermod -aG docker ${USER}
+# run docker command without sudo (by adding user to docker group)
+sudo usermod -aG docker $USER
