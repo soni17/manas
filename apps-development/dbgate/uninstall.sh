@@ -1,3 +1,3 @@
-sudo apt purge -y dbgate
+sudo apt purge -y --autoremove dbgate
 
 sudo rm -rf ~/.dbgate

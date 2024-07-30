@@ -1,1 +1,1 @@
-flatpak uninstall --noninteractive --delete-data com.github.PintaProject.Pinta
+flatpak uninstall -y --delete-data com.github.PintaProject.Pinta

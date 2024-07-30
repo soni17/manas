@@ -1,1 +1,1 @@
-flatpak uninstall --noninteractive --delete-data com.github.marktext.marktext
+flatpak uninstall -y --delete-data com.github.marktext.marktext

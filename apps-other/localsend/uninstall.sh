@@ -1,1 +1,1 @@
-flatpak uninstall --noninteractive --delete-data org.localsend.localsend_app
+flatpak uninstall -y --delete-data org.localsend.localsend_app

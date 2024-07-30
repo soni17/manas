@@ -1,1 +1,1 @@
-flatpak uninstall --noninteractive --delete-data com.usebottles.bottles
+flatpak uninstall -y --delete-data com.usebottles.bottles

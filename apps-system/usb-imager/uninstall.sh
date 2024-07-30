@@ -1,1 +1,1 @@
-sudo apt purge -y usbimager
+sudo apt purge -y --autoremove usbimager

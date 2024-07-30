@@ -1,4 +1,4 @@
-sudo apt purge -y fsearch
+sudo apt purge -y --autoremove fsearch
 
 sudo rm -r ~/.config/fsearch
 

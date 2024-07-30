@@ -1,1 +1,1 @@
-flatpak uninstall --noninteractive --delete-data br.eng.silas.qpdftools
+flatpak uninstall -y --delete-data br.eng.silas.qpdftools

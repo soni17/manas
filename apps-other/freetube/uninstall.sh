@@ -1,1 +1,1 @@
-flatpak uninstall --noninteractive --delete-data io.freetubeapp.FreeTube
+flatpak uninstall -y --delete-data io.freetubeapp.FreeTube

@@ -1,1 +1,1 @@
-flatpak uninstall --noninteractive --delete-data org.gnome.SimpleScan
+flatpak uninstall -y --delete-data org.gnome.SimpleScan
