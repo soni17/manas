@@ -2,11 +2,9 @@
 
 # dependencies
 sudo apt install -y \
-  wget \
   gnupg \
   lsb-release \
-  apt-transport-https \
-  ca-certificates
+  apt-transport-https
 
 # add repository
 distro=$(if echo " una bookworm vanessa focal jammy bullseye vera uma " | grep -q " $(lsb_release -sc) "; then lsb_release -sc; else echo focal; fi)
