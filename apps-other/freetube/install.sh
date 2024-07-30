@@ -1,3 +1,5 @@
+# https://github.com/FreeTubeApp/FreeTube
+
 # install freetube
 flatpak install flathub --assumeyes --system io.freetubeapp.FreeTube
 

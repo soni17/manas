@@ -1,3 +1,4 @@
+# https://github.com/cboxdoerfer/fsearch
 # https://software.opensuse.org//download.html?project=home%3Acboxdoerfer&package=fsearch#manualDebian
 
 # add repository

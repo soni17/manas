@@ -1,3 +1,5 @@
+# https://github.com/marktext/marktext
+
 flatpak install flathub --assumeyes --system com.github.marktext.marktext
 
 # settings

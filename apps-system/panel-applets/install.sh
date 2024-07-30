@@ -1,3 +1,5 @@
+# https://github.com/AyatanaIndicators
+
 sudo apt install -y \
   ayatana-indicator-application \
   ayatana-indicator-common \

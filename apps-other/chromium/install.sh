@@ -1,3 +1,5 @@
+# https://www.chromium.org/Home/
+
 sudo apt install -y chromium
 
 # set as default browser

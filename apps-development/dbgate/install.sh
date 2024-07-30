@@ -1,4 +1,4 @@
-#https://dbgate.org/download/
+# https://dbgate.org/download/
 
 # download and install
 wget https://github.com/dbgate/dbgate/releases/latest/download/dbgate-latest.deb

@@ -1,3 +1,5 @@
+# https://www.pinta-project.com/releases/
+
 flatpak install flathub --assumeyes --system com.github.PintaProject.Pinta
 
 # settings file

@@ -1,3 +1,6 @@
+# https://www.python.org/
+# https://github.com/asdf-community/asdf-python
+
 # install python build dependencies
 sudo apt install -y \
   build-essential \

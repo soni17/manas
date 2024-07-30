@@ -1,3 +1,6 @@
+# https://www.ruby-lang.org/
+# https://github.com/asdf-vm/asdf-ruby
+
 # install ruby build dependencies 
 sudo apt install -y \
   autoconf \

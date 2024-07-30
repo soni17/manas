@@ -1,3 +1,5 @@
+# https://github.com/bottlesdevs/Bottles
+
 # install bottles
 flatpak install flathub --assumeyes --system com.usebottles.bottles
 
