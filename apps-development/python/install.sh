@@ -18,6 +18,7 @@ sudo apt install -y \
 asdf plugin add python
 asdf install python latest
 asdf global python latest
+pip install --upgrade pip
 
 # install Django
 python -m pip install Django
