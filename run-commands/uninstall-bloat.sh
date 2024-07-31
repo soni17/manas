@@ -11,7 +11,6 @@ sudo apt purge -y \
   mlterm-tiny \
   xterm \
   xiterm+thai \
-  mysql-common \
   orca \
   mate-applet-brisk-menu \
   mate-applets \

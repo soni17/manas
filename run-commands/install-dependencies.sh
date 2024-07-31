@@ -1,7 +1,9 @@
 sudo apt install -y \
   git \
   wget \
-  ca-certificates
+  curl \
+  ca-certificates \
+  dconf-cli
 
 # install asdf version manager
 git clone https://github.com/asdf-vm/asdf.git ~/.asdf

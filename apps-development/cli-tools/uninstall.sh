@@ -6,6 +6,7 @@ sudo apt purge -y --autoremove \
   ncdu \
   fzf \
   tmux \
+  git \
   speedtest-cli \
   lsb-release \
   neofetch \
