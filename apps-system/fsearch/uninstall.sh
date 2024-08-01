@@ -1,7 +1,12 @@
-sudo apt purge -y --autoremove fsearch
+# uninstall only if it's already installed
+if apt search fsearch | grep installed &> /dev/null
+then
+  sudo apt purge -y --autoremove fsearch
+fi
 
-sudo rm -r ~/.config/fsearch
+# delete configs
+sudo rm -rf ~/.config/fsearch
 
-sudo rm /etc/apt/trusted.gpg.d/home_cboxdoerfer.gpg
-
-sudo rm /etc/apt/sources.list.d/home:cboxdoerfer.list
+# remove repository
+sudo rm -f /etc/apt/trusted.gpg.d/home_cboxdoerfer.gpg
+sudo rm -f /etc/apt/sources.list.d/home:cboxdoerfer.list

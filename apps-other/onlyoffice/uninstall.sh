@@ -1,7 +1,12 @@
-sudo apt purge -y --autoremove onlyoffice-desktopeditors
+# uninstall only if it's already installed
+if apt search onlyoffice-desktopeditors | grep installed &> /dev/null
+then
+  sudo apt purge -y --autoremove onlyoffice-desktopeditors
+fi
 
-sudo rm -r ~/.config/onlyoffice
+# delete configs
+sudo rm -rf ~/.config/onlyoffice
 
-sudo rm /etc/apt/sources.list.d/onlyoffice.list
-
-sudo rm /usr/share/keyrings/onlyoffice.gpg
+# remove repository
+sudo rm -f /etc/apt/sources.list.d/onlyoffice.list
+sudo rm -f /usr/share/keyrings/onlyoffice.gpg
