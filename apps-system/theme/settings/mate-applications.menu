@@ -83,7 +83,7 @@
 			<Filename>dbgate.desktop</Filename>
 			<Filename>io.github.shiftey.Desktop.desktop</Filename>
 			<Filename>io.podman_desktop.PodmanDesktop.desktop</Filename>
-			<Filename>Android Debloater ng.desktop</Filename>
+			<Filename>universal-android-debloater-ng.desktop</Filename>
 			<Filename>python3.11.desktop</Filename>
 			<Filename>codium-url-handler.desktop</Filename>
 			<Merge type="files"/>
