@@ -1,3 +1,15 @@
+ascii_art='
+ __  __                       
+|  \/  | ____ ____   ____ ___ 
+| |\/| |/ _  |  _ \ / _  / __|
+| |  | | (_| | | | | (_| \__ \
+|_|  |_|\____|_| |_|\____|___/
+'
+
+echo "$(tput setaf 74) $ascii_art"
+echo "$(tput setaf 7)Starting Installation..."
+echo " "
+
 # stop execution if there's an error
 set -e
 
