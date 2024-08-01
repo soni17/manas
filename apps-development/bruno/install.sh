@@ -1,5 +1,9 @@
 # https://www.usebruno.com/downloads
 
+# remove repository if it's already there
+sudo rm -f /etc/apt/sources.list.d/bruno.list
+sudo rm -f /etc/apt/keyrings/bruno.gpg
+
 # add repository
 sudo mkdir -p /etc/apt/keyrings
 sudo mkdir -p /root/.gnupg
