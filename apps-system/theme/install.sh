@@ -25,14 +25,14 @@ sudo cp apps-system/theme/settings/backgrounds.xml /usr/share/mate-background-pr
 cp apps-system/theme/desktop-icons/* ~/Desktop
 
 # modify panel menus
-# rm -r ~/.config/menus
-# mkdir -p ~/.config/menus
-# cp apps-system/theme/settings/mate-applications.menu ~/.config/menus
+rm -r ~/.config/menus
+mkdir -p ~/.config/menus
+cp apps-system/theme/settings/mate-applications.menu ~/.config/menus
 
 # panel app launchers overrides
-# rm -r ~/.local/share/applications
-# mkdir -p ~/.local/share/applications
-# cp -r apps-system/theme/panel-apps/* ~/.local/share/applications
+rm -r ~/.local/share/applications
+mkdir -p ~/.local/share/applications
+cp -r apps-system/theme/panel-apps/* ~/.local/share/applications
 
 # load theme settings
 dconf load / < apps-system/theme/settings/theme-settings

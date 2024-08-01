@@ -1,0 +1,19 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=Terminal
+GenericName=Terminal
+Comment=Use the command line
+TryExec=mate-terminal
+Exec=mate-terminal
+Keywords=Terminal,Shell,Console,Command
+Icon=utilities-terminal
+Type=Application
+X-MATE-DocPath=mate-terminal/index.html
+X-MATE-Bugzilla-Bugzilla=MATE
+X-MATE-Bugzilla-Product=mate-terminal
+X-MATE-Bugzilla-Component=BugBuddyBugs
+X-MATE-Bugzilla-Version=@VERSION@
+Categories=
+StartupNotify=true
+Hidden=false
+Terminal=false
