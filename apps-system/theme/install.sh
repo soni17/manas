@@ -46,9 +46,12 @@ sudo apt-get install -y redshift
 mkdir -p ~/.config/autostart
 cp apps-system/theme/settings/redshift.desktop ~/.config/autostart
 
-# disable recent documents in menu
-rm ~/.local/share/recently-used*
-mkdir -p ~/.local/share/recently-used.xbel
+# disable recent documents history
+if ! lsattr ~/.local/share/recently-used.xbel | grep i
+then
+  echo -n > ~/.local/share/recently-used.xbel
+  sudo chattr +i ~/.local/share/recently-used.xbel
+fi
 
 # minimize splash screen at boot
 sudo sed -i "s/GRUB_TIMEOUT=5/GRUB_TIMEOUT=3/" /etc/default/grub
