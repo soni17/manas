@@ -1,3 +1,5 @@
+# minimize output to show only the name of app and status of installation
+# error outputs are sent to /tmp/manas-errors.log
 run () {
   for dir in $1
   do

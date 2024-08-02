@@ -40,6 +40,6 @@ source run-commands/cleanup.sh
 # reboot
 echo ""
 echo "$(tput setaf 2)Installation completed successfully."
-echo "$(tput setaf 2)Reebooting computer in 10 seconds..."
+echo "$(tput setaf 2)Rebooting computer in 10 seconds..."
 echo ""
 sleep 10; sudo reboot
