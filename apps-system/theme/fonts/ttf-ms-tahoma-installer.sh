@@ -19,7 +19,7 @@ cd "$tmp_dir"
 err=0
 
 echo -e "\n:: Downloading IELPKTH.CAB...\n"
-wget -O "$file" https://sourceforge.net/projects/corefonts/files/OldFiles/IELPKTH.CAB
+wget -q -O "$file" https://sourceforge.net/projects/corefonts/files/OldFiles/IELPKTH.CAB
 if [ $? -ne 0 ]; then
 	rm -f "$file"
 	echo -e "\nError: Download failed!?\n"
