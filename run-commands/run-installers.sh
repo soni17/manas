@@ -1,8 +1,20 @@
-# run installers in apps-system
-for script in ./apps-system/*/install.sh; do source $script; done
+run () {
+  for dir in $1
+  do
+    app=${dir%*/}
+    app="${app##*/}"
+    echo -ne "$app...installing \r"
 
-# run installers in apps-development
-for script in ./apps-development/*/install.sh; do source $script; done
+    source "$dir/install.sh" 1> /dev/null 2>> /tmp/manas-errors.log 
 
-# run installers in apps-other
-for script in ./apps-other/*/install.sh; do source $script; done
+    if [ "$?" -eq "0" ]; then
+      echo -e "$(tput setaf 2)$app...installed \xE2\x9C\x94 $(tput setaf 7)"
+    else
+      echo -e "$(tput setaf 1)$app...installation failed $(tput setaf 7)"
+    fi
+  done
+}
+
+run "apps-system/*/"
+run "apps-development/*/"
+run "apps-other/*/"
