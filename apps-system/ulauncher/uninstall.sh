@@ -1,5 +1,11 @@
-sudo apt purge -y --autoremove ulauncher
+# uninstall only if it's already installed
+if apt search ulauncher | grep installed &> /dev/null
+then
+  sudo apt purge -y --autoremove ulauncher
+fi
 
-sudo rm -r ~/.config/ulauncher
+# delete configs
+sudo rm -rf ~/.config/ulauncher
 
-sudo rm ~/.config/autostart/ulauncher.desktop
+# delete autostarter
+sudo rm -f ~/.config/autostart/ulauncher.desktop
