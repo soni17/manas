@@ -14,28 +14,28 @@ echo " "
 set -e
 
 # stop execution if OS is not Debian Mate 12 or later
-bash run-commands/check-os.sh
+source run-commands/check-os.sh
 
 # enable all debian repositories
-bash run-commands/enable-repos.sh
+source run-commands/enable-repos.sh
 
 # upgrade OS
-bash run-commands/upgrade-os.sh
+source run-commands/upgrade-os.sh
 
 # uninstall bloat
-bash run-commands/uninstall-bloat.sh
+source run-commands/uninstall-bloat.sh
 
 # install dependencies for installers
-bash run-commands/install-dependencies.sh
+source run-commands/install-dependencies.sh
 
 # update bashrc file
-bash run-commands/update-bashrc.sh
+source run-commands/update-bashrc.sh
 
 # run installers
-bash run-commands/run-installers.sh
+source run-commands/run-installers.sh
 
 # cleanup
-bash run-commands/cleanup.sh
+source run-commands/cleanup.sh
 
 # reboot
 sudo reboot
