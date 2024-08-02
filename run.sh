@@ -38,4 +38,8 @@ source run-commands/run-installers.sh
 source run-commands/cleanup.sh
 
 # reboot
-sudo reboot
+echo ""
+echo "$(tput setaf 2)Installation completed successfully."
+echo "$(tput setaf 2)Reebooting computer in 10 seconds..."
+echo ""
+sleep 10; sudo reboot
