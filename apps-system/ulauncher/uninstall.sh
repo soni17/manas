@@ -1,7 +1,7 @@
 # uninstall only if it's already installed
 if apt search ulauncher | grep installed &> /dev/null
 then
-  sudo apt purge -y --autoremove ulauncher
+  sudo apt-get purge -y --autoremove ulauncher
 fi
 
 # delete configs

@@ -1,7 +1,7 @@
 # https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/
 
 # install android-debug-bridge
-sudo apt install -y adb
+sudo apt-get install -y adb
 
 # install universal-android-debloater-ng
 LATEST_VERSION=$(curl -s "https://api.github.com/repos/Universal-Debloater-Alliance/universal-android-debloater-next-generation/releases/latest" | grep -Po '"tag_name": "\K[^"]*')

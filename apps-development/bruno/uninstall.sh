@@ -1,7 +1,7 @@
 # uninstall only if it's already installed
 if apt search bruno | grep installed &> /dev/null
 then
-  sudo apt purge -y --autoremove bruno
+  sudo apt-get purge -y --autoremove bruno
 fi
 
 # remove repository

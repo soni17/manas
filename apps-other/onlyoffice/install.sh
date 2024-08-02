@@ -13,8 +13,8 @@ sudo mv /tmp/onlyoffice.gpg /usr/share/keyrings/onlyoffice.gpg
 echo 'deb [signed-by=/usr/share/keyrings/onlyoffice.gpg] https://download.onlyoffice.com/repo/debian squeeze main' | sudo tee -a /etc/apt/sources.list.d/onlyoffice.list
 
 # install
-sudo apt update
-sudo apt install -y onlyoffice-desktopeditors
+sudo apt-get update
+sudo apt-get install -y onlyoffice-desktopeditors
 
 # config file
 mkdir -p ~/.config/onlyoffice

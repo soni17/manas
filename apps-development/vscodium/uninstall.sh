@@ -1,7 +1,7 @@
 # uninstall only if it's already installed
 if apt search codium | grep installed &> /dev/null
 then
-  sudo apt purge -y --autoremove codium
+  sudo apt-get purge -y --autoremove codium
 fi
 
 # remove config folder

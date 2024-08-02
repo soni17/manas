@@ -1,17 +1,17 @@
 # install icon-themes
-sudo apt install -y ./apps-system/theme/icon-themes/humanity-icon-theme_0.6.16_all.deb
-sudo apt install -y ./apps-system/theme/icon-themes/ubuntu-mono_14.04_all.deb
+sudo apt-get install -y ./apps-system/theme/icon-themes/humanity-icon-theme_0.6.16_all.deb
+sudo apt-get install -y ./apps-system/theme/icon-themes/ubuntu-mono_14.04_all.deb
 
 # install crosextra fonts
-sudo apt install -y \
+sudo apt-get install -y \
   fonts-crosextra-caladea \
   fonts-crosextra-carlito
 
 # install ubuntu fonts
-sudo apt install -y ./apps-system/theme/fonts/ttf-ubuntu-font-family_0.80-0ubuntu6_all.deb
+sudo apt-get install -y ./apps-system/theme/fonts/ttf-ubuntu-font-family_0.80-0ubuntu6_all.deb
 
 # install microsoft fonts
-sudo apt install -y ttf-mscorefonts-installer
+sudo apt-get install -y ttf-mscorefonts-installer
 sudo bash apps-system/theme/fonts/ttf-vista-fonts-installer.sh
 sudo bash apps-system/theme/fonts/ttf-ms-tahoma-installer.sh
 
@@ -42,7 +42,7 @@ sudo mkdir -p /usr/share/themes/Manas
 sudo cp apps-system/theme/settings/index.theme /usr/share/themes/Manas
 
 # set screen temperature
-sudo apt install -y redshift
+sudo apt-get install -y redshift
 mkdir -p ~/.config/autostart
 cp apps-system/theme/settings/redshift.desktop ~/.config/autostart
 

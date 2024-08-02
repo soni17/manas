@@ -1,1 +1,1 @@
-sudo apt purge -y --autoremove gnome-disk-utility
+sudo apt-get purge -y --autoremove gnome-disk-utility

@@ -17,8 +17,8 @@ Signed-By: /usr/share/keyrings/librewolf.gpg
 EOF
 
 # install
-sudo apt update
-sudo apt install -y librewolf
+sudo apt-get update
+sudo apt-get install -y librewolf
 
 # config file
 mkdir -p ~/.librewolf

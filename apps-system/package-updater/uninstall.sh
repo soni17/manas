@@ -1,4 +1,4 @@
-sudo apt purge -y --autoremove \
+sudo apt-get purge -y --autoremove \
   gnome-package-updater \
   package-update-indicator
 

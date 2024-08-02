@@ -1,7 +1,7 @@
 # uninstall only if it's already installed
 if apt search google-chrome-stable | grep installed &> /dev/null
 then
-  sudo apt purge -y --autoremove google-chrome-stable
+  sudo apt-get purge -y --autoremove google-chrome-stable
 fi
 
 # delete configs

@@ -1,1 +1,1 @@
-sudo apt purge -y --autoremove gufw
+sudo apt-get purge -y --autoremove gufw

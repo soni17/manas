@@ -1,1 +1,1 @@
-sudo apt purge -y --autoremove gnome-clocks
+sudo apt-get purge -y --autoremove gnome-clocks

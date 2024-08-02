@@ -1,6 +1,6 @@
 # https://github.com/AyatanaIndicators
 
-sudo apt install -y \
+sudo apt-get install -y \
   ayatana-indicator-application \
   ayatana-indicator-common \
   ayatana-indicator-messages \

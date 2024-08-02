@@ -1,3 +1,3 @@
 # https://github.com/linuxmint/timeshift
 
-sudo apt install -y timeshift
+sudo apt-get install -y timeshift

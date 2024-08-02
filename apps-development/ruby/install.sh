@@ -2,7 +2,7 @@
 # https://github.com/asdf-vm/asdf-ruby
 
 # install ruby build dependencies 
-sudo apt install -y \
+sudo apt-get install -y \
   autoconf \
   patch \
   build-essential \

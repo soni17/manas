@@ -1,7 +1,7 @@
 # https://github.com/containers/podman-desktop
 
 # install podman
-sudo apt install -y podman
+sudo apt-get install -y podman
 
 # install podman desktop
 flatpak install flathub -y --system io.podman_desktop.PodmanDesktop

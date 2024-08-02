@@ -1,1 +1,1 @@
-sudo apt install -y mozo
+sudo apt-get install -y mozo

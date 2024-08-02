@@ -1,4 +1,4 @@
-sudo apt install -y \
+sudo apt-get install -y \
   git \
   wget \
   curl \
@@ -11,5 +11,5 @@ cp bash/asdfrc ~/.asdfrc
 . "$HOME/.asdf/asdf.sh"
 
 # install flatpak and flathub repo
-sudo apt install -y flatpak
+sudo apt-get install -y flatpak
 sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo

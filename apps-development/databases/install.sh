@@ -1,5 +1,5 @@
 # install databases from Debian repo
-sudo apt install -y \
+sudo apt-get install -y \
   mariadb-server \
   postgresql \
   redis

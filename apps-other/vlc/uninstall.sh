@@ -1,1 +1,1 @@
-sudo apt purge -y --autoremove vlc
+sudo apt-get purge -y --autoremove vlc

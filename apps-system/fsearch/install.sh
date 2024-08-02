@@ -10,8 +10,8 @@ echo 'deb http://download.opensuse.org/repositories/home:/cboxdoerfer/Debian_12/
 curl -fsSL https://download.opensuse.org/repositories/home:cboxdoerfer/Debian_12/Release.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/home_cboxdoerfer.gpg > /dev/null
 
 # install
-sudo apt update
-sudo apt install -y fsearch
+sudo apt-get update
+sudo apt-get install -y fsearch
 
 # config file
 mkdir -p ~/.config/fsearch

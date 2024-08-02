@@ -1,3 +1,3 @@
 # https://apps.gnome.org/Clocks/
 
-sudo apt install -y gnome-clocks
+sudo apt-get install -y gnome-clocks

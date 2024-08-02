@@ -1,5 +1,5 @@
 # uninstall unused packages
-sudo apt purge -y \
+sudo apt-get purge -y \
   fonts-noto \
   gnome-keyring \
   seahorse \

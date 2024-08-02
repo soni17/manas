@@ -6,7 +6,7 @@
 # Tested: Ubuntu Saucy/Trusty/Xenial
 
 # install dependencies
-sudo apt install -y \
+sudo apt-get install -y \
 	wget \
 	cabextract 
 
@@ -75,4 +75,4 @@ else
 fi
 
 # not needed anymore
-sudo apt purge -y fontforge
+sudo apt-get purge -y fontforge

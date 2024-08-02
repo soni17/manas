@@ -1,1 +1,1 @@
-sudo apt install -y gdebi
+sudo apt-get install -y gdebi

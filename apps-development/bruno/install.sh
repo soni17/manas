@@ -11,5 +11,5 @@ sudo gpg --no-default-keyring --keyring /etc/apt/keyrings/bruno.gpg --keyserver 
 echo "deb [signed-by=/etc/apt/keyrings/bruno.gpg] http://debian.usebruno.com/ bruno stable" | sudo tee /etc/apt/sources.list.d/bruno.list
 
 # install
-sudo apt update
-sudo apt install -y bruno
+sudo apt-get update
+sudo apt-get install -y bruno

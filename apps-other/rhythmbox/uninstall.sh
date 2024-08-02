@@ -1,1 +1,1 @@
-sudo apt purge -y --autoremove rhythmbox
+sudo apt-get purge -y --autoremove rhythmbox

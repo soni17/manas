@@ -1,3 +1,3 @@
 # https://github.com/webcamoid/webcamoid
 
-sudo apt install -y webcamoid
+sudo apt-get install -y webcamoid

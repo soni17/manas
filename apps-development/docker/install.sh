@@ -16,8 +16,8 @@ REPO="deb [arch=$ARCH signed-by=/etc/apt/keyrings/docker.asc] https://download.d
 echo $REPO | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 
 # install docker and extensions
-sudo apt update -y
-sudo apt install -y \
+sudo apt-get update -y
+sudo apt-get install -y \
   docker-ce \
   docker-ce-cli \
   containerd.io \

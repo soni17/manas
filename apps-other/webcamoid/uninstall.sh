@@ -1,1 +1,1 @@
-sudo apt purge -y --autoremove webcamoid
+sudo apt-get purge -y --autoremove webcamoid

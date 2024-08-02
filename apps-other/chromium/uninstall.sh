@@ -1,1 +1,1 @@
-sudo apt purge -y --autoremove chromium
+sudo apt-get purge -y --autoremove chromium

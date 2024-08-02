@@ -1,1 +1,1 @@
-sudo apt purge -y --autoremove gnome-screenshot
+sudo apt-get purge -y --autoremove gnome-screenshot

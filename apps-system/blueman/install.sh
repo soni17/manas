@@ -1,3 +1,3 @@
 # https://github.com/blueman-project/blueman
 
-sudo apt install -y blueman
+sudo apt-get install -y blueman

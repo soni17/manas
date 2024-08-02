@@ -1,1 +1,1 @@
-sudo apt purge -y --autoremove gdebi
+sudo apt-get purge -y --autoremove gdebi

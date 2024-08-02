@@ -1,1 +1,1 @@
-sudo apt purge -y --autoremove gtkhash
+sudo apt-get purge -y --autoremove gtkhash

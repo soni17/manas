@@ -1,1 +1,1 @@
-sudo apt purge -y --autoremove timeshift
+sudo apt-get purge -y --autoremove timeshift

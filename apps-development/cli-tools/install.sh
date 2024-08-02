@@ -1,5 +1,5 @@
 # install cli tools from debian repository
-sudo apt install -y \
+sudo apt-get install -y \
   tldr \
   bat \
   lsd \

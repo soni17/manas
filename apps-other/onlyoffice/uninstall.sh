@@ -1,7 +1,7 @@
 # uninstall only if it's already installed
 if apt search onlyoffice-desktopeditors | grep installed &> /dev/null
 then
-  sudo apt purge -y --autoremove onlyoffice-desktopeditors
+  sudo apt-get purge -y --autoremove onlyoffice-desktopeditors
 fi
 
 # delete configs

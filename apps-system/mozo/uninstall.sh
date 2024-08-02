@@ -1,1 +1,1 @@
-sudo apt purge -y --autoremove mozo
+sudo apt-get purge -y --autoremove mozo

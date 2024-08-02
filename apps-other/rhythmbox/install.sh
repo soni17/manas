@@ -1,3 +1,3 @@
 # https://wiki.gnome.org/Apps/Rhythmbox
 
-sudo apt install -y rhythmbox
+sudo apt-get install -y rhythmbox

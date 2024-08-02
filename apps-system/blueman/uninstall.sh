@@ -1,1 +1,1 @@
-sudo apt purge -y --autoremove blueman
+sudo apt-get purge -y --autoremove blueman

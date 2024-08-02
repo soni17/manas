@@ -1,1 +1,1 @@
-sudo apt purge -y --autoremove shotcut
+sudo apt-get purge -y --autoremove shotcut

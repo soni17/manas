@@ -4,7 +4,7 @@ LATEST_VERSION=$(curl -s "https://api.github.com/repos/Ulauncher/Ulauncher/relea
 
 # download and install
 wget -q https://github.com/Ulauncher/Ulauncher/releases/download/${LATEST_VERSION}/ulauncher_${LATEST_VERSION}_all.deb -O /tmp/ulauncher_${LATEST_VERSION}_all.deb
-sudo apt install -y /tmp/ulauncher*.deb
+sudo apt-get install -y /tmp/ulauncher*.deb
 rm /tmp/ulauncher*.deb
 
 # config file

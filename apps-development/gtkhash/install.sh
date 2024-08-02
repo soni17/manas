@@ -1,3 +1,3 @@
 # https://github.com/gtkhash/gtkhash
 
-sudo apt install -y gtkhash
+sudo apt-get install -y gtkhash

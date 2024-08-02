@@ -10,7 +10,7 @@
 # Tested: Ubuntu Saucy/Trusty/Xenial/Bionic
 
 # install dependencies
-sudo apt install -y \
+sudo apt-get install -y \
 	wget \
 	cabextract \
 	fontforge
@@ -94,4 +94,4 @@ else
 fi
 
 # not needed anymore
-sudo apt purge -y fontforge
+sudo apt-get purge -y fontforge

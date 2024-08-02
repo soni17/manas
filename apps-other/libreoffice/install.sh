@@ -1,7 +1,7 @@
 # https://www.libreoffice.org
 
-sudo apt install -y \
+sudo apt-get install -y \
   libreoffice-writer \
   libreoffice-gtk3
 
-sudo apt purge -y libreoffice-math
+sudo apt-get purge -y libreoffice-math

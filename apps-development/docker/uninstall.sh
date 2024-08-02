@@ -4,7 +4,7 @@ sudo usermod -rG docker $USER
 # ininstall if it's already installed
 if apt search docker-ce | grep installed &> /dev/null
 then
-  sudo apt purge -y --autoremove \
+  sudo apt-get purge -y --autoremove \
     docker-ce \
     docker-ce-cli \
     containerd.io \

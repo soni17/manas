@@ -2,7 +2,7 @@
 # https://github.com/asdf-community/asdf-python
 
 # install python build dependencies
-sudo apt install -y \
+sudo apt-get install -y \
   build-essential \
   libssl-dev \
   zlib1g-dev \

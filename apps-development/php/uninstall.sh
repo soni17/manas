@@ -1,1 +1,1 @@
-sudo apt purge -y --autoremove php
+sudo apt-get purge -y --autoremove php

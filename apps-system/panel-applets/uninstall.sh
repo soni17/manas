@@ -1,4 +1,4 @@
-sudo apt purge -y --autoremove \
+sudo apt-get purge -y --autoremove \
   ayatana-indicator-application \
   ayatana-indicator-common \
   ayatana-indicator-messages \

@@ -1,1 +1,1 @@
-sudo apt purge -y --autoremove gucharmap
+sudo apt-get purge -y --autoremove gucharmap

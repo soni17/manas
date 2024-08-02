@@ -1,3 +1,3 @@
 # https://github.com/transmission/transmission
 
-sudo apt install -y transmission
+sudo apt-get install -y transmission

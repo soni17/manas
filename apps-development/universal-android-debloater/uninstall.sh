@@ -1,5 +1,5 @@
 # uninstall android-debug-bridge
-sudo apt purge -y --autoremove adb
+sudo apt-get purge -y --autoremove adb
 
 # uninstall universal-android-debloater-ng
 sudo rm -f /usr/bin/uad-ng/uad-ng-linux
