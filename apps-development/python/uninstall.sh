@@ -1,1 +1,3 @@
-asdf plugin remove python
+if asdf help python; then
+  asdf plugin remove python
+fi

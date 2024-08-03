@@ -1,1 +1,3 @@
-asdf plugin remove ruby
+if asdf help ruby; then
+  asdf plugin remove ruby
+fi
