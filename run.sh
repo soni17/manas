@@ -11,10 +11,10 @@ echo "$(tput setaf 7)Starting Installation..."
 echo " "
 
 # stop script if OS is not Debian Mate 12
-source run-commands/check-os.sh 1> /dev/null 2>> /tmp/manas.log
+source run-commands/check-os.sh
 
 # error handling
-source run-commands/error-handling.sh 1> /dev/null 2>> /tmp/manas.log
+source run-commands/error-handling.sh
 
 # enable all debian repositories
 echo "enabling all Debian repositories..."
@@ -38,6 +38,8 @@ echo "installing apps..."
 source run-commands/run-installers.sh 
 
 # cleanup
+echo " "
+echo "cleaning up..."
 source run-commands/cleanup.sh 1> /dev/null 2>> /tmp/manas.log
 
 # reboot
