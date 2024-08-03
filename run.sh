@@ -6,11 +6,15 @@ ascii_art='
 |_|  |_|\____|_| |_|\____|___/
 '
 
+# prompt for sudo first
+sudo echo -n ""
+
 echo "$(tput setaf 74) $ascii_art"
 echo "$(tput setaf 7)Starting Installation..."
 echo " "
 
 # stop script if OS is not Debian Mate 12
+echo "checking OS version..."
 source run-commands/check-os.sh
 
 # error handling
