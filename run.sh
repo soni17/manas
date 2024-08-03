@@ -28,9 +28,6 @@ source run-commands/uninstall-bloat.sh
 # install dependencies for installers
 source run-commands/install-dependencies.sh
 
-# update bashrc file
-source run-commands/update-bashrc.sh
-
 # run installers
 source run-commands/run-installers.sh
 
