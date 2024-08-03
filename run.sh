@@ -13,7 +13,14 @@ echo " "
 # stop execution if there's an error
 set -e
 
-# stop execution if OS is not Debian Mate 12 or later
+# standard error message when error occurs
+  message_on_error() {
+    echo -e "$(tput setaf 1)An error occurred. Please check /tmp/manas-errors.log for more info."
+  }
+
+  trap message_on_error EXIT
+
+# throw error OS is not Debian Mate 12 or later
 source run-commands/check-os.sh
 
 # enable all debian repositories
