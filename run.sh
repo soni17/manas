@@ -10,18 +10,11 @@ echo "$(tput setaf 74) $ascii_art"
 echo "$(tput setaf 7)Starting Installation..."
 echo " "
 
-# stop execution if there's an error
-set -e
-
-# standard error message when error occurs
-  message_on_error() {
-    echo -e "$(tput setaf 1)An error occurred. Please check /tmp/manas-errors.log for more info."
-  }
-
-  trap message_on_error EXIT
-
-# throw error OS is not Debian Mate 12 or later
+# stop script if OS is not Debian Mate 12
 source run-commands/check-os.sh
+
+# error handling
+source run-commands/error-handling.sh
 
 # enable all debian repositories
 source run-commands/enable-repos.sh
