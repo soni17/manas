@@ -7,6 +7,7 @@ sudo apt-get purge -y --autoremove \
   fzf \
   tmux \
   git \
+  plocate \
   speedtest-cli \
   lsb-release \
   neofetch \

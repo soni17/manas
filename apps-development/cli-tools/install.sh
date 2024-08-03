@@ -8,6 +8,7 @@ sudo apt-get install -y \
   fzf \
   tmux \
   git \
+  plocate \
   speedtest-cli \
   lsb-release \
   neofetch \
