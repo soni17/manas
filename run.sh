@@ -43,8 +43,7 @@ echo "cleaning up..."
 source run-commands/cleanup.sh 1> /dev/null 2>> /tmp/manas.log
 
 # reboot
-echo ""
 echo "$(tput setaf 2)Installation completed successfully."
-echo "$(tput setaf 2)Rebooting computer in 10 seconds..."
+echo "$(tput setaf 7)Rebooting computer in 10 seconds..."
 echo ""
 sleep 10; sudo reboot

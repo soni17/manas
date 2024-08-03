@@ -10,7 +10,7 @@ run () {
     source "$dir/install.sh" 1> /dev/null 2>> /tmp/manas.log 
 
     if [ "$?" -eq "0" ]; then
-      echo -e "$(tput setaf 2)$app...installed \xE2\x9C\x94 $(tput setaf 7)"
+      echo -e "$app...$(tput setaf 2)installed \xE2\x9C\x94 $(tput setaf 7)"
     fi
   done
 }
