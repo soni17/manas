@@ -11,8 +11,6 @@ run () {
 
     if [ "$?" -eq "0" ]; then
       echo -e "$(tput setaf 2)$app...installed \xE2\x9C\x94 $(tput setaf 7)"
-    else
-      echo -e "$(tput setaf 1)$app...installation failed $(tput setaf 7)"
     fi
   done
 }
