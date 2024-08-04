@@ -14,5 +14,3 @@ rm -rf ~/.config/menus/*
 rm -rf ~/.local/share/applications/*
 
 rm -rf ~/.config/autostart/redshift.desktop
-
-rm -rf ~/.local/share/recently-used.xbel
