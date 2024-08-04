@@ -20,7 +20,6 @@
 		<Exclude>
 			<Filename>display-im6.q16.desktop</Filename>
 		</Exclude>
-		<AppDir>/home/une/.local/share/applications</AppDir>
 	</Menu>
 	<Menu>
 		<Name>Internet</Name>
@@ -36,7 +35,6 @@
 		<Exclude>
 			<Filename>io.freetubeapp.FreeTube.desktop</Filename>
 		</Exclude>
-		<AppDir>/home/une/.local/share/applications</AppDir>
 	</Menu>
 	<Menu>
 		<Name>Office</Name>
@@ -56,7 +54,6 @@
 		<Exclude>
 			<Filename>mate-volume-control.desktop</Filename>
 		</Exclude>
-		<AppDir>/home/une/.local/share/applications</AppDir>
 		<Include>
 			<Filename>io.github.aandrew_me.ytdn-1.desktop</Filename>
 		</Include>
@@ -75,6 +72,9 @@
 	</Menu>
 	<Menu>
 		<Name>Development</Name>
+		<Include>
+			<Filename>org.gtkhash.gtkhash-1.desktop</Filename>
+		</Include>
 		<Layout>
 			<Merge type="menus"/>
 			<Filename>codium.desktop</Filename>
@@ -83,6 +83,7 @@
 			<Filename>dbgate.desktop</Filename>
 			<Filename>io.github.shiftey.Desktop.desktop</Filename>
 			<Filename>io.podman_desktop.PodmanDesktop.desktop</Filename>
+			<Filename>org.gtkhash.gtkhash-1.desktop</Filename>
 			<Filename>universal-android-debloater-ng.desktop</Filename>
 			<Filename>python3.11.desktop</Filename>
 			<Filename>codium-url-handler.desktop</Filename>
@@ -94,7 +95,6 @@
 		<Exclude>
 			<Filename>caja-browser.desktop</Filename>
 		</Exclude>
-		<AppDir>/home/une/.local/share/applications</AppDir>
 		<Include>
 			<Filename>com.usebottles.bottles-1.desktop</Filename>
 		</Include>
@@ -161,7 +161,6 @@
 		<Exclude>
 			<Filename>br.eng.silas.qpdftools.desktop</Filename>
 		</Exclude>
-		<AppDir>/home/une/.local/share/applications</AppDir>
 		<Exclude>
 			<Filename>com.github.marktext.marktext.desktop</Filename>
 		</Exclude>
