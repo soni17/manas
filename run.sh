@@ -9,9 +9,9 @@ ascii_art='
 # prompt for sudo first
 sudo echo -n ""
 
-echo "$(tput setaf 74) $ascii_art"
+# start installation
+echo -e "$(tput setaf 74) $ascii_art \n\n"
 echo "$(tput setaf 7)Starting Installation..."
-echo " "
 
 # stop script if OS is not Debian Mate 12
 echo "checking OS version..."
@@ -37,8 +37,8 @@ echo "installing dependencies..."
 source run-commands/install-dependencies.sh 1> /dev/null 2>> /tmp/manas.log
 
 # run installers
-echo " "
 echo "installing apps..."
+echo " "
 source run-commands/run-installers.sh 
 
 # cleanup
