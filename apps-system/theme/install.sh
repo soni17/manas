@@ -16,23 +16,23 @@ sudo bash apps-system/theme/fonts/ttf-vista-fonts-installer.sh
 sudo bash apps-system/theme/fonts/ttf-ms-tahoma-installer.sh
 
 # copy wallpapers
-sudo rm -r /usr/share/backgrounds/*
+sudo rm -f /usr/share/backgrounds/*
 sudo cp apps-system/theme/wallpapers/* /usr/share/backgrounds
-sudo rm -r /usr/share/mate-background-properties/*
+sudo rm -f /usr/share/mate-background-properties/*
 sudo cp apps-system/theme/settings/backgrounds.xml /usr/share/mate-background-properties
 
 # copy desktop icons
 cp apps-system/theme/desktop-icons/* ~/Desktop
 
 # modify panel menus
-rm -r ~/.config/menus
+rm -rf ~/.config/menus
 mkdir -p ~/.config/menus
 cp apps-system/theme/settings/mate-applications.menu ~/.config/menus
 
 # panel app launchers overrides
-rm -r ~/.local/share/applications
+rm -rf ~/.local/share/applications
 mkdir -p ~/.local/share/applications
-cp -r apps-system/theme/panel-apps/* ~/.local/share/applications
+cp apps-system/theme/panel-apps/* ~/.local/share/applications
 
 # load theme settings
 dconf load / < apps-system/theme/settings/theme-settings
