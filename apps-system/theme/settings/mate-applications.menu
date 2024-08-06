@@ -11,6 +11,7 @@
 			<Merge type="menus"/>
 			<Filename>eom.desktop</Filename>
 			<Filename>com.github.PintaProject.Pinta.desktop</Filename>
+			<Filename>drawio.desktop</Filename>
 			<Filename>com.jgraph.drawio.desktop.desktop</Filename>
 			<Filename>org.gnome.SimpleScan.desktop</Filename>
 			<Filename>mate-color-select.desktop</Filename>

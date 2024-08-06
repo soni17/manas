@@ -1,4 +1,5 @@
-if flatpak list | grep com.jgraph.drawio.desktop
+# uninstall only if it's already installed
+if apt search draw.io | grep installed &> /dev/null
 then
-  flatpak uninstall -y --delete-data com.jgraph.drawio.desktop
+  sudo apt purge -y --autoremove draw.io
 fi
