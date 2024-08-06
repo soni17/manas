@@ -16,9 +16,9 @@ sudo bash apps-system/theme/fonts/ttf-vista-fonts-installer.sh
 sudo bash apps-system/theme/fonts/ttf-ms-tahoma-installer.sh
 
 # copy wallpapers
-sudo rm -f /usr/share/backgrounds/*
+sudo rm -rf /usr/share/backgrounds/*
 sudo cp apps-system/theme/wallpapers/* /usr/share/backgrounds
-sudo rm -f /usr/share/mate-background-properties/*
+sudo rm -rf /usr/share/mate-background-properties/*
 sudo cp apps-system/theme/settings/backgrounds.xml /usr/share/mate-background-properties
 
 # copy desktop icons
