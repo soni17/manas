@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=YTDownloader
+Exec=/opt/YTDownloader/ytdownloader %U
+Terminal=false
+Type=Application
+Icon=ytdownloader
+StartupWMClass=YTDownloader
+Comment=Download videos and audios from YouTube and many other sites
+Categories=Utility;
+Hidden=true

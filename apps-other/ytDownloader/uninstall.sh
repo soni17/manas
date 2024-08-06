@@ -1,4 +1,5 @@
-if flatpak list | grep io.github.aandrew_me.ytdn
+# uninstall only if it's already installed
+if apt search ytdownloader | grep installed &> /dev/null
 then
-  flatpak uninstall -y --delete-data io.github.aandrew_me.ytdn
+  sudo apt purge -y --autoremove ytdownloader
 fi

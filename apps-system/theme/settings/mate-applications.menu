@@ -55,7 +55,7 @@
 			<Filename>mate-volume-control.desktop</Filename>
 		</Exclude>
 		<Include>
-			<Filename>io.github.aandrew_me.ytdn-1.desktop</Filename>
+			<Filename>ytdownloader-1.desktop</Filename>
 		</Include>
 		<Layout>
 			<Merge type="menus"/>
@@ -64,7 +64,7 @@
 			<Filename>webcamoid.desktop</Filename>
 			<Filename>org.shotcut.Shotcut.desktop</Filename>
 			<Filename>io.freetubeapp.FreeTube.desktop</Filename>
-			<Filename>io.github.aandrew_me.ytdn-1.desktop</Filename>
+			<Filename>ytdownloader-1.desktop</Filename>
 			<Filename>mate-volume-control.desktop</Filename>
 			<Filename>org.gnome.Rhythmbox3.device.desktop</Filename>
 			<Merge type="files"/>
