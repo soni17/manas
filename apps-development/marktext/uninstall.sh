@@ -1,4 +1,7 @@
-if flatpak list | grep com.github.marktext.marktext
+# uninstall only if it's already installed
+if apt search marktext | grep installed &> /dev/null
 then
-  flatpak uninstall -y --delete-data com.github.marktext.marktext
+  sudo apt purge -y --autoremove marktext
 fi
+
+rm -rf ~/.config/marktext

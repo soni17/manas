@@ -44,7 +44,7 @@
 			<Filename>libreoffice-startcenter.desktop</Filename>
 			<Filename>libreoffice-writer.desktop</Filename>
 			<Filename>atril.desktop</Filename>
-			<Filename>com.github.marktext.marktext.desktop</Filename>
+			<Filename>marktext.desktop</Filename>
 			<Filename>br.eng.silas.qpdftools.desktop</Filename>
 			<Merge type="files"/>
 		</Layout>
@@ -162,7 +162,7 @@
 			<Filename>br.eng.silas.qpdftools.desktop</Filename>
 		</Exclude>
 		<Exclude>
-			<Filename>com.github.marktext.marktext.desktop</Filename>
+			<Filename>marktext.desktop</Filename>
 		</Exclude>
 		<Exclude>
 			<Filename>io.freetubeapp.FreeTube.desktop</Filename>
@@ -181,7 +181,6 @@
 			<Filename>org.gtkhash.gtkhash.desktop</Filename>
 			<Filename>cmatrix.desktop</Filename>
 			<Filename>io.freetubeapp.FreeTube.desktop</Filename>
-			<Filename>com.github.marktext.marktext.desktop</Filename>
 			<Filename>br.eng.silas.qpdftools.desktop</Filename>
 			<Filename>mate-about.desktop</Filename>
 			<Filename>redshift.desktop</Filename>
