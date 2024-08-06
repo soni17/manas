@@ -123,6 +123,9 @@ enable-arrows=true
 enable-buttons=true
 orientation='right'
 
+[org/mate/panel/menubar]
+item-icon-size='32px'
+
 [org/mate/pluma]
 background-pattern='none'
 bottom-panel-size=140
