@@ -172,7 +172,7 @@
 			<Merge type="menus"/>
 			<Filename>pluma.desktop</Filename>
 			<Filename>org.gnome.Screenshot.desktop</Filename>
-			<Filename>org.localsend.localsend_app.desktop</Filename>
+			<Filename>localsend_app.desktop</Filename>
 			<Filename>ulauncher.desktop</Filename>
 			<Filename>org.gnome.clocks.desktop</Filename>
 			<Filename>mate-calc.desktop</Filename>

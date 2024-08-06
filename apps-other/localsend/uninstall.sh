@@ -1,4 +1,5 @@
-if flatpak list | grep org.localsend.localsend_app
+# uninstall only if it's already installed
+if apt search localsend | grep installed &> /dev/null
 then
-  flatpak uninstall -y --delete-data org.localsend.localsend_app
+  sudo apt purge -y --autoremove localsend
 fi
