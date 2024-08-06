@@ -10,7 +10,7 @@ ascii_art='
 sudo echo -n ""
 
 # start installation
-echo -e "$(tput setaf 74) $ascii_art \n\n"
+echo -e "$(tput setaf 74) $ascii_art \n"
 echo "$(tput setaf 7)Starting Installation..."
 
 # stop script if OS is not Debian Mate 12

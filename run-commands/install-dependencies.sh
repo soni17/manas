@@ -1,7 +1,6 @@
 sudo apt-get install -y \
   git \
   wget \
-  ca-certificates \
   dconf-cli
 
 # install asdf version manager
