@@ -68,8 +68,19 @@ gitstuff() {
   if [ $gitrepo = 0 ]; then echo -e "\001\e[00;33m\002($gitbranch)\001\e[00m\002$indicator"; fi
 }
 
+# show current directory in bash prompt
+cdir(){
+  current_dir=$(basename $(pwd))
+  if [ $(pwd) == $HOME ]
+  then 
+    echo "~"
+  else
+    echo $current_dir
+  fi
+}
+
 if [ "$color_prompt" = yes ]; then
-    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]$(gitstuff) > '
+    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\] \[\033[01;34m\]$(cdir)\[\033[00m\]$(gitstuff) > '
 else
     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
 fi
