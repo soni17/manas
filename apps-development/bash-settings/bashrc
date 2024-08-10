@@ -70,8 +70,8 @@ gitstuff() {
 
 # show current directory in bash prompt
 cdir(){
-  current_dir=$(basename $(pwd))
-  if [ $(pwd) == $HOME ]
+  current_dir=$(basename "$(pwd)")
+  if [ "$(pwd)" == $HOME ]
   then 
     echo "~"
   else
