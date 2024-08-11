@@ -2,6 +2,7 @@
 
 sudo apt-get install -y \
   ayatana-indicator-application \
+  ayatana-indicator-bluetooth \
   ayatana-indicator-messages \
   ayatana-indicator-notifications \
   ayatana-indicator-power \

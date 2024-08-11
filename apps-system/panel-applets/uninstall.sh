@@ -1,5 +1,6 @@
 sudo apt-get purge -y --autoremove \
   ayatana-indicator-application \
+  ayatana-indicator-bluetooth \
   ayatana-indicator-messages \
   ayatana-indicator-notifications \
   ayatana-indicator-power \
