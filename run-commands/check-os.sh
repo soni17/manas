@@ -5,12 +5,13 @@ if [ ! -f /etc/os-release ]; then
   exit 1
 fi
 
-# stop script if OS is not Debian MATE 12 or higher
-. /etc/os-release
+# grab variables from os-release file
+source /etc/os-release
 distro=$ID
 version=$VERSION_ID
 desktop=$DESKTOP_SESSION
 
+# stop script if OS is not Debian MATE 12 or higher
 if [ "$distro" != "debian" ] || [ $version -lt 12 ] || [ "$desktop" != "mate" ]; then
   echo "$(tput setaf 1)Error: OS requirement not met"
   echo "Installation stopped."
