@@ -12,11 +12,11 @@ distro=$ID
 version=$VERSION_ID
 desktop=$DESKTOP_SESSION
 
-if [ "$distro" != "debian" ] || [ $version != 12 ] || [ "$desktop" != "mate" ]
+if [ "$distro" != "debian" ] || [ $version -lt 12 ] || [ "$desktop" != "mate" ]
 then
   echo "$(tput setaf 1)Error: OS requirement not met"
   echo "$(tput setaf 1)You are currently running: $distro $version with $desktop desktop"
-  echo "$(tput setaf 1)Manas requires: debian 12 with mate desktop"
+  echo "$(tput setaf 1)Manas requires: debian 12 or higher with mate desktop"
   echo "$(tput setaf 1)Installation stopped."
   exit 1
 fi
