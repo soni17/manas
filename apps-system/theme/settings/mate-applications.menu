@@ -39,14 +39,17 @@
 	</Menu>
 	<Menu>
 		<Name>Office</Name>
+		<Include>
+			<Filename>com.github.muriloventuroso.pdftricks-1.desktop</Filename>
+		</Include>
 		<Layout>
 			<Merge type="menus"/>
 			<Filename>onlyoffice-desktopeditors.desktop</Filename>
 			<Filename>libreoffice-startcenter.desktop</Filename>
 			<Filename>libreoffice-writer.desktop</Filename>
 			<Filename>atril.desktop</Filename>
+			<Filename>com.github.muriloventuroso.pdftricks-1.desktop</Filename>
 			<Filename>marktext.desktop</Filename>
-			<Filename>br.eng.silas.qpdftools.desktop</Filename>
 			<Merge type="files"/>
 		</Layout>
 	</Menu>
@@ -161,9 +164,6 @@
 	<Menu>
 		<Name>Accessories</Name>
 		<Exclude>
-			<Filename>br.eng.silas.qpdftools.desktop</Filename>
-		</Exclude>
-		<Exclude>
 			<Filename>marktext.desktop</Filename>
 		</Exclude>
 		<Exclude>
@@ -183,7 +183,6 @@
 			<Filename>org.gtkhash.gtkhash.desktop</Filename>
 			<Filename>cmatrix.desktop</Filename>
 			<Filename>io.freetubeapp.FreeTube.desktop</Filename>
-			<Filename>br.eng.silas.qpdftools.desktop</Filename>
 			<Filename>mate-about.desktop</Filename>
 			<Filename>redshift.desktop</Filename>
 			<Filename>codium-url-handler.desktop</Filename>
