@@ -1,3 +1,3 @@
 # https://github.com/mltframework/shotcut
 
-sudo apt-get install -y shotcut
+flatpak install flathub -y --system org.shotcut.Shotcut
