@@ -46,6 +46,9 @@ echo " "
 echo "cleaning up..."
 source run-commands/cleanup.sh 1> /dev/null 2>> /tmp/manas.log
 
+# install updates from backports repo
+source run-commands/backports-updates.sh
+
 # reboot
 echo "$(tput setaf 2)Installation completed successfully."
 echo "$(tput setaf 7)Rebooting computer in 10 seconds..."
