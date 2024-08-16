@@ -34,11 +34,11 @@ source run-commands/install-dependencies.sh 1> /dev/null 2>> /tmp/manas.log
 # run installers
 source run-commands/run-installers.sh 
 
-# cleanup
-source run-commands/cleanup.sh 1> /dev/null 2>> /tmp/manas.log
-
 # install updates from backports repo
 source run-commands/backports-updates.sh
+
+# cleanup
+source run-commands/cleanup.sh 1> /dev/null 2>> /tmp/manas.log
 
 # reboot
 echo "$(tput setaf 2)Installation completed successfully."
