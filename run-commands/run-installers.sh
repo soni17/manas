@@ -1,3 +1,6 @@
+echo "installing apps..."
+echo " "
+
 # minimize output to show only the name of app and status of installation
 # error outputs are sent to /tmp/manas.log
 run () {
