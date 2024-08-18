@@ -1,4 +1,7 @@
-if flatpak list | grep io.freetubeapp.FreeTube
+# uninstall only if it's already installed
+if apt search freetube | grep installed &> /dev/null
 then
-  flatpak uninstall -y --delete-data io.freetubeapp.FreeTube
+  sudo apt-get purge -y --autoremove freetube
 fi
+
+sudo rm -rf ~/.config/FreeTube
