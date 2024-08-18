@@ -1,8 +1,8 @@
 # https://github.com/FreeTubeApp/FreeTube
 
 VERSIONS=$(curl -s "https://api.github.com/repos/FreeTubeApp/FreeTube/releases" | grep -Po '"tag_name": "\K[^"]*')
-LATEST_VERSION=$( echo $VERSIONS | awk -F ' ' '{print $1}')
-LATEST_VERSION_NUMBER=$(echo ${LATEST_VERSION:1} | awk -F '-' '{print $1}')
+LATEST_VERSION=$( echo $VERSIONS | cut -d ' ' -f 1)
+LATEST_VERSION_NUMBER=$(echo ${LATEST_VERSION:1} | cut -d '-' -f 1)
 FILENAME="freetube_${LATEST_VERSION_NUMBER}_amd64.deb"
 
 # download and install
