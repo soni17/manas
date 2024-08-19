@@ -6,4 +6,4 @@ VERSIONS=$(curl -s "https://api.github.com/repos/FreeTubeApp/FreeTube/releases" 
 latest_version=$( echo $VERSIONS | cut -d ' ' -f 1)
 latest_version=$(echo ${latest_version:1} | cut -d '-' -f 1)
 
-updater $installed_version $latest_version "apps-development/freetube/install.sh" "FreeTube"
+updater $installed_version $latest_version "apps-other/freetube/install.sh" "FreeTube"
