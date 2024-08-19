@@ -43,7 +43,7 @@ source run-commands/run-installers.sh
 # install updates from backports repo
 echo " "
 echo "installing updates from Debian backports repo"
-source run-commands/backports-updates.sh
+source run-commands/backports-updates.sh 1> /dev/null 2>> /tmp/manas.log
 
 # cleanup
 echo "cleaning up..."
