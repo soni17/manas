@@ -1,0 +1,70 @@
+#!/bin/bash
+
+menu(){
+  echo " "
+  echo "Manas: an opinionated setup for Debian Mate"
+  echo " "
+  echo "Usage: manas COMMAND [APP NAME] "
+  echo " "
+  echo "Commands:"
+  echo "install-all    Installs all apps and settings."
+  echo "uninstall-all  Uninstalls all apps and settings."
+  echo "update-apps    Update apps without a repo"
+  echo "install        Install individual app. Takes app name as argument"
+  echo "uninstall      Uninstall individual app. Takes app name as argument."
+  echo "update         Update individual app. Takes app name as argument."
+  echo " "
+}
+
+install-all(){
+  bash run-commands/install-all.sh
+}
+
+uninstall-all(){
+  bash run-commands/uninstall-all.sh
+}
+
+update-apps(){
+  bash apps-other/freetube/update.sh
+  bash apps-other/localsend/update.sh
+  bash apps-other/drawio/update.sh
+  bash apps-other/ytDownloader/update.sh
+  bash apps-development/marktext/update.sh
+  bash apps-development/dbgate/update.sh
+  bash apps-system/ulauncher/update.sh
+}
+
+install(){
+  if [ -d apps-development/$2 ]; then bash apps-development/$2/install.sh; fi
+  if [ -d apps-other/$2 ]; then bash apps-other/$2/install.sh; fi
+  if [ -d apps-system/$2 ]; then bash apps-system/$2/install.sh; fi
+}
+
+uninstall(){
+  if [ -d apps-development/$2 ]; then bash apps-development/$2/uninstall.sh; fi
+  if [ -d apps-other/$2 ]; then bash apps-other/$2/uninstall.sh; fi
+  if [ -d apps-system/$2 ]; then bash apps-system/$2/uninstall.sh; fi
+}
+
+update(){
+  if [ -d apps-development/$2 ]; then bash apps-development/$2/update.sh; fi
+  if [ -d apps-other/$2 ]; then bash apps-other/$2/update.sh; fi
+  if [ -d apps-system/$2 ]; then bash apps-system/$2/udate.sh; fi
+}
+
+# show menu if there's no arguments
+if [ $# -eq 0 ]; then menu; fi
+
+# commands with one argument
+if [ $# -eq 1 ]; then
+  if [ "$1" = "install-all" ]; then install-all; fi
+  if [ "$1" = "uninstall-all" ]; then uninstall-all; fi
+  if [ "$1" = "update-apps" ]; then update-apps; fi
+fi
+
+# commands with two arguments
+if [ $# -eq 2 ]; then
+  if [ "$1" = "install" ]; then install $1 $2; fi
+  if [ "$1" = "uninstall" ]; then uninstall $1 $2; fi
+  if [ "$1" = "update" ]; then update $1 $2; fi
+fi

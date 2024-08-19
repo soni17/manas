@@ -1,5 +1,3 @@
-echo "uninstalling bloat..."
-
 # uninstall unused packages
 sudo apt-get purge -y \
   fonts-noto \

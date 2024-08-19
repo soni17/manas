@@ -1,5 +1,3 @@
-echo "installing dependencies..."
-
 sudo apt-get install -y \
   git \
   wget \

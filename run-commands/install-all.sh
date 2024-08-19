@@ -20,24 +20,33 @@ source run-commands/check-os.sh
 source run-commands/error-handling.sh
 
 # enable all debian repositories
+echo "enabling all Debian repositories..."
 source run-commands/enable-repos.sh 1> /dev/null 2>> /tmp/manas.log
 
 # upgrade OS
+echo "upgrading OS..."
 source run-commands/upgrade-os.sh 1> /dev/null 2>> /tmp/manas.log
 
 # uninstall bloat
+echo "uninstalling bloat..."
 source run-commands/uninstall-bloat.sh 1> /dev/null 2>> /tmp/manas.log
 
 # install dependencies for installers
+echo "installing dependencies..."
 source run-commands/install-dependencies.sh 1> /dev/null 2>> /tmp/manas.log
 
 # run installers
+echo "installing apps..."
+echo " "
 source run-commands/run-installers.sh 
 
 # install updates from backports repo
+echo " "
+echo "installing updates from Debian backports repo"
 source run-commands/backports-updates.sh
 
 # cleanup
+echo "cleaning up..."
 source run-commands/cleanup.sh 1> /dev/null 2>> /tmp/manas.log
 
 # reboot

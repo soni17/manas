@@ -11,7 +11,7 @@ Turn a fresh installation of Debian into a modern, fully-configured environment 
 Clone this repo and then run the following command
 
 ```bash
-bash run.sh
+./manas install-all
 ```
 
 ### License
