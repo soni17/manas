@@ -28,7 +28,7 @@ update-apps(){
   bash apps-other/freetube/update.sh
   bash apps-other/localsend/update.sh
   bash apps-other/drawio/update.sh
-  bash apps-other/ytDownloader/update.sh
+  bash apps-other/ytdownloader/update.sh
   bash apps-development/marktext/update.sh
   bash apps-development/dbgate/update.sh
   bash apps-system/ulauncher/update.sh
