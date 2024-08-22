@@ -49,7 +49,7 @@ uninstall(){
 update(){
   if [ -d apps-development/$2 ]; then bash apps-development/$2/update.sh; fi
   if [ -d apps-other/$2 ]; then bash apps-other/$2/update.sh; fi
-  if [ -d apps-system/$2 ]; then bash apps-system/$2/udate.sh; fi
+  if [ -d apps-system/$2 ]; then bash apps-system/$2/update.sh; fi
 }
 
 # show menu if there's no arguments
