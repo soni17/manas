@@ -59,7 +59,7 @@ if [ $# -eq 0 ]; then menu; fi
 if [ $# -eq 1 ]; then
   if [ "$1" = "install-all" ]; then install-all; fi
   if [ "$1" = "uninstall-all" ]; then uninstall-all; fi
-  if [ "$1" = "update-apps" ]; then update-apps; fi
+  if [ "$1" = "update-apps" ]; then update-apps 2> /tmp/manas.log ; fi
 fi
 
 # commands with two arguments
