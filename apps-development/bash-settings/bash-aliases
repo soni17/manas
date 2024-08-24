@@ -28,4 +28,5 @@ alias updates='sudo apt update && \
                sudo apt autoclean -y && \
                flatpak uninstall --unused --delete-data -y && \
                flatpak update -y && \
-               asdf update'
+               asdf update && \
+               ~/.local/share/manas/manas update-apps'

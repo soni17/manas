@@ -8,13 +8,12 @@ Turn a fresh installation of Debian into a modern, fully-configured environment 
 
 ### Installation
 
-Clone this repo and then run the following command
+Run this command in your terminal.
 
 ```bash
-./manas install-all
+curl -s https://raw.githubusercontent.com/soni17/manas/main/boot.sh | bash
 ```
 
 ### License
 
 Manas is released under the [MIT License](https://opensource.org/license/MIT)
-
