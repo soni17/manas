@@ -30,5 +30,5 @@ alias updates='sudo apt update && \
                flatpak update -y && \
                asdf update && \
                cd ~/.local/share/manas && \
-               ./manas update-apps \
+               ./manas update-apps && \
                cd - '
