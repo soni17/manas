@@ -24,6 +24,7 @@ uninstall-all(){
   bash run-commands/uninstall-all.sh
 }
 
+# update apps without a repository
 update-apps(){
   bash apps-other/freetube/update.sh
   bash apps-other/localsend/update.sh
