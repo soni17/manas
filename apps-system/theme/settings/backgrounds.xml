@@ -2,8 +2,8 @@
 <!DOCTYPE wallpapers SYSTEM "mate-wp-list.dtd">
 <wallpapers>
   <wallpaper deleted="false">
-    <name>pyramids.jpg</name>
-    <filename>/usr/share/backgrounds/pyramids.jpg</filename>
+    <name>mountaintop.jpg</name>
+    <filename>/usr/share/backgrounds/mountaintop.jpg</filename>
     <options>zoom</options>
     <shade_type>vertical-gradient</shade_type>
     <pcolor>rgb(88,145,188)</pcolor>
@@ -110,8 +110,8 @@
     <artist>(none)</artist>
   </wallpaper>
   <wallpaper deleted="false">
-    <name>mountains.jpg</name>
-    <filename>/usr/share/backgrounds/mountains.jpg</filename>
+    <name>debian10.jpg</name>
+    <filename>/usr/share/backgrounds/debian10.jpg</filename>
     <options>zoom</options>
     <shade_type>vertical-gradient</shade_type>
     <pcolor>rgb(88,145,188)</pcolor>
