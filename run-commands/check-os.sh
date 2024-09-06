@@ -1,5 +1,3 @@
-echo "checking OS version..."
-
 # stop script if OS cannot be determined
 if [ ! -f /etc/os-release ]; then
   echo "$(tput setaf 1)Error: Unable to determine OS. /etc/os-release file not found."
