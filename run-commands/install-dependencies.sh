@@ -4,7 +4,6 @@ sudo apt-get install -y \
   dconf-cli
 
 # install asdf version manager
-rm -rf ~/.asdf
 git clone https://github.com/asdf-vm/asdf.git ~/.asdf
 . "$HOME/.asdf/asdf.sh"
 
