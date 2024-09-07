@@ -4,4 +4,5 @@ then
   sudo apt purge -y --autoremove marktext
 fi
 
+# delete config folder
 rm -rf ~/.config/marktext

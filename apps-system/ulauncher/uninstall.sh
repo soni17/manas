@@ -4,7 +4,7 @@ then
   sudo apt-get purge -y --autoremove ulauncher
 fi
 
-# delete configs
+# delete config folder
 sudo rm -rf ~/.config/ulauncher
 
 # delete autostarter

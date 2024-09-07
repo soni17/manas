@@ -4,4 +4,5 @@ then
   sudo apt-get purge -y --autoremove freetube
 fi
 
+# delete config folder
 sudo rm -rf ~/.config/FreeTube

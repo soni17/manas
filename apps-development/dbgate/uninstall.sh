@@ -4,4 +4,5 @@ then
   sudo apt-get purge -y --autoremove dbgate
 fi
 
+# delete config folder
 sudo rm -rf ~/.dbgate

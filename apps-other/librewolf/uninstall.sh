@@ -4,7 +4,7 @@ then
   sudo apt-get purge -y --autoremove librewolf
 fi
 
-# delete configs
+# delete config folder
 sudo rm -rf ~/.librewolf
 
 # remove repository

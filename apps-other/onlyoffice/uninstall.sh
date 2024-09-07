@@ -4,7 +4,7 @@ then
   sudo apt-get purge -y --autoremove onlyoffice-desktopeditors
 fi
 
-# delete configs
+# delete config folder
 sudo rm -rf ~/.config/onlyoffice
 
 # remove repository

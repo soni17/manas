@@ -4,7 +4,7 @@ then
   sudo apt-get purge -y --autoremove google-chrome-stable
 fi
 
-# delete configs
+# delete config folder
 sudo rm -rf ~/.config/google-chrome
 
 # remove repository

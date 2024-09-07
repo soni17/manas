@@ -7,3 +7,6 @@ fi
 # remove repository
 sudo rm -f /etc/apt/sources.list.d/bruno.list
 sudo rm -f /etc/apt/keyrings/bruno.gpg
+
+# delete config folder
+sudo rm -rf ~/.config/bruno

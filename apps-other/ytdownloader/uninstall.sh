@@ -3,3 +3,6 @@ if apt search ytdownloader | grep installed &> /dev/null
 then
   sudo apt purge -y --autoremove ytdownloader
 fi
+
+# delete config folder
+sudo rm -rf ~/.config/ytdownloader

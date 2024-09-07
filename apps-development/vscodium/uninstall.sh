@@ -4,7 +4,7 @@ then
   sudo apt-get purge -y --autoremove codium
 fi
 
-# remove config folder
+# delete config folder
 sudo rm -rf ~/.config/VSCodium
 
 # remove repository
