@@ -9,6 +9,8 @@ sudo apt-get install -y \
   libbz2-dev \
   libreadline-dev \
   libsqlite3-dev \
+	curl \
+  git \
   libncursesw5-dev \
   xz-utils \
   tk-dev \
