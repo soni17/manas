@@ -4,8 +4,11 @@ sudo apt-get install -y \
   dconf-cli
 
 # install asdf version manager
-git clone https://github.com/asdf-vm/asdf.git ~/.asdf
-. "$HOME/.asdf/asdf.sh"
+if ! asdf version
+then
+  git clone https://github.com/asdf-vm/asdf.git ~/.asdf
+  . "$HOME/.asdf/asdf.sh"
+fi
 
 # install flatpak and flathub repo
 sudo apt-get install -y flatpak
