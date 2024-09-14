@@ -35,24 +35,6 @@ update-apps(){
   bash apps-system/ulauncher/update.sh
 }
 
-install(){
-  if [ -d apps-development/$2 ]; then bash apps-development/$2/install.sh; fi
-  if [ -d apps-other/$2 ]; then bash apps-other/$2/install.sh; fi
-  if [ -d apps-system/$2 ]; then bash apps-system/$2/install.sh; fi
-}
-
-uninstall(){
-  if [ -d apps-development/$2 ]; then bash apps-development/$2/uninstall.sh; fi
-  if [ -d apps-other/$2 ]; then bash apps-other/$2/uninstall.sh; fi
-  if [ -d apps-system/$2 ]; then bash apps-system/$2/uninstall.sh; fi
-}
-
-update(){
-  if [ -d apps-development/$2 ]; then bash apps-development/$2/update.sh; fi
-  if [ -d apps-other/$2 ]; then bash apps-other/$2/update.sh; fi
-  if [ -d apps-system/$2 ]; then bash apps-system/$2/update.sh; fi
-}
-
 # show menu if there's no arguments
 if [ $# -eq 0 ]; then menu; fi
 
@@ -63,9 +45,9 @@ if [ $# -eq 1 ]; then
   if [ "$1" = "update-apps" ]; then update-apps 2> /tmp/manas.log ; fi
 fi
 
-# commands with two arguments
+# commands with two arguments (install, uninstall, update)
 if [ $# -eq 2 ]; then
-  if [ "$1" = "install" ]; then install $1 $2; fi
-  if [ "$1" = "uninstall" ]; then uninstall $1 $2; fi
-  if [ "$1" = "update" ]; then update $1 $2; fi
+  if [ -d apps-development/$2 ]; then bash apps-development/$2/$1.sh; fi
+  if [ -d apps-other/$2 ]; then bash apps-other/$2/$1.sh; fi
+  if [ -d apps-system/$2 ]; then bash apps-system/$2/$1.sh; fi
 fi
