@@ -2,4 +2,5 @@
 sudo apt-get install -y \
   mariadb-server \
   postgresql \
-  redis
+  redis \
+  sqlite3
