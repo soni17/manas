@@ -41,12 +41,8 @@ echo "installing apps..."
 echo " "
 source run-commands/run-installers.sh 
 
-# install updates from backports repo
-echo " "
-echo "installing updates from Debian backports repo"
-source run-commands/backports-updates.sh 1> /dev/null 2>> /tmp/manas.log
-
 # cleanup
+echo " "
 echo "cleaning up..."
 source run-commands/cleanup.sh 1> /dev/null 2>> /tmp/manas.log
 
