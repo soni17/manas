@@ -5,5 +5,5 @@ sudo apt-get install -y \
 
 sudo apt-get install -y mariadb-server
 sudo mariadb -e "create database classicmodels"
-sudo mariadb classicmodels < sampledb.sql
-#m mysql_secure_installation
+sudo mariadb classicmodels < apps-development/databases/sampledb.sql
+# mysql_secure_installation
