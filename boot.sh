@@ -6,7 +6,7 @@ rm -rf ~/.local/share/manas
 
 # download repo
 echo "downloading Manas..."
-git clone git@github.com:soni17/manas.git ~/.local/share/manas &> /dev/null
+git clone https://github.com/soni17/manas.git ~/.local/share/manas &> /dev/null
 
 # start installation
 cd ~/.local/share/manas 
