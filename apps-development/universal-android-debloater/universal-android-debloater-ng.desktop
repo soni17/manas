@@ -2,6 +2,6 @@
 Type=Application
 Name=Android Debloater ng
 Comment=Easily remove apps from android phones
-Exec=/usr/bin/uad-ng
+Exec=/usr/bin/uad-ng-linux
 Icon=/usr/share/icons/hicolor/256x256/apps/uad-ng.png
 Categories=Development;
