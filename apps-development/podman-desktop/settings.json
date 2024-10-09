@@ -4,5 +4,6 @@
   "preferences.TrayIconColor": "light",
   "welcome.version": "never",
   "terminal.integrated.fontSize": 16,
-  "editor.integrated.fontSize": 12  
+  "editor.integrated.fontSize": 12,
+  "preferences.appearance": "dark"
 }
