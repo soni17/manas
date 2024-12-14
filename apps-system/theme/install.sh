@@ -30,9 +30,9 @@ mkdir -p ~/.config/menus
 cp apps-system/theme/settings/mate-applications.menu ~/.config/menus
 
 # panel app launchers overrides
-rm -rf ~/.local/share/applications
 mkdir -p ~/.local/share/applications
-cp apps-system/theme/panel-apps/* ~/.local/share/applications
+cp apps-system/theme/settings/mate-terminal* ~/.local/share/applications
+cp apps-system/theme/settings/engrampa* ~/.local/share/applications
 
 # load theme settings
 dconf load / < apps-system/theme/settings/theme-settings

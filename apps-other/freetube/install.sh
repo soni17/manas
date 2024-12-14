@@ -13,3 +13,7 @@ rm /tmp/$FILENAME
 # settings file
 mkdir -p ~/.config/FreeTube
 cp apps-other/freetube/settings.db ~/.config/FreeTube
+
+# launcher icon that fixes slow startup
+mkdir ~/.local/share/applications
+cp apps-other/freetube/freetube* ~/.local/share/applications
