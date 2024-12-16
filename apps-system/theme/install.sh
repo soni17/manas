@@ -52,9 +52,3 @@ then
   echo -n > ~/.local/share/recently-used.xbel
   sudo chattr +i ~/.local/share/recently-used.xbel
 fi
-
-# minimize splash screen at boot
-sudo apt-get install -y grub-customizer
-sudo sed -i "s/GRUB_TIMEOUT=5/GRUB_TIMEOUT=0/" /etc/default/grub
-sudo sed -i "s/splash/loglevel=0/" /etc/default/grub
-sudo update-grub
