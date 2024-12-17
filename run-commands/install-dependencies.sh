@@ -1,6 +1,7 @@
 sudo apt-get install -y \
   git \
   wget \
+  extrepo \
   dconf-cli
 
 # install asdf version manager
