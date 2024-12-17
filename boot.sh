@@ -1,5 +1,5 @@
-# install dependency
-sudo apt-get install -y git &> /dev/null
+# install dependencies
+sudo apt-get install -y git wget dconf-cli &> /dev/null
 
 # remove if it's already there
 rm -rf ~/.local/share/manas

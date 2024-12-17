@@ -32,10 +32,6 @@ source run-commands/upgrade-os.sh 1> /dev/null 2>> /tmp/manas.log
 echo "uninstalling bloat..."
 source run-commands/uninstall-bloat.sh 1> /dev/null 2>> /tmp/manas.log
 
-# install dependencies for installers
-echo "installing dependencies..."
-source run-commands/install-dependencies.sh 1> /dev/null 2>> /tmp/manas.log
-
 # run installers
 echo "installing apps..."
 echo " "
