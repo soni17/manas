@@ -4,7 +4,7 @@ Turn a fresh installation of Debian into a modern, fully-configured environment 
 
 ### Requirements
 
-- Debian - Mate Edition. Installations instructions at [debian.org](https://www.debian.org/CD/live/)
+- Debian - Mate Edition. Installation instructions at [debian.org](https://www.debian.org/CD/live/)
 
 ### Installation
 
