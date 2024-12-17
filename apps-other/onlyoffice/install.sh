@@ -4,7 +4,7 @@
 sudo extrepo enable onlyoffice-desktopeditors
 
 # install
-sudo apt-get update
+sudo apt-get update -y
 sudo apt-get install -y onlyoffice-desktopeditors
 
 # config file

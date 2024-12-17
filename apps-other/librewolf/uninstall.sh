@@ -8,5 +8,4 @@ fi
 sudo rm -rf ~/.librewolf
 
 # remove repository
-sudo rm -f /etc/apt/sources.list.d/librewolf.sources
-sudo rm -f /usr/share/keyrings/librewolf.gpg
+sudo extrepo disable librewolf

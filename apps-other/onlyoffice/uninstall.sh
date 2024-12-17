@@ -8,5 +8,4 @@ fi
 sudo rm -rf ~/.config/onlyoffice
 
 # remove repository
-sudo rm -f /etc/apt/sources.list.d/onlyoffice.list
-sudo rm -f /usr/share/keyrings/onlyoffice.gpg
+sudo extrepo disable onlyoffice-desktopeditors

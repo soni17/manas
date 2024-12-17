@@ -1,7 +1,7 @@
 # remove user from docker group
 sudo usermod -rG docker $USER
 
-# ininstall if it's already installed
+# uninstall if it's already installed
 if apt search docker-ce | grep installed &> /dev/null
 then
   sudo apt-get purge -y --autoremove \
@@ -13,5 +13,4 @@ then
 fi
 
 # remove repository
-sudo rm -f /etc/apt/sources.list.d/docker.list
-sudo rm -f /etc/apt/keyrings/docker.asc
+sudo extrepo disable docker-ce
