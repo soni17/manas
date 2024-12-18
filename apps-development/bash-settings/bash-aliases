@@ -20,7 +20,7 @@ alias gca='git add -A && git commit -m'
 # delete last commit, keep changes and unstage
 alias gdl='git reset HEAD~1'
 
-# apt updates - flatpak updates - asdf update
+# run updates for apt,flatpak and downloaded apps
 alias updates='sudo apt update && \
                sudo apt full-upgrade -y && \
                sudo apt dist-upgrade -y && \
@@ -28,7 +28,6 @@ alias updates='sudo apt update && \
                sudo apt autoclean -y && \
                flatpak uninstall --unused --delete-data -y && \
                flatpak update -y && \
-               asdf update && \
                cd ~/.local/share/manas && \
                ./manas update-apps && \
                cd - '
