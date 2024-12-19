@@ -5,6 +5,7 @@ sudo apt-get install -y \
   lsd \
   btop \
   ncdu \
+  nala \
   fzf \
   tmux \
   git \
