@@ -18,7 +18,10 @@ sudo bash apps-system/theme/fonts/ttf-ms-tahoma-installer.sh
 # copy wallpapers
 sudo rm -rf /usr/share/backgrounds/*
 sudo cp apps-system/theme/wallpapers/* /usr/share/backgrounds
+
+# copy wallpaper settings
 sudo rm -rf /usr/share/mate-background-properties/*
+sudo rm ~/.config/mate/backgrounds.xml
 sudo cp apps-system/theme/settings/backgrounds.xml /usr/share/mate-background-properties
 
 # copy desktop icons

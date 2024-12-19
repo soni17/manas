@@ -23,7 +23,7 @@ start-with-toolbar=true
 
 [org/mate/desktop/background]
 color-shading-type='vertical-gradient'
-picture-filename='/usr/share/backgrounds/beach-rocks.jpg'
+picture-filename='/usr/share/backgrounds/debian-bookworm.png'
 picture-options='zoom'
 primary-color='rgb(88,145,188)'
 secondary-color='rgb(60,143,37)'

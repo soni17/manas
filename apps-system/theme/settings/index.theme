@@ -11,4 +11,4 @@ GtkColorScheme=base_color:#ffffff,fg_color:#000000,tooltip_fg_color:#000000,sele
 CursorTheme=mate
 CursorSize=24
 NotificationTheme=slider
-BackgroundImage=/usr/share/backgrounds/beach-rocks.jpg
+BackgroundImage=/usr/share/backgrounds/debian-bookworm.png
