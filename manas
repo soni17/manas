@@ -26,13 +26,13 @@ uninstall-all(){
 
 # update apps without a repository
 update-apps(){
-  bash apps-other/freetube/update.sh
-  bash apps-other/localsend/update.sh
-  bash apps-other/drawio/update.sh
-  bash apps-other/ytdownloader/update.sh
-  bash apps-development/marktext/update.sh
-  bash apps-development/dbgate/update.sh
-  bash apps-system/ulauncher/update.sh
+  bash audio-video/freetube/update.sh
+  bash accessories/localsend/update.sh
+  bash graphics/drawio/update.sh
+  bash audio-video/ytdownloader/update.sh
+  bash office/marktext/update.sh
+  bash development/dbgate/update.sh
+  bash accessories/ulauncher/update.sh
 }
 
 # show menu if there's no arguments
@@ -47,7 +47,13 @@ fi
 
 # commands with two arguments (install, uninstall, update)
 if [ $# -eq 2 ]; then
-  if [ -d apps-development/$2 ]; then bash apps-development/$2/$1.sh; fi
-  if [ -d apps-other/$2 ]; then bash apps-other/$2/$1.sh; fi
-  if [ -d apps-system/$2 ]; then bash apps-system/$2/$1.sh; fi
+  if [ -d accessories/$2 ]; then bash accessories/$2/$1.sh; fi
+  if [ -d audio-video/$2 ]; then bash audio-video/$2/$1.sh; fi
+  if [ -d databases/$2 ]; then bash databases/$2/$1.sh; fi
+  if [ -d development/$2 ]; then bash development/$2/$1.sh; fi
+  if [ -d graphics/$2 ]; then bash graphics/$2/$1.sh; fi
+  if [ -d office/$2 ]; then bash office/$2/$1.sh; fi
+  if [ -d programming-languages/$2 ]; then bash programming-languages/$2/$1.sh; fi
+  if [ -d system/$2 ]; then bash system/$2/$1.sh; fi
+  if [ -d web-browsers/$2 ]; then bash web-browsers/$2/$1.sh; fi
 fi

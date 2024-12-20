@@ -15,6 +15,12 @@ run () {
   done
 }
 
-run "apps-system/*/"
-run "apps-development/*/"
-run "apps-other/*/"
+run "accessories/*/"
+run "audio-video/*/"
+run "databases/*/"
+run "development/*/"
+run "graphics/*/"
+run "office/*/"
+run "programming-languages/*/"
+run "system/*/"
+run "web-browsers/*/"

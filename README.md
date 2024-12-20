@@ -1,10 +1,10 @@
 # Manas
 
-Turn a fresh installation of Debian into a modern, fully-configured environment tailored for developers. It includes all the apps, tools and configs you will need. Save yourself countless hours setting up your environment. Manas can be installed with one command. 
+Turn a fresh installation of Debian Linux into a modern, fully-configured environment tailored for developers. It includes all the apps, tools and configs you will need. Save yourself countless hours setting up your environment. Manas can be installed with one command. 
 
 ### Requirements
 
-- Debian - Mate Edition. Installation instructions at [debian.org](https://www.debian.org/CD/live/)
+- Debian 12 - Mate Edition. Installation instructions at [debian.org](https://www.debian.org/CD/live/)
 
 ### Installation
 
