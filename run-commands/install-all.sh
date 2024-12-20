@@ -35,7 +35,7 @@ source run-commands/uninstall-bloat.sh 1> /dev/null 2>> /tmp/manas.log
 # run installers
 echo "installing apps..."
 echo " "
-source run-commands/run-installers.sh 
+source run-commands/install-apps.sh $1
 
 # cleanup
 echo " "

@@ -14,13 +14,3 @@ run () {
     fi
   done
 }
-
-run "accessories/*/"
-run "audio-video/*/"
-run "databases/*/"
-run "development/*/"
-run "graphics/*/"
-run "office/*/"
-run "programming-languages/*/"
-run "system/*/"
-run "web-browsers/*/"
