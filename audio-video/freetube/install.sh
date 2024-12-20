@@ -15,5 +15,5 @@ mkdir -p ~/.config/FreeTube
 cp audio-video/freetube/settings.db ~/.config/FreeTube
 
 # launcher icon that fixes slow startup
-mkdir ~/.local/share/applications
+mkdir -p ~/.local/share/applications
 cp audio-video/freetube/freetube* ~/.local/share/applications

@@ -8,5 +8,5 @@ sudo apt-get install -y /tmp/$FILENAME
 rm /tmp/$FILENAME
 
 # launcher icon
-mkdir ~/.local/share/applications
+mkdir -p ~/.local/share/applications
 cp audio-video/ytdownloader/ytdownloader* ~/.local/share/applications

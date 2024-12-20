@@ -8,5 +8,5 @@ mkdir -p ~/.config/fsearch
 cp system/fsearch/fsearch.conf ~/.config/fsearch
 
 # launcher icon
-mkdir ~/.local/share/applications
+mkdir -p ~/.local/share/applications
 cp system/fsearch/io.github.cboxdoerfer.FSearch* ~/.local/share/applications

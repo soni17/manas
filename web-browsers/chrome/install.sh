@@ -11,5 +11,5 @@ sudo apt-get install -y /tmp/$FILENAME
 rm /tmp/$FILENAME
 
 # launcher icon that fixes slow startup
-mkdir ~/.local/share/applications
+mkdir -p ~/.local/share/applications
 cp web-browsers/chrome/google-chrome.desktop ~/.local/share/applications
