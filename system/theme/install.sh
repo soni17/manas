@@ -21,7 +21,7 @@ sudo cp system/theme/wallpapers/* /usr/share/backgrounds
 
 # copy wallpaper settings
 sudo rm -rf /usr/share/mate-background-properties/*
-sudo rm ~/.config/mate/backgrounds.xml
+sudo rm -rf ~/.config/mate/backgrounds.xml
 sudo cp system/theme/settings/backgrounds.xml /usr/share/mate-background-properties
 
 # copy desktop icons
