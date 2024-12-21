@@ -17,7 +17,7 @@ menu(){
 }
 
 install-all(){
-  bash run-commands/install-all.sh
+  bash run-commands/install-all.sh $1
 }
 
 uninstall-all(){
@@ -35,25 +35,40 @@ update-apps(){
   bash accessories/ulauncher/update.sh
 }
 
+app(){
+  if [ -d accessories/$1 ]; then echo "accessories/$1" ; fi
+  if [ -d audio-video/$1 ]; then echo "audio-video/$1" ; fi
+  if [ -d databases/$1 ]; then echo "databases/$1" ; fi
+  if [ -d development/$1 ]; then echo "development/$1" ; fi
+  if [ -d graphics/$1 ]; then echo "graphics/$1" ; fi
+  if [ -d office/$1 ]; then echo "office/$1" ; fi
+  if [ -d programming-languages/$1 ]; then echo "programming-languages/$1" ; fi
+  if [ -d system/$1 ]; then echo "system/$1" ; fi
+  if [ -d web-browsers/$1 ]; then echo "web-browsers/$1" ; fi
+}
+
+install(){
+  appname=$(app $1)
+  bash $appname/install.sh
+}
+
+uninstall(){
+  appname=$(app $1)
+  bash $appname/uninstall.sh
+}
+
+update(){
+  appname=$(app $1)
+  bash $appname/update.sh
+}
+
 # show menu if there's no arguments
 if [ $# -eq 0 ]; then menu; fi
 
-# commands with one argument
-if [ $# -eq 1 ]; then
-  if [ "$1" = "install-all" ]; then install-all; fi
-  if [ "$1" = "uninstall-all" ]; then uninstall-all; fi
-  if [ "$1" = "update-apps" ]; then update-apps 2> /tmp/manas.log ; fi
-fi
-
-# commands with two arguments (install, uninstall, update)
-if [ $# -eq 2 ]; then
-  if [ -d accessories/$2 ]; then bash accessories/$2/$1.sh; fi
-  if [ -d audio-video/$2 ]; then bash audio-video/$2/$1.sh; fi
-  if [ -d databases/$2 ]; then bash databases/$2/$1.sh; fi
-  if [ -d development/$2 ]; then bash development/$2/$1.sh; fi
-  if [ -d graphics/$2 ]; then bash graphics/$2/$1.sh; fi
-  if [ -d office/$2 ]; then bash office/$2/$1.sh; fi
-  if [ -d programming-languages/$2 ]; then bash programming-languages/$2/$1.sh; fi
-  if [ -d system/$2 ]; then bash system/$2/$1.sh; fi
-  if [ -d web-browsers/$2 ]; then bash web-browsers/$2/$1.sh; fi
-fi
+# commands
+if [ "$1" = "install-all" ]; then install-all $2; fi
+if [ "$1" = "uninstall-all" ]; then uninstall-all; fi
+if [ "$1" = "update-apps" ]; then update-apps 2> /tmp/manas.log ; fi
+if [ "$1" = "install" ]; then install $2; fi
+if [ "$1" = "uninstall" ]; then uninstall $2; fi
+if [ "$1" = "update" ]; then update $2; fi
