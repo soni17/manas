@@ -14,3 +14,13 @@ run () {
     fi
   done
 }
+
+run "system/*/"
+run "web-browsers/*/"
+run "accessories/*/"
+run "audio-video/*/"
+run "graphics/*/"
+run "office/*/"
+run "databases/*/"
+run "development/*/"
+run "programming-languages/*/"

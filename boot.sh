@@ -10,4 +10,4 @@ git clone https://github.com/soni17/manas.git ~/.local/share/manas &> /dev/null
 
 # start installation
 cd ~/.local/share/manas 
-./manas install-all $1
+./manas install-all
