@@ -9,3 +9,4 @@ sudo rm -rf ~/.config/onlyoffice
 
 # remove repository
 sudo extrepo disable onlyoffice-desktopeditors
+sudo apt update -y

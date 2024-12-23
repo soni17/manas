@@ -9,3 +9,4 @@ sudo rm -rf ~/.librewolf
 
 # remove repository
 sudo extrepo disable librewolf
+sudo apt update -y
