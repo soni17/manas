@@ -65,3 +65,6 @@ sudo apt-get install -y \
   caja-image-converter \
   caja-open-terminal \
   caja-rename
+
+# mate-user-manager
+sudo apt-get install -y mate-user-admin
