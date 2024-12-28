@@ -115,7 +115,7 @@ y=1042
 y-bottom=0
 
 [org/mate/panel/toplevels/bottom/background]
-color='rgba(246,245,244,0.896)'
+color='rgba(235,235,235,0.896)'
 type='color'
 
 [org/mate/panel/toplevels/toplevel-0]
