@@ -31,7 +31,7 @@ update-apps(){
   bash graphics/drawio/update.sh
   bash audio-video/ytdownloader/update.sh
   bash office/marktext/update.sh
-  bash development/dbgate/update.sh
+  bash databases/dbgate/update.sh
   bash accessories/ulauncher/update.sh
 }
 
