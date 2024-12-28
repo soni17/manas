@@ -1,7 +1,9 @@
 # https://www.google.com/chrome/index.html
 
-# download
+# installer filename
 FILENAME="google-chrome-stable_current_amd64.deb"
+
+# download installer
 wget -q https://dl.google.com/linux/direct/$FILENAME -O /tmp/$FILENAME
 
 # install
