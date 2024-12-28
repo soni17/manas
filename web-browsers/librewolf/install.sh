@@ -2,9 +2,9 @@
 
 # add repository
 sudo extrepo enable librewolf
+sudo apt-get update -y
 
 # install
-sudo apt-get update -y
 sudo apt-get install librewolf -y
 
 # config file

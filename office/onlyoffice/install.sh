@@ -2,9 +2,9 @@
 
 # add repository
 sudo extrepo enable onlyoffice-desktopeditors
+sudo apt-get update -y
 
 # install
-sudo apt-get update -y
 sudo apt-get install -y onlyoffice-desktopeditors
 
 # config file

@@ -2,9 +2,9 @@
 
 # add repository
 sudo extrepo enable docker-ce
+sudo apt-get update -y
 
 # install docker and extensions
-sudo apt-get update -y
 sudo apt-get install -y \
   docker-ce \
   docker-ce-cli \
