@@ -105,6 +105,9 @@
 		<Include>
 			<Filename>org.gnome.DiskUtility-1.desktop</Filename>
 		</Include>
+		<Include>
+			<Filename>clamtk-1.desktop</Filename>
+		</Include>
 		<Layout>
 			<Merge type="menus"/>
 			<Filename>gdebi.desktop</Filename>
@@ -117,6 +120,7 @@
 			<Filename>mate-system-monitor.desktop</Filename>
 			<Filename>mate-power-statistics.desktop</Filename>
 			<Filename>btop.desktop</Filename>
+			<Filename>clamtk-1.desktop</Filename>
 			<Filename>caja-browser.desktop</Filename>
 			<Filename>caja-computer.desktop</Filename>
 			<Filename>caja-home.desktop</Filename>
