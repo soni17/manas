@@ -114,13 +114,13 @@
 			<Filename>engrampa-1.desktop</Filename>
 			<Filename>org.gnome.DiskUtility-1.desktop</Filename>
 			<Filename>usbimager.desktop</Filename>
+			<Filename>clamtk-1.desktop</Filename>
 			<Filename>timeshift-gtk.desktop</Filename>
 			<Filename>org.gnome.PackageUpdater.desktop</Filename>
 			<Filename>com.usebottles.bottles-1.desktop</Filename>
 			<Filename>mate-system-monitor.desktop</Filename>
 			<Filename>mate-power-statistics.desktop</Filename>
 			<Filename>btop.desktop</Filename>
-			<Filename>clamtk-1.desktop</Filename>
 			<Filename>caja-browser.desktop</Filename>
 			<Filename>caja-computer.desktop</Filename>
 			<Filename>caja-home.desktop</Filename>
