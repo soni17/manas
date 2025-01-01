@@ -11,7 +11,7 @@ distro=$ID
 version=$VERSION_ID
 desktop=$DESKTOP_SESSION
 
-# stop script if OS is not Debian MATE 12 or higher
+# stop script if OS is not Debian 12 with mate desktop
 if [ "$distro" != "debian" ] || [[ $version -ne 12 ]] || [ "$desktop" != "mate" ]; then
   echo "$(tput setaf 1)Error: OS requirement not met"
   echo "Installation stopped."
