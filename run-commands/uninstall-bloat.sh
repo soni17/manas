@@ -15,6 +15,7 @@ sudo apt-get purge -y \
   mate-applet-brisk-menu \
   mate-applets \
   mate-utils \
+  yelp \
   wswedish \
   wportuguese \
   wpolish \
