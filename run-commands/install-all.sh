@@ -20,7 +20,7 @@ source run-commands/check-os.sh
 # error handling
 source run-commands/error-handling.sh
 
-# add repositories
+# enable repositories
 echo "adding repositories..."
 source run-commands/enable-repos.sh 1> /dev/null 2>> /tmp/manas.log
 
