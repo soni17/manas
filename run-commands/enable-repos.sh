@@ -15,8 +15,11 @@ sudo sed -i "s/# - contrib/- contrib/" /etc/extrepo/config.yaml
 sudo sed -i "s/# - non-free/- non-free/" /etc/extrepo/config.yaml
 
 # install asdf version manager
-if ! asdf version
-then
-	git clone https://github.com/asdf-vm/asdf.git --branch v0.16.1
-  . "$HOME/.asdf/asdf.sh"
-fi
+LATEST_VERSION=$(curl -s "https://api.github.com/repos/asdf-vm/asdf/releases/latest" | grep -Po '"tag_name": "\K[^"]*')
+FILENAME=asdf-${LATEST_VERSION}-linux-386.tar.gz
+wget -q https://github.com/asdf-vm/asdf/releases/download/${LATEST_VERSION}/$FILENAME -O /tmp/$FILENAME
+cd /tmp
+tar -xvzf /tmp/$FILENAME
+sudo mv asdf /bin
+sudo rm $FILENAME
+cd -
