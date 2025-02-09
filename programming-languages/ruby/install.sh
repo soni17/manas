@@ -21,8 +21,9 @@ sudo apt-get install -y \
 
 # install latest version of ruby
 asdf plugin add ruby
-asdf install ruby latest
-asdf global ruby latest
+latest=$(asdf list all ruby | grep -o ^[0-9].* | grep -v [a-z] | tail -1)
+asdf install ruby $latest
+asdf set ruby $latest
 
 # install some ruby gems
 gem install rails
