@@ -5,4 +5,4 @@
 asdf plugin add java
 OPENJDK=$(asdf list all java | grep ^openjdk | tail -1)
 asdf install java $OPENJDK &> /dev/null
-asdf set java $OPENJDK
+echo "java $OPENJDK" >> ~/.tool-versions

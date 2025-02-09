@@ -23,7 +23,7 @@ sudo apt-get install -y \
 asdf plugin add python
 latest=$(asdf list all python | grep ^[0-9] | grep -v [a-z] | tail -1)
 asdf install python $latest
-asdf set python $latest
+echo "python $latest" >> ~/.tool-versions
 pip install --upgrade pip
 
 # install Django

@@ -3,5 +3,6 @@
 
 # install latest version of Go
 asdf plugin add golang
-asdf install golang latest
-asdf set golang latest
+latest=$(asdf list all golang | grep -v [a-z] | tail -2)
+asdf install golang $latest
+echo "golang $latest" >> ~/.tool-versions
