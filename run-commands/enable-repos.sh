@@ -23,3 +23,8 @@ tar -xvzf /tmp/$FILENAME
 sudo mv asdf /bin
 sudo rm $FILENAME
 cd -
+
+# appimage dependencies
+sudo apt-get install -y \
+  fuse \
+  libfuse2
