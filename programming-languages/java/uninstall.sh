@@ -1,1 +1,1 @@
-mise uninstall --all java
+mise unuse -y java

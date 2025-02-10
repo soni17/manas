@@ -20,6 +20,7 @@ sudo apt-get install -y \
 
 # install latest version of ruby
 mise use --global ruby@latest
+eval "$(mise activate bash)"
 
 # install some ruby gems
 gem install rails

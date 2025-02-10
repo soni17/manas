@@ -1,1 +1,1 @@
-mise uninstall --all python
+mise unuse -y python

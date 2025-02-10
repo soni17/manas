@@ -1,1 +1,1 @@
-mise uninstall --all go
+mise unuse -y go

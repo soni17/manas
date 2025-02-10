@@ -1,1 +1,1 @@
-mise uninstall --all ruby
+mise unuse -y ruby

@@ -20,6 +20,7 @@ sudo apt-get install -y \
 
 # install latest version of python
 mise use --global python@latest
+eval "$(mise activate bash)"
 
 # update pip
 pip install --upgrade pip

@@ -1,1 +1,1 @@
-mise uninstall --all node
+mise unuse -y node
