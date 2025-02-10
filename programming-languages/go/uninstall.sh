@@ -1,3 +1,1 @@
-if asdf help golang; then
-  asdf plugin remove golang
-fi
+mise uninstall --all go

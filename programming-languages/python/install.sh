@@ -1,5 +1,4 @@
-# https://www.python.org/
-# https://github.com/asdf-community/asdf-python
+# https://www.python.org
 
 # install python build dependencies
 sudo apt-get install -y \
@@ -20,10 +19,9 @@ sudo apt-get install -y \
   liblzma-dev 
 
 # install latest version of python
-asdf plugin add python
-latest=$(asdf list all python | grep ^[0-9] | grep -v [a-z] | tail -1)
-asdf install python $latest
-echo "python $latest" >> ~/.tool-versions
+mise use --global python@latest
+
+# update pip
 pip install --upgrade pip
 
 # install Django

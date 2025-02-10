@@ -1,5 +1,4 @@
-# https://www.ruby-lang.org/
-# https://github.com/asdf-vm/asdf-ruby
+# https://www.ruby-lang.org
 
 # install ruby build dependencies 
 sudo apt-get install -y \
@@ -20,10 +19,7 @@ sudo apt-get install -y \
   uuid-dev
 
 # install latest version of ruby
-asdf plugin add ruby
-latest=$(asdf list all ruby | grep -o ^[0-9].* | grep -v [a-z] | tail -1)
-asdf install ruby $latest
-echo "ruby $latest" >> ~/.tool-versions
+mise use --global ruby@latest
 
 # install some ruby gems
 gem install rails

@@ -14,12 +14,10 @@ sudo apt-get install -y extrepo
 sudo sed -i "s/# - contrib/- contrib/" /etc/extrepo/config.yaml
 sudo sed -i "s/# - non-free/- non-free/" /etc/extrepo/config.yaml
 
-# install asdf version manager
-LATEST_VERSION=$(curl -s "https://api.github.com/repos/asdf-vm/asdf/releases/latest" | grep -Po '"tag_name": "\K[^"]*')
-FILENAME=asdf-${LATEST_VERSION}-linux-386.tar.gz
-wget -q https://github.com/asdf-vm/asdf/releases/download/${LATEST_VERSION}/$FILENAME -O /tmp/$FILENAME
-cd /tmp
-tar -xvzf /tmp/$FILENAME
-sudo mv asdf /bin
-sudo rm $FILENAME
-cd -
+# install mise-en-place
+sudo apt update -y && sudo apt install -y gpg sudo wget curl
+sudo install -dm 755 /etc/apt/keyrings
+wget -qO - https://mise.jdx.dev/gpg-key.pub | gpg --dearmor | sudo tee /etc/apt/keyrings/mise-archive-keyring.gpg 1> /dev/null
+echo "deb [signed-by=/etc/apt/keyrings/mise-archive-keyring.gpg arch=amd64] https://mise.jdx.dev/deb stable main" | sudo tee /etc/apt/sources.list.d/mise.list
+sudo apt update
+sudo apt install -y mise
