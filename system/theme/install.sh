@@ -59,12 +59,5 @@ then
   sudo chattr +i ~/.local/share/recently-used.xbel
 fi
 
-# caja extensions
-sudo apt-get install -y \
-  caja-admin \
-  caja-image-converter \
-  caja-open-terminal \
-  caja-rename
-
 # mate-user-manager
 sudo apt-get install -y mate-user-admin
