@@ -37,9 +37,6 @@ mkdir -p ~/.local/share/applications
 cp system/theme/settings/mate-terminal* ~/.local/share/applications
 cp system/theme/settings/engrampa* ~/.local/share/applications
 
-# panel menu editor
-sudo apt-get install -y mozo
-
 # load theme settings
 dconf load / < system/theme/settings/theme-settings
 
