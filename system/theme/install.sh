@@ -58,6 +58,3 @@ then
   echo -n > ~/.local/share/recently-used.xbel
   sudo chattr +i ~/.local/share/recently-used.xbel
 fi
-
-# mate-user-manager
-sudo apt-get install -y mate-user-admin
