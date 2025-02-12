@@ -47,11 +47,6 @@ dconf load / < system/theme/settings/theme-settings
 sudo mkdir -p /usr/share/themes/Manas
 sudo cp system/theme/settings/index.theme /usr/share/themes/Manas
 
-# set screen temperature
-sudo apt-get install -y redshift
-mkdir -p ~/.config/autostart
-cp system/theme/settings/redshift.desktop ~/.config/autostart
-
 # disable recent documents history
 if ! lsattr ~/.local/share/recently-used.xbel | grep i
 then
