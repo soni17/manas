@@ -60,7 +60,7 @@
 		<Layout>
 			<Merge type="menus"/>
 			<Filename>vlc.desktop</Filename>
-			<Filename>org.tenacityaudio.Tenacity.desktop</Filename>
+			<Filename>audacity.desktop</Filename>
 			<Filename>org.gnome.Rhythmbox3.desktop</Filename>
 			<Filename>webcamoid.desktop</Filename>
 			<Filename>org.shotcut.Shotcut.desktop</Filename>
