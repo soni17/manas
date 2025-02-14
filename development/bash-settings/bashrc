@@ -125,5 +125,5 @@ if ! shopt -oq posix; then
   fi
 fi
 
-# setup mise-en-place
+# setup mise-en-place (version manager)
 eval "$(mise activate bash)"
