@@ -1,4 +1,4 @@
-# https://apps.gnome.org/Software/
+# https://apps.gnome.org/Software
 
 # install
 sudo apt-get install -y \

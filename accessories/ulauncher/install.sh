@@ -1,4 +1,5 @@
-# https://ulauncher.io/#Download
+# https://ulauncher.io
+# https://github.com/Ulauncher/Ulauncher
 
 # get installer filename and version
 LATEST_VERSION=$(curl -s "https://api.github.com/repos/Ulauncher/Ulauncher/releases/latest" | grep -Po '"tag_name": "\K[^"]*')

@@ -1,4 +1,4 @@
-# https://www.google.com/chrome/index.html
+# https://www.google.com/chrome
 
 # installer filename
 FILENAME="google-chrome-stable_current_amd64.deb"

@@ -1,4 +1,4 @@
-# https://standardnotes.com/
+# https://standardnotes.com
 # https://github.com/standardnotes/app
 
 # install

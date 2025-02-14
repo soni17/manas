@@ -1,4 +1,4 @@
-# https://mariadb.org/
+# https://mariadb.org
 
 # install
 sudo apt-get install -y mariadb-server

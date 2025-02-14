@@ -1,3 +1,3 @@
-# https://www.videolan.org/vlc/download-debian.html
+# https://www.videolan.org/vlc
 
 sudo apt-get install -y vlc

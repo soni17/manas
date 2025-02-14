@@ -1,4 +1,5 @@
-# https://www.usebruno.com/downloads
+# https://www.usebruno.com
+# https://github.com/usebruno/bruno
 
 # remove repository if it's already there
 sudo rm -f /etc/apt/sources.list.d/bruno.list

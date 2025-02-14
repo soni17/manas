@@ -1,4 +1,4 @@
-# https://dbgate.org/download/
+# https://dbgate.org
 
 # installer filename
 FILENAME="dbgate-latest.deb"

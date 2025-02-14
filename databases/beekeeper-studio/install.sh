@@ -1,3 +1,4 @@
+# https://www.beekeeperstudio.io
 # https://docs.beekeeperstudio.io/installation/linux/#apt-deb
 
 # remove repository if it's already there

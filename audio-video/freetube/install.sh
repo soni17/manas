@@ -1,3 +1,4 @@
+# https://freetubeapp.io
 # https://github.com/FreeTubeApp/FreeTube
 
 # get installer filename and version

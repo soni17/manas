@@ -1,4 +1,5 @@
-# https://docs.docker.com/engine/install/debian/
+# https://www.docker.com
+# https://docs.docker.com/engine/install/debian
 
 # add repository
 sudo extrepo enable docker-ce

@@ -1,4 +1,4 @@
-# https://www.chromium.org/Home/
+# https://www.chromium.org/Home
 
 # install
 sudo apt-get install -y chromium

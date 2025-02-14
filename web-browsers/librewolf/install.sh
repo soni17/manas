@@ -1,4 +1,4 @@
-# https://librewolf.net/installation/debian/
+# https://librewolf.net
 
 # add repository
 sudo extrepo enable librewolf

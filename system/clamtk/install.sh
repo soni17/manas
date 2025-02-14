@@ -1,5 +1,4 @@
-# https://github.com/Cisco-Talos/clamav
-# https://gitlab.com/dave_m/clamtk/-/wikis/Home
+# https://gitlab.com/dave_m/clamtk
 
 # install
 sudo apt-get install -y clamtk

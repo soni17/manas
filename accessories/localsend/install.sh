@@ -1,3 +1,4 @@
+# https://localsend.org
 # https://github.com/localsend/localsend
 
 # get installer filename and version
