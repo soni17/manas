@@ -8,6 +8,7 @@
   "diffEditor.ignoreTrimWhitespace": false,
   "diffEditor.renderSideBySide": true,
   "editor.minimap.enabled": false,
+  "editor.indentSize": "tabSize",
   "editor.tabSize": 2,
   "editor.stickyScroll.enabled": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
