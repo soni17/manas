@@ -41,7 +41,7 @@
 			<Filename>onlyoffice-desktopeditors.desktop</Filename>
 			<Filename>marktext.desktop</Filename>
 			<Filename>atril.desktop</Filename>
-			<Filename>com.sejda.Sejda.desktop</Filename>
+			<Filename>sejda-desktop.desktop</Filename>
 			<Filename>eu.scarpetta.PDFMixTool.desktop</Filename>
 			<Merge type="files"/>
 		</Layout>

@@ -33,6 +33,7 @@ update-apps(){
   bash office/marktext/update.sh
   bash databases/dbgate/update.sh
   bash accessories/ulauncher/update.sh
+  bash office/sejdapdf/update.sh
 }
 
 app(){
