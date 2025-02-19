@@ -34,6 +34,7 @@ update-apps(){
   bash databases/dbgate/update.sh
   bash accessories/ulauncher/update.sh
   bash office/sejdapdf/update.sh
+  bash office/standard-notes/update.sh
 }
 
 app(){

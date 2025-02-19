@@ -1,4 +1,1 @@
-if flatpak list | grep org.standardnotes.standardnotes
-then
-  flatpak uninstall -y --delete-data org.standardnotes.standardnotes
-fi
+sudo apt-get purge -y --autoremove standard-notes
