@@ -1,9 +1,7 @@
 # https://www.sejda.com/desktop
 
-# get version number
+# get installer filename and latest version
 VERSION=$(curl https://www.sejda.com/desktop | grep linux | grep -o [0-9].[0-9].[0-9])
-
-# filename
 FILENAME=sejda-desktop_${VERSION}_amd64.deb
 
 # download installer
