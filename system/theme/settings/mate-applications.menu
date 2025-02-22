@@ -12,8 +12,7 @@
 			<Filename>eom.desktop</Filename>
 			<Filename>com.github.PintaProject.Pinta.desktop</Filename>
 			<Filename>drawio.desktop</Filename>
-			<Filename>com.jgraph.drawio.desktop.desktop</Filename>
-			<Filename>org.gnome.SimpleScan.desktop</Filename>
+			<Filename>simple-scan.desktop</Filename>
 			<Filename>mate-color-select.desktop</Filename>
 			<Filename>display-im6.q16.desktop</Filename>
 			<Merge type="files"/>
