@@ -1,4 +1,5 @@
 # https://www.ruby-lang.org
+# https://mise.jdx.dev/lang/ruby.html
 
 # install ruby build dependencies 
 sudo apt-get install -y \

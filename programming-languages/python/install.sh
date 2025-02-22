@@ -1,4 +1,5 @@
 # https://www.python.org
+# https://mise.jdx.dev/lang/python.html
 
 # install python build dependencies
 sudo apt-get install -y \
