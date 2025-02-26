@@ -22,5 +22,5 @@
   },
   "window.dialogStyle": "custom",
   "window.titleBarStyle": "custom",
-  "window.menuBarVisibility": "compact"
+  "window.commandCenter": false
 }
