@@ -1,4 +1,4 @@
 # https://www.shotcut.org
 # https://github.com/mltframework/shotcut
 
-flatpak install flathub -y --system org.shotcut.Shotcut
+sudo apt-get install -y shotcut

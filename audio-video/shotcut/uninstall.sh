@@ -1,4 +1,1 @@
-if flatpak list | grep org.shotcut.Shotcut
-then
-  flatpak uninstall -y --delete-data org.shotcut.Shotcut
-fi
+sudo apt-get purge -y --autoremove shotcut
