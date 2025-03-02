@@ -2,16 +2,14 @@
 sudo apt-get install -y ./system/theme/icon-themes/humanity-icon-theme_0.6.16_all.deb
 sudo apt-get install -y ./system/theme/icon-themes/ubuntu-mono_14.04_all.deb
 
-# install crosextra fonts
+# install fonts
 sudo apt-get install -y \
   fonts-crosextra-caladea \
-  fonts-crosextra-carlito
+  fonts-crosextra-carlito \
+  fonts-ubuntu \
+  ttf-mscorefonts-installer
 
-# install ubuntu fonts
-sudo apt-get install -y ./system/theme/fonts/ttf-ubuntu-font-family_0.80-0ubuntu6_all.deb
-
-# install microsoft fonts
-sudo apt-get install -y ttf-mscorefonts-installer
+# install more microsoft fonts
 sudo bash system/theme/fonts/ttf-vista-fonts-installer.sh
 sudo bash system/theme/fonts/ttf-ms-tahoma-installer.sh
 
