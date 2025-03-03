@@ -16,6 +16,7 @@ sudo apt-get purge -y \
   mate-applets \
   mate-utils \
   yelp \
+  synaptic \
   wswedish \
   wportuguese \
   wpolish \
