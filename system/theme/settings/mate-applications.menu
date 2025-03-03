@@ -20,6 +20,9 @@
 		<Exclude>
 			<Filename>display-im6.q16.desktop</Filename>
 		</Exclude>
+		<Exclude>
+			<Filename>display-im7.q16.desktop</Filename>
+		</Exclude>
 	</Menu>
 	<Menu>
 		<Name>Internet</Name>
