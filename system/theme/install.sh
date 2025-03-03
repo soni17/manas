@@ -36,7 +36,7 @@ cp system/theme/settings/mate-terminal* ~/.local/share/applications
 cp system/theme/settings/engrampa* ~/.local/share/applications
 
 # load metacity theme
-cp system/theme/settings/metacity-theme-1.xml /usr/share/themes/TraditionalOk/metacity-1
+sudo cp system/theme/settings/metacity-theme-1.xml /usr/share/themes/TraditionalOk/metacity-1
 
 # load theme settings
 dconf load / < system/theme/settings/theme-settings
