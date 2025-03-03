@@ -32,6 +32,9 @@
 			<Filename>transmission-gtk.desktop</Filename>
 			<Merge type="files"/>
 		</Layout>
+		<Exclude>
+			<Filename>remote-viewer.desktop</Filename>
+		</Exclude>
 	</Menu>
 	<Menu>
 		<Name>Office</Name>
