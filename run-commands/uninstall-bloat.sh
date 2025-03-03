@@ -15,24 +15,16 @@ sudo apt-get purge -y \
   mate-applet-brisk-menu \
   mate-applets \
   mate-utils \
-  yelp \
+  mate-user-guide \
   synaptic \
-  wswedish \
-  wportuguese \
-  wpolish \
-  wnorwegian \
-  wngerman \
-  witalian \
-  wdutch \
-  wdanish \
-  wcatalan \
-  wbulgarian \
-  wbrazilian \
+  tasksel \
   ibrazilian \
   ibulgarian \
   icatalan \
   idanish \
   idutch \
+  ifrench-gut \
+  ifrench \
   ihungarian \
   iitalian \
   ilithuanian \
@@ -41,133 +33,31 @@ sudo apt-get purge -y \
   ipolish \
   iportuguese \
   irussian \
-  task-amharic-desktop \
-  task-amharic \
-  task-arabic-desktop \
-  task-arabic \
-  task-asturian-desktop \
-  task-asturian \
-  task-basque-desktop \
-  task-basque \
-  task-belarusian-desktop \
-  task-belarusian \
-  task-bengali-desktop \
-  task-bengali \
-  task-bosnian-desktop \
-  task-bosnian \
-  task-brazilian-portuguese-desktop \
-  task-brazilian-portuguese \
-  task-bulgarian-desktop \
-  task-bulgarian \
-  task-catalan-desktop \
-  task-catalan \
-  task-chinese-s-desktop \
-  task-chinese-s \
-  task-chinese-t-desktop \
-  task-chinese-t \
-  task-croatian-desktop \
-  task-croatian \
-  task-cyrillic-desktop \
-  task-cyrillic \
-  task-czech-desktop \
-  task-czech \
-  task-danish-desktop \
-  task-danish \
-  task-dutch-desktop \
-  task-dutch \
-  task-dzongkha-desktop \
-  task-esperanto-desktop \
-  task-esperanto \
-  task-estonian-desktop \
-  task-estonian \
-  task-finnish-desktop \
-  task-finnish \
-  task-galician-desktop \
-  task-galician \
-  task-georgian-desktop \
-  task-german-desktop \
-  task-german \
-  task-greek-desktop \
-  task-greek \
-  task-gujarati-desktop \
-  task-gujarati \
-  task-hebrew-desktop \
-  task-hebrew \
-  task-hindi-desktop \
-  task-hindi \
-  task-hungarian-desktop \
-  task-hungarian \
-  task-icelandic-desktop \
-  task-icelandic \
-  task-indonesian-desktop \
-  task-irish-desktop \
-  task-irish \
-  task-italian-desktop \
-  task-italian \
-  task-japanese-desktop \
-  task-japanese \
-  task-kannada-desktop \
-  task-kazakh-desktop \
-  task-kazakh \
-  task-khmer-desktop \
-  task-khmer \
-  task-korean-desktop \
-  task-korean \
-  task-kurdish-desktop \
-  task-kurdish \
-  task-latvian-desktop \
-  task-latvian \
-  task-lithuanian-desktop \
-  task-lithuanian \
-  task-macedonian-desktop \
-  task-macedonian \
-  task-malayalam-desktop \
-  task-malayalam \
-  task-marathi-desktop \
-  task-marathi \
-  task-nepali-desktop \
-  task-northern-sami-desktop \
-  task-northern-sami \
-  task-norwegian-desktop \
-  task-norwegian \
-  task-persian-desktop \
-  task-persian \
-  task-polish-desktop \
-  task-polish \
-  task-portuguese-desktop \
-  task-portuguese \
-  task-punjabi-desktop \
-  task-punjabi \
-  task-romanian-desktop \
-  task-romanian \
-  task-russian-desktop \
-  task-russian \
-  task-serbian-desktop \
-  task-serbian \
-  task-sinhala-desktop \
-  task-slovak-desktop \
-  task-slovak \
-  task-slovenian-desktop \
-  task-slovenian \
-  task-south-african-english-desktop \
-  task-swedish-desktop \
-  task-swedish \
-  task-tagalog \
-  task-tamil-desktop \
-  task-tamil \
-  task-telugu-desktop \
-  task-telugu \
-  task-thai-desktop \
-  task-thai \
-  task-turkish-desktop \
-  task-turkish \
-  task-ukrainian-desktop \
-  task-ukrainian \
-  task-uyghur-desktop \
-  task-vietnamese-desktop \
-  task-welsh-desktop \
-  task-welsh \
-  task-xhosa-desktop \
+  ispanish \
+  iswiss \
+  wbrazilian \
+  wbulgarian \
+  wcatalan \
+  wdanish \
+  wdutch \
+  wfrench \
+  witalian \
+  wngerman \
+  wnorwegian \
+  wpolish \
+  wportuguese \
+  wspanish \
+  wswedish \
+  myspell-eo \
+  myspell-es \
+  myspell-et \
+  myspell-fa \
+  myspell-ga \
+  myspell-he \
+  myspell-nb \
+  myspell-nn \
+  myspell-sk \
+  myspell-sq \
   aspell-am \
   aspell-ar-large \
   aspell-ar \
@@ -179,9 +69,11 @@ sudo apt-get purge -y \
   aspell-de \
   aspell-el \
   aspell-eo \
+  aspell-es \
   aspell-et \
   aspell-eu \
   aspell-fa \
+  aspell-fr \
   aspell-ga \
   aspell-gl-minimos \
   aspell-he \
@@ -204,14 +96,6 @@ sudo apt-get purge -y \
   aspell-sl \
   aspell-sv \
   aspell-tl \
-  myspell-eo \
-  myspell-et \
-  myspell-fa \
-  myspell-ga \
-  myspell-he \
-  myspell-nb \
-  myspell-nn \
-  myspell-sk \
   hunspell-ar \
   hunspell-be \
   hunspell-bg \
@@ -224,6 +108,9 @@ sudo apt-get purge -y \
   hunspell-de-de \
   hunspell-el \
   hunspell-eu \
+  hunspell-fr-classical \
+  hunspell-fr \
+  hunspell-gl-es \
   hunspell-gl \
   hunspell-gu \
   hunspell-hi \
@@ -237,6 +124,7 @@ sudo apt-get purge -y \
   hunspell-ko \
   hunspell-lt \
   hunspell-lv \
+  hunspell-ml \
   hunspell-ne \
   hunspell-nl \
   hunspell-pl \
@@ -247,10 +135,11 @@ sudo apt-get purge -y \
   hunspell-si \
   hunspell-sl \
   hunspell-sr \
+  hunspell-sv-se \
   hunspell-sv \
   hunspell-te \
   hunspell-th \
-  hunspell-vi 
+  hunspell-vi
 
 sudo apt-get autoremove -y
 
