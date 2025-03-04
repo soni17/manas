@@ -1,7 +1,12 @@
 # enable all debian repositories
-sudo apt-get update -y
-sudo apt-get install -y software-properties-gtk
-sudo add-apt-repository -y -s main contrib non-free non-free-firmware
+if [ -f "/etc/apt/sources.list" ]; then
+  sudo sed -i "s/main non-free-firmware/main non-free-firmware non-free contrib/g" /etc/apt/sources.list
+fi
+
+if [ -f "/etc/apt/sources.list.d/debian.sources" ]; then
+  sudo sed -i "s/main non-free-firmware/main non-free-firmware non-free contrib/g" /etc/apt/sources.list.d/debian.sources
+fi
+
 sudo apt-get update -y
 
 # add flathub repository
