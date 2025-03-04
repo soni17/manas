@@ -12,7 +12,7 @@ sudo apt-get install -y \
   plocate \
   speedtest-cli \
   lsb-release \
-  neofetch \
+  fastfetch \
   cpufetch \
   lshw \
   cmatrix
