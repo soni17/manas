@@ -7,10 +7,7 @@ sudo apt-get purge -y \
   libreoffice* \
   gimp* \
   goldendict \
-  mlterm \
-  mlterm-tiny \
   xterm \
-  xiterm+thai \
   orca \
   mate-applet-brisk-menu \
   mate-applets \
