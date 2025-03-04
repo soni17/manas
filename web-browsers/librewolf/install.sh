@@ -1,6 +1,7 @@
 # https://librewolf.net
 
 # add repository
+sudo apt-get install -y extrepo
 sudo extrepo enable librewolf
 sudo apt-get update -y
 

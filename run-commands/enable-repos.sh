@@ -13,12 +13,6 @@ sudo apt-get update -y
 sudo apt-get install -y flatpak
 sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
-# install extrepo (repos vetted by debian)
-# enable non-free repos
-sudo apt-get install -y extrepo
-sudo sed -i "s/# - contrib/- contrib/" /etc/extrepo/config.yaml
-sudo sed -i "s/# - non-free/- non-free/" /etc/extrepo/config.yaml
-
 # install mise-en-place (version manager)
 sudo install -dm 755 /etc/apt/keyrings
 wget -qO - https://mise.jdx.dev/gpg-key.pub | gpg --dearmor | sudo tee /etc/apt/keyrings/mise-archive-keyring.gpg 1> /dev/null
