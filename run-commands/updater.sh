@@ -26,7 +26,6 @@ updater(){
     echo "Updating $app from version $installed_version to $latest_version."
     bash $installer_path 1> /dev/null 2>> /tmp/manas.log
   else
-    echo "No update available for $app."
     exit
   fi
 

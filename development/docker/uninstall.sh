@@ -13,5 +13,5 @@ then
 fi
 
 # remove repository
-sudo extrepo disable docker-ce
-sudo apt-get update -y
+sudo rm -f /etc/apt/sources.list.d/docker.list
+sudo rm -f /etc/apt/keyrings/docker.asc

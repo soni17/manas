@@ -4,7 +4,7 @@ Turn a fresh installation of Debian Linux into a modern, fully-configured enviro
 
 ### Requirements
 
-- Debian 12 - Mate Edition. Installation instructions at [debian.org](https://www.debian.org/distrib)
+- Debian 12 - Mate Edition. Download latest version at [debian.org](https://www.debian.org)
 
 ### Installation
 

@@ -1,16 +1,18 @@
-# https://vscodium.com/#install-on-debian-ubuntu-deb-package
+# https://vscodium.com
+# https://github.com/VSCodium/vscodium
 
-# remove repository if it's already there
-sudo rm -f /etc/apt/sources.list.d/vscodium.list
-sudo rm -f /usr/share/keyrings/vscodium-archive-keyring.gpg
+# get installer filename and version
+LATEST_VERSION=$(curl -s "https://api.github.com/repos/VSCodium/vscodium/releases/latest" | grep -Po '"tag_name": "\K[^"]*')
+FILENAME="codium_${LATEST_VERSION}_amd64.deb"
 
-# add repository
-wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg | gpg --dearmor | sudo dd of=/usr/share/keyrings/vscodium-archive-keyring.gpg
-echo 'deb [ signed-by=/usr/share/keyrings/vscodium-archive-keyring.gpg ] https://download.vscodium.com/debs vscodium main' | sudo tee /etc/apt/sources.list.d/vscodium.list
+# download installer
+wget -q https://github.com/VSCodium/vscodium/releases/download/$LATEST_VERSION/$FILENAME -O /tmp/$FILENAME
 
 # install
-sudo apt-get update
-sudo apt-get install -y codium
+sudo apt-get install -y /tmp/$FILENAME
+
+# delete installer
+rm /tmp/$FILENAME
 
 # install extensions
 codium --install-extension akamud.vscode-theme-onedark

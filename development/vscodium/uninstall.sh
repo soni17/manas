@@ -6,7 +6,3 @@ fi
 
 # delete config folder
 sudo rm -rf ~/.config/VSCodium
-
-# remove repository
-sudo rm -f /etc/apt/sources.list.d/vscodium.list
-sudo rm -f /usr/share/keyrings/vscodium-archive-keyring.gpg

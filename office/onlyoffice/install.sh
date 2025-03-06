@@ -1,17 +1,18 @@
 # https://www.onlyoffice.com
-# https://helpcenter.onlyoffice.com/installation/desktop-install-ubuntu.aspx
+# https://github.com/ONLYOFFICE/DesktopEditors
 
-# add repository
-mkdir -p -m 700 ~/.gnupg
-gpg --no-default-keyring --keyring gnupg-ring:/tmp/onlyoffice.gpg --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys CB2DE8E5
-chmod 644 /tmp/onlyoffice.gpg
-sudo chown root:root /tmp/onlyoffice.gpg
-sudo mv /tmp/onlyoffice.gpg /usr/share/keyrings/onlyoffice.gpg
-echo 'deb [signed-by=/usr/share/keyrings/onlyoffice.gpg] https://download.onlyoffice.com/repo/debian squeeze main' | sudo tee -a /etc/apt/sources.list.d/onlyoffice.list
-sudo apt-get update -y
+# get installer filename and version
+LATEST_VERSION=$(curl -s "https://api.github.com/repos/ONLYOFFICE/DesktopEditors/releases/latest" | grep -Po '"tag_name": "\K[^"]*')
+FILENAME="onlyoffice-desktopeditors_amd64.deb"
+
+# download installer
+wget -q https://github.com/ONLYOFFICE/DesktopEditors/releases/download/${LATEST_VERSION}/$FILENAME -O /tmp/$FILENAME
 
 # install
-sudo apt-get install -y onlyoffice-desktopeditors
+sudo apt-get install -y /tmp/$FILENAME
+
+# delete installer
+rm /tmp/$FILENAME
 
 # config file
 mkdir -p ~/.config/onlyoffice

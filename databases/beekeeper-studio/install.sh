@@ -1,15 +1,15 @@
 # https://www.beekeeperstudio.io
-# https://docs.beekeeperstudio.io/installation/linux/#apt-deb
+# https://github.com/beekeeper-studio/beekeeper-studio
 
-# remove repository if it's already there
-sudo rm -f /etc/apt/sources.list.d/beekeeper-studio-app.list
-sudo rm -f /usr/share/keyrings/beekeeper.gpg
+# get installer filename and version
+LATEST_VERSION=$(curl -s "https://api.github.com/repos/beekeeper-studio/beekeeper-studio/releases/latest" | grep -Po '"tag_name": "\K[^"]*')
+FILENAME="beekeeper-studio_${LATEST_VERSION:1}_amd64.deb"
 
-# add repository
-curl -fsSL https://deb.beekeeperstudio.io/beekeeper.key | sudo gpg --dearmor --output /usr/share/keyrings/beekeeper.gpg
-sudo chmod go+r /usr/share/keyrings/beekeeper.gpg
-echo "deb [signed-by=/usr/share/keyrings/beekeeper.gpg] https://deb.beekeeperstudio.io stable main" | sudo tee /etc/apt/sources.list.d/beekeeper-studio-app.list > /dev/null
+# download installer
+wget -q https://github.com/beekeeper-studio/beekeeper-studio/releases/download/${LATEST_VERSION}/$FILENAME -O /tmp/$FILENAME
 
 # install
-sudo apt-get update
-sudo apt-get install -y beekeeper-studio
+sudo apt-get install -y /tmp/$FILENAME
+
+# delete installer
+rm /tmp/$FILENAME

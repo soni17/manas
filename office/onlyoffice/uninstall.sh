@@ -6,7 +6,3 @@ fi
 
 # delete config folder
 sudo rm -rf ~/.config/onlyoffice
-
-# remove repository
-sudo extrepo disable onlyoffice-desktopeditors
-sudo apt-get update -y

@@ -13,6 +13,7 @@ sudo apt-get purge -y \
   mate-applets \
   mate-utils \
   mate-user-guide \
+  yelp \
   synaptic \
   plymouth
 
