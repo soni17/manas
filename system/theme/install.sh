@@ -32,8 +32,7 @@ cp system/theme/settings/mate-applications.menu ~/.config/menus
 
 # panel app launchers overrides
 mkdir -p ~/.local/share/applications
-cp system/theme/settings/mate-terminal* ~/.local/share/applications
-cp system/theme/settings/engrampa* ~/.local/share/applications
+cp system/theme/app-launcher-overrides/* ~/.local/share/applications
 
 # load metacity theme
 sudo cp system/theme/settings/metacity-theme-1.xml /usr/share/themes/TraditionalOk/metacity-1
