@@ -31,7 +31,7 @@ mkdir -p ~/.config/menus
 cp system/theme/settings/mate-applications.menu ~/.config/menus
 
 # move power-statistics to control center apps
-sudo sed -i "s/Categories=GTK;System;Monitor;/Categories=GTK;System;Monitor;Settings;/g" /usr/share/applications/mate-power-statistics.desktop
+sudo sed -i "s/Categories=GTK;System;Monitor;/Categories=Settings;HardwareSettings;/g" /usr/share/applications/mate-power-statistics.desktop
 
 # panel app launchers overrides
 mkdir -p ~/.local/share/applications
