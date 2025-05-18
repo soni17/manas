@@ -142,24 +142,6 @@ wrap-mode='GTK_WRAP_NONE'
 mode='blank-only'
 themes=@as []
 
-[org/mate/system-monitor]
-current-tab=0
-maximized=false
-window-state=(654, 712, 2287, 128)
-
-[org/mate/system-monitor/disktreenew]
-col-0-width=179
-col-3-width=104
-col-7-width=542
-
-[org/mate/system-monitor/proctree]
-col-0-width=296
-col-16-width=135
-col-17-width=337
-col-19-width=659
-col-2-width=71
-col-9-width=92
-
 [org/mate/terminal/profiles/default]
 allow-bold=false
 background-color='#000000000000'

@@ -9,6 +9,7 @@ sudo apt-get purge -y \
   goldendict \
   xterm \
   orca \
+  mate-system-monitor \
   mate-applet-brisk-menu \
   mate-applets \
   mate-utils \
