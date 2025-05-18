@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# apt updates  
+sudo apt update
+sudo apt full-upgrade -y
+sudo apt autoremove -y
+
+# update flatpaks and cleanup unused
+flatpak uninstall --unused --delete-data -y
+flatpak update -y
+
+# updates for direct-download apps
+cd ~/.local/share/manas
+./manas update-apps
+cd -
