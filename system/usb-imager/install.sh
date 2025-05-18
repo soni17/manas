@@ -3,7 +3,7 @@
 # TO DO: download latest version
 
 # installer filename
-FILENAME="usbimager_1.0.10-amd64.deb"
+FILENAME="usbimager_1.0.10_wo-amd64.deb"
 
 # download installer
 wget -q https://gitlab.com/bztsrc/usbimager/-/raw/binaries/$FILENAME -O /tmp/$FILENAME
