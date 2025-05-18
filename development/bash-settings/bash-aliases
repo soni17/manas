@@ -6,28 +6,12 @@ alias l='ls -CF'
 
 alias c='clear'
 
-alias d='docker'
-
-alias r='rails'
-
 alias bat='batcat'
 
-alias g='git'
+alias ff='fastfetch'
 
-# stage all and commit
+# git: stage all and commit
 alias gca='git add -A && git commit -m'
 
-# delete last commit, keep changes and unstage
+# git: delete last commit, keep changes and unstage
 alias gdl='git reset HEAD~1'
-
-# run updates for apt,flatpak and downloaded apps
-alias updates='sudo apt update && \
-               sudo apt full-upgrade -y && \
-               sudo apt dist-upgrade -y && \
-               sudo apt autoremove -y && \
-               sudo apt autoclean -y && \
-               flatpak uninstall --unused --delete-data -y && \
-               flatpak update -y && \
-               cd ~/.local/share/manas && \
-               ./manas update-apps && \
-               cd - '
