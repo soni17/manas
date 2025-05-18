@@ -12,7 +12,7 @@ version=$VERSION_ID
 desktop=$XDG_CURRENT_DESKTOP
 
 # stop script if OS is not Debian 12 with mate desktop
-if [ "$distro" != "debian" ] || [[ $version -ne 12 ]] || [ "$desktop" != "MATE" ]; then
+if [ "$distro" != "debian" ] || [[ $version -ne 13 ]] || [ "$desktop" != "MATE" ]; then
   echo "$(tput setaf 1)Error: OS requirement not met"
   echo "Installation stopped."
   echo "You are currently running: $distro $version with $desktop desktop"
