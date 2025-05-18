@@ -21,10 +21,13 @@ sudo apt-get install -y \
 
 # install latest version of python
 mise use --global python@latest
+
+# refresh mise
 eval "$(mise activate bash)"
 
 # update pip
 pip install --upgrade pip
 
-# install Django
-python -m pip install Django
+# install some python packages
+pip install django
+pip install tldr
