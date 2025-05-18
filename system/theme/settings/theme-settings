@@ -1,9 +1,3 @@
-[org/blueman/general]
-window-properties=[578, 393, 3028, 502]
-
-[org/blueman/plugins/powermanager]
-auto-power-on=@mb false
-
 [org/gtk/settings/file-chooser]
 show-hidden=true
 
