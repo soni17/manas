@@ -13,4 +13,5 @@ sudo apt-get install -y \
   cpufetch \
   lshw \
   cmatrix \
-  libfuse2t64
+  libfuse2t64 \
+  sqlite3

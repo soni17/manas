@@ -18,5 +18,11 @@ sudo apt-get install -y \
   docker-buildx-plugin \
   docker-compose-plugin
 
+# pull some docker images
+sudo docker pull mysql:lts
+sudo docker pull mariadb:lts
+sudo docker pull postgres
+sudo docker pull redis
+
 # run docker command without sudo (by adding user to docker group)
 sudo usermod -aG docker $USER
