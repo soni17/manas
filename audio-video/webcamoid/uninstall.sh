@@ -1,3 +1,4 @@
+# uninstall
 sudo apt-get purge -y --autoremove webcamoid
 
 # delete config folder

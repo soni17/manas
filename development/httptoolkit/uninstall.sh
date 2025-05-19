@@ -3,3 +3,6 @@ if apt search httptoolkit | grep installed &> /dev/null
 then
   sudo apt-get purge -y --autoremove httptoolkit
 fi
+
+# delete config folder
+sudo rm -rf ~/.config/httptoolkit
