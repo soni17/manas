@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=HTTP Toolkit
+Exec="/opt/HTTP Toolkit/httptoolkit" %U
+Terminal=false
+Type=Application
+Icon=httptoolkit
+StartupWMClass=HTTP Toolkit
+Comment=HTTP(S) debugging, development & testing tool
+Categories=Development;
