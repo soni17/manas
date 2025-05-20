@@ -20,6 +20,6 @@ rm /tmp/$FILENAME
 mkdir -p ~/.config/FreeTube
 cp audio-video/freetube/settings.db ~/.config/FreeTube
 
-# add launcher icon that fixes slow startup
+# add launcher icon
 mkdir -p ~/.local/share/applications
 cp audio-video/freetube/freetube* ~/.local/share/applications
