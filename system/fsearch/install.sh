@@ -3,7 +3,7 @@
 # install
 sudo apt-get install -y fsearch
 
-# config file
+# add config file
 mkdir -p ~/.config/fsearch
 cp system/fsearch/fsearch.conf ~/.config/fsearch
 

@@ -14,6 +14,6 @@ sudo apt-get install -y /tmp/$FILENAME
 # delete installer
 rm /tmp/$FILENAME
 
-# config file
+# add config file
 mkdir -p ~/.config/onlyoffice
 cp office/onlyoffice/DesktopEditors.conf ~/.config/onlyoffice

@@ -28,6 +28,6 @@ codium --install-extension jeanp413.open-remote-ssh
 codium --install-extension ritwickdey.liveserver
 codium --install-extension arturock.gitstash
 
-# config file
+# add config file
 mkdir -p ~/.config/VSCodium/User
 cp development/vscodium/settings.json ~/.config/VSCodium/User
