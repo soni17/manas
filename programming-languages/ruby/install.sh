@@ -21,6 +21,8 @@ sudo apt-get install -y \
 
 # install latest version of ruby
 mise use --global ruby@latest
+
+# refresh mise
 eval "$(mise activate bash)"
 
 # install some ruby gems

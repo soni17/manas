@@ -1,7 +1,5 @@
 sudo apt-get purge -y --autoremove \
-  tldr \
   bat \
-  lsd \
   btop \
   ncdu \
   fzf \
@@ -10,7 +8,9 @@ sudo apt-get purge -y --autoremove \
   plocate \
   speedtest-cli \
   lsb-release \
-  neofetch \
+  fastfetch \
   cpufetch \
   lshw \
-  cmatrix
+  cmatrix \
+  libfuse2t64 \
+  sqlite3

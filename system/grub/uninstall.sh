@@ -1,3 +1,4 @@
+# uninstall grub-customizer
 sudo apt-get purge -y --autoremove grub-customizer
 
 # reverse settings

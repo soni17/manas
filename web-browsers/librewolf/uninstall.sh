@@ -1,8 +1,5 @@
-# uninstall only if it's already installed
-if apt search librewolf | grep installed &> /dev/null
-then
-  sudo apt-get purge -y --autoremove librewolf
-fi
+# uninstall
+sudo apt-get purge -y --autoremove librewolf
 
 # delete config folder
 sudo rm -rf ~/.librewolf

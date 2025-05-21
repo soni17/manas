@@ -25,18 +25,6 @@ sudo cp system/theme/settings/backgrounds.xml /usr/share/mate-background-propert
 # copy desktop icons
 cp system/theme/desktop-icons/* ~/Desktop
 
-# modify panel menus
-rm -rf ~/.config/menus
-mkdir -p ~/.config/menus
-cp system/theme/settings/mate-applications.menu ~/.config/menus
-
-# move power-statistics to control center apps
-sudo sed -i "s/Categories=GTK;System;Monitor;/Categories=Settings;HardwareSettings;/g" /usr/share/applications/mate-power-statistics.desktop
-
-# panel app launchers overrides
-mkdir -p ~/.local/share/applications
-cp system/theme/app-launcher-overrides/* ~/.local/share/applications
-
 # load metacity theme
 sudo cp system/theme/settings/metacity-theme-1.xml /usr/share/themes/TraditionalOk/metacity-1
 
@@ -46,10 +34,3 @@ dconf load / < system/theme/settings/theme-settings
 # add theme file
 sudo mkdir -p /usr/share/themes/Manas
 sudo cp system/theme/settings/index.theme /usr/share/themes/Manas
-
-# disable recent documents history
-if ! lsattr ~/.local/share/recently-used.xbel | grep i
-then
-  echo -n > ~/.local/share/recently-used.xbel
-  sudo chattr +i ~/.local/share/recently-used.xbel
-fi

@@ -1,7 +1,5 @@
-if flatpak list | grep com.github.PintaProject.Pinta
-then
-  flatpak uninstall -y --delete-data com.github.PintaProject.Pinta
-fi
+# uninstall
+flatpak uninstall -y --delete-data com.github.PintaProject.Pinta
 
 # delete config folder
 sudo rm -rf ~/.config/Pinta
