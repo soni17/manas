@@ -4,6 +4,6 @@
 # install
 sudo apt-get install -y gtkhash
 
-# launcher icon
+# add launcher icon
 mkdir -p ~/.local/share/applications
 cp development/gtkhash/org.gtkhash* ~/.local/share/applications

@@ -7,6 +7,6 @@ sudo apt-get install -y fsearch
 mkdir -p ~/.config/fsearch
 cp system/fsearch/fsearch.conf ~/.config/fsearch
 
-# launcher icon
+# add launcher icon
 mkdir -p ~/.local/share/applications
 cp system/fsearch/io.github.cboxdoerfer.FSearch* ~/.local/share/applications

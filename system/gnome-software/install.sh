@@ -9,6 +9,6 @@ sudo apt-get install -y \
 dconf write /org/gnome/software/download-updates false
 dconf write /org/gnome/software/download-updates-notify false 
 
-# launcher icon
+# add launcher icon
 mkdir -p ~/.local/share/applications
 cp system/gnome-software/org.gnome.Software* ~/.local/share/applications

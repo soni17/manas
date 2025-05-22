@@ -10,6 +10,6 @@ sudo flatpak mask com.github.PintaProject.Pinta
 mkdir -p ~/.var/app/com.github.PintaProject.Pinta/config/Pinta
 cp graphics/pinta/settings.xml ~/.var/app/com.github.PintaProject.Pinta/config/Pinta
 
-# launcher icon
+# add launcher icon
 mkdir -p ~/.local/share/applications
 cp graphics/pinta/com.github.Pinta* ~/.local/share/applications

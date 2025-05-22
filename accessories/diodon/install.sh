@@ -4,6 +4,6 @@
 # install diodon
 sudo apt-get install -y diodon
 
-# configs
+# set configs
 gsettings set net.launchpad.Diodon.clipboard keep-clipboard-content true
 gsettings set net.launchpad.Diodon.plugins active-plugins "['indicator']"

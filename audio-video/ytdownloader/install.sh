@@ -1,7 +1,7 @@
 # https://ytdn.netlify.app
 # https://github.com/aandrew-me/ytDownloader
 
-# installer filename and version
+# get installer filename and version
 LATEST_VERSION=$(curl -s "https://api.github.com/repos/aandrew-me/ytDownloader/releases/latest" | grep -Po '"tag_name": "\K[^"]*')
 FILENAME="YTDownloader_Linux.deb"
 
