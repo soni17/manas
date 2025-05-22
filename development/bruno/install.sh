@@ -1,7 +1,7 @@
 # https://www.usebruno.com
 # https://github.com/usebruno/bruno
 
-# get installer filename and version
+# get installer filename and latest version
 LATEST_VERSION=$(curl -s "https://api.github.com/repos/usebruno/bruno/releases/latest" | grep -Po '"tag_name": "\K[^"]*')
 FILENAME="bruno_${LATEST_VERSION:1}_amd64_linux.deb"
 

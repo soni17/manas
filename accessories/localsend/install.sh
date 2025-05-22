@@ -1,7 +1,7 @@
 # https://localsend.org
 # https://github.com/localsend/localsend
 
-# get installer filename and version
+# get installer filename and latest version
 LATEST_VERSION=$(curl -s "https://api.github.com/repos/localsend/localsend/releases/latest" | grep -Po '"tag_name": "\K[^"]*')
 FILENAME="LocalSend-${LATEST_VERSION:1}-linux-x86-64.deb"
 

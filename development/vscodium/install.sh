@@ -1,7 +1,7 @@
 # https://vscodium.com
 # https://github.com/VSCodium/vscodium
 
-# get installer filename and version
+# get installer filename and latest version
 LATEST_VERSION=$(curl -s "https://api.github.com/repos/VSCodium/vscodium/releases/latest" | grep -Po '"tag_name": "\K[^"]*')
 FILENAME="codium_${LATEST_VERSION}_amd64.deb"
 

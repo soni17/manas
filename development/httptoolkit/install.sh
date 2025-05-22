@@ -1,7 +1,7 @@
 # https://httptoolkit.com/
 # https://github.com/httptoolkit/httptoolkit-desktop
 
-# get installer filename and version
+# get installer filename and latest version
 VERSIONS=$(curl -s "https://api.github.com/repos/httptoolkit/httptoolkit-desktop/releases" | grep -Po '"tag_name": "\K[^"]*')
 LATEST_VERSION=$( echo $VERSIONS | cut -d ' ' -f 1)
 LATEST_VERSION_NUMBER=$(echo ${LATEST_VERSION:1} | cut -d '-' -f 1)

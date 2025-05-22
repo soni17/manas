@@ -1,7 +1,7 @@
 # https://ulauncher.io
 # https://github.com/Ulauncher/Ulauncher
 
-# get installer filename and version
+# get installer filename and latest version
 LATEST_VERSION=$(curl -s "https://api.github.com/repos/Ulauncher/Ulauncher/releases/latest" | grep -Po '"tag_name": "\K[^"]*')
 FILENAME="ulauncher_${LATEST_VERSION}_all.deb"
 
