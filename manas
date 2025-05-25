@@ -26,7 +26,7 @@ uninstall-all(){
 
 # update apps without a repository
 update-apps(){
-  echo "Checking updates for apps"
+  echo "Checking updates for direct-download apps"
   bash audio-video/freetube/update.sh
   bash accessories/localsend/update.sh
   bash graphics/drawio/update.sh
