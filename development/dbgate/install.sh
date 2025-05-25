@@ -14,4 +14,4 @@ sudo rm /tmp/$FILENAME
 
 # add config file
 mkdir -p ~/.dbgate
-cp databases/dbgate/settings.json ~/.dbgate
+cp development/dbgate/settings.json ~/.dbgate

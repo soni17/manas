@@ -2,7 +2,7 @@
 # https://github.com/oguzhaninan/Stacer
 
 # install
-sudo apt-get install -y ./stacer_1.1.0_amd64.deb
+sudo apt-get install -y ./system/stacer/stacer_1.1.0_amd64.deb
 
 # add launcher icon
 mkdir -p ~/.local/share/applications
