@@ -102,6 +102,9 @@
 		<Exclude>
 			<Filename>caja-browser.desktop</Filename>
 		</Exclude>
+		<Exclude>
+			<Filename>gdebi.desktop</Filename>
+		</Exclude>
 		<Include>
 			<Filename>com.usebottles.bottles-1.desktop</Filename>
 		</Include>
