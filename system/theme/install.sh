@@ -22,9 +22,6 @@ sudo rm -rf /usr/share/mate-background-properties/*
 sudo rm -rf ~/.config/mate/backgrounds.xml
 sudo cp system/theme/settings/backgrounds.xml /usr/share/mate-background-properties
 
-# copy desktop icons
-cp system/theme/desktop-icons/* ~/Desktop
-
 # load metacity theme
 sudo cp system/theme/settings/metacity-theme-1.xml /usr/share/themes/TraditionalOk/metacity-1
 
