@@ -9,6 +9,11 @@ sudo apt autoremove -y
 flatpak uninstall --unused --delete-data -y
 flatpak update -y
 
+# update firmware
+fwupdmgr refresh --force
+fwupdmgr update
+
+
 cd ~/.local/share/manas
 
 # update direct-download apps
