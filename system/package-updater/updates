@@ -9,7 +9,12 @@ sudo apt autoremove -y
 flatpak uninstall --unused --delete-data -y
 flatpak update -y
 
-# updates for direct-download apps
 cd ~/.local/share/manas
-./manas update-apps
+
+# update direct-download apps
+./manas update-apps 
+
+# update manas
+git pull
+
 cd -
