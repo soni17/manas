@@ -1,25 +1,30 @@
 #!/bin/bash
 
-# apt updates  
+# prompt for sudo first
+sudo echo -n ""
+
+echo -e $(tput setaf 3)Updates from Debian repos $(tput setaf 7)
 sudo apt update
 sudo apt full-upgrade -y
 sudo apt autoremove -y
 
-# update flatpaks and cleanup unused
+echo -e $(tput setaf 3)Delete unused Flatpaks $(tput setaf 7)
 flatpak uninstall --unused --delete-data -y
+
+echo -e $(tput setaf 3)Update Flatpaks $(tput setaf 7)
 flatpak update -y
 
-# update firmware
+echo -e $(tput setaf 3)Update Firmware $(tput setaf 7)
 fwupdmgr refresh --force
 fwupdmgr update
 
 
 cd ~/.local/share/manas
 
-# update direct-download apps
+echo -e $(tput setaf 3)Update direct-download apps $(tput setaf 7)
 ./manas update-apps 
 
-# update manas
+echo -e $(tput setaf 3)Update Manas $(tput setaf 7)
 git pull
 
 cd -
