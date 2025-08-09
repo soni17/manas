@@ -1,13 +1,17 @@
 # https://www.docker.com
 # https://docs.docker.com/engine/install/debian
 
-# add repository
+# Add Docker's official GPG key
 sudo apt-get install -y ca-certificates curl
 sudo install -m 0755 -d /etc/apt/keyrings
 sudo curl -fsSL https://download.docker.com/linux/debian/gpg -o /etc/apt/keyrings/docker.asc
 sudo chmod a+r /etc/apt/keyrings/docker.asc
-echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/debian bookworm stable" | \
-  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+
+# Add the repository to Apt sources
+arch=$(dpkg --print-architecture)
+codename=$(. /etc/os-release && echo "$VERSION_CODENAME")
+source="deb [arch=$arch signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/debian $codename stable"
+echo $source | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 sudo apt-get update -y
 
 # install docker and extensions
