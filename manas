@@ -27,19 +27,19 @@ uninstall-all(){
 # update apps without a repository
 update-apps(){
   echo "Checking updates for direct-download apps"
-  bash audio-video/freetube/update.sh
   bash accessories/localsend/update.sh
-  bash graphics/drawio/update.sh
-  bash audio-video/ytdownloader/update.sh
-  bash office/marktext/update.sh
-  bash databases/dbgate/update.sh
-  bash databases/beekeeper-studio/update.sh
   bash accessories/ulauncher/update.sh
+  bash audio-video/ytdownloader/update.sh
+  bash audio-video/freetube/update.sh
+  bash development/vscodium/update.sh
+  bash development/bruno/update.sh
+  bash development/dbgate/update.sh
+  bash development/beekeeper-studio/update.sh
+  bash graphics/drawio/update.sh
+  bash office/marktext/update.sh
   bash office/sejdapdf/update.sh
   bash office/onlyoffice/update.sh
   bash office/standard-notes/update.sh
-  bash development/vscodium/update.sh
-  bash development/bruno/update.sh
 }
 
 app(){
