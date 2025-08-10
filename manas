@@ -45,7 +45,6 @@ update-apps(){
 app(){
   if [ -d accessories/$1 ]; then echo "accessories/$1" ; fi
   if [ -d audio-video/$1 ]; then echo "audio-video/$1" ; fi
-  if [ -d databases/$1 ]; then echo "databases/$1" ; fi
   if [ -d development/$1 ]; then echo "development/$1" ; fi
   if [ -d graphics/$1 ]; then echo "graphics/$1" ; fi
   if [ -d office/$1 ]; then echo "office/$1" ; fi
