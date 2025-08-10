@@ -1,10 +1,15 @@
 # enable all debian repositories
 if [ -f "/etc/apt/sources.list" ]; then
-  sudo sed -i "s/main non-free-firmware/main non-free-firmware non-free contrib/g" /etc/apt/sources.list
-fi
+cat << EOF > /etc/apt/sources.list
+  deb http://deb.debian.org/debian/ trixie main contrib non-free non-free-firmware
+  deb-src http://deb.debian.org/debian/ trixie main contrib non-free non-free-firmware
 
-if [ -f "/etc/apt/sources.list.d/debian.sources" ]; then
-  sudo sed -i "s/main non-free-firmware/main non-free-firmware non-free contrib/g" /etc/apt/sources.list.d/debian.sources
+  deb http://security.debian.org/debian-security trixie-security main contrib non-free non-free-firmware
+  deb-src http://security.debian.org/debian-security trixie-security main contrib non-free non-free-firmware
+
+  deb http://deb.debian.org/debian/ trixie-updates main contrib non-free non-free-firmware
+  deb-src http://deb.debian.org/debian/ trixie-updates main contrib non-free non-free-firmware
+EOF
 fi
 
 sudo apt-get update -y
