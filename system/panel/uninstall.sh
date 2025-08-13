@@ -8,7 +8,8 @@ sudo apt-get purge -y --autoremove \
   ayatana-indicator-printers \
   ayatana-indicator-sound \
   mate-indicator-applet \
-  mate-dock-applet
+  mate-dock-applet \
+  mozo
 
 # delete panel menu settings
 rm -rf ~/.config/menus
