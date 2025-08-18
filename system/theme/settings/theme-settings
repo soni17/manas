@@ -153,5 +153,5 @@ visible-name='Default'
 default-show-menubar=false
 silent-bell=true
 use-custom-default-size=true
-default-size-columns=90
-default-size-rows=28
+default-size-columns=100
+default-size-rows=30
