@@ -56,6 +56,15 @@
     <artist>(none)</artist>
   </wallpaper>
   <wallpaper deleted="false">
+    <name>crescent.jpg</name>
+    <filename>/usr/share/backgrounds/crescent.jpg</filename>
+    <options>zoom</options>
+    <shade_type>vertical-gradient</shade_type>
+    <pcolor>rgb(88,145,188)</pcolor>
+    <scolor>rgb(60,143,37)</scolor>
+    <artist>(none)</artist>
+  </wallpaper>
+  <wallpaper deleted="false">
     <name>artwork-stars.jpg</name>
     <filename>/usr/share/backgrounds/artwork-stars.jpg</filename>
     <options>zoom</options>
@@ -83,17 +92,17 @@
     <artist>(none)</artist>
   </wallpaper>
   <wallpaper deleted="false">
-    <name>No Desktop Background</name>
-    <filename>(none)</filename>
+    <name>artwork-purple.jpg</name>
+    <filename>/usr/share/backgrounds/artwork-purple.jpg</filename>
     <options>zoom</options>
     <shade_type>vertical-gradient</shade_type>
     <pcolor>rgb(88,145,188)</pcolor>
     <scolor>rgb(60,143,37)</scolor>
     <artist>(none)</artist>
   </wallpaper>
-  <wallpaper deleted="false">
-    <name>artwork-purple.jpg</name>
-    <filename>/usr/share/backgrounds/artwork-purple.jpg</filename>
+    <wallpaper deleted="false">
+    <name>debian-trixie.jpg</name>
+    <filename>/usr/share/backgrounds/debian-trixie.jpg</filename>
     <options>zoom</options>
     <shade_type>vertical-gradient</shade_type>
     <pcolor>rgb(88,145,188)</pcolor>
@@ -130,6 +139,15 @@
   <wallpaper deleted="false">
     <name>sunset.jpg</name>
     <filename>/usr/share/backgrounds/sunset.jpg</filename>
+    <options>zoom</options>
+    <shade_type>vertical-gradient</shade_type>
+    <pcolor>rgb(88,145,188)</pcolor>
+    <scolor>rgb(60,143,37)</scolor>
+    <artist>(none)</artist>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>snow-mountains.jpg</name>
+    <filename>/usr/share/backgrounds/snow-mountains.jpg</filename>
     <options>zoom</options>
     <shade_type>vertical-gradient</shade_type>
     <pcolor>rgb(88,145,188)</pcolor>
