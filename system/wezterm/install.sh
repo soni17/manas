@@ -1,4 +1,5 @@
-# https://wezterm.org/
+# https://wezterm.org
+# https://github.com/wezterm/wezterm
 
 # add repository
 curl -fsSL https://apt.fury.io/wez/gpg.key | sudo gpg --yes --dearmor -o /usr/share/keyrings/wezterm-fury.gpg
