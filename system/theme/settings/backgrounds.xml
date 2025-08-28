@@ -38,15 +38,6 @@
     <artist>(none)</artist>
   </wallpaper>
   <wallpaper deleted="false">
-    <name>snow-mountains.jpg</name>
-    <filename>/usr/share/backgrounds/xrp-token.jpg</filename>
-    <options>zoom</options>
-    <shade_type>vertical-gradient</shade_type>
-    <pcolor>rgb(88,145,188)</pcolor>
-    <scolor>rgb(60,143,37)</scolor>
-    <artist>(none)</artist>
-  </wallpaper>
-  <wallpaper deleted="false">
     <name>artwork-blue.jpg</name>
     <filename>/usr/share/backgrounds/artwork-blue.jpg</filename>
     <options>zoom</options>
@@ -92,7 +83,7 @@
     <artist>(none)</artist>
   </wallpaper>
   <wallpaper deleted="false">
-    <name>snow-mountains.jpg</name>
+    <name>denmark-beach.jpg</name>
     <filename>/usr/share/backgrounds/denmark-beach.jpg</filename>
     <options>zoom</options>
     <shade_type>vertical-gradient</shade_type>
@@ -164,7 +155,7 @@
     <artist>(none)</artist>
   </wallpaper>
   <wallpaper deleted="false">
-    <name>snow-mountains.jpg</name>
+    <name>vice-city-skyline.jpg</name>
     <filename>/usr/share/backgrounds/vice-city-skyline.jpg</filename>
     <options>zoom</options>
     <shade_type>vertical-gradient</shade_type>
