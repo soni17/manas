@@ -6,6 +6,7 @@ sudo apt-get install -y \
   fzf \
   tmux \
   git \
+  gh \
   plocate \
   speedtest-cli \
   lsb-release \
