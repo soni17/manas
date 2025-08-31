@@ -1,2 +1,1 @@
-# remove desktop icons
-rm -rf ~/Desktop/*.desktop
+# do nothing

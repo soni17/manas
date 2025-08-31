@@ -100,7 +100,7 @@
     <scolor>rgb(60,143,37)</scolor>
     <artist>(none)</artist>
   </wallpaper>
-    <wallpaper deleted="false">
+  <wallpaper deleted="false">
     <name>debian-trixie.jpg</name>
     <filename>/usr/share/backgrounds/debian-trixie.jpg</filename>
     <options>zoom</options>
@@ -118,7 +118,7 @@
     <scolor>rgb(60,143,37)</scolor>
     <artist>(none)</artist>
   </wallpaper>
-    <wallpaper deleted="false">
+  <wallpaper deleted="false">
     <name>debian-blue.png</name>
     <filename>/usr/share/backgrounds/debian-blue.png</filename>
     <options>zoom</options>
@@ -157,6 +157,60 @@
   <wallpaper deleted="false">
     <name>vice-city-skyline.jpg</name>
     <filename>/usr/share/backgrounds/vice-city-skyline.jpg</filename>
+    <options>zoom</options>
+    <shade_type>vertical-gradient</shade_type>
+    <pcolor>rgb(88,145,188)</pcolor>
+    <scolor>rgb(60,143,37)</scolor>
+    <artist>(none)</artist>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>osaka-jade-bg.jpg</name>
+    <filename>/usr/share/backgrounds/osaka-jade-bg.jpg</filename>
+    <options>zoom</options>
+    <shade_type>vertical-gradient</shade_type>
+    <pcolor>rgb(88,145,188)</pcolor>
+    <scolor>rgb(60,143,37)</scolor>
+    <artist>(none)</artist>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>milad-fakurian-abstract.jpg</name>
+    <filename>/usr/share/backgrounds/milad-fakurian-abstract.jpg</filename>
+    <options>zoom</options>
+    <shade_type>vertical-gradient</shade_type>
+    <pcolor>rgb(88,145,188)</pcolor>
+    <scolor>rgb(60,143,37)</scolor>
+    <artist>(none)</artist>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>aurora.jpg</name>
+    <filename>/usr/share/backgrounds/aurora.jpg</filename>
+    <options>zoom</options>
+    <shade_type>vertical-gradient</shade_type>
+    <pcolor>rgb(88,145,188)</pcolor>
+    <scolor>rgb(60,143,37)</scolor>
+    <artist>(none)</artist>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>artwork-sunset.jpg</name>
+    <filename>/usr/share/backgrounds/artwork-sunset.jpg</filename>
+    <options>zoom</options>
+    <shade_type>vertical-gradient</shade_type>
+    <pcolor>rgb(88,145,188)</pcolor>
+    <scolor>rgb(60,143,37)</scolor>
+    <artist>(none)</artist>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>artwork-red.jpg</name>
+    <filename>/usr/share/backgrounds/artwork-red.jpg</filename>
+    <options>zoom</options>
+    <shade_type>vertical-gradient</shade_type>
+    <pcolor>rgb(88,145,188)</pcolor>
+    <scolor>rgb(60,143,37)</scolor>
+    <artist>(none)</artist>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>artwork-blue-mountain.jpg</name>
+    <filename>/usr/share/backgrounds/artwork-blue-mountain.jpg</filename>
     <options>zoom</options>
     <shade_type>vertical-gradient</shade_type>
     <pcolor>rgb(88,145,188)</pcolor>
