@@ -2,5 +2,5 @@
 sudo apt install -y thunar
 
 # add user config files
-mkdir ~/.config/thunar
+mkdir -p ~/.config/thunar
 cp configs/* ~/.config/thunar
