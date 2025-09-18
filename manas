@@ -34,6 +34,7 @@ update-apps(){
   bash development/vscodium/update.sh
   bash development/bruno/update.sh
   bash development/dbgate/update.sh
+  bash development/httptoolkit/update.sh
   bash development/beekeeper-studio/update.sh
   bash graphics/drawio/update.sh
   bash office/marktext/update.sh
