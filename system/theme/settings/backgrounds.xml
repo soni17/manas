@@ -11,6 +11,24 @@
     <artist>(none)</artist>
   </wallpaper>
   <wallpaper deleted="false">
+    <name>blue-mountain.jpg</name>
+    <filename>/usr/share/backgrounds/blue-mountain.jpg</filename>
+    <options>zoom</options>
+    <shade_type>vertical-gradient</shade_type>
+    <pcolor>rgb(88,145,188)</pcolor>
+    <scolor>rgb(60,143,37)</scolor>
+    <artist>(none)</artist>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>palms-pool.jpg</name>
+    <filename>/usr/share/backgrounds/palms-pool.jpg</filename>
+    <options>zoom</options>
+    <shade_type>vertical-gradient</shade_type>
+    <pcolor>rgb(88,145,188)</pcolor>
+    <scolor>rgb(60,143,37)</scolor>
+    <artist>(none)</artist>
+  </wallpaper>
+  <wallpaper deleted="false">
     <name>desert-night.jpg</name>
     <filename>/usr/share/backgrounds/desert-night.jpg</filename>
     <options>zoom</options>
