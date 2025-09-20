@@ -11,4 +11,6 @@
   <property name="last-separator-position" type="int" value="187"/>
   <property name="last-details-view-zoom-level" type="string" value="THUNAR_ZOOM_LEVEL_38_PERCENT"/>
   <property name="last-details-view-column-widths" type="string" value="50,50,124,50,50,85,50,50,394,50,50,67,50,81"/>
+  <property name="last-sort-column" type="string" value="THUNAR_COLUMN_NAME"/>
+  <property name="last-sort-order" type="string" value="GTK_SORT_DESCENDING"/>
 </channel>

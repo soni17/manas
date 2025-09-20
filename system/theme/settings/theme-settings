@@ -31,7 +31,7 @@ monospace-font-name='Ubuntu Mono 13'
 
 [org/mate/marco/general]
 compositing-manager=true
-theme='TraditionalOk'
+theme='Fluent-Light'
 titlebar-font='Ubuntu Medium 11'
 
 [org/mate/notification-daemon]

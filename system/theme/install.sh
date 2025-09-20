@@ -22,6 +22,11 @@ sudo rm -rf /usr/share/mate-background-properties/*
 sudo rm -rf ~/.config/mate/backgrounds.xml
 sudo cp system/theme/settings/backgrounds.xml /usr/share/mate-background-properties
 
+# copy fluent theme
+mkdir /tmp/fluent-theme
+tar -xf system/theme/settings/Fluent.tar.xz -C /tmp/fluent-theme
+sudo cp -r /tmp/fluent-theme/* /usr/share/themes
+
 # load metacity theme
 sudo cp system/theme/settings/metacity-theme-1.xml /usr/share/themes/TraditionalOk/metacity-1
 
