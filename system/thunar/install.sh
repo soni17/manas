@@ -1,9 +1,6 @@
 # install
 sudo apt install -y thunar
 
-# make default file manager
-xdg-mime default thunar.desktop inode/directory
-
 # add config files
 mkdir -p ~/.config/Thunar
 cp system/thunar/configs/uca.xml ~/.config/Thunar
