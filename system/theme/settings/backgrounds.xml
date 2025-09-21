@@ -38,6 +38,33 @@
     <artist>(none)</artist>
   </wallpaper>
   <wallpaper deleted="false">
+    <name>tahoe-beach-dawn.jpeg</name>
+    <filename>/usr/share/backgrounds/tahoe-beach-dawn.jpeg</filename>
+    <options>zoom</options>
+    <shade_type>vertical-gradient</shade_type>
+    <pcolor>rgb(88,145,188)</pcolor>
+    <scolor>rgb(60,143,37)</scolor>
+    <artist>(none)</artist>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>tahoe-beach-day.jpeg</name>
+    <filename>/usr/share/backgrounds/tahoe-beach-day.jpeg</filename>
+    <options>zoom</options>
+    <shade_type>vertical-gradient</shade_type>
+    <pcolor>rgb(88,145,188)</pcolor>
+    <scolor>rgb(60,143,37)</scolor>
+    <artist>(none)</artist>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>tahoe-beach-dusk.jpeg</name>
+    <filename>/usr/share/backgrounds/tahoe-beach-dusk.jpeg</filename>
+    <options>zoom</options>
+    <shade_type>vertical-gradient</shade_type>
+    <pcolor>rgb(88,145,188)</pcolor>
+    <scolor>rgb(60,143,37)</scolor>
+    <artist>(none)</artist>
+  </wallpaper>
+  <wallpaper deleted="false">
     <name>os-x-yosemite.jpg</name>
     <filename>/usr/share/backgrounds/os-x-yosemite.jpg</filename>
     <options>zoom</options>
@@ -119,8 +146,8 @@
     <artist>(none)</artist>
   </wallpaper>
   <wallpaper deleted="false">
-    <name>debian-trixie.jpg</name>
-    <filename>/usr/share/backgrounds/debian-trixie.jpg</filename>
+    <name>debian-trixie.svg</name>
+    <filename>/usr/share/backgrounds/debian-trixie.svg</filename>
     <options>zoom</options>
     <shade_type>vertical-gradient</shade_type>
     <pcolor>rgb(88,145,188)</pcolor>
@@ -130,15 +157,6 @@
   <wallpaper deleted="false">
     <name>debian-bookworm.png</name>
     <filename>/usr/share/backgrounds/debian-bookworm.png</filename>
-    <options>zoom</options>
-    <shade_type>vertical-gradient</shade_type>
-    <pcolor>rgb(88,145,188)</pcolor>
-    <scolor>rgb(60,143,37)</scolor>
-    <artist>(none)</artist>
-  </wallpaper>
-  <wallpaper deleted="false">
-    <name>debian-blue.png</name>
-    <filename>/usr/share/backgrounds/debian-blue.png</filename>
     <options>zoom</options>
     <shade_type>vertical-gradient</shade_type>
     <pcolor>rgb(88,145,188)</pcolor>
@@ -184,6 +202,33 @@
   <wallpaper deleted="false">
     <name>osaka-jade-bg.jpg</name>
     <filename>/usr/share/backgrounds/osaka-jade-bg.jpg</filename>
+    <options>zoom</options>
+    <shade_type>vertical-gradient</shade_type>
+    <pcolor>rgb(88,145,188)</pcolor>
+    <scolor>rgb(60,143,37)</scolor>
+    <artist>(none)</artist>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>tahoe-abstract-2.jpg</name>
+    <filename>/usr/share/backgrounds/tahoe-abstract-2.jpg</filename>
+    <options>zoom</options>
+    <shade_type>vertical-gradient</shade_type>
+    <pcolor>rgb(88,145,188)</pcolor>
+    <scolor>rgb(60,143,37)</scolor>
+    <artist>(none)</artist>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>tahoe-abstract-3.jpg</name>
+    <filename>/usr/share/backgrounds/tahoe-abstract-3.jpg</filename>
+    <options>zoom</options>
+    <shade_type>vertical-gradient</shade_type>
+    <pcolor>rgb(88,145,188)</pcolor>
+    <scolor>rgb(60,143,37)</scolor>
+    <artist>(none)</artist>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>tahoe-abstract.jpeg</name>
+    <filename>/usr/share/backgrounds/tahoe-abstract.jpeg</filename>
     <options>zoom</options>
     <shade_type>vertical-gradient</shade_type>
     <pcolor>rgb(88,145,188)</pcolor>

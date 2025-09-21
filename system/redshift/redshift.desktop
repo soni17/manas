@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Exec=redshift -O 4000
+Exec=redshift -O 3700
 Hidden=false
 Name[en_US]=color-temp
 Name=color-temp
