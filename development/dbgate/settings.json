@@ -1,4 +1,4 @@
 {
-  "app.useNativeMenu": true,
+  "app.useNativeMenu": false,
   "currentEditorTheme": "chrome"
 }

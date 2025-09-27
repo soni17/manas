@@ -47,8 +47,8 @@
     <artist>(none)</artist>
   </wallpaper>
   <wallpaper deleted="false">
-    <name>tahoe-beach-day.jpeg</name>
-    <filename>/usr/share/backgrounds/tahoe-beach-day.jpeg</filename>
+    <name>lake-night.jpg</name>
+    <filename>/usr/share/backgrounds/lake-night.jpg</filename>
     <options>zoom</options>
     <shade_type>vertical-gradient</shade_type>
     <pcolor>rgb(88,145,188)</pcolor>
@@ -227,15 +227,6 @@
     <artist>(none)</artist>
   </wallpaper>
   <wallpaper deleted="false">
-    <name>tahoe-abstract.jpeg</name>
-    <filename>/usr/share/backgrounds/tahoe-abstract.jpeg</filename>
-    <options>zoom</options>
-    <shade_type>vertical-gradient</shade_type>
-    <pcolor>rgb(88,145,188)</pcolor>
-    <scolor>rgb(60,143,37)</scolor>
-    <artist>(none)</artist>
-  </wallpaper>
-  <wallpaper deleted="false">
     <name>milad-fakurian-abstract.jpg</name>
     <filename>/usr/share/backgrounds/milad-fakurian-abstract.jpg</filename>
     <options>zoom</options>
@@ -274,6 +265,96 @@
   <wallpaper deleted="false">
     <name>artwork-blue-mountain.jpg</name>
     <filename>/usr/share/backgrounds/artwork-blue-mountain.jpg</filename>
+    <options>zoom</options>
+    <shade_type>vertical-gradient</shade_type>
+    <pcolor>rgb(88,145,188)</pcolor>
+    <scolor>rgb(60,143,37)</scolor>
+    <artist>(none)</artist>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>foggy-forest.png</name>
+    <filename>/usr/share/backgrounds/foggy-forest.png</filename>
+    <options>zoom</options>
+    <shade_type>vertical-gradient</shade_type>
+    <pcolor>rgb(88,145,188)</pcolor>
+    <scolor>rgb(60,143,37)</scolor>
+    <artist>(none)</artist>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>lake-dusk.jpg</name>
+    <filename>/usr/share/backgrounds/lake-dusk.jpg</filename>
+    <options>zoom</options>
+    <shade_type>vertical-gradient</shade_type>
+    <pcolor>rgb(88,145,188)</pcolor>
+    <scolor>rgb(60,143,37)</scolor>
+    <artist>(none)</artist>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>lake-night.jpg</name>
+    <filename>/usr/share/backgrounds/lake-night.jpg</filename>
+    <options>zoom</options>
+    <shade_type>vertical-gradient</shade_type>
+    <pcolor>rgb(88,145,188)</pcolor>
+    <scolor>rgb(60,143,37)</scolor>
+    <artist>(none)</artist>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>mountain-foggy.png</name>
+    <filename>/usr/share/backgrounds/mountain-foggy.png</filename>
+    <options>zoom</options>
+    <shade_type>vertical-gradient</shade_type>
+    <pcolor>rgb(88,145,188)</pcolor>
+    <scolor>rgb(60,143,37)</scolor>
+    <artist>(none)</artist>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>mountain-purple.jpg</name>
+    <filename>/usr/share/backgrounds/mountain-purple.jpg</filename>
+    <options>zoom</options>
+    <shade_type>vertical-gradient</shade_type>
+    <pcolor>rgb(88,145,188)</pcolor>
+    <scolor>rgb(60,143,37)</scolor>
+    <artist>(none)</artist>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>night-sky-blue.png</name>
+    <filename>/usr/share/backgrounds/night-sky-blue.png</filename>
+    <options>zoom</options>
+    <shade_type>vertical-gradient</shade_type>
+    <pcolor>rgb(88,145,188)</pcolor>
+    <scolor>rgb(60,143,37)</scolor>
+    <artist>(none)</artist>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>sand-dunes.jpg</name>
+    <filename>/usr/share/backgrounds/sand-dunes.jpg</filename>
+    <options>zoom</options>
+    <shade_type>vertical-gradient</shade_type>
+    <pcolor>rgb(88,145,188)</pcolor>
+    <scolor>rgb(60,143,37)</scolor>
+    <artist>(none)</artist>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>snow-dusk.jpg</name>
+    <filename>/usr/share/backgrounds/snow-dusk.jpg</filename>
+    <options>zoom</options>
+    <shade_type>vertical-gradient</shade_type>
+    <pcolor>rgb(88,145,188)</pcolor>
+    <scolor>rgb(60,143,37)</scolor>
+    <artist>(none)</artist>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>snow-river.jpg</name>
+    <filename>/usr/share/backgrounds/snow-river.jpg</filename>
+    <options>zoom</options>
+    <shade_type>vertical-gradient</shade_type>
+    <pcolor>rgb(88,145,188)</pcolor>
+    <scolor>rgb(60,143,37)</scolor>
+    <artist>(none)</artist>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>volcano.jpg</name>
+    <filename>/usr/share/backgrounds/volcano.jpg</filename>
     <options>zoom</options>
     <shade_type>vertical-gradient</shade_type>
     <pcolor>rgb(88,145,188)</pcolor>
