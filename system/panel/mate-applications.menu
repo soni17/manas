@@ -50,6 +50,9 @@
 			<Filename>eu.scarpetta.PDFMixTool.desktop</Filename>
 			<Merge type="files"/>
 		</Layout>
+		<Exclude>
+			<Filename>devtoys.desktop</Filename>
+		</Exclude>
 	</Menu>
 	<Menu>
 		<Name>Multimedia</Name>
@@ -85,6 +88,7 @@
 			<Merge type="menus"/>
 			<Filename>codium.desktop</Filename>
 			<Filename>bruno.desktop</Filename>
+			<Filename>devtoys.desktop</Filename>
 			<Filename>httptoolkit.desktop</Filename>
 			<Filename>beekeeper-studio.desktop</Filename>
 			<Filename>dbgate.desktop</Filename>
@@ -172,6 +176,9 @@
 		<Name>Accessories</Name>
 		<Exclude>
 			<Filename>marktext.desktop</Filename>
+		</Exclude>
+		<Exclude>
+			<Filename>devtoys.desktop</Filename>
 		</Exclude>
 		<Layout>
 			<Merge type="menus"/>
