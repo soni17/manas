@@ -84,6 +84,9 @@
 		<Include>
 			<Filename>org.gtkhash.gtkhash-1.desktop</Filename>
 		</Include>
+		<Exclude>
+			<Filename>org.gnome.Boxes.desktop</Filename>
+		</Exclude>
 		<Layout>
 			<Merge type="menus"/>
 			<Filename>codium.desktop</Filename>
