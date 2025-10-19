@@ -13,7 +13,7 @@ sudo echo -n ""
 echo -e "$(tput setaf 74) $ascii_art \n"
 echo "$(tput setaf 7)Starting Installation..."
 
-# stop script if OS is not Debian Mate 12 or higher
+# stop script if OS is not Debian Mate 13
 echo "checking OS version..."
 source run-commands/check-os.sh
 
