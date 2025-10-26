@@ -1,5 +1,5 @@
 # install
-sudo apt-get install -y package-update-indicator
+sudo apt-get install -y --no-install-recommends package-update-indicator
 
 # add config file
 mkdir -p ~/.config/package-update-indicator

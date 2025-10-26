@@ -146,8 +146,8 @@
     <artist>(none)</artist>
   </wallpaper>
   <wallpaper deleted="false">
-    <name>debian-trixie.svg</name>
-    <filename>/usr/share/backgrounds/debian-trixie.svg</filename>
+    <name>debian-trixie-13.svg</name>
+    <filename>/usr/share/backgrounds/debian-trixie-13.svg</filename>
     <options>zoom</options>
     <shade_type>vertical-gradient</shade_type>
     <pcolor>rgb(88,145,188)</pcolor>
