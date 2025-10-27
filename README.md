@@ -11,7 +11,7 @@ Turn a fresh installation of Debian Linux into a modern, fully-configured enviro
 Run this command in your terminal.
 
 ```bash
-curl -s https://raw.githubusercontent.com/soni17/manas/main/boot.sh | bash
+sudo apt install -y curl && curl -s https://raw.githubusercontent.com/soni17/manas/main/boot.sh | bash
 ```
 
 ### License
