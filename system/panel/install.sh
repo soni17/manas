@@ -28,8 +28,7 @@ cp system/panel/mate-applications.menu ~/.config/menus
 
 # app launchers overrides
 mkdir -p ~/.local/share/applications
-cp system/panel/engrampa* ~/.local/share/applications
-cp system/panel/mate-terminal* ~/.local/share/applications
+cp system/panel/app-launchers/* ~/.local/share/applications
 
 # disable recent documents history
 if ! lsattr ~/.local/share/recently-used.xbel | grep i

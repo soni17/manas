@@ -19,7 +19,3 @@ rm /tmp/$FILENAME
 # add config file
 mkdir -p ~/.config/FreeTube
 cp audio-video/freetube/settings.db ~/.config/FreeTube
-
-# add launcher icon
-mkdir -p ~/.local/share/applications
-cp audio-video/freetube/freetube* ~/.local/share/applications

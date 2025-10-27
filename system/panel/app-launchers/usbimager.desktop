@@ -1,0 +1,12 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0.10
+Type=Application
+Name=USBImager
+Comment=Write image files to USB devices
+Exec=/usr/bin/usbimager
+Icon=usbimager
+Terminal=false
+StartupNotify=false
+Categories=Application;System;
+Name[en_US]=USB Imager

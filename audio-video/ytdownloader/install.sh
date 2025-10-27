@@ -13,7 +13,3 @@ sudo apt-get install -y /tmp/$FILENAME
 
 # delete installer
 rm /tmp/$FILENAME
-
-# add launcher icon
-mkdir -p ~/.local/share/applications
-cp audio-video/ytdownloader/ytdownloader* ~/.local/share/applications

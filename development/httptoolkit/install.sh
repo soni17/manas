@@ -15,7 +15,3 @@ sudo apt-get install -y /tmp/$FILENAME
 
 # delete installer
 rm /tmp/$FILENAME
-
-# add launcher icon that fixes slow startup
-mkdir -p ~/.local/share/applications
-cp development/httptoolkit/httptoolkit.desktop ~/.local/share/applications

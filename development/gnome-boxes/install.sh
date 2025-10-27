@@ -3,7 +3,3 @@
 
 # install
 sudo apt-get install -y gnome-boxes
-
-# override launcher icon
-mkdir -p ~/.local/share/applications
-cp development/gnome-boxes/org.gnome.Boxes.desktop ~/.local/share/applications
