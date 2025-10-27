@@ -17,7 +17,7 @@ start-with-toolbar=true
 
 [org/mate/desktop/background]
 color-shading-type='vertical-gradient'
-picture-filename='/usr/share/backgrounds/debian-trixie.svg'
+picture-filename='/usr/share/backgrounds/desert-night.jpg'
 picture-options='zoom'
 primary-color='rgb(88,145,188)'
 secondary-color='rgb(60,143,37)'
