@@ -27,6 +27,9 @@ mkdir /tmp/fluent-theme
 tar -xf system/theme/settings/Fluent.tar.xz -C /tmp/fluent-theme
 sudo cp -r /tmp/fluent-theme/* /usr/share/themes
 
+# copy pluma theme
+sudo cp system/theme/settings/coldark-dark.xml /usr/share/gtksourceview-4/styles
+
 # load metacity theme
 sudo cp system/theme/settings/metacity-theme-1.xml /usr/share/themes/TraditionalOk/metacity-1
 

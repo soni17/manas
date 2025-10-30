@@ -18,9 +18,6 @@ sudo apt-get install -y \
 # fix for network monitor applet
 sudo sed -i "s/Exec=nm-applet/Exec=nm-applet --indicator/" /etc/xdg/autostart/nm-applet.desktop
 
-# move power-statistics to control-center apps
-sudo sed -i "s/Categories=GTK;System;Monitor;/Categories=Settings;HardwareSettings;/g" /usr/share/applications/mate-power-statistics.desktop
-
 # modify panel menus
 rm -rf ~/.config/menus
 mkdir -p ~/.config/menus

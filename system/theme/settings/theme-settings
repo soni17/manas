@@ -121,16 +121,13 @@ orientation='right'
 item-icon-size='32px'
 
 [org/mate/pluma]
-background-pattern='none'
-bottom-panel-size=140
 display-right-margin=false
-side-panel-active-page=827629879
-side-panel-size=200
-size=(868, 659)
-state=128
-statusbar-visible=true
+statusbar-visible=false
+toolbar-visible=false
+side-pane-visible=false
+bracket-matching=true
+color-scheme='coldark-dark'
 tabs-size=uint32 2
-wrap-mode='GTK_WRAP_NONE'
 
 [org/mate/screensaver]
 mode='blank-only'

@@ -41,7 +41,7 @@
 	"isHtmlEnabled": true,
 	"isGitlabCompatibilityEnabled": false,
 	"sequenceTheme": "hand",
-	"theme": "light",
+	"theme": "one-dark",
 	"autoSwitchTheme": 2,
 	"spellcheckerEnabled": false,
 	"spellcheckerIsHunspell": false,
