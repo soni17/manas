@@ -1,0 +1,11 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=Stacer
+Exec=stacer
+Comment=Linux System Optimizer and Monitoring
+Icon=stacer
+Type=Application
+Terminal=false
+Encoding=UTF-8
+Categories=
+Hidden=false
