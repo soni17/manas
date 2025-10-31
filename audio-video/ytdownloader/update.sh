@@ -1,4 +1,4 @@
-source run-commands/updater.sh
+source scripts/updater.sh
 
 installed_version=$(apt info ytdownloader | grep Version | cut -d ' ' -f 2)
 

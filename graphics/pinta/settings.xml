@@ -13,7 +13,6 @@
   <setting name="menubar-shown" type="System.Boolean">True</setting>
   <setting name="statusbar-shown" type="System.Boolean">True</setting>
   <setting name="toolbox-shown" type="System.Boolean">True</setting>
-  <setting name="last-dialog-directory" type="System.String">file:///home/une/Pictures</setting>
   <setting name="last-selected-tool" type="System.String">PaintBrushTool</setting>
   <setting name="primary-color" type="System.String">FF000000</setting>
   <setting name="secondary-color" type="System.String">FFFFFFFF</setting>

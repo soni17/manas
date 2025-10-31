@@ -17,11 +17,11 @@ menu(){
 }
 
 install-all(){
-  bash run-commands/install-all.sh
+  bash scripts/install-all.sh
 }
 
 uninstall-all(){
-  bash run-commands/uninstall-all.sh
+  bash scripts/uninstall-all.sh
 }
 
 # update apps without a repository

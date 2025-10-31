@@ -15,32 +15,32 @@ echo "$(tput setaf 7)Starting Installation..."
 
 # stop script if OS is not Debian Mate 13
 echo "checking OS version..."
-source run-commands/check-os.sh
+source scripts/check-os.sh
 
 # error handling
-source run-commands/error-handling.sh
+source scripts/error-handling.sh
 
 # enable repositories
 echo "adding repositories..."
-source run-commands/enable-repos.sh 1> /dev/null 2>> /tmp/manas.log
+source scripts/enable-repos.sh 1> /dev/null 2>> /tmp/manas.log
 
 # upgrade OS
 echo "upgrading OS..."
-source run-commands/upgrade-os.sh 1> /dev/null 2>> /tmp/manas.log
+source scripts/upgrade-os.sh 1> /dev/null 2>> /tmp/manas.log
 
 # uninstall bloat
 echo "uninstalling bloat..."
-source run-commands/uninstall-bloat.sh 1> /dev/null 2>> /tmp/manas.log
+source scripts/uninstall-bloat.sh 1> /dev/null 2>> /tmp/manas.log
 
 # run installers
 echo "installing apps..."
 echo " "
-source run-commands/run-installers.sh
+source scripts/run-installers.sh
 
 # cleanup
 echo " "
 echo "cleaning up..."
-source run-commands/cleanup.sh 1> /dev/null 2>> /tmp/manas.log
+source scripts/cleanup.sh 1> /dev/null 2>> /tmp/manas.log
 
 # reboot
 echo "$(tput setaf 2)Installation completed successfully."

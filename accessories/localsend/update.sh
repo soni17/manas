@@ -1,4 +1,4 @@
-source run-commands/updater.sh
+source scripts/updater.sh
 
 installed_version=$(apt info localsend | grep Version | cut -d ' ' -f 2 | cut -d '+' -f 1)
 
