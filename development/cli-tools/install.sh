@@ -15,4 +15,5 @@ sudo apt-get install -y \
   lshw \
   cmatrix \
   libfuse2t64 \
+  libavcodec-extra \
   sqlite3
