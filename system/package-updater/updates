@@ -9,6 +9,11 @@ sudo apt update
 sudo apt full-upgrade -y
 sudo apt autoremove -y
 
+# update kernel from debian backports repo
+echo -e $(tput setaf 3)Update kernel from Debian backports repo $(tput setaf 7)
+sudo apt update -t trixie-backports
+sudo apt install -y -t trixie-backports linux-image-amd64
+
 # delete unused flatpaks
 echo -e $(tput setaf 3)Delete unused Flatpaks $(tput setaf 7)
 flatpak uninstall --unused --delete-data -y

@@ -10,6 +10,9 @@ deb-src http://security.debian.org/debian-security trixie-security main contrib 
 
 deb http://deb.debian.org/debian/ trixie-updates main contrib non-free non-free-firmware
 deb-src http://deb.debian.org/debian/ trixie-updates main contrib non-free non-free-firmware
+
+deb http://deb.debian.org/debian/ trixie-backports main contrib non-free non-free-firmware
+deb-src http://deb.debian.org/debian/ trixie-backports main contrib non-free non-free-firmware
 EOF
 sudo chown root:root /etc/apt/sources.list
 fi
