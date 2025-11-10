@@ -14,6 +14,9 @@ echo -e $(tput setaf 3)Update kernel from Debian backports repo $(tput setaf 7)
 sudo apt update -t trixie-backports
 sudo apt install -y -t trixie-backports linux-image-amd64
 
+# delete residual config files
+dpkg -l | grep '^rc' | awk '{print $2}' | xargs sudo apt-get purge -y
+
 # delete unused flatpaks
 echo -e $(tput setaf 3)Delete unused Flatpaks $(tput setaf 7)
 flatpak uninstall --unused --delete-data -y
