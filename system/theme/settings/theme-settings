@@ -135,6 +135,7 @@ themes=@as []
 
 [org/mate/terminal/profiles/default]
 allow-bold=false
+bold-color-same-as-fg=false
 background-color='#000000000000'
 background-darkness=0.85999999999999999
 background-type='transparent'
