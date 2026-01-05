@@ -6,7 +6,7 @@ sudo extrepo enable librewolf
 sudo apt-get update -y
 
 # install
-sudo apt-get install librewolf -y
+sudo apt-get install -y librewolf
 
 # add config file
 mkdir -p ~/.librewolf
