@@ -1,9 +1,5 @@
 # install panel applets
 sudo apt-get install -y \
-  caja-admin \
-  caja-image-converter \
-  caja-open-terminal \
-  caja-rename \
   ayatana-indicator-application \
   ayatana-indicator-bluetooth \
   ayatana-indicator-messages \
