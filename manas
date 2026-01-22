@@ -36,7 +36,6 @@ update-apps(){
   bash development/dbgate/update.sh
   bash development/devtoys/update.sh
   bash development/httptoolkit/update.sh
-  bash development/beekeeper-studio/update.sh
   bash development/fresh-editor/update.sh
   bash graphics/drawio/update.sh
   bash office/marktext/update.sh
