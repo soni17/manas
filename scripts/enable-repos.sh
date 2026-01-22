@@ -31,3 +31,7 @@ sudo apt-get install -y mise
 mise settings add idiomatic_version_file_enable_tools ruby
 mise settings add idiomatic_version_file_enable_tools python
 mise settings add idiomatic_version_file_enable_tools node
+
+# enable non-free repos in extrepo
+sudo sed -i "s/# - contrib/- contrib/" /etc/extrepo/config.yaml
+sudo sed -i "s/# - non-free/- non-free/" /etc/extrepo/config.yaml
