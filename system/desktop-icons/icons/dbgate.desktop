@@ -1,0 +1,10 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=DbGate
+Exec=/opt/DbGate/dbgate %U
+Terminal=false
+Type=Application
+Icon=dbgate
+StartupWMClass=DbGate
+Comment=Opensource database administration tool
+Categories=Development;
