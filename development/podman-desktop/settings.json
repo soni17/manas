@@ -6,5 +6,7 @@
   "terminal.integrated.fontSize": 16,
   "editor.integrated.fontSize": 12,
   "preferences.appearance": "dark",
-  "preferences.navigationBarLayout": "icon + title"
+    "learningCenter.expanded": false,
+  "exploreFeatures.expanded": false,
+  "extensions.ignoreBannerRecommendations": true
 }
