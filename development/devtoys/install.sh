@@ -1,12 +1,9 @@
 # https://devtoys.app
-# https://github.com/DevToys-app
+# https://github.com/DevToys-app/DevToys
 
-# installer filename
+# get latest version and installer filename
+LATEST_VERSION=$(curl -s "https://api.github.com/repos/DevToys-app/DevToys/releases" | grep -Po '"tag_name": "\K[^"]*' | head -n 1)
 FILENAME="devtoys_linux_x64.deb"
-
-# latest version
-VERSIONS=$(curl -s "https://api.github.com/repos/DevToys-app/DevToys/releases" | grep -Po '"tag_name": "\K[^"]*')
-LATEST_VERSION=$( echo $VERSIONS | cut -d ' ' -f 1)
 
 # download installer
 wget -q https://github.com/DevToys-app/DevToys/releases/download/$LATEST_VERSION/$FILENAME -O /tmp/$FILENAME
