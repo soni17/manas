@@ -42,6 +42,7 @@ update-apps(){
   bash office/sejdapdf/update.sh
   bash office/onlyoffice/update.sh
   bash office/standard-notes/update.sh
+  bash web-browsers/helium/update.sh
 }
 
 app(){

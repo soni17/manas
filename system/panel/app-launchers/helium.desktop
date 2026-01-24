@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Helium
+Comment=Helium Browser
+Exec=/usr/bin/helium %U
+Terminal=false
+Categories=Network;WebBrowser;
+Icon=helium
