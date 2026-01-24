@@ -13,3 +13,6 @@ sudo apt-get install -y /tmp/$FILENAME
 
 # delete installer
 rm /tmp/$FILENAME
+
+# override launcher
+cp audio-video/ytdownloader/ytdownloader* ~/.local/share/applications

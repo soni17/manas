@@ -13,3 +13,6 @@ sudo apt-get install -y /tmp/$FILENAME
 
 # delete installer
 rm /tmp/$FILENAME
+
+# override launcher to fix slow startup
+cp development/httptoolkit/httptoolkit.desktop ~/.local/share/applications

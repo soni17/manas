@@ -13,3 +13,6 @@ sudo apt-get install -y /tmp/$FILENAME
 
 # delete installer
 rm /tmp/$FILENAME
+
+# override launcher
+cp system/usb-imager/usbimager.desktop ~/.local/share/applications

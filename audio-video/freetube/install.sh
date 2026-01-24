@@ -18,3 +18,6 @@ rm /tmp/$FILENAME
 # add config file
 mkdir -p ~/.config/FreeTube
 cp audio-video/freetube/settings.db ~/.config/FreeTube
+
+# override launcher
+cp audio-video/freetube/freetube* ~/.local/share/applications

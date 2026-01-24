@@ -3,3 +3,6 @@
 
 # install
 sudo apt-get install -y gnome-boxes
+
+# override launcher
+cp development/gnome-boxes/org.gnome.Boxes* ~/.local/share/applications

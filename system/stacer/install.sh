@@ -12,3 +12,6 @@ sudo apt-get install -y /tmp/$FILENAME
 
 # delete installer
 rm /tmp/$FILENAME
+
+# override launcher
+cp system/stacer/stacer* ~/.local/share/applications
