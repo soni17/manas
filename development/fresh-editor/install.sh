@@ -1,3 +1,4 @@
+# https://getfresh.dev
 # https://github.com/sinelaw/fresh
 
 # get latest version and filename

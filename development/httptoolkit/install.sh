@@ -1,4 +1,4 @@
-# https://httptoolkit.com/
+# https://httptoolkit.com
 # https://github.com/httptoolkit/httptoolkit-desktop
 
 # get installer filename and latest version
