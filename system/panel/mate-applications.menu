@@ -83,6 +83,9 @@
 			<Filename>org.remmina.Remmina-file.desktop</Filename>
 			<Merge type="files"/>
 		</Layout>
+		<Exclude>
+			<Filename>com.google.Chrome.desktop</Filename>
+		</Exclude>
 	</Menu>
 	<Menu>
 		<Name>Office</Name>
