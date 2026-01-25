@@ -13,6 +13,3 @@ sudo apt-get purge -y --autoremove \
 
 # delete panel menu settings
 rm -rf ~/.config/menus
-
-# delete app launcher overriders
-rm -rf ~/.local/share/applications

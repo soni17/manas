@@ -8,7 +8,3 @@ dconf write /org/mate/desktop/interface/gtk-theme "'Menta'"
 dconf write /org/mate/marco/general/theme "'Menta'"
 
 rm -rf ~/.config/menus/*
-
-rm -rf ~/.local/share/applications/*
-
-rm -rf ~/.config/autostart/redshift.desktop

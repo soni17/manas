@@ -9,4 +9,5 @@ mkdir -p ~/.var/app/com.github.PintaProject.Pinta/config/Pinta
 cp graphics/pinta/settings.xml ~/.var/app/com.github.PintaProject.Pinta/config/Pinta
 
 # override launcher
+mkdir -p ~/.local/share/applications
 cp graphics/pinta/com.github.Pinta* ~/.local/share/applications

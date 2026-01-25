@@ -14,4 +14,5 @@ sudo apt-get install -y /tmp/$FILENAME
 rm /tmp/$FILENAME
 
 # override launcher
+mkdir -p ~/.local/share/applications
 cp system/stacer/stacer* ~/.local/share/applications

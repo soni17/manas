@@ -10,4 +10,5 @@ dconf write /org/gnome/software/download-updates false
 dconf write /org/gnome/software/download-updates-notify false 
 
 # override launcher
+mkdir -p ~/.local/share/applications
 cp system/gnome-software/org.gnome.Software* ~/.local/share/applications

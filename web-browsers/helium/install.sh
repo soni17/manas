@@ -15,4 +15,5 @@ sudo apt-get install -y /tmp/$FILENAME
 rm /tmp/$FILENAME
 
 # override launcher to fix slow startup
+mkdir -p ~/.local/share/applications
 cp web-browsers/helium/helium.desktop ~/.local/share/applications

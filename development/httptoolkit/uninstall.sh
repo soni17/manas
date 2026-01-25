@@ -5,4 +5,4 @@ sudo apt-get purge -y --autoremove httptoolkit
 sudo rm -rf ~/.config/httptoolkit
 
 # delete launcher icon
-rm ~/.local/share/applications/httptoolkit*
+rm ~/.local/share/applications/httptoolkit.desktop

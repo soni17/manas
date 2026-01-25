@@ -8,4 +8,5 @@ flatpak install flathub -y --system com.usebottles.bottles
 flatpak override com.usebottles.bottles --user --filesystem=xdg-data/applications
 
 # override launcher
+mkdir -p ~/.local/share/applications
 cp system/bottles/com.usebottles* ~/.local/share/applications
