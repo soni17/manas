@@ -5,25 +5,24 @@ local wezterm = require 'wezterm'
 local config = wezterm.config_builder()
 
 -- initial geometry for new windows:
-config.initial_cols = 103
-config.initial_rows = 30
+config.initial_cols = 109
+config.initial_rows = 27
 
 -- changing the font
-config.font = wezterm.font 'Ubuntu Mono'
-config.font_size = 13
+config.font_size = 11
 
 -- cursor
 config.default_cursor_style = 'SteadyUnderline'
 
 -- background opacity
-config.window_background_opacity = 0.87
+config.window_background_opacity = 0.88
 
 -- scrollbar
 config.enable_scroll_bar = true
 config.scrollback_lines = 10000
 
 -- colors
-config.color_scheme = 'Gnometerm (terminal.sexy)'
+config.color_scheme = 'One Half Black (Gogh)'
 config.bold_brightens_ansi_colors = 'BrightOnly'
 config.colors = {
   foreground = 'lightgrey',
