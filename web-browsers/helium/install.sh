@@ -1,19 +1,10 @@
-# https://arvaidasre.github.io/helium-browser-deb
-# https://github.com/arvaidasre/helium-browser-deb
+# https://helium.computer/
+# https://codeberg.org/justaguylinux/butterrepo
 
-# get installer filename and latest version
-LATEST_VERSION=$(curl -s "https://api.github.com/repos/arvaidasre/helium-browser-deb/releases/latest" | grep -Po '"tag_name": "\K[^"]*')
-FILENAME="helium-browser_${LATEST_VERSION}_amd64.deb"
-
-# download installer
-wget -q https://github.com/arvaidasre/helium-browser-deb/releases/download/$LATEST_VERSION/$FILENAME -O /tmp/$FILENAME
+# add repository
+curl -fsSL https://justaguylinux.codeberg.page/butterrepo/key.asc | sudo gpg --dearmor -o /usr/share/keyrings/butterrepo.gpg
+echo "deb [arch=amd64 signed-by=/usr/share/keyrings/butterrepo.gpg] https://justaguylinux.codeberg.page/butterrepo stable main" | sudo tee /etc/apt/sources.list.d/butterrepo.list
 
 # install
-sudo apt-get install -y /tmp/$FILENAME
-
-# delete installer
-rm /tmp/$FILENAME
-
-# override launcher to fix slow startup
-mkdir -p ~/.local/share/applications
-cp web-browsers/helium/helium.desktop ~/.local/share/applications
+sudo apt-get update -y
+sudo apt-get install -y helium-browser

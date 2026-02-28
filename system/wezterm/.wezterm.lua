@@ -15,7 +15,7 @@ config.font_size = 11
 config.default_cursor_style = 'SteadyUnderline'
 
 -- background opacity
-config.window_background_opacity = 0.88
+config.window_background_opacity = 0.90
 
 -- scrollbar
 config.enable_scroll_bar = true
