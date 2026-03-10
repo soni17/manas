@@ -15,5 +15,4 @@ sudo apt-get purge -y \
   mate-utils \
   mate-user-guide \
   yelp \
-  synaptic \
-  plymouth
+  synaptic
