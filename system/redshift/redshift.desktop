@@ -2,8 +2,5 @@
 Type=Application
 Exec=redshift -O 4500
 Hidden=false
-Name[en_US]=color-temp
 Name=color-temp
-Comment[en_US]=
-Comment=
-X-MATE-Autostart-Delay=3
+Comment=add color temperature
