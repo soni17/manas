@@ -7,3 +7,6 @@ sudo apt-get install -y gnome-boxes
 # override launcher
 mkdir -p ~/.local/share/applications
 cp development/gnome-boxes/org.gnome.Boxes* ~/.local/share/applications
+
+# stop service from running in background
+sudo systemctl disable libvirt-guests.service
