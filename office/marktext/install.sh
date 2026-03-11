@@ -1,4 +1,4 @@
-# https://www.marktext.cc
+# https://marktext.me
 # https://github.com/marktext/marktext
 
 # get installer filename and latest version
