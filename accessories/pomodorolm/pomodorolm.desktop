@@ -1,0 +1,8 @@
+[Desktop Entry]
+Categories=Utility;
+Exec=pomodorolm
+StartupWMClass=pomodorolm
+Icon=pomodorolm
+Name=pomodorolm
+Terminal=false
+Type=Application
