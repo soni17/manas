@@ -16,7 +16,7 @@ run () {
 }
 
 run "system/*/"
-run "web-browsers/*/"
+run "internet/*/"
 run "accessories/*/"
 run "audio-video/*/"
 run "graphics/*/"

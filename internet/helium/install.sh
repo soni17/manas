@@ -10,4 +10,4 @@ sudo apt-get update -y
 sudo apt-get install -y helium-browser
 
 # app launcher override to fix slow startup
-cp web-browsers/helium/helium.desktop ~/.local/share/applications
+cp internet/helium/helium.desktop ~/.local/share/applications

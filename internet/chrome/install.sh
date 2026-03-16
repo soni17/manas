@@ -13,4 +13,4 @@ sudo apt-get install -y /tmp/$FILENAME
 rm /tmp/$FILENAME
 
 # override launcher to fix slow startup
-cp web-browsers/chrome/google-chrome.desktop ~/.local/share/applications
+cp internet/chrome/google-chrome.desktop ~/.local/share/applications

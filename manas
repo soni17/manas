@@ -44,7 +44,7 @@ update-apps(){
   bash office/sejdapdf/update.sh
   bash office/onlyoffice/update.sh
   bash office/standard-notes/update.sh
-  bash web-browsers/zoom/update.sh
+  bash internet/zoom/update.sh
 }
 
 app(){
@@ -55,7 +55,7 @@ app(){
   if [ -d office/$1 ]; then echo "office/$1" ; fi
   if [ -d programming-languages/$1 ]; then echo "programming-languages/$1" ; fi
   if [ -d system/$1 ]; then echo "system/$1" ; fi
-  if [ -d web-browsers/$1 ]; then echo "web-browsers/$1" ; fi
+  if [ -d internet/$1 ]; then echo "internet/$1" ; fi
 }
 
 install(){

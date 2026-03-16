@@ -8,4 +8,4 @@ xdg-settings set default-web-browser chromium.desktop
 
 # override launcher to fix slow startup
 mkdir -p ~/.local/share/applications
-cp web-browsers/chromium/chromium.desktop ~/.local/share/applications
+cp internet/chromium/chromium.desktop ~/.local/share/applications

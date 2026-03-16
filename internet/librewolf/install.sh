@@ -9,7 +9,7 @@ sudo apt-get install -y librewolf
 
 # add config file
 mkdir -p ~/.librewolf
-cp web-browsers/librewolf/librewolf.overrides.cfg ~/.librewolf
+cp internet/librewolf/librewolf.overrides.cfg ~/.librewolf
 
 # delete mozilla settings folder
 sudo rm -rf ~/.mozilla
