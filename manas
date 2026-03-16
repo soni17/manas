@@ -29,6 +29,7 @@ update-apps(){
   echo "Checking updates for direct-download apps"
   bash accessories/localsend/update.sh
   bash accessories/ulauncher/update.sh
+  bash accessories/pomodorolm/update.sh
   bash audio-video/ytdownloader/update.sh
   bash audio-video/freetube/update.sh
   bash development/vscodium/update.sh
@@ -37,12 +38,13 @@ update-apps(){
   bash development/devtoys/update.sh
   bash development/httptoolkit/update.sh
   bash development/fresh-editor/update.sh
+  bash development/antares-sql/update.sh
   bash graphics/drawio/update.sh
   bash office/marktext/update.sh
   bash office/sejdapdf/update.sh
   bash office/onlyoffice/update.sh
   bash office/standard-notes/update.sh
-  bash web-browsers/helium/update.sh
+  bash web-browsers/zoom/update.sh
 }
 
 app(){
