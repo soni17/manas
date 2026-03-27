@@ -1,6 +1,7 @@
 # install cli tools from debian repository
 sudo apt-get install -y \
   bat \
+  eza \
   btop \
   ncdu \
   fzf \
