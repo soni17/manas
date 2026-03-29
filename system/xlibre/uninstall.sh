@@ -1,6 +1,6 @@
 # uninstall
-sudo apt-get purge -y --autoremove xlibre
+sudo apt-get purge -y --autoremove xlibre xlibre-archive-keyring
 
 # remove repository
-sudo extrepo disable xlibre
-sudo apt-get update -y
+sudo rm /usr/share/keyrings/NexusSfan.pgp
+sudo rm /etc/apt/sources.list.d/xlibre-debian.sources
