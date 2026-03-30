@@ -7,3 +7,7 @@ sudo apt-get update -y
 
 # install
 sudo apt-get install -y joplin
+
+# add config file
+mkdir -p ~/.config/joplin-desktop
+cp office/joplin/userchrome.css ~/.config/joplin-desktop

@@ -1,0 +1,6 @@
+/* For styling the entire Joplin app (except the rendered Markdown, which is defined in `userstyle.css`) */
+
+.note-list-item .title {
+	font-size: 14px !important;
+	font-weight: bold;
+}
