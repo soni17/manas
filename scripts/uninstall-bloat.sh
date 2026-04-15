@@ -10,6 +10,7 @@ sudo apt-get purge -y \
   xterm \
   orca \
   mate-system-monitor \
+  mate-calc \
   mate-applet-brisk-menu \
   mate-applets \
   mate-utils \

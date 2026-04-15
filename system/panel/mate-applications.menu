@@ -26,7 +26,9 @@
 			<Filename>localsend_app.desktop</Filename>
 			<Filename>ulauncher.desktop</Filename>
 			<Filename>org.gnome.clocks.desktop</Filename>
-			<Filename>mate-calc.desktop</Filename>
+			<Filename>org.gnome.Calculator.desktop</Filename>
+			<Filename>org.gnome.Weather.desktop</Filename>
+			<Filename>pomodorolm.desktop</Filename>
 			<Filename>diodon.desktop</Filename>
 			<Filename>gucharmap.desktop</Filename>
 			<Filename>mate-font-viewer.desktop</Filename>
