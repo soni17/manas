@@ -22,5 +22,7 @@
   },
   "window.dialogStyle": "custom",
   "window.titleBarStyle": "custom",
+  "editor.scrollbar.vertical": "visible",
+  "editor.scrollbar.horizontal": "visible",
   "window.commandCenter": false
 }
