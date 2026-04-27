@@ -1,5 +1,7 @@
 # install
-sudo apt install -y thunar
+sudo apt install -y \
+  thunar \
+  thunar-archive-plugin
 
 # add config files
 mkdir -p ~/.config/Thunar
