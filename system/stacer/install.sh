@@ -1,18 +1,5 @@
-# https://oguzhaninan.github.io/Stacer-Web/
-# https://github.com/oguzhaninan/Stacer
-
-# installer filename
-FILENAME="stacer_1.1.0_amd64.deb"
-
-# download installer
-wget -q https://github.com/oguzhaninan/Stacer/releases/download/v1.1.0/$FILENAME -O /tmp/$FILENAME
+# https://stacer.quentium.fr
+# https://github.com/QuentiumYT/Stacer
 
 # install
-sudo apt-get install -y /tmp/$FILENAME
-
-# delete installer
-rm /tmp/$FILENAME
-
-# override launcher
-mkdir -p ~/.local/share/applications
-cp system/stacer/stacer* ~/.local/share/applications
+sudo apt-get install -y stacer
