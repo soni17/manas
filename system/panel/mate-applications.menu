@@ -171,9 +171,6 @@
 			<Filename>org.gnome.DiskUtility-1.desktop</Filename>
 		</Include>
 		<Include>
-			<Filename>stacer-1.desktop</Filename>
-		</Include>
-		<Include>
 			<Filename>engrampa-1.desktop</Filename>
 		</Include>
 		<Layout>
@@ -184,7 +181,7 @@
 			<Filename>timeshift-gtk.desktop</Filename>
 			<Filename>com.usebottles.bottles-1.desktop</Filename>
 			<Filename>org.gnome.Boxes.desktop</Filename>
-			<Filename>stacer-1.desktop</Filename>
+			<Filename>stacer.desktop</Filename>
 			<Filename>btop.desktop</Filename>
 			<Filename>thunar.desktop</Filename>
 			<Filename>org.wezfurlong.wezterm.desktop</Filename>
