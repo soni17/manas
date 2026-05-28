@@ -3,7 +3,7 @@
 
 # get installer filename and latest version
 LATEST_VERSION=$(curl -s "https://api.github.com/repos/marktext/marktext/releases/latest" | grep -Po '"tag_name": "\K[^"]*')
-FILENAME="marktext-amd64.deb"
+FILENAME="marktext-linux-${LATEST_VERSION:1}.deb"
 
 # download installer
 wget -q https://github.com/marktext/marktext/releases/download/${LATEST_VERSION}/$FILENAME -O /tmp/$FILENAME
