@@ -1,1 +1,1 @@
-flatpak uninstall -y --delete-data com.discordapp.Discord
+sudo apt-get purge -y --autoremove discord

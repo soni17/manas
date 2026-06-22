@@ -43,6 +43,7 @@ update-apps(){
   bash office/sejdapdf/update.sh
   bash office/onlyoffice/update.sh
   bash internet/zoom/update.sh
+  bash internet/discord/update.sh
 }
 
 app(){
