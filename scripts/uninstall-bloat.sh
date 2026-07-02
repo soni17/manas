@@ -1,6 +1,5 @@
 # uninstall unused packages
 sudo apt-get purge -y \
-  fonts-noto \
   gnome-keyring \
   seahorse \
   firefox-esr* \
