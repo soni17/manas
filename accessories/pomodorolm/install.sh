@@ -2,7 +2,7 @@
 
 # get installer filename and latest version
 LATEST_VERSION_FULL=$(curl -s "https://api.github.com/repos/vjousse/pomodorolm/releases/latest" | grep -Po '"tag_name": "\K[^"]*')
-LATEST_VERSION=$(curl -s "https://api.github.com/repos/vjousse/pomodorolm/releases/latest" | grep -Po '"tag_name": "\K[^"]*' | cut -d 'v' -f 2)
+LATEST_VERSION=$(echo $LATEST_VERSION_FULL | cut -d 'v' -f 2)
 FILENAME="pomodorolm_${LATEST_VERSION}_amd64.deb"
 
 # download installer
