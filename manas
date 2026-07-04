@@ -42,6 +42,7 @@ update-apps(){
   bash office/marktext/update.sh
   bash office/sejdapdf/update.sh
   bash office/onlyoffice/update.sh
+  bash office/joplin/update.sh
   bash internet/zoom/update.sh
   bash internet/discord/update.sh
 }
