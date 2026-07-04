@@ -8,6 +8,7 @@ sudo apt-get install -y \
   tmux \
   git \
   gh \
+  gum \
   plocate \
   speedtest-cli \
   lsb-release \
