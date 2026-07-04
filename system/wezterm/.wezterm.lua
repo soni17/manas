@@ -15,7 +15,7 @@ config.font_size = 11
 config.default_cursor_style = 'SteadyUnderline'
 
 -- background opacity
-config.window_background_opacity = 0.90
+config.window_background_opacity = 0.94
 
 -- scrollbar
 config.enable_scroll_bar = true
@@ -30,6 +30,8 @@ config.colors = {
   cursor_bg = 'white',
   cursor_border = 'white'
 }
+
+-- config.hide_tab_bar_if_only_one_tab = true
 
 -- Finally, return the configuration to wezterm:
 return config
