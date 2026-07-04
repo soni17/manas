@@ -6,7 +6,7 @@ LATEST_VERSION=$(curl -s "https://api.github.com/repos/ONLYOFFICE/DesktopEditors
 FILENAME="onlyoffice-desktopeditors_amd64.deb"
 
 # download installer
-wget -q https://github.com/ONLYOFFICE/DesktopEditors/releases/download/${LATEST_VERSION}/$FILENAME -O /tmp/$FILENAME
+wget -q https://github.com/ONLYOFFICE/DesktopEditors/releases/download/$LATEST_VERSION/$FILENAME -O /tmp/$FILENAME
 
 # install
 sudo apt-get install -y /tmp/$FILENAME

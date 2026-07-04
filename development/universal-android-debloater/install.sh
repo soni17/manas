@@ -8,7 +8,7 @@ LATEST_VERSION=$(curl -s "https://api.github.com/repos/Universal-Debloater-Allia
 FILENAME="uad-ng-noselfupdate-linux"
 
 # download binary
-wget -q https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/releases/download/${LATEST_VERSION}/$FILENAME -O /tmp/$FILENAME
+wget -q https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/releases/download/$LATEST_VERSION/$FILENAME -O /tmp/$FILENAME
 
 # make binary executable
 chmod +x /tmp/$FILENAME

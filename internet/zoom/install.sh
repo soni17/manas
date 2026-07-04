@@ -6,7 +6,7 @@ LATEST_VERSION=$(curl -sI https://zoom.us/client/latest/zoom_amd64.deb | grep -i
 FILENAME="zoom_amd64.deb"
 
 # download installer
-wget -q https://zoom.us/client/${LATEST_VERSION}/$FILENAME -O /tmp/$FILENAME
+wget -q https://zoom.us/client/$LATEST_VERSION/$FILENAME -O /tmp/$FILENAME
 
 # install
 sudo apt-get install -y /tmp/$FILENAME

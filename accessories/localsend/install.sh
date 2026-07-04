@@ -6,7 +6,7 @@ LATEST_VERSION=$(curl -s "https://api.github.com/repos/localsend/localsend/relea
 FILENAME="LocalSend-${LATEST_VERSION:1}-linux-x86-64.deb"
 
 # download installer
-wget -q https://github.com/localsend/localsend/releases/download/${LATEST_VERSION}/$FILENAME -O /tmp/$FILENAME
+wget -q https://github.com/localsend/localsend/releases/download/$LATEST_VERSION/$FILENAME -O /tmp/$FILENAME
 
 # install
 sudo apt-get install -y /tmp/$FILENAME

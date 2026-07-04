@@ -6,7 +6,7 @@ LATEST_VERSION=$(curl -s "https://api.github.com/repos/aandrew-me/ytDownloader/r
 FILENAME="YTDownloader_Linux.deb"
 
 # download installer
-wget -q https://github.com/aandrew-me/ytDownloader/releases/download/${LATEST_VERSION}/$FILENAME -O /tmp/$FILENAME
+wget -q https://github.com/aandrew-me/ytDownloader/releases/download/$LATEST_VERSION/$FILENAME -O /tmp/$FILENAME
 
 # install
 sudo apt-get install -y /tmp/$FILENAME

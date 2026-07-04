@@ -6,7 +6,7 @@ LATEST_VERSION=$(curl -s "https://api.github.com/repos/Ulauncher/Ulauncher/relea
 FILENAME="ulauncher_${LATEST_VERSION}_all.deb"
 
 # download installer
-wget -q https://github.com/Ulauncher/Ulauncher/releases/download/${LATEST_VERSION}/$FILENAME -O /tmp/$FILENAME
+wget -q https://github.com/Ulauncher/Ulauncher/releases/download/$LATEST_VERSION/$FILENAME -O /tmp/$FILENAME
 
 # install
 sudo apt-get install -y /tmp/$FILENAME

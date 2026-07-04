@@ -6,7 +6,7 @@ LATEST_VERSION=$(curl -s "https://api.github.com/repos/sinelaw/fresh/releases/la
 FILENAME="fresh-editor_${LATEST_VERSION:1}-1_amd64.deb"
 
 # download installer
-wget -q https://github.com/sinelaw/fresh/releases/download/${LATEST_VERSION}/$FILENAME -O /tmp/$FILENAME
+wget -q https://github.com/sinelaw/fresh/releases/download/$LATEST_VERSION/$FILENAME -O /tmp/$FILENAME
 
 # install
 sudo apt-get install -y /tmp/$FILENAME

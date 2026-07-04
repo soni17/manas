@@ -6,7 +6,7 @@ LATEST_VERSION=$(curl -s "https://api.github.com/repos/vjousse/pomodorolm/releas
 FILENAME="pomodorolm_${LATEST_VERSION}_amd64.deb"
 
 # download installer
-wget -q https://github.com/vjousse/pomodorolm/releases/download/${LATEST_VERSION_FULL}/$FILENAME -O /tmp/$FILENAME
+wget -q https://github.com/vjousse/pomodorolm/releases/download/$LATEST_VERSION_FULL/$FILENAME -O /tmp/$FILENAME
 
 # install
 sudo apt-get install -y /tmp/$FILENAME

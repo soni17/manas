@@ -6,7 +6,7 @@ LATEST_VERSION=$(curl -s "https://api.github.com/repos/marktext/marktext/release
 FILENAME="marktext-linux-${LATEST_VERSION:1}.deb"
 
 # download installer
-wget -q https://github.com/marktext/marktext/releases/download/${LATEST_VERSION}/$FILENAME -O /tmp/$FILENAME
+wget -q https://github.com/marktext/marktext/releases/download/$LATEST_VERSION/$FILENAME -O /tmp/$FILENAME
 
 # install
 sudo apt-get install -y /tmp/$FILENAME
