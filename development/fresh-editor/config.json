@@ -1,6 +1,6 @@
 {
   "editor": {
-    "show_tab_bar": false,
+    "show_tab_bar": true,
     "show_vertical_scrollbar": true,
     "show_status_bar": false,
     "cursor_style": "steady_underline"
