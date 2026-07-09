@@ -1,3 +1,13 @@
 {
-  "theme": "dark"
+  "editor": {
+    "show_tab_bar": false,
+    "show_vertical_scrollbar": true,
+    "show_status_bar": false,
+    "cursor_style": "steady_underline"
+  },
+  "check_for_updates": false,
+  "theme": "dark",
+  "file_explorer": {
+    "auto_open_on_last_buffer_close": false
+  }
 }
