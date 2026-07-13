@@ -38,6 +38,7 @@ update-apps(){
   bash development/devtoys/update.sh
   bash development/httptoolkit/update.sh
   bash development/fresh-editor/update.sh
+  bash development/ollama/update.sh
   bash graphics/drawio/update.sh
   bash office/marktext/update.sh
   bash office/sejdapdf/update.sh
