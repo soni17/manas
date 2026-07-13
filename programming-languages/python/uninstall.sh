@@ -1,0 +1,1 @@
+mise unuse -y python
