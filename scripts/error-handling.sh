@@ -1,5 +1,5 @@
 # stop execution if there's an error
-set -e
+# set -e
 
 # standard error message when error occurs
 message_on_error() {
