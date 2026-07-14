@@ -5,10 +5,13 @@ sudo apt-get install -y \
   btop \
   ncdu \
   fzf \
+  fd-find \
   tmux \
   git \
   gh \
   gum \
+  ripgrep \
+  zoxide \
   plocate \
   speedtest-cli \
   lsb-release \
