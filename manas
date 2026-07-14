@@ -39,6 +39,7 @@ update-apps(){
   bash development/httptoolkit/update.sh
   bash development/fresh-editor/update.sh
   bash ai-tools/ollama/update.sh
+  bash ai-tools/lm-studio/update.sh
   bash graphics/drawio/update.sh
   bash office/marktext/update.sh
   bash office/sejdapdf/update.sh
@@ -52,6 +53,7 @@ app(){
   if [ -d accessories/$1 ]; then echo "accessories/$1" ; fi
   if [ -d audio-video/$1 ]; then echo "audio-video/$1" ; fi
   if [ -d development/$1 ]; then echo "development/$1" ; fi
+  if [ -d ai-tools/$1 ]; then echo "ai-tools/$1" ; fi
   if [ -d graphics/$1 ]; then echo "graphics/$1" ; fi
   if [ -d office/$1 ]; then echo "office/$1" ; fi
   if [ -d programming-languages/$1 ]; then echo "programming-languages/$1" ; fi
