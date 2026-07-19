@@ -5,213 +5,14 @@
 <Menu>
 	<Name>Applications</Name>
 	<MergeFile type="parent">/etc/xdg/menus/mate-applications.menu</MergeFile>
-	<Menu>
-		<Name>Accessories</Name>
-		<Exclude>
-			<Filename>thunar-bulk-rename.desktop</Filename>
-		</Exclude>
-		<Exclude>
-			<Filename>devtoys.desktop</Filename>
-		</Exclude>
-		<Exclude>
-			<Filename>marktext.desktop</Filename>
-		</Exclude>
-		<Exclude>
-			<Filename>fresh.desktop</Filename>
-		</Exclude>
-		<Layout>
-			<Merge type="menus"/>
-			<Filename>pluma.desktop</Filename>
-			<Filename>org.gnome.Screenshot.desktop</Filename>
-			<Filename>localsend_app.desktop</Filename>
-			<Filename>ulauncher.desktop</Filename>
-			<Filename>org.gnome.clocks.desktop</Filename>
-			<Filename>org.gnome.Calculator.desktop</Filename>
-			<Filename>org.gnome.Weather.desktop</Filename>
-			<Filename>pomodorolm.desktop</Filename>
-			<Filename>diodon.desktop</Filename>
-			<Filename>gucharmap.desktop</Filename>
-			<Filename>mate-font-viewer.desktop</Filename>
-			<Filename>cmatrix.desktop</Filename>
-			<Filename>mate-about.desktop</Filename>
-			<Filename>com.usebottles.bottles.desktop</Filename>
-			<Filename>thunar-bulk-rename.desktop</Filename>
-			<Filename>devtoys.desktop</Filename>
-			<Filename>org.gnome.DiskUtility.desktop</Filename>
-			<Filename>engrampa.desktop</Filename>
-			<Filename>io.github.cboxdoerfer.FSearch.desktop</Filename>
-			<Filename>org.gtkhash.gtkhash.desktop</Filename>
-			<Filename>marktext.desktop</Filename>
-			<Filename>stacer.desktop</Filename>
-			<Filename>ytdownloader.desktop</Filename>
-			<Filename>redshift.desktop</Filename>
-			<Filename>codium-url-handler.desktop</Filename>
-			<Merge type="files"/>
-		</Layout>
-	</Menu>
-	<Menu>
-		<Name>Graphics</Name>
-		<Layout>
-			<Merge type="menus"/>
-			<Filename>eom.desktop</Filename>
-			<Filename>com.github.PintaProject.Pinta.desktop</Filename>
-			<Filename>drawio.desktop</Filename>
-			<Filename>simple-scan.desktop</Filename>
-			<Filename>mate-color-select.desktop</Filename>
-			<Filename>com.usebottles.bottles.desktop</Filename>
-			<Filename>display-im7.q16.desktop</Filename>
-			<Merge type="files"/>
-		</Layout>
-		<Exclude>
-			<Filename>display-im7.q16.desktop</Filename>
-		</Exclude>
-		<Exclude>
-			<Filename>com.usebottles.bottles.desktop</Filename>
-		</Exclude>
-	</Menu>
-	<Menu>
-		<Name>Internet</Name>
-		<Layout>
-			<Merge type="menus"/>
-			<Filename>chromium.desktop</Filename>
-			<Filename>google-chrome.desktop</Filename>
-			<Filename>helium.desktop</Filename>
-			<Filename>org.remmina.Remmina.desktop</Filename>
-			<Filename>freetube.desktop</Filename>
-			<Filename>com.google.Chrome.desktop</Filename>
-			<Filename>org.remmina.Remmina-file.desktop</Filename>
-			<Merge type="files"/>
-		</Layout>
-		<Exclude>
-			<Filename>com.google.Chrome.desktop</Filename>
-		</Exclude>
-	</Menu>
-	<Menu>
-		<Name>Office</Name>
-		<Layout>
-			<Merge type="menus"/>
-			<Filename>onlyoffice-desktopeditors.desktop</Filename>
-			<Filename>marktext.desktop</Filename>
-			<Filename>atril.desktop</Filename>
-			<Filename>sejda-desktop.desktop</Filename>
-			<Filename>eu.scarpetta.PDFMixTool.desktop</Filename>
-			<Filename>devtoys.desktop</Filename>
-			<Merge type="files"/>
-		</Layout>
-		<Exclude>
-			<Filename>devtoys.desktop</Filename>
-		</Exclude>
-	</Menu>
-	<Menu>
-		<Name>Development</Name>
-		<Exclude>
-			<Filename>org.gnome.Boxes.desktop</Filename>
-		</Exclude>
-		<Include>
-			<Filename>org.gtkhash.gtkhash-1.desktop</Filename>
-		</Include>
-		<Include>
-			<Filename>fresh.desktop</Filename>
-		</Include>
-		<Layout>
-			<Merge type="menus"/>
-			<Filename>codium.desktop</Filename>
-			<Filename>fresh.desktop</Filename>
-			<Filename>bruno.desktop</Filename>
-			<Filename>httptoolkit.desktop</Filename>
-			<Filename>dbgate.desktop</Filename>
-			<Filename>devtoys.desktop</Filename>
-			<Filename>org.gtkhash.gtkhash-1.desktop</Filename>
-			<Filename>org.desktop_plus.desktop-plus.desktop</Filename>
-			<Filename>io.podman_desktop.PodmanDesktop.desktop</Filename>
-			<Filename>universal-android-debloater-ng.desktop</Filename>
-			<Filename>org.gnome.Boxes.desktop</Filename>
-			<Filename>python3.13.desktop</Filename>
-			<Filename>codium-url-handler.desktop</Filename>
-			<Merge type="files"/>
-		</Layout>
-	</Menu>
-	<Menu>
-		<Name>Multimedia</Name>
-		<Exclude>
-			<Filename>mate-volume-control.desktop</Filename>
-		</Exclude>
-		<Include>
-			<Filename>freetube-1.desktop</Filename>
-		</Include>
-		<Include>
-			<Filename>ytdownloader-1.desktop</Filename>
-		</Include>
-		<Layout>
-			<Merge type="menus"/>
-			<Filename>vlc.desktop</Filename>
-			<Filename>audacity.desktop</Filename>
-			<Filename>org.gnome.Rhythmbox3.desktop</Filename>
-			<Filename>webcamoid.desktop</Filename>
-			<Filename>org.shotcut.Shotcut.desktop</Filename>
-			<Filename>freetube-1.desktop</Filename>
-			<Filename>ytdownloader-1.desktop</Filename>
-			<Filename>mate-volume-control.desktop</Filename>
-			<Filename>org.gnome.Rhythmbox3.device.desktop</Filename>
-			<Merge type="files"/>
-		</Layout>
-	</Menu>
-	<Menu>
-		<Name>System</Name>
-		<Include>
-			<Filename>com.usebottles.bottles-1.desktop</Filename>
-		</Include>
-		<Exclude>
-			<Filename>caja-browser.desktop</Filename>
-		</Exclude>
-		<Exclude>
-			<Filename>gdebi.desktop</Filename>
-		</Exclude>
-		<Include>
-			<Filename>org.gnome.DiskUtility-1.desktop</Filename>
-		</Include>
-		<Include>
-			<Filename>engrampa-1.desktop</Filename>
-		</Include>
-		<Layout>
-			<Merge type="menus"/>
-			<Filename>engrampa-1.desktop</Filename>
-			<Filename>org.gnome.DiskUtility-1.desktop</Filename>
-			<Filename>usbimager.desktop</Filename>
-			<Filename>timeshift-gtk.desktop</Filename>
-			<Filename>com.usebottles.bottles-1.desktop</Filename>
-			<Filename>org.gnome.Boxes.desktop</Filename>
-			<Filename>stacer.desktop</Filename>
-			<Filename>btop.desktop</Filename>
-			<Filename>thunar.desktop</Filename>
-			<Filename>org.wezfurlong.wezterm.desktop</Filename>
-			<Filename>gdebi.desktop</Filename>
-			<Filename>caja-browser.desktop</Filename>
-			<Filename>caja-computer.desktop</Filename>
-			<Filename>caja-home.desktop</Filename>
-			<Filename>mate-network-scheme.desktop</Filename>
-			<Filename>matekbd-keyboard-display.desktop</Filename>
-			<Filename>mate-panel.desktop</Filename>
-			<Filename>gnome-software-local-file-flatpak.desktop</Filename>
-			<Filename>gnome-software-local-file-packagekit.desktop</Filename>
-			<Filename>gnome-software-local-file-fwupd.desktop</Filename>
-			<Merge type="files"/>
-		</Layout>
-	</Menu>
-	<Menu>
-		<Name>Games</Name>
-		<Exclude>
-			<Filename>com.usebottles.bottles.desktop</Filename>
-		</Exclude>
-	</Menu>
 	<Include>
-		<Filename>mate-terminal-1.desktop</Filename>
+		<Filename>org.gnome.Software.desktop</Filename>
 	</Include>
 	<Include>
-		<Filename>org.gnome.Software-1.desktop</Filename>
+		<Filename>io.github.cboxdoerfer.FSearch.desktop</Filename>
 	</Include>
 	<Include>
-		<Filename>io.github.cboxdoerfer.FSearch-1.desktop</Filename>
+		<Filename>mate-terminal.desktop</Filename>
 	</Include>
 	<Layout>
 		<Merge type="menus"/>
@@ -227,9 +28,123 @@
 		<Menuname>Multimedia</Menuname>
 		<Menuname>System</Menuname>
 		<Menuname>Universal Access</Menuname>
-		<Filename>org.gnome.Software-1.desktop</Filename>
-		<Filename>io.github.cboxdoerfer.FSearch-1.desktop</Filename>
-		<Filename>mate-terminal-1.desktop</Filename>
+		<Filename>org.gnome.Software.desktop</Filename>
+		<Filename>io.github.cboxdoerfer.FSearch.desktop</Filename>
+		<Filename>mate-terminal.desktop</Filename>
 		<Merge type="files"/>
 	</Layout>
+	<Menu>
+		<Name>AI Tools</Name>
+		<Directory>aitools.directory</Directory>
+		<Include>
+			<Category>aitools</Category>
+		</Include>
+	</Menu>
+	<Menu>
+		<Name>Multimedia</Name>
+		<Layout>
+			<Merge type="menus"/>
+			<Filename>spotify.desktop</Filename>
+			<Filename>freetube.desktop</Filename>
+			<Filename>ytdownloader.desktop</Filename>
+			<Filename>audacity.desktop</Filename>
+			<Filename>org.gnome.Rhythmbox3.desktop</Filename>
+			<Filename>vlc.desktop</Filename>
+			<Filename>org.shotcut.Shotcut.desktop</Filename>
+			<Filename>io.github.webcamoid.Webcamoid.desktop</Filename>
+			<Filename>be.maartenbaert.simplescreenrecorder.desktop</Filename>
+			<Merge type="files"/>
+		</Layout>
+	</Menu>
+	<Menu>
+		<Name>Accessories</Name>
+		<Layout>
+			<Merge type="menus"/>
+			<Filename>pluma.desktop</Filename>
+			<Filename>org.gnome.Screenshot.desktop</Filename>
+			<Filename>localsend_app.desktop</Filename>
+			<Filename>ulauncher.desktop</Filename>
+			<Filename>org.gnome.clocks.desktop</Filename>
+			<Filename>pomodorolm.desktop</Filename>
+			<Filename>org.gnome.Calculator.desktop</Filename>
+			<Filename>org.gnome.Weather.desktop</Filename>
+			<Filename>gucharmap.desktop</Filename>
+			<Filename>mate-font-viewer.desktop</Filename>
+			<Filename>cmatrix.desktop</Filename>
+			<Merge type="files"/>
+		</Layout>
+	</Menu>
+	<Menu>
+		<Name>Graphics</Name>
+		<Layout>
+			<Merge type="menus"/>
+			<Filename>eom.desktop</Filename>
+			<Filename>com.github.PintaProject.Pinta.desktop</Filename>
+			<Filename>drawio.desktop</Filename>
+			<Filename>simple-scan.desktop</Filename>
+			<Filename>mate-color-select.desktop</Filename>
+			<Merge type="files"/>
+		</Layout>
+	</Menu>
+	<Menu>
+		<Name>Internet</Name>
+		<Layout>
+			<Merge type="menus"/>
+			<Filename>chromium.desktop</Filename>
+			<Filename>google-chrome.desktop</Filename>
+			<Filename>helium.desktop</Filename>
+			<Filename>org.remmina.Remmina.desktop</Filename>
+			<Filename>discord.desktop</Filename>
+			<Filename>org.telegram.desktop._3e485da34fc040f9218e3891ecde1e6c.desktop</Filename>
+			<Filename>Zoom.desktop</Filename>
+			<Merge type="files"/>
+		</Layout>
+	</Menu>
+	<Menu>
+		<Name>Office</Name>
+		<Layout>
+			<Merge type="menus"/>
+			<Filename>onlyoffice-desktopeditors.desktop</Filename>
+			<Filename>marktext.desktop</Filename>
+			<Filename>atril.desktop</Filename>
+			<Filename>eu.scarpetta.PDFMixTool.desktop</Filename>
+			<Filename>sejda-desktop.desktop</Filename>
+			<Filename>joplin.desktop</Filename>
+			<Merge type="files"/>
+		</Layout>
+	</Menu>
+	<Menu>
+		<Name>System</Name>
+		<Layout>
+			<Merge type="menus"/>
+			<Filename>engrampa.desktop</Filename>
+			<Filename>org.gnome.DiskUtility.desktop</Filename>
+			<Filename>usbimager.desktop</Filename>
+			<Filename>timeshift-gtk.desktop</Filename>
+			<Filename>com.usebottles.bottles.desktop</Filename>
+			<Filename>org.gnome.Boxes.desktop</Filename>
+			<Filename>stacer.desktop</Filename>
+			<Filename>btop.desktop</Filename>
+			<Filename>thunar.desktop</Filename>
+			<Filename>org.wezfurlong.wezterm.desktop</Filename>
+			<Merge type="files"/>
+		</Layout>
+	</Menu>
+	<Menu>
+		<Name>Development</Name>
+		<Layout>
+			<Merge type="menus"/>
+			<Filename>codium.desktop</Filename>
+			<Filename>fresh.desktop</Filename>
+			<Filename>org.desktop_plus.desktop-plus.desktop</Filename>
+			<Filename>dbgate.desktop</Filename>
+			<Filename>bruno.desktop</Filename>
+			<Filename>httptoolkit.desktop</Filename>
+			<Filename>io.podman_desktop.PodmanDesktop.desktop</Filename>
+			<Filename>devtoys.desktop</Filename>
+			<Filename>org.gtkhash.gtkhash.desktop</Filename>
+			<Filename>universal-android-debloater-ng.desktop</Filename>
+			<Merge type="files"/>
+		</Layout>
+	</Menu>
 </Menu>

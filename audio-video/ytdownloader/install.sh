@@ -16,4 +16,4 @@ rm /tmp/$FILENAME
 
 # override launcher
 mkdir -p ~/.local/share/applications
-cp audio-video/ytdownloader/ytdownloader* ~/.local/share/applications
+cp audio-video/ytdownloader/ytdownloader.desktop ~/.local/share/applications

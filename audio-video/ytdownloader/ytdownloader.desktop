@@ -6,5 +6,4 @@ Type=Application
 Icon=ytdownloader
 StartupWMClass=YTDownloader
 Comment=Download videos and audios from YouTube and many other sites
-Categories=Utility;
-Hidden=true
+Categories=AudioVideo;

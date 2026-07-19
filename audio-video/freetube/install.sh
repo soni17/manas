@@ -21,4 +21,4 @@ cp audio-video/freetube/settings.db ~/.config/FreeTube
 
 # override launcher
 mkdir -p ~/.local/share/applications
-cp audio-video/freetube/freetube* ~/.local/share/applications
+cp audio-video/freetube/freetube.desktop ~/.local/share/applications

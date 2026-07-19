@@ -17,3 +17,7 @@ rm /tmp/$FILENAME
 # add config file
 mkdir -p ~/.config/marktext
 cp office/marktext/preferences.json ~/.config/marktext
+
+# override launcher to change category
+mkdir -p ~/.local/share/applications
+cp office/marktext/marktext.desktop ~/.local/share/applications

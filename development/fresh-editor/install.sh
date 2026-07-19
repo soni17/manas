@@ -17,3 +17,7 @@ rm /tmp/$FILENAME
 # add config file
 mkdir -p ~/.config/fresh
 cp development/fresh-editor/config.json ~/.config/fresh
+
+# override launcher
+mkdir -p ~/.local/share/applications
+cp development/fresh-editor/fresh.desktop ~/.local/share/applications

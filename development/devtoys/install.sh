@@ -13,3 +13,7 @@ sudo apt-get install -y /tmp/$FILENAME
 
 # delete installer
 sudo rm /tmp/$FILENAME
+
+# override launcher
+mkdir -p ~/.local/share/applications
+cp development/devtoys/devtoys.desktop ~/.local/share/applications

@@ -7,5 +7,4 @@ Icon=freetube
 StartupWMClass=FreeTube
 Comment=A private YouTube client
 MimeType=x-scheme-handler/freetube;
-Categories=Network;
-Hidden=true
+Categories=AudioVideo;
