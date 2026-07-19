@@ -14,5 +14,6 @@ sudo apt-get purge -y \
   mate-applets \
   mate-utils \
   mate-user-guide \
+  mozo \
   yelp \
   synaptic
