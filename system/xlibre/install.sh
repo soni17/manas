@@ -1,7 +1,10 @@
+# https://github.com/xlibre-debian/debian
+
 # install dependencies
+sudo apt-get update -y
 sudo apt-get install -y ca-certificates curl
 
-# add keyring
+# add keyring for repo
 sudo install -m 0755 -d /usr/share/keyrings
 curl -fsSL https://mrchicken.nexussfan.cz/publickey.asc | gpg --dearmor | sudo tee /usr/share/keyrings/NexusSfan.pgp > /dev/null
 sudo chmod a+r /usr/share/keyrings/NexusSfan.pgp
@@ -16,5 +19,5 @@ Signed-By: /usr/share/keyrings/NexusSfan.pgp
 EOF
 
 # install
-sudo apt-get update
-sudo apt-get install xlibre xlibre-archive-keyring
+sudo apt-get update -y
+sudo apt-get install -y xlibre xlibre-archive-keyring

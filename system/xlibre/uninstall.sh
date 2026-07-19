@@ -1,6 +1,10 @@
 # uninstall
-sudo apt-get purge -y --autoremove xlibre xlibre-archive-keyring
+sudo apt-get update -y
+sudo apt-get purge -y --autoremove xlibre xserver-xlibre* nexussfan-archive-keyring
 
-# remove repository
-sudo rm /usr/share/keyrings/NexusSfan.pgp
-sudo rm /etc/apt/sources.list.d/xlibre-debian.sources
+# remove repo
+sudo rm -f /etc/apt/sources.list.d/xlibre-debian.sources
+sudo rm -f /usr/share/keyrings/NexusSfan.pgp
+
+# reinstall xorg
+sudo apt-get install -y xorg
