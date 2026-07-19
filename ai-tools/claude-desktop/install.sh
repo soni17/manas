@@ -5,3 +5,6 @@ sudo apt-get update -y
 
 # install
 sudo apt-get install -y claude-desktop
+
+# override launcher
+cp ai-tools/claude-desktop/com.anthropic* ~/.local/share/applications
