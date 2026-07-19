@@ -7,6 +7,5 @@ Icon=/opt/LM-Studio/resources/icon.ico
 StartupWMClass=LM-Studio
 Comment=Use the chat UI or local server to experiment and develop with local LLMs.
 Keywords=developer;llm;
-category=Development;Utility;
 MimeType=x-scheme-handler/lmstudio;
-Categories=Development;
+Categories=aitools;
