@@ -23,6 +23,9 @@ cp system/panel/mate-applications.menu ~/.config/menus
 mkdir -p ~/.local/share/applications
 cp system/panel/app-launchers/* ~/.local/share/applications
 
+# create category for AI tools
+cp system/panel/aitools.directory ~/.local/share/desktop-directories
+
 # disable recent documents history
 if ! lsattr ~/.local/share/recently-used.xbel | grep i
 then
