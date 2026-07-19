@@ -25,6 +25,9 @@ flatpak uninstall --unused --delete-data -y
 echo -e $(tput setaf 3)Update Flatpaks $(tput setaf 7)
 flatpak update -y
 
+# update pi coding agent (npm package)
+pi update --all
+
 # update firmware
 echo -e $(tput setaf 3)Update Firmware $(tput setaf 7)
 fwupdmgr refresh --force
