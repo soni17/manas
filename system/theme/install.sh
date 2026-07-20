@@ -3,7 +3,7 @@ sudo apt-get install -y ./system/theme/icon-themes/humanity-icon-theme_0.6.16_al
 sudo apt-get install -y ./system/theme/icon-themes/ubuntu-mono_14.04_all.deb
 
 # add terminal icon
-cp system/theme/terminal.png /usr/share/icons
+sudo cp system/theme/terminal.png /usr/share/icons
 
 # install fonts
 sudo apt-get install -y \
