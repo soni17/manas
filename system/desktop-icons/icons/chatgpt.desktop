@@ -1,0 +1,11 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Name=ChatGPT
+Comment=your AI chatbot for everyday use
+Exec=chromium --app="https://chatgpt.com" --name=ChatGPT --class=ChatGPT
+Terminal=false
+Type=Application
+Icon=/usr/share/icons/web-apps/chatgpt.png
+Categories=aitools;
+MimeType=text/html;text/xml;application/xhtml_xml;
