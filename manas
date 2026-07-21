@@ -40,6 +40,7 @@ update-apps(){
   bash development/fresh-editor/update.sh
   bash ai-tools/ollama/update.sh
   bash ai-tools/lm-studio/update.sh
+  bash ai-tools/pi/update.sh
   bash graphics/drawio/update.sh
   bash office/marktext/update.sh
   bash office/sejdapdf/update.sh
