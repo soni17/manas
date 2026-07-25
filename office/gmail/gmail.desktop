@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=Gmail
+Comment=Email from google
+Exec=chromium --app="https://gmail.com" --name=Gmail --class=Gmail
+Terminal=false
+Type=Application
+Icon=/usr/share/icons/web-apps/gmail.png
+Categories=Office;
+MimeType=text/html;text/xml;application/xhtml_xml;
