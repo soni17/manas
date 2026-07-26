@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=Google Calendar
+Comment=Calendar from google
+Exec=chromium --app="https://calendar.google.com" --name=google-calendar --class=google-calendar
+Terminal=false
+Type=Application
+Icon=/usr/share/icons/web-apps/google-calendar.png
+Categories=Office;
+MimeType=text/html;text/xml;application/xhtml_xml;
