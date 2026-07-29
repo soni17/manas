@@ -8,11 +8,11 @@ updater(){
   
   if [ $? -eq 0 ] ; then
     echo "Updating $app from version $installed_version to $latest_version."
-    bash $installer_path 1> /dev/null 2>> /tmp/manas.log
+    bash $installer_path 1> /dev/null 2>> ~/.local/share/manas/error.log
     if [ $? = 0 ]; then
       echo "$app has been updated successfully."
     else
-      echo "Error: $app update failed. Check error logs at /tmp/manas.log"
+      echo "Error: $app update failed. Check error logs at ~/.local/share/manas/error.log"
     fi
   fi
 }

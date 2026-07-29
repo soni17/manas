@@ -83,7 +83,7 @@ if [ $# -eq 0 ]; then menu; fi
 # commands
 if [ "$1" = "install-all" ]; then install-all; fi
 if [ "$1" = "uninstall-all" ]; then uninstall-all; fi
-if [ "$1" = "update-apps" ]; then update-apps 2> /tmp/manas.log ; fi
+if [ "$1" = "update-apps" ]; then update-apps 2> ~/.local/share/manas/error.log ; fi
 if [ "$1" = "install" ]; then install $2; fi
 if [ "$1" = "uninstall" ]; then uninstall $2; fi
 if [ "$1" = "update" ]; then update $2; fi
