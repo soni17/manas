@@ -2,7 +2,7 @@
 Version=1.0
 Name=WhatsApp
 Comment=Instant messenger and social media service from Meta
-Exec=chromium --app="https://web.whatsapp.com/" --name=WhatsApp --class=WhatsApp
+Exec=chromium --app="https://web.whatsapp.com/" --name=WhatsApp --class=WhatsApp --window-size=1200,900
 Terminal=false
 Type=Application
 Icon=/usr/share/icons/web-apps/whatsapp.png

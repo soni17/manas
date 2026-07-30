@@ -2,7 +2,7 @@
 Version=1.0
 Name=Google Calendar
 Comment=Calendar from google
-Exec=chromium --app="https://calendar.google.com" --name=google-calendar --class=google-calendar
+Exec=chromium --app="https://calendar.google.com" --name=google-calendar --class=google-calendar --window-size=1200,900
 Terminal=false
 Type=Application
 Icon=/usr/share/icons/web-apps/google-calendar.png
