@@ -1,5 +1,5 @@
 # https://helium.computer/
-# https://codeberg.org/justaguylinux/butterrepo
+# https://justaguy.dev/drew/butterrepo
 
 # add repository
 curl -fsSL https://apt.justaguy.dev/key.asc | sudo gpg --dearmor -o /usr/share/keyrings/butterrepo.gpg
