@@ -10,7 +10,8 @@ sudo apt-get install -y \
   fonts-crosextra-caladea \
   fonts-crosextra-carlito \
   fonts-ubuntu \
-  ttf-mscorefonts-installer
+  ttf-mscorefonts-installer \
+  fonts-jetbrains-mono
 
 # install more microsoft fonts
 sudo bash system/theme/fonts/ttf-vista-fonts-installer.sh
