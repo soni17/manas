@@ -27,6 +27,7 @@ codium --install-extension zaaack.markdown-editor
 codium --install-extension jeanp413.open-remote-ssh
 codium --install-extension ritwickdey.liveserver
 codium --install-extension arturock.gitstash
+codium --install-extension tamasfe.even-better-toml
 
 # add config file
 mkdir -p ~/.config/VSCodium/User
