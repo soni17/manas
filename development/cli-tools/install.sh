@@ -2,6 +2,7 @@
 sudo apt-get install -y \
   bat \
   eza \
+  starship \
   btop \
   ncdu \
   fzf \

@@ -1,0 +1,17 @@
+add_newline = false
+
+[line_break]
+disabled = true
+
+[username]
+show_always = true
+format = "[$user]($style) "
+style_user = "yellow bold"
+
+[hostname]
+ssh_only = false
+format = "[$ssh_symbol$hostname]($style) "
+style = "green bold"
+
+[git_branch]
+format = "[$symbol$branch(:$remote_branch)]($style) "
