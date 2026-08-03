@@ -8,6 +8,7 @@ sudo apt-get install -y \
   fzf \
   fd-find \
   tmux \
+  nala \
   git \
   gh \
   gum \
