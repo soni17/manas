@@ -6,7 +6,6 @@ disabled = true
 [username]
 show_always = true
 format = "[$user]($style) "
-style_user = "yellow bold"
 
 [hostname]
 ssh_only = false
