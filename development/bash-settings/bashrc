@@ -1,24 +1,24 @@
 # ~/.bashrc: executed by bash(1) for non-login shells.
 
 # If not running interactively, don't do anything
-case $- in
-    *i*) ;;
-      *) return;;
-esac
+[[ $- != *i* ]] && return
 
 # better history management
 shopt -s histappend
 shopt -s checkwinsize
 
 # history configuration
-HISTSIZE=1000
-HISTFILESIZE=2000
-HISTCONTROL=ignoreboth
+HISTSIZE=10000
+HISTFILESIZE=20000
+HISTCONTROL=ignoreboth:erasedups
+HISTIGNORE="ls:ll:cd:pwd:exit:clear:c:history"
 HISTTIMEFORMAT="%Y-%m-%d %T "
+
+# default editor
+export EDITOR=fresh
 
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
-# sources /etc/bash.bashrc).
 if ! shopt -oq posix; then
   if [ -f /usr/share/bash-completion/bash_completion ]; then
     . /usr/share/bash-completion/bash_completion
@@ -29,11 +29,15 @@ fi
 
 # add alias definitions
 if [ -f ~/.bash_aliases ]; then
-    . ~/.bash_aliases
+  . ~/.bash_aliases
 fi
 
 # add mise-en-place (version manager)
-eval "$(mise activate bash)"
+if command -v mise &> /dev/null; then
+  eval "$(mise activate bash)"
+fi
 
 # add starship
-eval "$(starship init bash)"
+if command -v starship &> /dev/null; then
+  eval "$(starship init bash)"
+fi
