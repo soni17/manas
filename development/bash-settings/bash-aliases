@@ -1,6 +1,6 @@
 alias ls='ls --color=auto'
 alias la='ls -a --color=auto'
-alias ll='eza -lah --color=auto'
+alias ll='eza -lah'
 
 alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
