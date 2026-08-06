@@ -8,8 +8,8 @@ shopt -s histappend
 shopt -s checkwinsize
 
 # history configuration
-HISTSIZE=10000
-HISTFILESIZE=20000
+HISTSIZE=1000
+HISTFILESIZE=2000
 HISTCONTROL=ignoreboth:erasedups
 HISTIGNORE="ls:ll:cd:pwd:exit:clear:c:history"
 HISTTIMEFORMAT="%Y-%m-%d %T "
