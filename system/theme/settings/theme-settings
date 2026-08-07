@@ -154,3 +154,11 @@ silent-bell=true
 use-custom-default-size=true
 default-size-columns=98
 default-size-rows=30
+
+[org/mate/engrampa/ui]
+sidebar-width=200
+view-folders=true
+view-statusbar=false
+view-toolbar=false
+window-height=615
+window-width=900
