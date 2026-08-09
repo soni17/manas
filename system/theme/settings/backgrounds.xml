@@ -29,26 +29,8 @@
     <artist>(none)</artist>
   </wallpaper>
   <wallpaper deleted="false">
-    <name>aurora.jpg</name>
-    <filename>/usr/share/backgrounds/aurora.jpg</filename>
-    <options>zoom</options>
-    <shade_type>vertical-gradient</shade_type>
-    <pcolor>rgb(88,145,188)</pcolor>
-    <scolor>rgb(60,143,37)</scolor>
-    <artist>(none)</artist>
-  </wallpaper>
-  <wallpaper deleted="false">
     <name>aurora1.jpg</name>
     <filename>/usr/share/backgrounds/aurora1.jpg</filename>
-    <options>zoom</options>
-    <shade_type>vertical-gradient</shade_type>
-    <pcolor>rgb(88,145,188)</pcolor>
-    <scolor>rgb(60,143,37)</scolor>
-    <artist>(none)</artist>
-  </wallpaper>
-  <wallpaper deleted="false">
-    <name>aurora2.jpg</name>
-    <filename>/usr/share/backgrounds/aurora2.jpg</filename>
     <options>zoom</options>
     <shade_type>vertical-gradient</shade_type>
     <pcolor>rgb(88,145,188)</pcolor>
@@ -67,6 +49,15 @@
   <wallpaper deleted="false">
     <name>blue-mountain.jpg</name>
     <filename>/usr/share/backgrounds/blue-mountain.jpg</filename>
+    <options>stretched</options>
+    <shade_type>vertical-gradient</shade_type>
+    <pcolor>rgb(88,145,188)</pcolor>
+    <scolor>rgb(60,143,37)</scolor>
+    <artist>(none)</artist>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>colors-circle.jpg</name>
+    <filename>/usr/share/backgrounds/colors-circle.jpg</filename>
     <options>zoom</options>
     <shade_type>vertical-gradient</shade_type>
     <pcolor>rgb(88,145,188)</pcolor>
@@ -119,6 +110,15 @@
     <artist>(none)</artist>
   </wallpaper>
   <wallpaper deleted="false">
+    <name>desert-day.jpg</name>
+    <filename>/usr/share/backgrounds/desert-day.jpg</filename>
+    <options>zoom</options>
+    <shade_type>vertical-gradient</shade_type>
+    <pcolor>rgb(88,145,188)</pcolor>
+    <scolor>rgb(60,143,37)</scolor>
+    <artist>(none)</artist>
+  </wallpaper>
+  <wallpaper deleted="false">
     <name>desert-night.jpg</name>
     <filename>/usr/share/backgrounds/desert-night.jpg</filename>
     <options>zoom</options>
@@ -128,9 +128,45 @@
     <artist>(none)</artist>
   </wallpaper>
   <wallpaper deleted="false">
-    <name>desert.jpg</name>
-    <filename>/usr/share/backgrounds/desert.jpg</filename>
+    <name>desert-night-2.jpg</name>
+    <filename>/usr/share/backgrounds/desert-night-2.jpg</filename>
     <options>zoom</options>
+    <shade_type>vertical-gradient</shade_type>
+    <pcolor>rgb(88,145,188)</pcolor>
+    <scolor>rgb(60,143,37)</scolor>
+    <artist>(none)</artist>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>desert-night-3.jpg</name>
+    <filename>/usr/share/backgrounds/desert-night-3.jpg</filename>
+    <options>zoom</options>
+    <shade_type>vertical-gradient</shade_type>
+    <pcolor>rgb(88,145,188)</pcolor>
+    <scolor>rgb(60,143,37)</scolor>
+    <artist>(none)</artist>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>desert-night-4.jpg</name>
+    <filename>/usr/share/backgrounds/desert-night-4.jpg</filename>
+    <options>zoom</options>
+    <shade_type>vertical-gradient</shade_type>
+    <pcolor>rgb(88,145,188)</pcolor>
+    <scolor>rgb(60,143,37)</scolor>
+    <artist>(none)</artist>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>lake-tahoe.jpg</name>
+    <filename>/usr/share/backgrounds/lake-tahoe.jpg</filename>
+    <options>zoom</options>
+    <shade_type>vertical-gradient</shade_type>
+    <pcolor>rgb(88,145,188)</pcolor>
+    <scolor>rgb(60,143,37)</scolor>
+    <artist>(none)</artist>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>lake-fog.jpg</name>
+    <filename>/usr/share/backgrounds/lake-fog.jpg</filename>
+    <options>stretched</options>
     <shade_type>vertical-gradient</shade_type>
     <pcolor>rgb(88,145,188)</pcolor>
     <scolor>rgb(60,143,37)</scolor>
@@ -157,7 +193,7 @@
   <wallpaper deleted="false">
     <name>lakeside2.jpg</name>
     <filename>/usr/share/backgrounds/lakeside2.jpg</filename>
-    <options>zoom</options>
+    <options>stretched</options>
     <shade_type>vertical-gradient</shade_type>
     <pcolor>rgb(88,145,188)</pcolor>
     <scolor>rgb(60,143,37)</scolor>
@@ -166,7 +202,7 @@
   <wallpaper deleted="false">
     <name>lakeside3.jpg</name>
     <filename>/usr/share/backgrounds/lakeside3.jpg</filename>
-    <options>zoom</options>
+    <options>stretched</options>
     <shade_type>vertical-gradient</shade_type>
     <pcolor>rgb(88,145,188)</pcolor>
     <scolor>rgb(60,143,37)</scolor>
@@ -175,7 +211,7 @@
   <wallpaper deleted="false">
     <name>lakeside4.jpg</name>
     <filename>/usr/share/backgrounds/lakeside4.jpg</filename>
-    <options>zoom</options>
+    <options>stretched</options>
     <shade_type>vertical-gradient</shade_type>
     <pcolor>rgb(88,145,188)</pcolor>
     <scolor>rgb(60,143,37)</scolor>
@@ -184,15 +220,6 @@
   <wallpaper deleted="false">
     <name>milad-fakurian-abstract.jpg</name>
     <filename>/usr/share/backgrounds/milad-fakurian-abstract.jpg</filename>
-    <options>zoom</options>
-    <shade_type>vertical-gradient</shade_type>
-    <pcolor>rgb(88,145,188)</pcolor>
-    <scolor>rgb(60,143,37)</scolor>
-    <artist>(none)</artist>
-  </wallpaper>
-  <wallpaper deleted="false">
-    <name>mountain-purple.jpg</name>
-    <filename>/usr/share/backgrounds/mountain-purple.jpg</filename>
     <options>zoom</options>
     <shade_type>vertical-gradient</shade_type>
     <pcolor>rgb(88,145,188)</pcolor>
@@ -238,7 +265,7 @@
   <wallpaper deleted="false">
     <name>mountaintop.jpg</name>
     <filename>/usr/share/backgrounds/mountaintop.jpg</filename>
-    <options>zoom</options>
+    <options>stretched</options>
     <shade_type>vertical-gradient</shade_type>
     <pcolor>rgb(88,145,188)</pcolor>
     <scolor>rgb(60,143,37)</scolor>
@@ -301,7 +328,7 @@
   <wallpaper deleted="false">
     <name>snow-dusk.jpg</name>
     <filename>/usr/share/backgrounds/snow-dusk.jpg</filename>
-    <options>zoom</options>
+    <options>stretched</options>
     <shade_type>vertical-gradient</shade_type>
     <pcolor>rgb(88,145,188)</pcolor>
     <scolor>rgb(60,143,37)</scolor>
@@ -310,7 +337,7 @@
   <wallpaper deleted="false">
     <name>snow-mountains.jpg</name>
     <filename>/usr/share/backgrounds/snow-mountains.jpg</filename>
-    <options>zoom</options>
+    <options>stretched</options>
     <shade_type>vertical-gradient</shade_type>
     <pcolor>rgb(88,145,188)</pcolor>
     <scolor>rgb(60,143,37)</scolor>
@@ -319,7 +346,7 @@
   <wallpaper deleted="false">
     <name>snow-river.jpg</name>
     <filename>/usr/share/backgrounds/snow-river.jpg</filename>
-    <options>zoom</options>
+    <options>stretched</options>
     <shade_type>vertical-gradient</shade_type>
     <pcolor>rgb(88,145,188)</pcolor>
     <scolor>rgb(60,143,37)</scolor>
@@ -337,7 +364,7 @@
   <wallpaper deleted="false">
     <name>tahoe-abstract-2.jpg</name>
     <filename>/usr/share/backgrounds/tahoe-abstract-2.jpg</filename>
-    <options>zoom</options>
+    <options>stretched</options>
     <shade_type>vertical-gradient</shade_type>
     <pcolor>rgb(88,145,188)</pcolor>
     <scolor>rgb(60,143,37)</scolor>
@@ -346,7 +373,7 @@
   <wallpaper deleted="false">
     <name>tahoe-abstract-3.jpg</name>
     <filename>/usr/share/backgrounds/tahoe-abstract-3.jpg</filename>
-    <options>zoom</options>
+    <options>stretched</options>
     <shade_type>vertical-gradient</shade_type>
     <pcolor>rgb(88,145,188)</pcolor>
     <scolor>rgb(60,143,37)</scolor>
@@ -373,15 +400,6 @@
   <wallpaper deleted="false">
     <name>vice-city-skyline.jpg</name>
     <filename>/usr/share/backgrounds/vice-city-skyline.jpg</filename>
-    <options>zoom</options>
-    <shade_type>vertical-gradient</shade_type>
-    <pcolor>rgb(88,145,188)</pcolor>
-    <scolor>rgb(60,143,37)</scolor>
-    <artist>(none)</artist>
-  </wallpaper>
-  <wallpaper deleted="false">
-    <name>volcano.jpg</name>
-    <filename>/usr/share/backgrounds/volcano.jpg</filename>
     <options>zoom</options>
     <shade_type>vertical-gradient</shade_type>
     <pcolor>rgb(88,145,188)</pcolor>
