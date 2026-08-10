@@ -319,7 +319,7 @@
   <wallpaper deleted="false">
     <name>purple-sunset.jpg</name>
     <filename>/usr/share/backgrounds/purple-sunset.jpg</filename>
-    <options>zoom</options>
+    <options>stretched</options>
     <shade_type>vertical-gradient</shade_type>
     <pcolor>rgb(88,145,188)</pcolor>
     <scolor>rgb(60,143,37)</scolor>
