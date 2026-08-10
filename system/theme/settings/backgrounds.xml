@@ -11,18 +11,9 @@
     <artist>(none)</artist>
   </wallpaper>
   <wallpaper deleted="false">
-    <name>artwork-purple.jpg</name>
-    <filename>/usr/share/backgrounds/artwork-purple.jpg</filename>
-    <options>zoom</options>
-    <shade_type>vertical-gradient</shade_type>
-    <pcolor>rgb(88,145,188)</pcolor>
-    <scolor>rgb(60,143,37)</scolor>
-    <artist>(none)</artist>
-  </wallpaper>
-  <wallpaper deleted="false">
     <name>artwork-red.jpg</name>
     <filename>/usr/share/backgrounds/artwork-red.jpg</filename>
-    <options>zoom</options>
+    <options>stretched</options>
     <shade_type>vertical-gradient</shade_type>
     <pcolor>rgb(88,145,188)</pcolor>
     <scolor>rgb(60,143,37)</scolor>
@@ -41,6 +32,24 @@
     <name>aurora3.jpg</name>
     <filename>/usr/share/backgrounds/aurora3.jpg</filename>
     <options>zoom</options>
+    <shade_type>vertical-gradient</shade_type>
+    <pcolor>rgb(88,145,188)</pcolor>
+    <scolor>rgb(60,143,37)</scolor>
+    <artist>(none)</artist>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>beach.jpg</name>
+    <filename>/usr/share/backgrounds/beach.jpg</filename>
+    <options>stretched</options>
+    <shade_type>vertical-gradient</shade_type>
+    <pcolor>rgb(88,145,188)</pcolor>
+    <scolor>rgb(60,143,37)</scolor>
+    <artist>(none)</artist>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>beach2.jpg</name>
+    <filename>/usr/share/backgrounds/beach2.jpg</filename>
+    <options>stretched</options>
     <shade_type>vertical-gradient</shade_type>
     <pcolor>rgb(88,145,188)</pcolor>
     <scolor>rgb(60,143,37)</scolor>
@@ -119,8 +128,8 @@
     <artist>(none)</artist>
   </wallpaper>
   <wallpaper deleted="false">
-    <name>desert-night.jpg</name>
-    <filename>/usr/share/backgrounds/desert-night.jpg</filename>
+    <name>desert-night-1.jpg</name>
+    <filename>/usr/share/backgrounds/desert-night-1.jpg</filename>
     <options>zoom</options>
     <shade_type>vertical-gradient</shade_type>
     <pcolor>rgb(88,145,188)</pcolor>
@@ -155,9 +164,9 @@
     <artist>(none)</artist>
   </wallpaper>
   <wallpaper deleted="false">
-    <name>lake-tahoe.jpg</name>
-    <filename>/usr/share/backgrounds/lake-tahoe.jpg</filename>
-    <options>zoom</options>
+    <name>desert-night-5.jpg</name>
+    <filename>/usr/share/backgrounds/desert-night-5.jpg</filename>
+    <options>stretched</options>
     <shade_type>vertical-gradient</shade_type>
     <pcolor>rgb(88,145,188)</pcolor>
     <scolor>rgb(60,143,37)</scolor>
@@ -220,6 +229,15 @@
   <wallpaper deleted="false">
     <name>milad-fakurian-abstract.jpg</name>
     <filename>/usr/share/backgrounds/milad-fakurian-abstract.jpg</filename>
+    <options>zoom</options>
+    <shade_type>vertical-gradient</shade_type>
+    <pcolor>rgb(88,145,188)</pcolor>
+    <scolor>rgb(60,143,37)</scolor>
+    <artist>(none)</artist>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>mount-fuji.jpg</name>
+    <filename>/usr/share/backgrounds/mount-fuji.jpg</filename>
     <options>zoom</options>
     <shade_type>vertical-gradient</shade_type>
     <pcolor>rgb(88,145,188)</pcolor>
@@ -290,8 +308,8 @@
     <artist>(none)</artist>
   </wallpaper>
   <wallpaper deleted="false">
-    <name>osaka-jade-bg.jpg</name>
-    <filename>/usr/share/backgrounds/osaka-jade-bg.jpg</filename>
+    <name>palms-pool.jpg</name>
+    <filename>/usr/share/backgrounds/palms-pool.jpg</filename>
     <options>zoom</options>
     <shade_type>vertical-gradient</shade_type>
     <pcolor>rgb(88,145,188)</pcolor>
@@ -299,8 +317,8 @@
     <artist>(none)</artist>
   </wallpaper>
   <wallpaper deleted="false">
-    <name>palms-pool.jpg</name>
-    <filename>/usr/share/backgrounds/palms-pool.jpg</filename>
+    <name>purple-sunset.jpg</name>
+    <filename>/usr/share/backgrounds/purple-sunset.jpg</filename>
     <options>zoom</options>
     <shade_type>vertical-gradient</shade_type>
     <pcolor>rgb(88,145,188)</pcolor>
