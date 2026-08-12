@@ -7,4 +7,3 @@ Terminal=false
 Type=Application
 Icon=/usr/share/icons/web-apps/whatsapp.png
 Categories=Network;InstantMessaging;
-MimeType=text/html;text/xml;application/xhtml_xml;

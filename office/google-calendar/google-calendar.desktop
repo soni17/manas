@@ -7,4 +7,3 @@ Terminal=false
 Type=Application
 Icon=/usr/share/icons/web-apps/google-calendar.png
 Categories=Office;
-MimeType=text/html;text/xml;application/xhtml_xml;
