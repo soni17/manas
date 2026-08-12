@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=Photopea
+Comment=Unlock your creativity with the best free photo editor.
+Exec=helium --app="https://www.photopea.com" --name=Photopea --class=Photopea --window-size=1400,950
+Terminal=false
+Type=Application
+Icon=/usr/share/icons/web-apps/photopea.png
+Categories=Graphics;
