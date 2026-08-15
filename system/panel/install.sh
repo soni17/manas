@@ -23,6 +23,7 @@ mkdir -p ~/.local/share/applications
 cp system/panel/app-launchers/* ~/.local/share/applications
 
 # create category for AI tools
+mkdir -p ~/.local/share/desktop-directories
 cp system/panel/aitools.directory ~/.local/share/desktop-directories
 
 # disable recent documents history

@@ -1,6 +1,12 @@
 toolbar {
-    background-image: none;
-    background-color: #edeceb;
+	background-image: none;
+	background-color: #edeceb;
 }
 
+.mate-panel-menu-bar.horizontal #fast-user-switch-menubar > menuitem {
+	padding: 1px;
+}
 
+.mate-panel-menu-bar.vertical #fast-user-switch-menubar > menuitem {
+	padding: 1px;
+}
