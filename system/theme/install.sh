@@ -31,6 +31,9 @@ mkdir /tmp/fluent-theme
 tar -xf system/theme/settings/Fluent.tar.xz -C /tmp/fluent-theme
 sudo cp -r /tmp/fluent-theme/* /usr/share/themes
 
+# add gtk styling
+cp system/theme/settings/gtk.css ~/.config/gtk-3.0
+
 # copy pluma theme
 sudo cp system/theme/settings/coldark-dark.xml /usr/share/gtksourceview-4/styles
 
