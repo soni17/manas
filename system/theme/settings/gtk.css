@@ -4,7 +4,7 @@ toolbar {
 }
 
 .mate-panel-menu-bar.horizontal #fast-user-switch-menubar > menuitem {
-	padding: 1px;
+	padding: 2px;
 }
 
 .mate-panel-menu-bar.vertical #fast-user-switch-menubar > menuitem {
