@@ -10,3 +10,23 @@ toolbar {
 .mate-panel-menu-bar.vertical #fast-user-switch-menubar > menuitem {
 	padding: 1px;
 }
+
+scrollbar trough {
+	background-color: #303030;
+}
+
+scrollbar slider {
+	background-image: none;
+	background-color: #909090;
+	border: #000000;
+	box-shadow: none;
+	border-radius: 5px;
+}
+
+scrollbar slider:hover {
+	background-color: #707070;
+}
+
+scrollbar slider:active {
+	background-color: #707070;
+}
