@@ -15,7 +15,7 @@ config.font_size = 12
 config.default_cursor_style = 'SteadyUnderline'
 
 -- background opacity
-config.window_background_opacity = 0.92
+config.window_background_opacity = 0.91
 
 -- scrollbar
 config.enable_scroll_bar = true
@@ -23,13 +23,10 @@ config.scrollback_lines = 10000
 
 -- colors
 config.color_scheme = 'One Half Black (Gogh)'
-config.bold_brightens_ansi_colors = 'BrightOnly'
 config.colors = {
-  foreground = 'lightgrey',
-  scrollbar_thumb = 'grey',
-  cursor_bg = 'white',
-  cursor_border = 'white'
+  scrollbar_thumb = 'grey'
 }
+
 
 config.mouse_bindings = {
   {
