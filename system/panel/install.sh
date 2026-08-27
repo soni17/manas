@@ -7,8 +7,7 @@ sudo apt-get install -y \
   ayatana-indicator-power \
   ayatana-indicator-printers \
   ayatana-indicator-sound \
-  mate-indicator-applet \
-  mate-dock-applet
+  mate-indicator-applet 
 
 # fix for network monitor applet
 sudo sed -i "s/Exec=nm-applet/Exec=nm-applet --indicator/" /etc/xdg/autostart/nm-applet.desktop
