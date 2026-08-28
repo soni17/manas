@@ -15,4 +15,4 @@ rm /tmp/$FILENAME
 
 # override launcher to fix icon
 mkdir -p ~/.local/share/applications
-cp ai-tools/lm-studio/lm-studio.desktop ~/.local/share/applications
+cp ai-tools/lm-studio/ai.elementlabs.lmstudio.desktop ~/.local/share/applications
