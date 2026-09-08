@@ -110,7 +110,7 @@
 			<Filename>atril.desktop</Filename>
 			<Filename>eu.scarpetta.PDFMixTool.desktop</Filename>
 			<Filename>sejda-desktop.desktop</Filename>
-			<Filename>joplin.desktop</Filename>
+			<Filename>appimagekit-joplin.desktop</Filename>
 			<Merge type="files"/>
 		</Layout>
 	</Menu>
