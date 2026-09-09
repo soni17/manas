@@ -124,7 +124,6 @@
 			<Filename>timeshift-gtk.desktop</Filename>
 			<Filename>com.usebottles.bottles.desktop</Filename>
 			<Filename>org.gnome.Boxes.desktop</Filename>
-			<Filename>stacer.desktop</Filename>
 			<Filename>thunar.desktop</Filename>
 			<Filename>org.wezfurlong.wezterm.desktop</Filename>
 			<Merge type="files"/>
