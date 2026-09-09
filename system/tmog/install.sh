@@ -11,3 +11,7 @@ sudo apt-get install -y /tmp/$FILENAME
 
 # delete installer
 rm /tmp/$FILENAME
+
+# add settings file
+mkdir -p ~/.config/TMOG/'Task Manager TMOG'
+cp system/tmog/settings.json ~/.config/TMOG/'Task Manager TMOG'
