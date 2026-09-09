@@ -3,6 +3,8 @@ sudo apt install -y \
   thunar \
   thunar-archive-plugin
 
+sudo apt purge -y thunar-volman
+
 # add config files
 mkdir -p ~/.config/Thunar
 cp system/thunar/uca.xml ~/.config/Thunar
