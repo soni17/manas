@@ -7,7 +7,6 @@ sudo apt-get install -y \
   ncdu \
   fzf \
   fd-find \
-  tmux \
   nala \
   git \
   gh \
