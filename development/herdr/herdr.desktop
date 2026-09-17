@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Herdr
+GenericName=Herdr Multiplexer
+Comment=Terminal multiplexer
+Icon=herdr
+Exec=herdr
+Terminal=true
+Categories=System;Monitor;ConsoleOnly;
+Keywords=system;process;task

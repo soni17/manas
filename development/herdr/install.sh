@@ -13,3 +13,5 @@ chmod +x /tmp/$FILENAME
 
 # copy files
 sudo mv /tmp/$FILENAME /usr/bin/herdr
+sudo cp development/herdr/herdr.svg /usr/share/icons
+sudo cp development/herdr/herdr.desktop /usr/share/applications
