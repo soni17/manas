@@ -3,6 +3,9 @@
 # install
 sudo apt-get install -y fsearch
 
+# add custom icon
+cp system/fsearch/search-generic.png /usr/share/icons
+
 # add config file
 mkdir -p ~/.config/fsearch
 cp system/fsearch/fsearch.conf ~/.config/fsearch
