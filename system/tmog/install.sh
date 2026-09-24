@@ -1,7 +1,8 @@
 # https://tmog.org
 
 # get installer filename
-FILENAME=$(curl -s https://tmog.org | grep /downloads | grep .deb | grep amd64 | cut -d / -f 3 | sed 's/"//')
+FILENAME=$(curl -s https://tmog.org | grep /downloads | grep .deb | grep amd64 | cut -d / -f 4)
+FILENAME=${FILENAME::-1}
 
 # download installer
 wget -q https://tmog.org/downloads/$FILENAME -O /tmp/$FILENAME
