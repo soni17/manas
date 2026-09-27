@@ -1,0 +1,40 @@
+<?xml version="1.1" encoding="UTF-8"?>
+
+<channel name="xfce4-terminal" version="1.0">
+  <property name="scrolling-lines" type="uint" value="10000"/>
+  <property name="overlay-scrolling" type="bool" value="true"/>
+  <property name="misc-cursor-shape" type="string" value="TERMINAL_CURSOR_SHAPE_UNDERLINE"/>
+  <property name="misc-show-unsafe-paste-dialog" type="bool" value="false"/>
+  <property name="misc-copy-on-select" type="bool" value="true"/>
+  <property name="command-login-shell" type="bool" value="false"/>
+  <property name="run-custom-command" type="bool" value="false"/>
+  <property name="font-allow-bold" type="bool" value="false"/>
+  <property name="font-use-system" type="bool" value="false"/>
+  <property name="background-mode" type="string" value="TERMINAL_BACKGROUND_TRANSPARENT"/>
+  <property name="background-darkness" type="double" value="0.90000000000000002"/>
+  <property name="misc-menubar-default" type="bool" value="false"/>
+  <property name="use-default-working-dir" type="bool" value="false"/>
+  <property name="custom-command" type="string" value=""/>
+  <property name="title-mode" type="string" value="TERMINAL_TITLE_REPLACE"/>
+  <property name="font-name" type="string" value="JetBrains Mono 12"/>
+  <property name="misc-toolbar-default" type="bool" value="false"/>
+  <property name="misc-borders-default" type="bool" value="true"/>
+  <property name="misc-slim-tabs" type="bool" value="true"/>
+  <property name="misc-default-geometry" type="string" value="98x26"/>
+  <property name="misc-middle-click-opens-uri" type="bool" value="false"/>
+  <property name="color-foreground" type="string" value="#f6f6f5f5f4f4"/>
+  <property name="color-background" type="string" value="#000000000000"/>
+  <property name="color-background-vary" type="bool" value="false"/>
+  <property name="color-cursor-foreground" type="string" value="#f6f6f5f5f4f4"/>
+  <property name="color-cursor" type="string" value="#dededddddada"/>
+  <property name="color-cursor-use-default" type="bool" value="false"/>
+  <property name="color-selection" type="string" value="#000000000000"/>
+  <property name="color-selection-background" type="string" value="#c0c0bfbfbcbc"/>
+  <property name="color-selection-use-default" type="bool" value="false"/>
+  <property name="color-bold" type="string" value="#cdcdabab8f8f"/>
+  <property name="color-bold-use-default" type="bool" value="false"/>
+  <property name="color-palette" type="string" value="rgb(0,0,0);rgb(246,97,81);rgb(143,240,164);rgb(196,160,0);rgb(153,193,241);rgb(117,80,123);rgb(6,152,154);rgb(211,215,207);rgb(85,87,83);rgb(246,97,81);rgb(143,240,164);rgb(252,233,79);rgb(153,193,241);rgb(173,127,168);rgb(52,226,226);rgb(238,238,236)"/>
+  <property name="color-bold-is-bright" type="bool" value="true"/>
+  <property name="color-use-theme" type="bool" value="false"/>
+  <property name="tab-activity-color" type="string" value="#aa0000"/>
+</channel>
