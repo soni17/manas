@@ -11,22 +11,35 @@ toolbar {
 	padding: 1px;
 }
 
+scrollbar {
+	padding: 0;
+	margin: 0;
+	min-width: 10px;
+}
+
 scrollbar trough {
-	background-color: #303030;
+	background-color: #edeceb;
+	min-width: 10px;
+	padding: 0;
+	margin: 0;
 }
 
 scrollbar slider {
 	background-image: none;
-	background-color: #909090;
+	background-color: #707070;
 	border: #000000;
 	box-shadow: none;
-	border-radius: 5px;
+	border-radius: 3px;
+	min-width: 10px;
+	margin: 0;
+	padding: 0;
 }
 
-scrollbar slider:hover {
-	background-color: #707070;
-}
-
-scrollbar slider:active {
-	background-color: #707070;
+scrollbar button {
+	-GtkWidget-focus-line-width: 0;
+	min-width: 0;
+	min-height: 0;
+	padding: 0;
+	border-width: 0;
+	background-image: none;
 }
