@@ -4,14 +4,13 @@
 # no need for updater script because it updates itself
 
 # get installer filename and latest version
-LATEST_VERSION=$(curl -s "https://api.github.com/repos/telegramdesktop/tdesktop/releases/latest" | grep -Po '"tag_name": "\K[^"]*')
-FILENAME="tsetup.${LATEST_VERSION:1}.tar.xz"
+URL=$(curl -s "https://api.github.com/repos/telegramdesktop/tdesktop/releases/latest" | grep -Po '"browser_download_url": "\K[^"]*' | grep linux)
 
 # download tar
-wget -q https://github.com/telegramdesktop/tdesktop/releases/download/$LATEST_VERSION/$FILENAME -O /tmp/$FILENAME
+wget -q $URL -O /tmp/telegram.tar.xz
 
 # extract tar in /opt folder
-sudo tar -xf /tmp/$FILENAME -C /opt
+sudo tar -xf /tmp/telegram.tar.xz -C /opt
 
 # run app so it completes setup then close it
 /opt/Telegram/Telegram &
@@ -19,4 +18,4 @@ sleep 2
 pkill -f /opt/Telegram/Telegram
 
 # delete downloaded file
-rm /tmp/$FILENAME
+rm /tmp/telegram.tar.xz
