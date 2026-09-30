@@ -3,7 +3,7 @@
 
 # no need for updater script because it updates itself
 
-# get installer filename and latest version
+# get installer url for latest version
 URL=$(curl -s "https://api.github.com/repos/telegramdesktop/tdesktop/releases/latest" | grep -Po '"browser_download_url": "\K[^"]*' | grep linux)
 
 # download tar
