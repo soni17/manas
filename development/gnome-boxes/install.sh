@@ -5,7 +5,7 @@
 sudo apt-get install -y gnome-boxes
 
 # add icon
-cp development/gnome-boxes/gnome-boxes.png /usr/share/icons
+sudo cp development/gnome-boxes/gnome-boxes.png /usr/share/icons
 
 # override launcher
 mkdir -p ~/.local/share/applications
