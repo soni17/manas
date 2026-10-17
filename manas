@@ -37,7 +37,7 @@ update-apps(){
   bash development/dbgate/update.sh
   bash development/devtoys/update.sh
   bash development/httptoolkit/update.sh
-  bash development/fresh-editor/update.sh
+  bash development/ms-edit/update.sh
   bash development/herdr/update.sh
   bash ai-tools/ollama/update.sh
   bash ai-tools/lm-studio/update.sh
