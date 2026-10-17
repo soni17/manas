@@ -134,8 +134,7 @@
 		<Name>Development</Name>
 		<Layout>
 			<Merge type="menus"/>
-			<Filename>codium.desktop</Filename>
-			<Filename>fresh.desktop</Filename>
+			<Filename>com.visualstudio.CodeOSS.desktop</Filename>
 			<Filename>org.desktop_plus.desktop-plus.desktop</Filename>
 			<Filename>dbgate.desktop</Filename>
 			<Filename>bruno.desktop</Filename>
