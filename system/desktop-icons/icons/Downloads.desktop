@@ -7,4 +7,4 @@ Terminal=false
 Name[en_US]=Downloads
 Exec=caja Downloads
 Name=Downloads
-Icon=/usr/share/icons/Humanity/places/64/folder_download.svg
+Icon=folder-download
