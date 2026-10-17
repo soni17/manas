@@ -7,4 +7,4 @@ curl -fsSL https://pkgs.tailscale.com/stable/debian/trixie.tailscale-keyring.lis
 sudo apt-get update 
 
 # install
-sudo apt-get -y install tailscale
+# sudo apt-get -y install tailscale
