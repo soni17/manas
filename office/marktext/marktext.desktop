@@ -1,6 +1,6 @@
 [Desktop Entry]
-Name=marktext
-Exec=/opt/marktext/marktext %U
+Name=MarkText
+Exec=/opt/MarkText/marktext %U
 Terminal=false
 Type=Application
 Icon=marktext
@@ -8,4 +8,4 @@ StartupWMClass=marktext
 Keywords=marktext;
 Comment=A simple and elegant open-source markdown editor that focused on speed and usability.
 MimeType=text/markdown;text/markdown;text/markdown;text/markdown;text/markdown;text/markdown;text/markdown;text/markdown;text/markdown;text/markdown;text/markdown;text/markdown;text/markdown;text/markdown;text/markdown;text/markdown;text/markdown;text/markdown;text/markdown;
-Categories=Office;TextEditor;
+Categories=Office;
