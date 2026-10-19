@@ -24,5 +24,6 @@
   "window.titleBarStyle": "custom",
   "editor.scrollbar.vertical": "visible",
   "editor.scrollbar.horizontal": "visible",
-  "window.commandCenter": false
+  "window.commandCenter": false,
+  "window.density.layout": "compact"
 }
