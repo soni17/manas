@@ -51,6 +51,7 @@ update-apps(){
   bash internet/zoom/update.sh
   bash internet/discord/update.sh
   bash system/tmog/update.sh
+  bash system/waveterm/update.sh
 }
 
 app(){
