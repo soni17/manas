@@ -15,3 +15,8 @@ chmod +x /tmp/$FILENAME
 sudo mv /tmp/$FILENAME /usr/bin/herdr
 sudo cp development/herdr/herdr.svg /usr/share/icons
 sudo cp development/herdr/herdr.desktop /usr/share/applications
+
+# copy config file
+mkdir -p ~/.config/herdr
+cp development/herdr/config.toml ~/.config/herdr
+herdr server reload-config
