@@ -2,7 +2,7 @@
 [Desktop Entry]
 Version=1.0
 Type=Application
-Name=FSearch
+Name=Search
 Comment=A file search application focusing on performance and advanced features
 Icon=search-generic
 TryExec=fsearch
