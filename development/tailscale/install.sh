@@ -6,5 +6,5 @@ curl -fsSL https://pkgs.tailscale.com/stable/debian/trixie.noarmor.gpg | sudo te
 curl -fsSL https://pkgs.tailscale.com/stable/debian/trixie.tailscale-keyring.list | sudo tee /etc/apt/sources.list.d/tailscale.list
 sudo apt-get update 
 
-# install
-# sudo apt-get -y install tailscale
+# do not install by default. Only install repository keyring
+sudo apt-get -y install tailscale-archive-keyring
