@@ -1,0 +1,20 @@
+{
+  "theme": "Paper",
+  "language": "auto",
+  "sound": false,
+  "volume": 0.6,
+  "shader_fx": true,
+  "auto_update": false,
+  "auto_install": false,
+  "rings": 6,
+  "chart_style": "sunburst",
+  "watch_fs": true,
+  "ssh_history": [],
+  "backup_folder": null,
+  "backup_remote": null,
+  "skipped_version": null,
+  "personalized_sponsors": false,
+  "sponsor_measurement": false,
+  "folder_menu": true,
+  "cli_offered": true
+}

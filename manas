@@ -30,6 +30,7 @@ update-apps(){
   bash accessories/localsend/update.sh
   bash accessories/ulauncher/update.sh
   bash accessories/pomodorolm/update.sh
+  bash accessories/zfont-manager/update.sh
   bash audio-video/ytdownloader/update.sh
   bash audio-video/freetube/update.sh
   bash development/vscodium/update.sh
@@ -52,7 +53,9 @@ update-apps(){
   bash internet/zoom/update.sh
   bash internet/discord/update.sh
   bash system/tmog/update.sh
+  bash system/herdr-app/update.sh
   bash system/waveterm/update.sh
+  bash system/squirrel-disk/update.sh
 }
 
 app(){

@@ -120,6 +120,7 @@
 			<Merge type="menus"/>
 			<Filename>engrampa.desktop</Filename>
 			<Filename>org.gnome.DiskUtility.desktop</Filename>
+			<Filename>squirreldisk.desktop</Filename>
 			<Filename>usbimager.desktop</Filename>
 			<Filename>timeshift-gtk.desktop</Filename>
 			<Filename>com.usebottles.bottles.desktop</Filename>
