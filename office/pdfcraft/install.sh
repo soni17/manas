@@ -17,3 +17,7 @@ rm /tmp/$FILENAME
 # override launcher to change category
 mkdir -p ~/.local/share/applications
 cp office/pdfcraft/ai.storyteller.pdfcraft.desktop ~/.local/share/applications
+
+# add config file
+mkdir -p ~/.config/pdfcraft
+cp office/pdfcraft/app.ron ~/.config/pdfcraft
