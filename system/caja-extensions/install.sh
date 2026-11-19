@@ -3,4 +3,5 @@ sudo apt-get install -y \
   caja-image-converter \
   caja-open-terminal \
   caja-wallpaper \
-  caja-rename
+  caja-rename \
+  caja-dropbox
