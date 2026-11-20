@@ -62,6 +62,7 @@
 			<Filename>pluma.desktop</Filename>
 			<Filename>org.gnome.Screenshot.desktop</Filename>
 			<Filename>localsend_app.desktop</Filename>
+			<Filename>altersend.desktop</Filename>
 			<Filename>ulauncher.desktop</Filename>
 			<Filename>org.gnome.clocks.desktop</Filename>
 			<Filename>io.github.amit9838.mousam.desktop</Filename>
@@ -93,6 +94,7 @@
 			<Filename>chromium.desktop</Filename>
 			<Filename>helium.desktop</Filename>
 			<Filename>org.remmina.Remmina.desktop</Filename>
+			<Filename>caja-dropbox.desktop</Filename>
 			<Filename>slack.desktop</Filename>
 			<Filename>discord.desktop</Filename>
 			<Filename>org.telegram.desktop._3e485da34fc040f9218e3891ecde1e6c.desktop</Filename>

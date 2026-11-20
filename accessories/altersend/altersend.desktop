@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=AlterSend
+Exec=/opt/AlterSend/altersend.bin
+Terminal=false
+Type=Application
+Icon=altersend
+Comment=Peer-to-peer file transfer. No servers, no accounts.
+Categories=Utility;
