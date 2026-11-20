@@ -28,6 +28,7 @@ uninstall-all(){
 update-apps(){
   echo "Checking updates for direct-download apps"
   bash accessories/localsend/update.sh
+  bash accessories/altersend/update.sh
   bash accessories/ulauncher/update.sh
   bash accessories/pomodorolm/update.sh
   bash accessories/zfont-manager/update.sh
