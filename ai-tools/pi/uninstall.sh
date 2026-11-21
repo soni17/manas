@@ -1,2 +1,2 @@
-
-npm uninstall -g @earendil-works/pi-coding-agent
+sudo rm -r /opt/pi
+sudo rm /usr/bin/pi
