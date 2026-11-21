@@ -15,3 +15,7 @@ sudo rm /tmp/pi-linux-x64.tar.gz
 
 # create link in /usr/bin folder
 sudo ln -s /opt/pi/pi /usr/bin/pi
+
+# add icon and launcher
+sudo cp ai-tools/pi/pi-logo.svg /usr/share/icons
+sudo cp ai-tools/pi/pi.desktop /usr/share/applications

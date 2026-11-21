@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=pi-agent
+Exec=/opt/pi/pi
+Terminal=true
+Type=Application
+Icon=pi-logo
+Comment=AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI
+Categories=aitools;
