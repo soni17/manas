@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Claude-Code
+Exec=claude
+Terminal=true
+Type=Application
+Icon=claude-code
+Comment=claude code CLI application
+Categories=aitools;

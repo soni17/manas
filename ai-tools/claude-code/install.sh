@@ -7,3 +7,7 @@ sudo apt-get update -y
 
 # install
 sudo apt-get install -y claude-code
+
+# add launcher
+cp ai-tools/claude-code/claude-code.desktop ~/.local/share/applications
+sudo cp ai-tools/claude-code/claude-code.png /usr/share/icons
