@@ -40,7 +40,6 @@ update-apps(){
   bash development/devtoys/update.sh
   bash development/httptoolkit/update.sh
   bash development/ms-edit/update.sh
-  bash ai-tools/lm-studio/update.sh
   bash ai-tools/pi/update.sh
   bash graphics/drawio/update.sh
   bash graphics/photocraft/update.sh
