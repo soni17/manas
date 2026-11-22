@@ -112,6 +112,8 @@
 			<Filename>atril.desktop</Filename>
 			<Filename>ai.storyteller.pdfcraft.desktop</Filename>
 			<Filename>appimagekit-joplin.desktop</Filename>
+			<Filename>gmail.desktop</Filename>
+			<Filename>google-calendar.desktop</Filename>
 			<Merge type="files"/>
 		</Layout>
 	</Menu>
