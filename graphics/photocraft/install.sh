@@ -1,17 +1,18 @@
 # https://getartcraft.com/apps/photocraft
 # https://github.com/storytold/photocraft
 
-# get installer filename and latest version
-LATEST_VERSION=$(curl -s "https://api.github.com/repos/storytold/photocraft/releases/latest" | grep -Po '"tag_name": "\K[^"]*')
-FILENAME="photocraft-${LATEST_VERSION:1}-linux-x86_64.deb"
+# get URL of latest installer
+URL=$(curl -s https://api.github.com/repos/storytold/photocraft/releases/latest | grep browser_download_url | grep .deb | grep x86 | grep -v asc | cut -d '"' -f 4)
+FILENAME="/tmp/photocraft.deb"
 
 # download installer
-wget -q https://github.com/storytold/photocraft/releases/download/$LATEST_VERSION/$FILENAME -O /tmp/$FILENAME
+curl -sL $URL -o $FILENAME
 
 # install
-sudo apt-get install -y /tmp/$FILENAME
+sudo apt-get install -y $FILENAME
 
 # delete installer
-rm /tmp/$FILENAME
+rm $FILENAME
 
+# override launcher
 cp graphics/photocraft/ai.storyteller.photo* ~/.local/share/applications

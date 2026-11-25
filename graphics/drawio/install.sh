@@ -1,15 +1,15 @@
 # https://www.drawio.com
 # https://github.com/jgraph/drawio-desktop
 
-# get installer filename and latest version
-LATEST_VERSION=$(curl -s "https://api.github.com/repos/jgraph/drawio-desktop/releases/latest" | grep -Po '"tag_name": "\K[^"]*')
-FILENAME="drawio-amd64-${LATEST_VERSION:1}.deb"
+# get URL of latest installer
+URL=$(curl -s https://api.github.com/repos/jgraph/drawio-desktop/releases/latest | grep browser_download_url | grep deb | grep amd64 | cut -d '"' -f 4)
+FILENAME="/tmp/drawio.deb"
 
 # download installer
-wget -q https://github.com/jgraph/drawio-desktop/releases/download/$LATEST_VERSION/$FILENAME -O /tmp/$FILENAME
+curl -sL $URL -o $FILENAME
 
 # install
-sudo apt-get install -y /tmp/$FILENAME
+sudo apt-get install -y $FILENAME
 
 # delete installer
-rm /tmp/$FILENAME
+rm $FILENAME

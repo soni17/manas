@@ -4,20 +4,23 @@
 # remove if already installed
 sudo rm -r /opt/AlterSend
 
-# download AppImage
+# get URL of latest release and create filename
 URL=$(curl -s https://api.github.com/repos/denislupookov/altersend/releases/latest | grep browser_download_url | grep AppImage | grep x86_64 | cut -d '"' -f 4)
-curl -sL -o /tmp/AlterSend.AppImage $URL
+FILENAME="/tmp/AlterSend.AppImage"
+
+# download AppImage
+curl -sL $URL -o $FILENAME
 
 # make AppImage executable
-sudo chmod +x /tmp/AlterSend.AppImage
+sudo chmod +x $FILENAME
 
 # unpack AppImage and rename folder
 cd /opt
-sudo /tmp/AlterSend.AppImage --appimage-extract
+sudo $FILENAME --appimage-extract
 sudo mv squashfs-root AlterSend
 
-# delete temp file
-sudo rm /tmp/AlterSend.AppImage
+# delete AppImage
+sudo rm $FILENAME
 
 # add icon and launcher
 cd -

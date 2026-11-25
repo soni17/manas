@@ -1,13 +1,19 @@
 # https://helium.computer/
-# https://justaguy.dev/drew/butterrepo
+# https://github.com/imputnet/helium
+# https://github.com/imputnet/helium-linux
 
-# add repository
-curl -fsSL https://apt.justaguy.dev/key.asc | sudo gpg --dearmor -o /usr/share/keyrings/butterrepo.gpg
-echo "deb [arch=amd64 signed-by=/usr/share/keyrings/butterrepo.gpg] https://apt.justaguy.dev stable main" | sudo tee /etc/apt/sources.list.d/butterrepo.list
+# get URL of latest installer
+URL=$(curl -s https://api.github.com/repos/imputnet/helium-linux/releases/latest | grep browser_download_url | grep deb | grep amd64 | cut -d '"' -f 4)
+FILENAME="/tmp/helium-browser.deb"
+
+# download installer
+curl -sL $URL -o $FILENAME
 
 # install
-sudo apt-get update -y
-sudo apt-get install -y helium-browser
+sudo apt-get install -y $FILENAME
+
+# delete installer
+rm $FILENAME
 
 # app launcher override to fix slow startup
 cp internet/helium/helium.desktop ~/.local/share/applications

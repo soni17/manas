@@ -1,9 +1,5 @@
 # uninstall
-sudo apt-get purge -y --autoremove helium-browser
+sudo apt-get purge -y --autoremove helium-bin
 
-# remove repository
-sudo rm -f /usr/share/keyrings/butterrepo.gpg
-sudo rm -f /etc/apt/sources.list.d/butterrepo.list
-
-# remove config folder
-rm -rf ~/.config/net.imput.helium
+# remove launcher
+rm ~/.local/share/applications/helium.desktop

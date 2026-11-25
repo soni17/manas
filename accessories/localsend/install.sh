@@ -1,15 +1,15 @@
 # https://localsend.org
 # https://github.com/localsend/localsend
 
-# get installer filename and latest version
-LATEST_VERSION=$(curl -s "https://api.github.com/repos/localsend/localsend/releases/latest" | grep -Po '"tag_name": "\K[^"]*')
-FILENAME="LocalSend-${LATEST_VERSION:1}-linux-x86-64.deb"
+# get URL of latest installer
+URL=$(curl -s https://api.github.com/repos/localsend/localsend/releases/latest | grep browser_download_url | grep deb | grep x86 | cut -d '"' -f 4)
+FILENAME="/tmp/localsend.deb"
 
 # download installer
-wget -q https://github.com/localsend/localsend/releases/download/$LATEST_VERSION/$FILENAME -O /tmp/$FILENAME
+curl -sL $URL -o $FILENAME
 
 # install
-sudo apt-get install -y /tmp/$FILENAME
+sudo apt-get install -y $FILENAME
 
 # delete installer
-rm /tmp/$FILENAME
+rm $FILENAME

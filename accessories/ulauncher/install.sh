@@ -1,18 +1,18 @@
 # https://ulauncher.io
 # https://github.com/Ulauncher/Ulauncher
 
-# get installer filename and latest version
-LATEST_VERSION=$(curl -s "https://api.github.com/repos/Ulauncher/Ulauncher/releases/latest" | grep -Po '"tag_name": "\K[^"]*')
-FILENAME="ulauncher_${LATEST_VERSION}_all.deb"
+# get URL of latest installer
+URL=$(curl -s https://api.github.com/repos/Ulauncher/Ulauncher/releases/latest | grep browser_download_url | grep deb | cut -d '"' -f 4)
+FILENAME="/tmp/ulauncher.deb"
 
 # download installer
-wget -q https://github.com/Ulauncher/Ulauncher/releases/download/$LATEST_VERSION/$FILENAME -O /tmp/$FILENAME
+curl -sL $URL -o $FILENAME
 
 # install
-sudo apt-get install -y /tmp/$FILENAME
+sudo apt-get install -y $FILENAME
 
 # delete installer
-rm /tmp/$FILENAME
+rm $FILENAME
 
 # add config file
 mkdir -p ~/.config/ulauncher

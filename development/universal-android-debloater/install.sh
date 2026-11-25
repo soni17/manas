@@ -3,15 +3,15 @@
 # install android-debug-bridge
 sudo apt-get install -y adb
 
-# get latest version and filename
-LATEST_VERSION=$(curl -s "https://api.github.com/repos/Universal-Debloater-Alliance/universal-android-debloater-next-generation/releases/latest" | grep -Po '"tag_name": "\K[^"]*')
-FILENAME="uad-ng-noselfupdate-linux"
+# get URL of latest installer
+URL=$(curl -s https://api.github.com/repos/Universal-Debloater-Alliance/universal-android-debloater-next-generation/releases/latest | grep browser_download_url | grep linux | grep noselfupdate | grep -v checksum | grep -v tar | cut -d '"' -f 4)
+FILENAME="/tmp/uad-ng-noselfupdate-linux"
 
-# download binary
-wget -q https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/releases/download/$LATEST_VERSION/$FILENAME -O /tmp/$FILENAME
+# download installer
+curl -sL $URL -o $FILENAME
 
 # make binary executable
-chmod +x /tmp/$FILENAME
+chmod +x $FILENAME
 
 # copy files
 sudo mv /tmp/uad-ng-noselfupdate-linux /usr/bin

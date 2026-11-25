@@ -1,18 +1,17 @@
 # https://github.com/vjousse/concentre
 
-# get installer filename and latest version
-LATEST_VERSION_FULL=$(curl -s "https://api.github.com/repos/vjousse/concentre/releases/latest" | grep -Po '"tag_name": "\K[^"]*')
-LATEST_VERSION=$(echo $LATEST_VERSION_FULL | cut -d 'v' -f 2)
-FILENAME="pomodorolm_${LATEST_VERSION}_amd64.deb"
+# get URL of latest installer
+URL=$(curl -s https://api.github.com/repos/vjousse/concentre/releases/latest | grep browser_download_url | grep deb | grep amd64 | cut -d '"' -f 4)
+FILENAME="/tmp/pomodorolm.deb"
 
 # download installer
-wget -q https://github.com/vjousse/concentre/releases/download/$LATEST_VERSION_FULL/$FILENAME -O /tmp/$FILENAME
+curl -sL $URL -o $FILENAME
 
 # install
-sudo apt-get install -y /tmp/$FILENAME
+sudo apt-get install -y $FILENAME
 
 # delete installer
-rm /tmp/$FILENAME
+rm $FILENAME
 
 # add config file
 mkdir -p ~/.config/pomodorolm

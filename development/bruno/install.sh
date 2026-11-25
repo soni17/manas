@@ -1,15 +1,15 @@
 # https://www.usebruno.com
 # https://github.com/usebruno/bruno
 
-# get installer filename and latest version
-LATEST_VERSION=$(curl -s "https://api.github.com/repos/usebruno/bruno/releases/latest" | grep -Po '"tag_name": "\K[^"]*')
-FILENAME="bruno_${LATEST_VERSION:1}_amd64_linux.deb"
+# get URL of latest installer
+URL=$(curl -s https://api.github.com/repos/usebruno/bruno/releases/latest | grep browser_download_url | grep deb | grep amd64 | cut -d '"' -f 4)
+FILENAME="/tmp/bruno.deb"
 
 # download installer
-wget -q https://github.com/usebruno/bruno/releases/download/$LATEST_VERSION/$FILENAME -O /tmp/$FILENAME
+curl -sL $URL -o $FILENAME
 
 # install
-sudo apt-get install -y /tmp/$FILENAME
+sudo apt-get install -y $FILENAME
 
 # delete installer
-rm /tmp/$FILENAME
+rm $FILENAME

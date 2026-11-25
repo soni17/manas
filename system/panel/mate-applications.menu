@@ -139,7 +139,7 @@
 		<Layout>
 			<Merge type="menus"/>
 			<Filename>com.visualstudio.CodeOSS.desktop</Filename>
-			<Filename>org.desktop_plus.desktop-plus.desktop</Filename>
+			<Filename>desktop-plus.desktop</Filename>
 			<Filename>dbgate.desktop</Filename>
 			<Filename>bruno.desktop</Filename>
 			<Filename>httptoolkit.desktop</Filename>

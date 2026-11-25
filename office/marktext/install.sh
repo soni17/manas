@@ -1,18 +1,18 @@
 # https://marktext.me
 # https://github.com/marktext/marktext
 
-# get installer filename and latest version
-LATEST_VERSION=$(curl -s "https://api.github.com/repos/marktext/marktext/releases/latest" | grep -Po '"tag_name": "\K[^"]*')
-FILENAME="marktext-linux-${LATEST_VERSION:1}.deb"
+# get URL of latest installer
+URL=$(curl -s https://api.github.com/repos/marktext/marktext/releases/latest | grep browser_download_url | grep linux | grep deb | grep -v arm64 | cut -d '"' -f 4)
+FILENAME="/tmp/marktext.deb"
 
 # download installer
-wget -q https://github.com/marktext/marktext/releases/download/$LATEST_VERSION/$FILENAME -O /tmp/$FILENAME
+curl -sL $URL -o $FILENAME
 
 # install
-sudo apt-get install -y /tmp/$FILENAME
+sudo apt-get install -y $FILENAME
 
 # delete installer
-rm /tmp/$FILENAME
+rm $FILENAME
 
 # add config file
 mkdir -p ~/.config/marktext

@@ -1,17 +1,18 @@
 # https://dbgate.org
 # https://github.com/dbgate/dbgate
 
-# installer filename
-FILENAME="dbgate-latest.deb"
+# get URL of latest installer
+URL=$(curl -s https://api.github.com/repos/dbgate/dbgate/releases/latest | grep browser_download_url | grep deb | grep amd64 |  cut -d '"' -f 4)
+FILENAME="/tmp/dbgate.deb"
 
 # download installer
-wget -q https://github.com/dbgate/dbgate/releases/latest/download/$FILENAME -O /tmp/$FILENAME
+curl -sL $URL -o $FILENAME
 
 # install
-sudo apt-get install -y /tmp/$FILENAME
+sudo apt-get install -y $FILENAME
 
 # delete installer
-sudo rm /tmp/$FILENAME
+rm $FILENAME
 
 # add config file
 mkdir -p ~/.dbgate

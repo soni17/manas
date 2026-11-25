@@ -1,18 +1,18 @@
 # https://httptoolkit.com
 # https://github.com/httptoolkit/httptoolkit-desktop
 
-# get installer filename and latest version
-LATEST_VERSION=$(curl -s "https://api.github.com/repos/httptoolkit/httptoolkit-desktop/releases/latest" | grep -Po '"tag_name": "\K[^"]*')
-FILENAME="HttpToolkit-${LATEST_VERSION:1}-x64.deb"
+# get URL of latest installer
+URL=$(curl -s https://api.github.com/repos/httptoolkit/httptoolkit-desktop/releases/latest | grep browser_download_url | grep deb | grep x64 | cut -d '"' -f 4)
+FILENAME="/tmp/httptoolkit.deb"
 
 # download installer
-wget -q https://github.com/httptoolkit/httptoolkit-desktop/releases/download/$LATEST_VERSION/$FILENAME -O /tmp/$FILENAME
+curl -sL $URL -o $FILENAME
 
 # install
-sudo apt-get install -y /tmp/$FILENAME
+sudo apt-get install -y $FILENAME
 
 # delete installer
-rm /tmp/$FILENAME
+rm $FILENAME
 
 # override launcher to fix slow startup
 mkdir -p ~/.local/share/applications
