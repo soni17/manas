@@ -2,6 +2,8 @@
 
 # get URL of latest installer
 URL=$(curl -s https://api.github.com/repos/microsoft/edit/releases/latest | grep browser_download_url | grep linux | grep x86 | cut -d '"' -f 4)
+
+# create installer filename
 FILENAME="/tmp/msedit.tar.gz"
 
 # download archive

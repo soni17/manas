@@ -3,6 +3,8 @@
 
 # get URL of latest installer
 URL=$(curl -s https://api.github.com/repos/Ulauncher/Ulauncher/releases/latest | grep browser_download_url | grep deb | cut -d '"' -f 4)
+
+# create installer filename
 FILENAME="/tmp/ulauncher.deb"
 
 # download installer

@@ -2,6 +2,8 @@
 
 # get URL of latest installer
 URL=$(curl -s https://api.github.com/repos/wavetermdev/waveterm/releases/latest | grep browser_download_url | grep deb | grep amd64 | cut -d '"' -f 4)
+
+# create installer filename
 FILENAME="/tmp/waveterm.deb"
 
 # download installer

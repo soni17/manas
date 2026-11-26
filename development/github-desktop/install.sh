@@ -3,6 +3,8 @@
 
 # get URL of latest installer
 URL=$(curl -s https://api.github.com/repos/desktop-plus/desktop-plus/releases/latest | grep browser_download_url | grep deb | grep x86 | cut -d '"' -f 4)
+
+# create installer filename
 FILENAME="/tmp/github-desktop-plus.deb"
 
 # download installer

@@ -3,6 +3,8 @@
 
 # get URL of latest installer
 URL=$(curl -s https://api.github.com/repos/marktext/marktext/releases/latest | grep browser_download_url  | grep deb | grep -v arm64 | grep -v debug | cut -d '"' -f 4)
+
+# create installer filename
 FILENAME="/tmp/marktext.deb"
 
 # download installer

@@ -3,6 +3,8 @@
 
 # get download url of latest release and crate filename
 URL=$(curl -s https://api.github.com/repos/earendil-works/pi/releases/latest | grep browser_download_url | grep linux | grep x64 | cut -d '"' -f 4)
+
+# create installer filename
 FILENAME="/tmp/pi-linux.tar.gz"
 
 # download latest release for linux x64

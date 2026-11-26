@@ -5,6 +5,8 @@ sudo apt-get install -y adb
 
 # get URL of latest installer
 URL=$(curl -s https://api.github.com/repos/Universal-Debloater-Alliance/universal-android-debloater-next-generation/releases/latest | grep browser_download_url | grep linux | grep noselfupdate | grep -v checksum | grep -v tar | cut -d '"' -f 4)
+
+# create installer filename
 FILENAME="/tmp/uad-ng-noselfupdate-linux"
 
 # download installer

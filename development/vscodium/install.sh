@@ -3,6 +3,8 @@
 
 # get URL of latest installer
 URL=$(curl -s https://api.github.com/repos/VSCodium/vscodium/releases/latest | grep browser_download_url | grep deb | grep amd64 | grep -v sha | cut -d '"' -f 4)
+
+# create installer filename
 FILENAME="/tmp/vscodium.deb"
 
 # download installer
