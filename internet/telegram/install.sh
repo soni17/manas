@@ -4,7 +4,7 @@
 # no need for updater script because it updates itself
 
 # get installer url for latest version
-URL=$(curl -s "https://api.github.com/repos/telegramdesktop/tdesktop/releases/latest" | grep -Po '"browser_download_url": "\K[^"]*' | grep linux)
+URL=$(curl -s "https://api.github.com/repos/telegramdesktop/tdesktop/releases/latest" | grep browser_download_url | grep linux | cut -d '"' -f 4)
 
 # crete filename for installer
 FILENAME="/tmp/telegram.tar.xz"
