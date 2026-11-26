@@ -3,4 +3,4 @@
 
 curl -fsSL https://releases.herdr.dev/app/install.sh | sh
 
-cp system/herdr-app/herdr-app.desktop ~/.local/share/applications
+sed -i 's/Categories=Development/Categories=System/' ~/.local/share/applications/herdr-app.desktop
