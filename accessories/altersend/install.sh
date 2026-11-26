@@ -4,7 +4,7 @@
 # remove if already installed
 sudo rm -r /opt/AlterSend
 
-# get URL of latest release and create filename
+# get URL of latest release
 URL=$(curl -s https://api.github.com/repos/denislupookov/altersend/releases/latest | grep browser_download_url | grep AppImage | grep x86_64 | cut -d '"' -f 4)
 
 # create installer filename
