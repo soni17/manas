@@ -2,7 +2,7 @@
 # https://github.com/FreeTubeApp/FreeTube
 
 # get installer filename and latest version
-LATEST_VERSION=$(curl -s "https://api.github.com/repos/FreeTubeApp/FreeTube/releases" | grep -Po '"tag_name": "\K[^"]*' | head -n 1)
+LATEST_VERSION=$(curl -s "https://api.github.com/repos/FreeTubeApp/FreeTube/releases" | grep tag_name | head -n 1 | cut -d '"' -f 4)
 LATEST_VERSION_NUMBER=$(echo $LATEST_VERSION | tr -d 'v' | tr -d '\-beta')
 FILENAME="freetube_${LATEST_VERSION_NUMBER}_beta_amd64.deb"
 
