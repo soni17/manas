@@ -35,6 +35,7 @@ update-apps(){
   bash audio-video/ytdownloader/update.sh
   bash audio-video/freetube/update.sh
   bash development/vscodium/update.sh
+  bash development/github-desktop/update.sh
   bash development/bruno/update.sh
   bash development/dbgate/update.sh
   bash development/devtoys/update.sh
@@ -47,6 +48,7 @@ update-apps(){
   bash office/onlyoffice/update.sh
   bash office/joplin/update.sh
   bash office/pdfcraft/update.sh
+  bash internet/helium/update.sh
   bash internet/zoom/update.sh
   bash internet/discord/update.sh
   bash system/tmog/update.sh
