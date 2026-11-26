@@ -1,6 +1,5 @@
 # uninstall unused packages
 sudo apt-get purge -y \
-  gnome-keyring \
   seahorse \
   firefox-esr* \
   libreoffice* \
